@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-13T06:15:28.578Z",
-  "total": 231,
+  "checked_at": "2026-10-13T06:37:12.319Z",
+  "total": 279,
   "broken": [
     {
       "id": "2018-idx-dr",
@@ -52,6 +52,61 @@
     {
       "id": "2026-antibacterial-polymers",
       "url": "https://news.stanford.edu/stories/2026/09/bacteria-killing-polymers-new-class-antibiotics",
+      "status": 403
+    },
+    {
+      "id": "2026-astra-binary-codes",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "status": 403
+    },
+    {
+      "id": "2026-astra-closest-vector-problem",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "status": 403
+    },
+    {
+      "id": "2026-astra-connes-rigidity",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "status": 403
+    },
+    {
+      "id": "2026-astra-ehrhart-volume",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "status": 403
+    },
+    {
+      "id": "2026-astra-erdos-146-180-183",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "status": 403
+    },
+    {
+      "id": "2026-astra-non-sofic",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "status": 403
+    },
+    {
+      "id": "2026-astra-permanent-lower-bounds",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "status": 403
+    },
+    {
+      "id": "2026-astra-quantum-parallel-repetition",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "status": 403
+    },
+    {
+      "id": "2026-astra-sphere-packing",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "status": 403
+    },
+    {
+      "id": "2026-dinitz-garg-goemans",
+      "url": "https://www.datacamp.com/blog/gpt-5-6-dinitz-garg-goemans-conjecture",
+      "status": 403
+    },
+    {
+      "id": "2026-erdos-unit-distance",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
       "status": 403
     },
     {
