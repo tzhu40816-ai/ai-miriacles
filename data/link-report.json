@@ -1,7 +1,43 @@
 {
-  "checked_at": "2026-10-13T04:33:41.646Z",
-  "total": 142,
-  "broken": [],
+  "checked_at": "2026-10-13T05:00:38.885Z",
+  "total": 231,
+  "broken": [
+    {
+      "id": "2018-idx-dr",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-artificial-intelligence-based-device-detect-certain-diabetes-related-eye",
+      "status": 404
+    },
+    {
+      "id": "2025-c2s-scale",
+      "url": "https://deepmind.google/discover/blog/how-a-gemma-model-helped-discover-a-new-potential-cancer-therapy-pathway/",
+      "status": 404
+    },
+    {
+      "id": "2025-deep-loop-shaping-ligo",
+      "url": "https://www.ligo.caltech.edu/news/ligo20250908",
+      "status": "ERR UNABLE_TO_GET_ISSUER_CERT_LOCALLY"
+    },
+    {
+      "id": "2025-kosmos",
+      "url": "https://edisonscientific.com/articles/announcing-kosmos",
+      "status": 404
+    },
+    {
+      "id": "2026-astra-connes-rigidity",
+      "url": "https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026",
+      "status": 410
+    },
+    {
+      "id": "2026-astra-non-sofic",
+      "url": "https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026",
+      "status": 410
+    },
+    {
+      "id": "2026-astra-sphere-packing",
+      "url": "https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026",
+      "status": 410
+    }
+  ],
   "blocked_by_site": [
     {
       "id": "1996-robbins",
@@ -9,8 +45,28 @@
       "status": 403
     },
     {
+      "id": "2025-icpc-world-finals",
+      "url": "https://www.techrepublic.com/article/openai-deepmind-icpc-2025-results/",
+      "status": 403
+    },
+    {
       "id": "2026-antibacterial-polymers",
       "url": "https://news.stanford.edu/stories/2026/09/bacteria-killing-polymers-new-class-antibiotics",
+      "status": 403
+    },
+    {
+      "id": "2026-first-proof",
+      "url": "https://openai.com/index/first-proof-submissions",
+      "status": 403
+    },
+    {
+      "id": "2026-gluon-amplitudes",
+      "url": "https://openai.com/index/new-result-theoretical-physics/",
+      "status": 403
+    },
+    {
+      "id": "2026-imo-perfect-score",
+      "url": "https://www.newsbytesapp.com/news/science/for-first-time-ai-scores-100-at-international-mathematical-olympiad/story",
       "status": 403
     },
     {
