@@ -1,132 +1,27 @@
 {
-  "checked_at": "2026-10-13T04:28:34.849Z",
-  "total": 140,
+  "checked_at": "2026-10-13T04:30:29.497Z",
+  "total": 141,
   "broken": [
     {
       "id": "1979-stanford-cart",
-      "url": "https://en.wikipedia.org/wiki/Stanford_Cart",
-      "status": 404
-    },
-    {
-      "id": "2026-navier-stokes",
-      "url": "https://rits.shanghai.nyu.edu/ai/openai-navier-stokes-proof-credit-dispute/",
+      "url": "https://en.wikipedia.org/wiki/Stanford_cart",
       "status": 404
     }
   ],
   "blocked_by_site": [
-    {
-      "id": "1982-prospector",
-      "url": "https://doi.org/10.1126/science.217.4563.927",
-      "status": 403
-    },
-    {
-      "id": "1989-lenet",
-      "url": "https://doi.org/10.1162/neco.1989.1.4.541",
-      "status": 403
-    },
     {
       "id": "1996-robbins",
       "url": "https://www.nytimes.com/1996/12/10/science/computer-math-proof-shows-reasoning-power.html",
       "status": 403
     },
     {
-      "id": "2007-checkers-solved",
-      "url": "https://doi.org/10.1126/science.1144079",
-      "status": 403
-    },
-    {
-      "id": "2009-robot-scientist-adam",
-      "url": "https://doi.org/10.1126/science.1165620",
-      "status": 403
-    },
-    {
-      "id": "2009-symbolic-regression-laws",
-      "url": "https://doi.org/10.1126/science.1165893",
-      "status": 403
-    },
-    {
-      "id": "2015-cepheus",
-      "url": "https://doi.org/10.1126/science.1259433",
-      "status": 403
-    },
-    {
-      "id": "2016-diabetic-retinopathy",
-      "url": "https://doi.org/10.1001/jama.2016.17216",
-      "status": 403
-    },
-    {
-      "id": "2016-neural-quantum-states",
-      "url": "https://doi.org/10.1126/science.aag2302",
-      "status": 403
-    },
-    {
-      "id": "2017-deepstack",
-      "url": "https://doi.org/10.1126/science.aam6960",
-      "status": 403
-    },
-    {
-      "id": "2017-libratus",
-      "url": "https://doi.org/10.1126/science.aao1733",
-      "status": 403
-    },
-    {
-      "id": "2018-alphazero",
-      "url": "https://doi.org/10.1126/science.aar6404",
-      "status": 403
-    },
-    {
-      "id": "2019-pluribus",
-      "url": "https://doi.org/10.1126/science.aay2400",
-      "status": 403
-    },
-    {
-      "id": "2021-dm21-dft",
-      "url": "https://doi.org/10.1126/science.abj6511",
-      "status": 403
-    },
-    {
-      "id": "2021-rosettafold",
-      "url": "https://doi.org/10.1126/science.abj8754",
-      "status": 403
-    },
-    {
-      "id": "2022-alphacode",
-      "url": "https://doi.org/10.1126/science.abq1158",
-      "status": 403
-    },
-    {
-      "id": "2022-cicero-diplomacy",
-      "url": "https://doi.org/10.1126/science.ade9097",
-      "status": 403
-    },
-    {
-      "id": "2022-deepnash-stratego",
-      "url": "https://doi.org/10.1126/science.add4679",
-      "status": 403
-    },
-    {
-      "id": "2022-proteinmpnn",
-      "url": "https://doi.org/10.1126/science.add2187",
-      "status": 403
-    },
-    {
-      "id": "2023-alphamissense",
-      "url": "https://doi.org/10.1126/science.adg7492",
-      "status": 403
-    },
-    {
-      "id": "2023-esm-metagenomic-atlas",
-      "url": "https://doi.org/10.1126/science.ade2574",
-      "status": 403
-    },
-    {
-      "id": "2023-graphcast",
-      "url": "https://doi.org/10.1126/science.adi2336",
-      "status": 403
-    },
-    {
       "id": "2026-antibacterial-polymers",
       "url": "https://news.stanford.edu/stories/2026/09/bacteria-killing-polymers-new-class-antibiotics",
+      "status": 403
+    },
+    {
+      "id": "2026-navier-stokes",
+      "url": "https://axios.com/2026/09/08/ai-math-anthropic-openai-google",
       "status": 403
     },
     {
