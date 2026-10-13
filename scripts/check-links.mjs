@@ -8,6 +8,15 @@ const jobs = events.flatMap((e) => (e.links || []).map((l) => ({ id: e.id, url: 
 const UA = "Mozilla/5.0 (compatible; ai-miracles-linkcheck/1.0; +https://github.com/tzhu40816-ai/ai-miriacles)";
 
 async function check(url) {
+  // DOIs: ask the DOI registry directly (publishers often block bots with 403).
+  const doi = url.match(/^https?:\/\/(?:dx\.)?doi\.org\/(.+)$/i);
+  if (doi) {
+    try {
+      const r = await fetch(`https://doi.org/api/handles/${doi[1]}`, { signal: AbortSignal.timeout(20000) });
+      if (r.status === 200) return { status: 200, ok: true };
+      if (r.status === 404) return { status: "DOI not found", ok: false };
+    } catch {}
+  }
   for (const method of ["HEAD", "GET"]) {
     try {
       const r = await fetch(url, { method, redirect: "follow", headers: { "user-agent": UA }, signal: AbortSignal.timeout(20000) });
