@@ -1,871 +1,125 @@
 [
-  {
-    "id": "1956-logic-theorist",
-    "date": "1956",
-    "domain": "math",
-    "system": "Logic Theorist",
-    "title": {
-      "zh": "给定逻辑公理，机器能不能自己找到定理的证明？",
-      "en": "Given the axioms of logic, can a machine find proofs of theorems by itself?"
-    },
-    "summary": {
-      "zh": "Newell、Simon 和 Shaw 的程序为《数学原理》第二章前 52 条定理中的 38 条找到了证明，其中一条比原书的证明更简洁。",
-      "en": "Newell, Simon and Shaw's program proved 38 of the first 52 theorems in Chapter 2 of Principia Mathematica, one of them more elegantly than the book."
-    },
-    "links": [
-      { "url": "https://en.wikipedia.org/wiki/Logic_Theorist", "label": "Wikipedia", "kind": "reference" }
-    ]
-  },
-  {
-    "id": "1959-geometry-prover",
-    "date": "1959",
-    "domain": "math",
-    "system": "Geometry Theorem Machine",
-    "title": {
-      "zh": "机器能不能证明平面几何题？",
-      "en": "Can a machine prove plane-geometry theorems?"
-    },
-    "summary": {
-      "zh": "Gelernter 在 IBM 的几何定理证明程序用图形启发式剪枝搜索，证明了中学几何水平的定理。",
-      "en": "Gelernter's geometry prover at IBM used the diagram as a heuristic to prune search and proved high-school-level geometry theorems."
-    },
-    "links": [
-      { "url": "https://en.wikipedia.org/wiki/Herbert_Gelernter", "label": "Wikipedia", "kind": "reference" }
-    ]
-  },
-  {
-    "id": "1959-samuel-checkers",
-    "date": "1959",
-    "domain": "games",
-    "system": "Samuel's checkers program",
-    "title": {
-      "zh": "程序能不能通过自我对弈，学得比编写它的人下得更好？",
-      "en": "Can a program learn, by playing itself, to play better than the person who wrote it?"
-    },
-    "summary": {
-      "zh": "Arthur Samuel 的西洋跳棋程序通过自我对弈调整评估函数，最终下得比 Samuel 本人更好。“机器学习”一词也由此流行。",
-      "en": "Arthur Samuel's checkers program tuned its evaluation function through self-play and came to outplay Samuel himself; it popularised the term \"machine learning\"."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1147/rd.33.0210", "label": "IBM J. Res. Dev. 1959", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "1965-dendral",
-    "date": "1965",
-    "domain": "chemistry",
-    "system": "DENDRAL",
-    "title": {
-      "zh": "看着质谱数据，能不能推断出未知分子的结构？",
-      "en": "From mass-spectrometry data, can a machine infer the structure of an unknown molecule?"
-    },
-    "summary": {
-      "zh": "斯坦福的 DENDRAL 把化学家的知识写成规则，生成并筛选候选结构，是第一批真正处理专业领域问题的“专家系统”。",
-      "en": "Stanford's DENDRAL encoded chemists' knowledge as rules to generate and prune candidate structures — one of the first expert systems to tackle a real scientific task."
-    },
-    "links": [
-      { "url": "https://en.wikipedia.org/wiki/Dendral", "label": "Wikipedia", "kind": "reference" }
-    ]
-  },
-  {
-    "id": "1972-mycin",
-    "date": "1972",
-    "approx": true,
-    "domain": "medicine",
-    "system": "MYCIN",
-    "title": {
-      "zh": "能不能根据症状和化验结果，判断血液感染的病菌并推荐抗生素？",
-      "en": "Can a machine identify the bacteria behind a blood infection and recommend antibiotics?"
-    },
-    "summary": {
-      "zh": "斯坦福的 MYCIN 用约 600 条规则进行诊断推理，在评估中给出的建议与感染科专家相当。",
-      "en": "Stanford's MYCIN reasoned with roughly 600 rules; in evaluations its recommendations compared well with infectious-disease specialists."
-    },
-    "caveat": {
-      "zh": "从未在临床中实际使用。",
-      "en": "Never used in actual clinical practice."
-    },
-    "links": [
-      { "url": "https://en.wikipedia.org/wiki/Mycin", "label": "Wikipedia", "kind": "reference" }
-    ]
-  },
-  {
-    "id": "1979-bkg",
-    "date": "1979-07",
-    "domain": "games",
-    "system": "BKG 9.8",
-    "title": {
-      "zh": "程序能不能击败一项棋类游戏的世界冠军？",
-      "en": "Can a program beat a reigning world champion at a board game?"
-    },
-    "summary": {
-      "zh": "Hans Berliner 的双陆棋程序 BKG 9.8 以 7:1 击败世界冠军 Luigi Villa，是程序首次击败棋类世界冠军。",
-      "en": "Hans Berliner's backgammon program BKG 9.8 beat world champion Luigi Villa 7–1 — the first time a program defeated a world champion at a board game."
-    },
-    "caveat": {
-      "zh": "双陆棋含掷骰运气成分，Berliner 本人也承认运气占了一部分。",
-      "en": "Backgammon involves dice; Berliner acknowledged luck played a part."
-    },
-    "links": [
-      { "url": "https://en.wikipedia.org/wiki/Hans_Berliner", "label": "Wikipedia", "kind": "reference" }
-    ]
-  },
-  {
-    "id": "1989-lenet",
-    "date": "1989",
-    "domain": "language",
-    "system": "LeNet",
-    "title": {
-      "zh": "机器能不能认出手写的邮政编码？",
-      "en": "Can a machine read handwritten ZIP codes?"
-    },
-    "summary": {
-      "zh": "LeCun 等人用反向传播训练卷积神经网络识别手写数字，后来被用于美国邮政和银行支票的自动识别。",
-      "en": "LeCun et al. trained a convolutional network with backpropagation to read handwritten digits; the approach was later deployed to read mail and bank cheques."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1162/neco.1989.1.4.541", "label": "Neural Computation 1989", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "1992-td-gammon",
-    "date": "1992",
-    "domain": "games",
-    "system": "TD-Gammon",
-    "title": {
-      "zh": "不靠人教，只靠自己跟自己下，能下到顶尖人类水平吗？",
-      "en": "Can a program reach top human level purely by playing against itself?"
-    },
-    "summary": {
-      "zh": "IBM 的 Tesauro 用时间差分强化学习训练神经网络下双陆棋，达到接近世界顶尖选手的水平，还改变了人类高手对某些开局的下法。",
-      "en": "IBM's Gerald Tesauro trained a neural network with temporal-difference learning to play backgammon near world-champion level; it even changed how experts played certain openings."
-    },
-    "links": [
-      { "url": "https://en.wikipedia.org/wiki/TD-Gammon", "label": "Wikipedia", "kind": "reference" }
-    ]
-  },
-  {
-    "id": "1994-chinook",
-    "date": "1994",
-    "domain": "games",
-    "system": "Chinook",
-    "title": {
-      "zh": "西洋跳棋的人机世界冠军会是谁？",
-      "en": "Who would hold the man–machine world title in checkers?"
-    },
-    "summary": {
-      "zh": "阿尔伯塔大学的 Chinook 成为第一个在人类锦标赛中赢得世界冠军头衔的程序。",
-      "en": "The University of Alberta's Chinook became the first program to win a human world-championship title."
-    },
-    "caveat": {
-      "zh": "对手 Tinsley 因病中途退赛，Chinook 由此获得头衔。",
-      "en": "Opponent Marion Tinsley withdrew for health reasons mid-match."
-    },
-    "links": [
-      { "url": "https://en.wikipedia.org/wiki/Chinook_(computer_program)", "label": "Wikipedia", "kind": "reference" }
-    ]
-  },
-  {
-    "id": "1996-robbins",
-    "date": "1996-10",
-    "domain": "math",
-    "system": "EQP",
-    "title": {
-      "zh": "所有 Robbins 代数都是布尔代数吗？（悬而未决 60 年的 Robbins 猜想）",
-      "en": "Is every Robbins algebra Boolean? (the 60-year-old Robbins conjecture)"
-    },
-    "summary": {
-      "zh": "Argonne 实验室 McCune 的自动推理程序 EQP 找到了关键证明，结合已有成果解决了这个困扰数学家几十年的问题。",
-      "en": "William McCune's automated reasoning program EQP at Argonne found the key proof, settling — together with earlier results — a problem that had resisted mathematicians for decades."
-    },
-    "links": [
-      { "url": "https://en.wikipedia.org/wiki/Robbins_algebra", "label": "Wikipedia", "kind": "reference" },
-      { "url": "https://www.nytimes.com/1996/12/10/science/computer-math-proof-shows-reasoning-power.html", "label": "New York Times", "kind": "news" }
-    ]
-  },
-  {
-    "id": "1997-deep-blue",
-    "date": "1997-05-11",
-    "domain": "games",
-    "system": "Deep Blue",
-    "title": {
-      "zh": "计算机能不能在正式比赛中击败国际象棋世界冠军？",
-      "en": "Can a computer beat the world chess champion in a match?"
-    },
-    "summary": {
-      "zh": "IBM 的深蓝以 3.5:2.5 击败卡斯帕罗夫，是计算机首次在标准赛制的对局中战胜在任世界冠军。",
-      "en": "IBM's Deep Blue beat Garry Kasparov 3½–2½, the first match victory by a computer over a reigning world champion under standard time controls."
-    },
-    "links": [
-      { "url": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov", "label": "Wikipedia", "kind": "reference" }
-    ]
-  },
-  {
-    "id": "1999-remote-agent",
-    "date": "1999-05",
-    "domain": "robotics",
-    "system": "Remote Agent",
-    "title": {
-      "zh": "航天器能不能在没有地面指挥的情况下，自己规划任务、自己处理故障？",
-      "en": "Can a spacecraft plan its own operations and handle faults without ground control?"
-    },
-    "summary": {
-      "zh": "NASA 的 Remote Agent 在深空一号探测器上自主控制了几天，期间自行诊断并处理了模拟故障。",
-      "en": "NASA's Remote Agent autonomously controlled the Deep Space 1 probe for several days, diagnosing and handling simulated faults on its own."
-    },
-    "links": [
-      { "url": "https://en.wikipedia.org/wiki/Deep_Space_1", "label": "Wikipedia", "kind": "reference" }
-    ]
-  },
-  {
-    "id": "2005-stanley",
-    "date": "2005-10-08",
-    "domain": "robotics",
-    "system": "Stanley",
-    "title": {
-      "zh": "无人车能不能自己穿越 200 多公里的沙漠？",
-      "en": "Can a driverless car cross 200+ km of desert on its own?"
-    },
-    "summary": {
-      "zh": "斯坦福的 Stanley 自动驾驶约 212 公里，赢得 DARPA 大挑战赛。一年前同一比赛中没有任何车辆跑完全程。",
-      "en": "Stanford's Stanley drove about 212 km autonomously to win the DARPA Grand Challenge; a year earlier no vehicle had finished."
-    },
-    "links": [
-      { "url": "https://en.wikipedia.org/wiki/Stanley_(vehicle)", "label": "Wikipedia", "kind": "reference" }
-    ]
-  },
-  {
-    "id": "2007-checkers-solved",
-    "date": "2007-07-19",
-    "domain": "games",
-    "system": "Chinook",
-    "title": {
-      "zh": "西洋跳棋双方都下最优时，结局是什么？",
-      "en": "What is the outcome of checkers under perfect play?"
-    },
-    "summary": {
-      "zh": "Schaeffer 团队经过 18 年计算证明：双方都不犯错时，西洋跳棋必然是和棋。",
-      "en": "After 18 years of computation, Schaeffer's team proved that checkers is a draw with perfect play by both sides."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1126/science.1144079", "label": "Science 2007", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2009-robot-scientist-adam",
-    "date": "2009-04-03",
-    "domain": "biology",
-    "system": "Adam",
-    "title": {
-      "zh": "机器能不能自己提出假设、设计实验、得出新的科学发现？",
-      "en": "Can a machine form hypotheses, run experiments and make a new scientific discovery by itself?"
-    },
-    "summary": {
-      "zh": "“机器人科学家”Adam 自主提出并实验验证了酵母中若干“孤儿酶”对应的基因。",
-      "en": "The 'robot scientist' Adam autonomously hypothesised and experimentally confirmed genes encoding several orphan enzymes in yeast."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1126/science.1165620", "label": "Science 2009", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2009-symbolic-regression-laws",
-    "date": "2009-04-03",
-    "domain": "physics",
-    "system": "Eureqa (symbolic regression)",
-    "title": {
-      "zh": "只给运动数据，机器能不能找出描述它的物理公式？",
-      "en": "Given only motion data, can a machine find the physical law that describes it?"
-    },
-    "summary": {
-      "zh": "Schmidt 与 Lipson 用符号回归，从摆和振子的实验数据中重新找出了能量守恒等关系式。",
-      "en": "Schmidt and Lipson used symbolic regression to recover conservation laws such as energy from experimental data on pendulums and oscillators."
-    },
-    "caveat": {
-      "zh": "是从数据重新发现已知规律，不是发现新物理。",
-      "en": "Rediscovery of known laws, not new physics."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1126/science.1165893", "label": "Science 2009", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2011-watson",
-    "date": "2011-02-16",
-    "domain": "language",
-    "system": "IBM Watson",
-    "title": {
-      "zh": "机器能不能听懂充满双关和暗示的自然语言问题，并答得比人快、比人准？",
-      "en": "Can a machine answer pun-laden natural-language questions faster and better than people?"
-    },
-    "summary": {
-      "zh": "IBM Watson 在美国问答节目《危险边缘》中击败两位历史最佳选手。",
-      "en": "IBM Watson defeated the two greatest human champions on the quiz show Jeopardy!."
-    },
-    "links": [
-      { "url": "https://en.wikipedia.org/wiki/IBM_Watson", "label": "Wikipedia", "kind": "reference" }
-    ]
-  },
-  {
-    "id": "2012-alexnet",
-    "date": "2012-09",
-    "domain": "language",
-    "system": "AlexNet",
-    "title": {
-      "zh": "机器能不能看懂上千类日常物体的照片？",
-      "en": "Can a machine recognise photos across a thousand everyday object categories?"
-    },
-    "summary": {
-      "zh": "AlexNet 在 ImageNet 比赛中把 top-5 错误率降到约 15%，比第二名低 10 个百分点以上，从此深度学习成为主流。",
-      "en": "AlexNet cut ImageNet top-5 error to about 15%, more than 10 points ahead of the runner-up, launching the deep-learning era."
-    },
-    "links": [
-      { "url": "https://en.wikipedia.org/wiki/AlexNet", "label": "Wikipedia", "kind": "reference" }
-    ]
-  },
-  {
-    "id": "2015-quantum-experiment-design",
-    "date": "2015-09-09",
-    "domain": "physics",
-    "system": "MELVIN",
-    "title": {
-      "zh": "怎样设计实验，才能制备出复杂的高维量子纠缠态？",
-      "en": "How do you design an experiment that produces complex high-dimensional entangled quantum states?"
-    },
-    "summary": {
-      "zh": "Krenn 等人的程序 MELVIN 自动搜索光学实验方案，找到了人类没有想到的设计，其中一些后来在实验室中实现。",
-      "en": "Krenn et al.'s program MELVIN automatically searched optical setups and found designs humans had not thought of; some were later built in the lab."
-    },
-    "links": [
-      { "url": "https://arxiv.org/abs/1509.02749", "label": "arXiv", "kind": "paper" },
-      { "url": "https://doi.org/10.1103/PhysRevLett.116.090405", "label": "PRL 2016", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2016-alphago",
-    "date": "2016-03-15",
-    "domain": "games",
-    "system": "AlphaGo",
-    "title": {
-      "zh": "被认为还要十年才能被攻克的围棋，机器能下赢世界顶尖棋手吗？",
-      "en": "Can a machine beat a top professional at Go, long thought a decade away?"
-    },
-    "summary": {
-      "zh": "DeepMind 的 AlphaGo 以 4:1 击败李世石。第 2 局的“第 37 手”让职业棋手重新思考围棋。",
-      "en": "DeepMind's AlphaGo beat Lee Sedol 4–1; its 'Move 37' in game 2 made professionals rethink the game."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1038/nature16961", "label": "Nature 2016", "kind": "paper" },
-      { "url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol", "label": "Wikipedia", "kind": "reference" }
-    ]
-  },
-  {
-    "id": "2016-neural-quantum-states",
-    "date": "2016-06-07",
-    "domain": "physics",
-    "system": "Neural-network quantum states",
-    "title": {
-      "zh": "量子多体系统的状态维数随粒子数指数增长，能不能更高效地表示和计算它？",
-      "en": "Can quantum many-body states, whose size grows exponentially, be represented and computed more efficiently?"
-    },
-    "summary": {
-      "zh": "Carleo 与 Troyer 用神经网络表示波函数，在若干一维和二维自旋模型上算出了高精度的基态和动力学。",
-      "en": "Carleo and Troyer represented wavefunctions with neural networks and obtained high-accuracy ground states and dynamics for several 1D and 2D spin models."
-    },
-    "caveat": {
-      "zh": "只针对特定模型，不是一般量子多体问题的通解。",
-      "en": "Specific models, not a general solution of the many-body problem."
-    },
-    "links": [
-      { "url": "https://arxiv.org/abs/1606.02318", "label": "arXiv", "kind": "paper" },
-      { "url": "https://doi.org/10.1126/science.aag2302", "label": "Science 2017", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2017-libratus",
-    "date": "2017-01-30",
-    "domain": "games",
-    "system": "Libratus",
-    "title": {
-      "zh": "看不到对手底牌、充满诈唬的扑克，机器能赢职业选手吗？",
-      "en": "Can a machine beat professionals at poker, with hidden cards and bluffing?"
-    },
-    "summary": {
-      "zh": "卡内基梅隆大学的 Libratus 在 12 万手一对一无限注德州扑克中大比分战胜四位顶尖职业选手。",
-      "en": "Carnegie Mellon's Libratus decisively beat four top professionals over 120,000 hands of heads-up no-limit Texas hold'em."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1126/science.aao1733", "label": "Science 2018", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2017-kepler-90i",
-    "date": "2017-12-14",
-    "domain": "astronomy",
-    "system": "Google neural network + NASA Kepler data",
-    "title": {
-      "zh": "已有的望远镜数据里，还藏着没被发现的行星吗？",
-      "en": "Are there undiscovered planets hiding in existing telescope data?"
-    },
-    "summary": {
-      "zh": "神经网络在开普勒望远镜的数据中找出了此前漏检的行星 Kepler-90i，使 Kepler-90 成为已知行星数与太阳系并列最多（8 颗）的恒星系统。",
-      "en": "A neural network found the previously missed planet Kepler-90i in Kepler data, making Kepler-90 the first system known to tie our Solar System with eight planets."
-    },
-    "links": [
-      { "url": "https://www.nasa.gov/news-release/artificial-intelligence-nasa-data-used-to-discover-eighth-planet-circling-distant-star/", "label": "NASA", "kind": "official" }
-    ]
-  },
-  {
-    "id": "2018-alphazero",
-    "date": "2018-12-07",
-    "domain": "games",
-    "system": "AlphaZero",
-    "title": {
-      "zh": "只知道规则、完全不看人类棋谱，能不能从零学会国际象棋、将棋和围棋？",
-      "en": "Knowing only the rules and no human games, can a machine master chess, shogi and Go from scratch?"
-    },
-    "summary": {
-      "zh": "AlphaZero 只靠自我对弈，在三种棋类上都击败了当时最强的专用程序。",
-      "en": "Through self-play alone, AlphaZero defeated the strongest specialised programs in all three games."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1126/science.aar6404", "label": "Science 2018", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2019-pluribus",
-    "date": "2019-07-11",
-    "domain": "games",
-    "system": "Pluribus",
-    "title": {
-      "zh": "六人同桌的多人扑克，机器也能赢吗？",
-      "en": "Can a machine win at six-player poker?"
-    },
-    "summary": {
-      "zh": "Pluribus 在六人无限注德州扑克中战胜精英职业选手，是 AI 首次在主要的多人博弈中超越顶尖人类。",
-      "en": "Pluribus beat elite professionals at six-player no-limit hold'em, the first superhuman result in a major multiplayer game."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1126/science.aay2400", "label": "Science 2019", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2020-halicin",
-    "date": "2020-02-20",
-    "domain": "medicine",
-    "system": "Deep learning (MIT)",
-    "title": {
-      "zh": "能不能在已有化合物中，找到结构全新的抗生素候选？",
-      "en": "Can we find structurally novel antibiotic candidates among existing compounds?"
-    },
-    "summary": {
-      "zh": "MIT 团队用深度学习筛选了上亿个分子，找到 halicin，它在实验室和小鼠实验中对多种耐药菌有效。",
-      "en": "An MIT team used deep learning to screen over 100 million molecules and identified halicin, which killed many drug-resistant bacteria in the lab and in mice."
-    },
-    "caveat": {
-      "zh": "候选药物，尚未获批用于临床。",
-      "en": "A drug candidate, not an approved medicine."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1016/j.cell.2020.01.021", "label": "Cell 2020", "kind": "paper" },
-      { "url": "https://www.broadinstitute.org/publications/broad627466", "label": "Broad Institute", "kind": "official" }
-    ]
-  },
-  {
-    "id": "2020-alphafold2",
-    "date": "2020-11-30",
-    "domain": "biology",
-    "system": "AlphaFold 2",
-    "title": {
-      "zh": "只知道氨基酸序列，能不能准确预测蛋白质的三维结构？（困扰生物学 50 年的“蛋白质折叠问题”）",
-      "en": "From its amino-acid sequence alone, can we predict a protein's 3D structure? (the 50-year protein-folding problem)"
-    },
-    "summary": {
-      "zh": "AlphaFold 2 在 CASP14 竞赛中的预测精度达到接近实验测定的水平，后来又公开了超过 2 亿个蛋白质的预测结构。",
-      "en": "At CASP14, AlphaFold 2 reached accuracy competitive with experimental methods; predicted structures for over 200 million proteins were later released."
-    },
-    "caveat": {
-      "zh": "解决的是结构预测，蛋白质如何动态折叠、如何相互作用等问题仍在研究中。",
-      "en": "Solves structure prediction; folding dynamics and interactions remain open research."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1038/s41586-021-03819-2", "label": "Nature 2021", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2021-rl-counterexamples",
-    "date": "2021-04-29",
-    "domain": "math",
-    "system": "Cross-entropy RL",
-    "title": {
-      "zh": "能不能自动构造反例，推翻图论和组合数学中的猜想？",
-      "en": "Can a machine construct counterexamples that refute conjectures in graph theory and combinatorics?"
-    },
-    "summary": {
-      "zh": "Adam Zsolt Wagner 用强化学习构造图和矩阵，找到了若干已发表猜想的反例。",
-      "en": "Adam Zsolt Wagner used reinforcement learning to construct graphs and matrices, finding counterexamples to several published conjectures."
-    },
-    "links": [
-      { "url": "https://arxiv.org/abs/2104.14516", "label": "arXiv", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2021-knot-theory",
-    "date": "2021-12-01",
-    "domain": "math",
-    "system": "DeepMind + mathematicians",
-    "title": {
-      "zh": "纽结的几何性质和代数性质之间，有没有尚未发现的联系？",
-      "en": "Are there undiscovered links between the geometric and algebraic invariants of knots?"
-    },
-    "summary": {
-      "zh": "机器学习帮助数学家发现了纽结理论中的新关系，也为表示论中的一个猜想提供了线索，数学家随后完成了严格证明。",
-      "en": "Machine learning pointed mathematicians to a new relation in knot theory and progress on a representation-theory conjecture, which they then proved rigorously."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1038/s41586-021-04086-x", "label": "Nature 2021", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2022-tokamak-control",
-    "date": "2022-02-16",
-    "domain": "physics",
-    "system": "Deep RL (DeepMind + EPFL)",
-    "title": {
-      "zh": "怎样协调几十个线圈，控制托卡马克里高温等离子体的形状？",
-      "en": "How do you coordinate dozens of coils to shape hot plasma inside a tokamak?"
-    },
-    "summary": {
-      "zh": "强化学习控制器在瑞士 TCV 托卡马克的真实装置上，成功控制出多种等离子体构型。",
-      "en": "A reinforcement-learning controller shaped a variety of plasma configurations on the real TCV tokamak in Switzerland."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1038/s41586-021-04301-9", "label": "Nature 2022", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2022-alphatensor",
-    "date": "2022-10-05",
-    "domain": "computing",
-    "system": "AlphaTensor",
-    "title": {
-      "zh": "矩阵乘法还能更快吗？",
-      "en": "Can matrix multiplication be done with fewer operations?"
-    },
-    "summary": {
-      "zh": "AlphaTensor 找到了 4×4 矩阵在模 2 运算下只需 47 次乘法的算法，打破了 Strassen 方法 50 多年来的纪录。",
-      "en": "AlphaTensor found an algorithm for 4×4 matrices over arithmetic mod 2 using 47 multiplications, beating Strassen's 50-year-old record in that setting."
-    },
-    "caveat": {
-      "zh": "这一改进只在模 2 运算下成立。",
-      "en": "This improvement holds only for arithmetic mod 2."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1038/s41586-022-05172-4", "label": "Nature 2022", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2023-abaucin",
-    "date": "2023-05-25",
-    "domain": "medicine",
-    "system": "Deep learning (McMaster/MIT)",
-    "title": {
-      "zh": "针对世卫组织列为最危险级别的鲍曼不动杆菌，能找到新的抗生素候选吗？",
-      "en": "Can we find a new antibiotic against Acinetobacter baumannii, a WHO critical-priority pathogen?"
-    },
-    "summary": {
-      "zh": "研究者用深度学习找到 abaucin，它对鲍曼不动杆菌的作用范围很窄，在小鼠伤口感染模型中有效。",
-      "en": "Researchers used deep learning to identify abaucin, a narrow-spectrum compound active against A. baumannii in a mouse wound model."
-    },
-    "caveat": {
-      "zh": "候选药物，尚未获批用于临床。",
-      "en": "A drug candidate, not an approved medicine."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1038/s41589-023-01349-8", "label": "Nature Chem. Bio. 2023", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2023-alphadev",
-    "date": "2023-06-07",
-    "domain": "computing",
-    "system": "AlphaDev",
-    "title": {
-      "zh": "被优化了几十年的基础排序代码，还能更快吗？",
-      "en": "Can decades-optimised basic sorting routines get any faster?"
-    },
-    "summary": {
-      "zh": "AlphaDev 找到了更快的短序列排序汇编程序，已被合并进 LLVM 的 C++ 标准库。",
-      "en": "AlphaDev discovered faster assembly routines for sorting short sequences; they were merged into LLVM's C++ standard library."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1038/s41586-023-06004-9", "label": "Nature 2023", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2023-mars-oxygen-catalyst",
-    "date": "2023-11",
-    "domain": "chemistry",
-    "system": "Robotic AI chemist (USTC)",
-    "title": {
-      "zh": "能不能用火星陨石成分，找到能从水中制氧的催化剂配方？",
-      "en": "Can we find an oxygen-producing catalyst made from Martian meteorite materials?"
-    },
-    "summary": {
-      "zh": "中国科学技术大学的机器人 AI 化学家在数百万种可能配方中自动合成、测试并优化，找到了有效的析氧催化剂。",
-      "en": "USTC's robotic AI chemist automatically synthesised, tested and optimised candidates from millions of possible recipes, finding an effective oxygen-evolution catalyst."
-    },
-    "caveat": {
-      "zh": "实验在地面实验室完成，并非已经在火星上制氧。",
-      "en": "Done in an Earth lab, not on Mars."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1038/s44160-023-00424-1", "label": "Nature Synthesis 2023", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2023-graphcast",
-    "date": "2023-11-14",
-    "domain": "earth",
-    "system": "GraphCast",
-    "title": {
-      "zh": "AI 能不能比传统数值天气预报预测得更准？",
-      "en": "Can AI forecast the weather better than traditional numerical models?"
-    },
-    "summary": {
-      "zh": "GraphCast 的 10 天全球天气预报在约 90% 的评测指标上优于欧洲中期天气预报中心的高精度业务系统，单台机器不到一分钟就能算完。",
-      "en": "GraphCast's 10-day global forecasts beat ECMWF's high-resolution operational system on about 90% of verification targets, running in under a minute on one machine."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1126/science.adi2336", "label": "Science 2023", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2023-gnome",
-    "date": "2023-11-29",
-    "domain": "materials",
-    "system": "GNoME",
-    "title": {
-      "zh": "还有多少稳定的无机晶体材料没有被发现？",
-      "en": "How many stable inorganic crystals remain undiscovered?"
-    },
-    "summary": {
-      "zh": "GNoME 预测了 220 万种新晶体，其中约 38 万种被认为是稳定的；同期的自动化实验室合成出了其中一部分。",
-      "en": "GNoME predicted 2.2 million new crystals, about 380,000 of them deemed stable; an autonomous lab synthesised some of them."
-    },
-    "caveat": {
-      "zh": "“新材料”的数量和新颖性受到部分材料学家质疑。",
-      "en": "Some materials scientists have questioned the count and novelty of the 'new materials'."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1038/s41586-023-06735-9", "label": "Nature 2023", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2023-funsearch-cap-set",
-    "date": "2023-12-14",
-    "domain": "math",
-    "system": "FunSearch",
-    "title": {
-      "zh": "有限几何中“没有三点共线”的点集（cap set），最大能构造到多大？",
-      "en": "How large can a cap set — a set with no three points on a line — be made?"
-    },
-    "summary": {
-      "zh": "FunSearch 让大语言模型写程序、自动评估并迭代，在 8 维中找到了比已知更大的 cap set，并改进了相关的渐近下界。",
-      "en": "FunSearch had an LLM write programs that were automatically scored and evolved, finding larger cap sets in dimension 8 and improving an asymptotic lower bound."
-    },
-    "caveat": {
-      "zh": "改进的是下界和具体构造，不是确定了最大值。",
-      "en": "Improves constructions and lower bounds; the maximum is not determined."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1038/s41586-023-06924-6", "label": "Nature 2023", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2024-alphageometry",
-    "date": "2024-01-17",
-    "domain": "math",
-    "system": "AlphaGeometry",
-    "title": {
-      "zh": "奥数几何题需要的辅助线，机器能自己想到吗？",
-      "en": "Can a machine come up with the auxiliary constructions olympiad geometry needs?"
-    },
-    "summary": {
-      "zh": "AlphaGeometry 在 30 道国际奥数几何题中解出 25 道，接近金牌选手的平均水平。",
-      "en": "AlphaGeometry solved 25 of 30 olympiad geometry problems, approaching the average IMO gold medallist."
-    },
-    "links": [
-      { "url": "https://doi.org/10.1038/s41586-023-06747-5", "label": "Nature 2024", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2024-alphaproof-imo-silver",
-    "date": "2024-07-25",
-    "domain": "math",
-    "system": "AlphaProof + AlphaGeometry 2",
-    "title": {
-      "zh": "AI 能不能在国际数学奥林匹克竞赛的全部题型上拿到奖牌？",
-      "en": "Can AI earn a medal across a full International Mathematical Olympiad?"
-    },
-    "summary": {
-      "zh": "DeepMind 的系统解出 2024 年 IMO 六题中的四题，达到银牌水平，证明以 Lean 形式化语言写成。",
-      "en": "DeepMind's systems solved 4 of 6 IMO 2024 problems — silver-medal standard — with proofs written in the Lean formal language."
-    },
-    "caveat": {
-      "zh": "题目先由人工翻译成形式化语言，部分题目的计算时间远超比赛时限。",
-      "en": "Problems were manually formalised; some took far longer than contest time."
-    },
-    "links": [
-      { "url": "https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/", "label": "Google DeepMind", "kind": "official" }
-    ]
-  },
-  {
-    "id": "2024-nobel-chemistry",
-    "date": "2024-10-09",
-    "domain": "biology",
-    "system": "AlphaFold / protein design",
-    "title": {
-      "zh": "AI 预测蛋白质结构的工作，算不算得上诺贝尔奖级别的科学贡献？",
-      "en": "Does AI protein-structure work count as Nobel-level science?"
-    },
-    "summary": {
-      "zh": "2024 年诺贝尔化学奖一半授予 Hassabis 与 Jumper（AlphaFold），另一半授予 David Baker（计算蛋白质设计）。",
-      "en": "The 2024 Nobel Prize in Chemistry went half to Hassabis and Jumper (AlphaFold) and half to David Baker (computational protein design)."
-    },
-    "links": [
-      { "url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/", "label": "Nobel Prize", "kind": "official" }
-    ]
-  },
-  {
-    "id": "2025-alphaevolve",
-    "date": "2025-05-14",
-    "domain": "math",
-    "system": "AlphaEvolve",
-    "title": {
-      "zh": "两个 4×4 复数矩阵相乘，能不能少做一次乘法？11 维空间里一个球周围最多能贴多少个球？",
-      "en": "Can two 4×4 complex matrices be multiplied with one fewer multiplication? How many spheres can touch one sphere in 11 dimensions?"
-    },
-    "summary": {
-      "zh": "AlphaEvolve 找到了 48 次标量乘法的 4×4 复矩阵乘法算法（此前为 49 次），还找到了 11 维中 593 个球的接触构型，把已知下界提高了。",
-      "en": "AlphaEvolve found a 48-multiplication algorithm for 4×4 complex matrices (previously 49) and a 593-sphere kissing configuration in 11 dimensions, raising the known lower bound."
-    },
-    "caveat": {
-      "zh": "593 是“至少能放这么多”，不是证明了最大值。",
-      "en": "593 is a lower bound, not the proven maximum."
-    },
-    "links": [
-      { "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/", "label": "Google DeepMind", "kind": "official" },
-      { "url": "https://arxiv.org/abs/2506.13131", "label": "arXiv", "kind": "paper" }
-    ]
-  },
-  {
-    "id": "2025-imo-gold",
-    "date": "2025-07-21",
-    "domain": "math",
-    "system": "Gemini Deep Think; OpenAI experimental model",
-    "title": {
-      "zh": "只用自然语言、在比赛时限内，AI 能拿到国际数学奥林匹克金牌吗？",
-      "en": "Working in natural language within contest time, can AI reach IMO gold?"
-    },
-    "summary": {
-      "zh": "Google DeepMind 的 Gemini Deep Think（成绩经 IMO 官方评分）和 OpenAI 的实验模型都宣布解出 2025 年 IMO 六题中的五题，达到金牌分数线。",
-      "en": "Google DeepMind's Gemini Deep Think (officially graded by the IMO) and an OpenAI experimental model both reported solving 5 of 6 IMO 2025 problems, a gold-medal score."
-    },
-    "caveat": {
-      "zh": "竞赛题是已有答案的题目，不等于解决开放问题。",
-      "en": "Competition problems have known answers; not the same as open research problems."
-    },
-    "links": [
-      { "url": "https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad", "label": "Google DeepMind", "kind": "official" },
-      { "url": "https://simonwillison.net/2025/Jul/21/gemini-imo/", "label": "Simon Willison", "kind": "news" }
-    ]
-  },
-  {
-    "id": "2026-jamming-exponents",
-    "date": "2026-06",
-    "domain": "physics",
-    "system": "Claude",
-    "title": {
-      "zh": "颗粒堵塞理论中，为什么两个临界指数满足 a + b = 1？",
-      "en": "In the theory of jamming, why do two critical exponents satisfy a + b = 1?"
-    },
-    "summary": {
-      "zh": "这个关系早有高精度数值支持，却一直缺少解析证明。诺贝尔奖得主 Parisi 与 Zamponi 等人在与 Claude 的交互中得到并核查了证明。",
-      "en": "The relation had strong numerical support but no analytic proof. Nobel laureate Giorgio Parisi, Francesco Zamponi and colleagues obtained and checked a proof while working with Claude."
-    },
-    "caveat": {
-      "zh": "结论在无限维硬球的 fullRSB 理论框架内成立。",
-      "en": "Holds within the infinite-dimensional hard-sphere fullRSB framework."
-    },
-    "links": [
-      { "url": "https://arxiv.org/abs/2606.03300", "label": "arXiv", "kind": "paper" },
-      { "url": "https://livescience.com/physics-mathematics/mathematics/nobel-prize-winning-physicist-and-team-use-claude-ai-to-solve-decades-old-math-puzzle", "label": "Live Science", "kind": "news" }
-    ]
-  },
-  {
-    "id": "2026-riemann-zeta-zeros",
-    "date": "2026-08-10",
-    "domain": "math",
-    "system": "Claude (research version)",
-    "title": {
-      "zh": "黎曼ζ函数的非平凡零点，能证明至少有多大比例落在临界线上？",
-      "en": "What fraction of the Riemann zeta function's nontrivial zeros can be proven to lie on the critical line?"
-    },
-    "summary": {
-      "zh": "Anthropic 称，Claude 的研究版本把已知下界从 41.6% 提高到 67.2%，同时公开了论文、专家意见和 Lean 形式化证明。",
-      "en": "Anthropic reports that a research version of Claude raised the known lower bound from 41.6% to 67.2%, releasing the paper, expert notes and a Lean formalization."
-    },
-    "caveat": {
-      "zh": "黎曼猜想本身没有被证明，这是攻关过程中顺带得到的结果。",
-      "en": "The Riemann hypothesis itself remains unproven; this was a byproduct of the attempt."
-    },
-    "links": [
-      { "url": "https://www.anthropic.com/research/riemann-zeta", "label": "Anthropic", "kind": "official" }
-    ]
-  },
-  {
-    "id": "2026-navier-stokes",
-    "date": "2026-09-08",
-    "domain": "math",
-    "system": "OpenAI internal model (GPT-6 Astra for Lean)",
-    "title": {
-      "zh": "一开始光滑的三维流体，会不会在有限时间内出现奇点？（Navier–Stokes 千禧年难题）",
-      "en": "Can a smooth 3D fluid develop a singularity in finite time? (the Navier–Stokes Millennium Problem)"
-    },
-    "summary": {
-      "zh": "OpenAI 称其内部模型证明了：在施加光滑外力的情况下，Navier–Stokes 方程的解会在有限时间内爆破，并公开了 Lean 形式化证明；同时还给出了无外力 Euler 方程的爆破结果。",
-      "en": "OpenAI says its internal model proved finite-time blowup for Navier–Stokes with a smooth external force, releasing a Lean formalization, plus a blowup result for the unforced Euler equations."
-    },
-    "caveat": {
-      "zh": "这是发布方的主张，尚未经同行评审，也未获克雷研究所认定。Buckmaster 与 Alpöge 同期发表了相关的爆破结果，双方存在归属争议。",
-      "en": "Publisher's claim; not yet peer reviewed or recognised by the Clay Institute. Buckmaster and Alpöge posted related blowup results concurrently, with a dispute over credit."
-    },
-    "links": [
-      { "url": "https://openai.com/index/navier-stokes-solution/", "label": "OpenAI", "kind": "official" },
-      { "url": "https://rits.shanghai.nyu.edu/ai/openai-navier-stokes-proof-credit-dispute/", "label": "NYU Shanghai RITS", "kind": "news" }
-    ]
-  },
-  {
-    "id": "2026-openai-math-release",
-    "date": "2026-10-06",
-    "domain": "math",
-    "system": "OpenAI internal model",
-    "title": {
-      "zh": "一个 AI 模型能同时在多少个数学问题上取得新结果？",
-      "en": "How many mathematical problems can one AI model produce new results on at once?"
-    },
-    "summary": {
-      "zh": "OpenAI 一次性公开了一批由内部模型得到的新数学结果，平均每个结果约用 3 小时推理，其中许多附有 Lean 形式化证明。",
-      "en": "OpenAI released a large batch of new mathematical results from an internal model — about three hours of reasoning each on average — many with Lean formalizations."
-    },
-    "caveat": {
-      "zh": "各结果的验证程度不同，需要逐题拆分查看。",
-      "en": "Verification varies by result; each needs to be examined individually."
-    },
-    "links": [
-      { "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/", "label": "OpenAI", "kind": "official" },
-      { "url": "https://github.com/openai/math", "label": "GitHub openai/math", "kind": "official" }
-    ]
-  }
+  {"id": "1956-logic-theorist", "date": "1956", "domain": "math", "system": "Logic Theorist", "title": {"zh": "给定逻辑公理，机器能不能自己找到定理的证明？", "en": "Given the axioms of logic, can a machine find proofs of theorems by itself?"}, "summary": {"zh": "Newell、Simon 和 Shaw 的程序为《数学原理》第二章前 52 条定理中的 38 条找到了证明，其中一条比原书的证明更简洁。", "en": "Newell, Simon and Shaw's program proved 38 of the first 52 theorems in Chapter 2 of Principia Mathematica, one of them more elegantly than the book."}, "links": [{"url": "https://en.wikipedia.org/wiki/Logic_Theorist", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1957-perceptron", "date": "1957", "domain": "language", "system": "Perceptron", "title": {"zh": "机器能不能从例子中学会区分简单图形？", "en": "Can a machine learn to tell simple shapes apart from examples?"}, "summary": {"zh": "Rosenblatt 的感知机通过调整连接权重，学会了区分简单的图案，是最早的可学习神经网络之一。", "en": "Rosenblatt's perceptron learned to classify simple patterns by adjusting its connection weights — one of the first trainable neural networks."}, "caveat": {"zh": "单层感知机能力有限，1969 年 Minsky 与 Papert 指出了它的局限。", "en": "Single-layer perceptrons are limited, as Minsky and Papert showed in 1969."}, "links": [{"url": "https://en.wikipedia.org/wiki/Perceptron", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1958-hao-wang-principia", "date": "1958", "domain": "math", "system": "Hao Wang's IBM 704 program", "title": {"zh": "《数学原理》中的命题逻辑定理，机器能全部证明吗？", "en": "Can a machine prove every propositional theorem in Principia Mathematica?"}, "summary": {"zh": "王浩在 IBM 704 上编写的程序，在几分钟内证明了《数学原理》中全部 350 多条一阶命题逻辑定理。", "en": "Hao Wang's program on the IBM 704 proved all 350+ propositional-logic theorems of Principia Mathematica in minutes."}, "links": [{"url": "https://doi.org/10.1147/rd.41.0002", "label": "IBM J. Res. Dev. 1960", "kind": "paper"}]},
+  {"id": "1959-geometry-prover", "date": "1959", "domain": "math", "system": "Geometry Theorem Machine", "title": {"zh": "机器能不能证明平面几何题？", "en": "Can a machine prove plane-geometry theorems?"}, "summary": {"zh": "Gelernter 在 IBM 的几何定理证明程序用图形启发式剪枝搜索，证明了中学几何水平的定理。", "en": "Gelernter's geometry prover at IBM used the diagram as a heuristic to prune search and proved high-school-level geometry theorems."}, "links": [{"url": "https://en.wikipedia.org/wiki/Herbert_Gelernter", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1959-samuel-checkers", "date": "1959", "domain": "games", "system": "Samuel's checkers program", "title": {"zh": "程序能不能通过自我对弈，学得比编写它的人下得更好？", "en": "Can a program learn, by playing itself, to play better than the person who wrote it?"}, "summary": {"zh": "Arthur Samuel 的西洋跳棋程序通过自我对弈调整评估函数，最终下得比 Samuel 本人更好。“机器学习”一词也由此流行。", "en": "Arthur Samuel's checkers program tuned its evaluation function through self-play and came to outplay Samuel himself; it popularised the term \"machine learning\"."}, "links": [{"url": "https://doi.org/10.1147/rd.33.0210", "label": "IBM J. Res. Dev. 1959", "kind": "paper"}]},
+  {"id": "1961-saint-integration", "date": "1961", "domain": "math", "system": "SAINT", "title": {"zh": "机器能不能做大学微积分考试里的不定积分题？", "en": "Can a machine solve the integrals on a college calculus exam?"}, "summary": {"zh": "Slagle 的 SAINT 程序用启发式搜索求解符号积分，在 MIT 一年级微积分期末考题上答对了 54 道中的 52 道。", "en": "James Slagle's SAINT used heuristic search for symbolic integration and solved 52 of 54 problems from MIT freshman calculus finals."}, "links": [{"url": "https://en.wikipedia.org/wiki/James_Robert_Slagle", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1964-student", "date": "1964", "domain": "language", "system": "STUDENT", "title": {"zh": "机器能不能读懂用英语写的代数应用题，并列出方程求解？", "en": "Can a machine read algebra word problems in English and solve them?"}, "summary": {"zh": "Bobrow 的 STUDENT 程序把中学代数应用题的英文描述翻译成方程并求解。", "en": "Daniel Bobrow's STUDENT translated high-school algebra word problems written in English into equations and solved them."}, "links": [{"url": "https://en.wikipedia.org/wiki/STUDENT_(computer_program)", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1965-dendral", "date": "1965", "domain": "chemistry", "system": "DENDRAL", "title": {"zh": "看着质谱数据，能不能推断出未知分子的结构？", "en": "From mass-spectrometry data, can a machine infer the structure of an unknown molecule?"}, "summary": {"zh": "斯坦福的 DENDRAL 把化学家的知识写成规则，生成并筛选候选结构，是第一批真正处理专业领域问题的“专家系统”。", "en": "Stanford's DENDRAL encoded chemists' knowledge as rules to generate and prune candidate structures — one of the first expert systems to tackle a real scientific task."}, "links": [{"url": "https://en.wikipedia.org/wiki/Dendral", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1970-shakey", "date": "1970", "approx": true, "domain": "robotics", "system": "Shakey", "title": {"zh": "机器人能不能自己感知环境、规划路线、完成多步任务？", "en": "Can a robot perceive its surroundings, plan, and carry out multi-step tasks?"}, "summary": {"zh": "斯坦福研究院的 Shakey 是第一个能对自身行动进行推理的移动机器人，A* 搜索算法和 STRIPS 规划器也诞生于这个项目。", "en": "SRI's Shakey was the first mobile robot to reason about its own actions; the A* search algorithm and the STRIPS planner came out of the project."}, "links": [{"url": "https://en.wikipedia.org/wiki/Shakey_the_robot", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1970-shrdlu", "date": "1970", "domain": "language", "system": "SHRDLU", "title": {"zh": "机器能不能听懂人的指令，在一个积木世界里移动物体并回答问题？", "en": "Can a machine follow English commands to move blocks and answer questions about them?"}, "summary": {"zh": "Winograd 的 SHRDLU 能在虚拟积木世界里理解相当复杂的英语句子、执行指令并解释自己的行为。", "en": "Terry Winograd's SHRDLU understood fairly complex English in a virtual blocks world, carried out commands and explained its actions."}, "caveat": {"zh": "只在一个很小的封闭世界里有效。", "en": "Worked only in a tiny closed world."}, "links": [{"url": "https://en.wikipedia.org/wiki/SHRDLU", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1972-mycin", "date": "1972", "approx": true, "domain": "medicine", "system": "MYCIN", "title": {"zh": "能不能根据症状和化验结果，判断血液感染的病菌并推荐抗生素？", "en": "Can a machine identify the bacteria behind a blood infection and recommend antibiotics?"}, "summary": {"zh": "斯坦福的 MYCIN 用约 600 条规则进行诊断推理，在评估中给出的建议与感染科专家相当。", "en": "Stanford's MYCIN reasoned with roughly 600 rules; in evaluations its recommendations compared well with infectious-disease specialists."}, "caveat": {"zh": "从未在临床中实际使用。", "en": "Never used in actual clinical practice."}, "links": [{"url": "https://en.wikipedia.org/wiki/Mycin", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1976-automated-mathematician", "date": "1976", "domain": "math", "system": "AM (Automated Mathematician)", "title": {"zh": "机器能不能自己提出数学概念和猜想？", "en": "Can a machine invent mathematical concepts and conjectures on its own?"}, "summary": {"zh": "Lenat 的 AM 程序从集合论出发，用启发式规则自己“发现”了自然数、质数，并提出了哥德巴赫猜想等已知猜想。", "en": "Douglas Lenat's AM started from set theory and, guided by heuristics, 'discovered' natural numbers and primes and re-proposed known conjectures such as Goldbach's."}, "caveat": {"zh": "都是重新发现，没有产生新的数学。", "en": "Rediscoveries, not new mathematics."}, "links": [{"url": "https://en.wikipedia.org/wiki/Automated_Mathematician", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1979-stanford-cart", "date": "1979", "domain": "robotics", "system": "Stanford Cart", "title": {"zh": "一辆小车能不能只靠摄像头，自己绕过满屋子的椅子？", "en": "Can a cart cross a chair-filled room using only its camera?"}, "summary": {"zh": "Moravec 的斯坦福小车用立体视觉建图，在大约五个小时里自主穿过了一个摆满椅子的房间。", "en": "Hans Moravec's Stanford Cart used stereo vision to map obstacles and crossed a chair-filled room on its own in about five hours."}, "links": [{"url": "https://en.wikipedia.org/wiki/Stanford_Cart", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1979-bkg", "date": "1979-07", "domain": "games", "system": "BKG 9.8", "title": {"zh": "程序能不能击败一项棋类游戏的世界冠军？", "en": "Can a program beat a reigning world champion at a board game?"}, "summary": {"zh": "Hans Berliner 的双陆棋程序 BKG 9.8 以 7:1 击败世界冠军 Luigi Villa，是程序首次击败棋类世界冠军。", "en": "Hans Berliner's backgammon program BKG 9.8 beat world champion Luigi Villa 7–1 — the first time a program defeated a world champion at a board game."}, "caveat": {"zh": "双陆棋含掷骰运气成分，Berliner 本人也承认运气占了一部分。", "en": "Backgammon involves dice; Berliner acknowledged luck played a part."}, "links": [{"url": "https://en.wikipedia.org/wiki/Hans_Berliner", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1980-xcon", "date": "1980", "domain": "computing", "system": "XCON (R1)", "title": {"zh": "复杂的计算机订单配置，能不能交给程序自动完成？", "en": "Can a program configure complex computer orders automatically?"}, "summary": {"zh": "DEC 公司的专家系统 XCON 自动配置 VAX 计算机订单，据报道每年为公司节省数千万美元。", "en": "DEC's expert system XCON configured VAX computer orders automatically, reportedly saving the company tens of millions of dollars a year."}, "links": [{"url": "https://en.wikipedia.org/wiki/Xcon", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1981-eurisko", "date": "1981", "domain": "games", "system": "EURISKO", "title": {"zh": "程序设计出的舰队，能不能在人类锦标赛中夺冠？", "en": "Can a program design a fleet that wins a human tournament?"}, "summary": {"zh": "Lenat 的 EURISKO 为太空战棋游戏 Traveller 设计舰队，连续两年赢得全国锦标赛，用的是人类没有想到的非常规战术。", "en": "Lenat's EURISKO designed fleets for the Traveller war game and won the national tournament two years running with unconventional tactics."}, "links": [{"url": "https://en.wikipedia.org/wiki/Eurisko", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1982-prospector", "date": "1982-09-03", "domain": "earth", "system": "PROSPECTOR", "title": {"zh": "专家系统能不能预测出地下隐藏的矿藏？", "en": "Can an expert system predict a hidden ore deposit?"}, "summary": {"zh": "PROSPECTOR 根据地质数据预测了华盛顿州 Mount Tolman 附近一处未被发现的钼矿，后来的钻探证实了这一预测。", "en": "PROSPECTOR used geological data to predict an undiscovered molybdenum deposit near Mount Tolman, Washington, later confirmed by drilling."}, "links": [{"url": "https://doi.org/10.1126/science.217.4563.927", "label": "Science 1982", "kind": "paper"}]},
+  {"id": "1986-nettalk", "date": "1986", "domain": "language", "system": "NETtalk", "title": {"zh": "神经网络能不能自己学会把英文单词读出来？", "en": "Can a neural network learn to read English text aloud?"}, "summary": {"zh": "Sejnowski 和 Rosenberg 的 NETtalk 通过训练学会了把英文文本转换成发音，学习过程听起来像儿童学说话。", "en": "Sejnowski and Rosenberg's NETtalk learned to convert English text to pronunciation; its training sounded like a child learning to speak."}, "links": [{"url": "https://en.wikipedia.org/wiki/NETtalk_(artificial_neural_network)", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1988-deep-thought", "date": "1988-11", "domain": "games", "system": "Deep Thought", "title": {"zh": "国际象棋程序能不能在正式比赛中击败特级大师？", "en": "Can a chess program beat a grandmaster in tournament play?"}, "summary": {"zh": "卡内基梅隆大学的 Deep Thought 在正式锦标赛中击败了特级大师 Bent Larsen，是计算机首次在锦标赛中战胜特级大师。", "en": "Carnegie Mellon's Deep Thought beat grandmaster Bent Larsen, the first computer win over a grandmaster in a regular tournament."}, "links": [{"url": "https://en.wikipedia.org/wiki/Deep_Thought_(chess_computer)", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1989-lenet", "date": "1989", "domain": "language", "system": "LeNet", "title": {"zh": "机器能不能认出手写的邮政编码？", "en": "Can a machine read handwritten ZIP codes?"}, "summary": {"zh": "LeCun 等人用反向传播训练卷积神经网络识别手写数字，后来被用于美国邮政和银行支票的自动识别。", "en": "LeCun et al. trained a convolutional network with backpropagation to read handwritten digits; the approach was later deployed to read mail and bank cheques."}, "links": [{"url": "https://doi.org/10.1162/neco.1989.1.4.541", "label": "Neural Computation 1989", "kind": "paper"}]},
+  {"id": "1992-td-gammon", "date": "1992", "domain": "games", "system": "TD-Gammon", "title": {"zh": "不靠人教，只靠自己跟自己下，能下到顶尖人类水平吗？", "en": "Can a program reach top human level purely by playing against itself?"}, "summary": {"zh": "IBM 的 Tesauro 用时间差分强化学习训练神经网络下双陆棋，达到接近世界顶尖选手的水平，还改变了人类高手对某些开局的下法。", "en": "IBM's Gerald Tesauro trained a neural network with temporal-difference learning to play backgammon near world-champion level; it even changed how experts played certain openings."}, "links": [{"url": "https://en.wikipedia.org/wiki/TD-Gammon", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1994-chinook", "date": "1994", "domain": "games", "system": "Chinook", "title": {"zh": "西洋跳棋的人机世界冠军会是谁？", "en": "Who would hold the man–machine world title in checkers?"}, "summary": {"zh": "阿尔伯塔大学的 Chinook 成为第一个在人类锦标赛中赢得世界冠军头衔的程序。", "en": "The University of Alberta's Chinook became the first program to win a human world-championship title."}, "caveat": {"zh": "对手 Tinsley 因病中途退赛，Chinook 由此获得头衔。", "en": "Opponent Marion Tinsley withdrew for health reasons mid-match."}, "links": [{"url": "https://en.wikipedia.org/wiki/Chinook_(computer_program)", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1995-navlab-no-hands", "date": "1995-07", "domain": "robotics", "system": "Navlab 5 (RALPH)", "title": {"zh": "汽车能不能在高速公路上自己掌握方向盘，横穿美国？", "en": "Can a car steer itself across the United States on highways?"}, "summary": {"zh": "卡内基梅隆大学的 Navlab 5 完成了“不用手横穿美国”之旅，约 98% 的路程由视觉系统自动转向。", "en": "Carnegie Mellon's Navlab 5 drove 'No Hands Across America', steering itself by vision for about 98% of the trip."}, "caveat": {"zh": "油门和刹车仍由人控制。", "en": "Throttle and brakes were still human-controlled."}, "links": [{"url": "https://en.wikipedia.org/wiki/Navlab", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1996-robbins", "date": "1996-10", "domain": "math", "system": "EQP", "title": {"zh": "所有 Robbins 代数都是布尔代数吗？（悬而未决 60 年的 Robbins 猜想）", "en": "Is every Robbins algebra Boolean? (the 60-year-old Robbins conjecture)"}, "summary": {"zh": "Argonne 实验室 McCune 的自动推理程序 EQP 找到了关键证明，结合已有成果解决了这个困扰数学家几十年的问题。", "en": "William McCune's automated reasoning program EQP at Argonne found the key proof, settling — together with earlier results — a problem that had resisted mathematicians for decades."}, "links": [{"url": "https://en.wikipedia.org/wiki/Robbins_algebra", "label": "Wikipedia", "kind": "reference"}, {"url": "https://www.nytimes.com/1996/12/10/science/computer-math-proof-shows-reasoning-power.html", "label": "New York Times", "kind": "news"}]},
+  {"id": "1997-deep-blue", "date": "1997-05-11", "domain": "games", "system": "Deep Blue", "title": {"zh": "计算机能不能在正式比赛中击败国际象棋世界冠军？", "en": "Can a computer beat the world chess champion in a match?"}, "summary": {"zh": "IBM 的深蓝以 3.5:2.5 击败卡斯帕罗夫，是计算机首次在标准赛制的对局中战胜在任世界冠军。", "en": "IBM's Deep Blue beat Garry Kasparov 3½–2½, the first match victory by a computer over a reigning world champion under standard time controls."}, "links": [{"url": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1997-logistello", "date": "1997-08", "domain": "games", "system": "Logistello", "title": {"zh": "黑白棋程序能不能击败人类世界冠军？", "en": "Can an Othello program beat the human world champion?"}, "summary": {"zh": "Buro 的 Logistello 以 6:0 击败黑白棋世界冠军村上健。", "en": "Michael Buro's Logistello beat Othello world champion Takeshi Murakami 6–0."}, "links": [{"url": "https://en.wikipedia.org/wiki/Logistello", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "1999-remote-agent", "date": "1999-05", "domain": "robotics", "system": "Remote Agent", "title": {"zh": "航天器能不能在没有地面指挥的情况下，自己规划任务、自己处理故障？", "en": "Can a spacecraft plan its own operations and handle faults without ground control?"}, "summary": {"zh": "NASA 的 Remote Agent 在深空一号探测器上自主控制了几天，期间自行诊断并处理了模拟故障。", "en": "NASA's Remote Agent autonomously controlled the Deep Space 1 probe for several days, diagnosing and handling simulated faults on its own."}, "links": [{"url": "https://en.wikipedia.org/wiki/Deep_Space_1", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "2005-stanley", "date": "2005-10-08", "domain": "robotics", "system": "Stanley", "title": {"zh": "无人车能不能自己穿越 200 多公里的沙漠？", "en": "Can a driverless car cross 200+ km of desert on its own?"}, "summary": {"zh": "斯坦福的 Stanley 自动驾驶约 212 公里，赢得 DARPA 大挑战赛。一年前同一比赛中没有任何车辆跑完全程。", "en": "Stanford's Stanley drove about 212 km autonomously to win the DARPA Grand Challenge; a year earlier no vehicle had finished."}, "links": [{"url": "https://en.wikipedia.org/wiki/Stanley_(vehicle)", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "2006-evolved-antenna", "date": "2006-03-22", "domain": "computing", "system": "Evolutionary algorithm (NASA Ames)", "title": {"zh": "计算机自己“进化”出来的天线，能不能好到真的被送上太空？", "en": "Can a computer-evolved antenna be good enough to fly in space?"}, "summary": {"zh": "NASA 用进化算法设计的 X 波段天线形状怪异但满足任务要求，随 ST5 卫星发射升空，是第一个飞上太空的计算机进化设计硬件。", "en": "An X-band antenna designed by NASA's evolutionary algorithm — oddly shaped but meeting mission specs — flew on the ST5 spacecraft, the first computer-evolved hardware in space."}, "links": [{"url": "https://en.wikipedia.org/wiki/Evolved_antenna", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "2007-checkers-solved", "date": "2007-07-19", "domain": "games", "system": "Chinook", "title": {"zh": "西洋跳棋双方都下最优时，结局是什么？", "en": "What is the outcome of checkers under perfect play?"}, "summary": {"zh": "Schaeffer 团队经过 18 年计算证明：双方都不犯错时，西洋跳棋必然是和棋。", "en": "After 18 years of computation, Schaeffer's team proved that checkers is a draw with perfect play by both sides."}, "links": [{"url": "https://doi.org/10.1126/science.1144079", "label": "Science 2007", "kind": "paper"}]},
+  {"id": "2007-urban-challenge", "date": "2007-11-03", "domain": "robotics", "system": "Boss (Tartan Racing)", "title": {"zh": "无人车能不能在有其他车辆的城市道路上遵守交规行驶？", "en": "Can driverless cars handle city streets with traffic and traffic rules?"}, "summary": {"zh": "在 DARPA 城市挑战赛中，卡内基梅隆大学的 Boss 在模拟城市环境里遵守交规、与其他车辆交互，赢得冠军。", "en": "In the DARPA Urban Challenge, Carnegie Mellon's Boss obeyed traffic rules and interacted with other vehicles in a mock city to win."}, "links": [{"url": "https://en.wikipedia.org/wiki/DARPA_Grand_Challenge_(2007)", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "2009-robot-scientist-adam", "date": "2009-04-03", "domain": "biology", "system": "Adam", "title": {"zh": "机器能不能自己提出假设、设计实验、得出新的科学发现？", "en": "Can a machine form hypotheses, run experiments and make a new scientific discovery by itself?"}, "summary": {"zh": "“机器人科学家”Adam 自主提出并实验验证了酵母中若干“孤儿酶”对应的基因。", "en": "The 'robot scientist' Adam autonomously hypothesised and experimentally confirmed genes encoding several orphan enzymes in yeast."}, "links": [{"url": "https://doi.org/10.1126/science.1165620", "label": "Science 2009", "kind": "paper"}]},
+  {"id": "2009-symbolic-regression-laws", "date": "2009-04-03", "domain": "physics", "system": "Eureqa (symbolic regression)", "title": {"zh": "只给运动数据，机器能不能找出描述它的物理公式？", "en": "Given only motion data, can a machine find the physical law that describes it?"}, "summary": {"zh": "Schmidt 与 Lipson 用符号回归，从摆和振子的实验数据中重新找出了能量守恒等关系式。", "en": "Schmidt and Lipson used symbolic regression to recover conservation laws such as energy from experimental data on pendulums and oscillators."}, "caveat": {"zh": "是从数据重新发现已知规律，不是发现新物理。", "en": "Rediscovery of known laws, not new physics."}, "links": [{"url": "https://doi.org/10.1126/science.1165893", "label": "Science 2009", "kind": "paper"}]},
+  {"id": "2011-watson", "date": "2011-02-16", "domain": "language", "system": "IBM Watson", "title": {"zh": "机器能不能听懂充满双关和暗示的自然语言问题，并答得比人快、比人准？", "en": "Can a machine answer pun-laden natural-language questions faster and better than people?"}, "summary": {"zh": "IBM Watson 在美国问答节目《危险边缘》中击败两位历史最佳选手。", "en": "IBM Watson defeated the two greatest human champions on the quiz show Jeopardy!."}, "links": [{"url": "https://en.wikipedia.org/wiki/IBM_Watson", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "2012-alexnet", "date": "2012-09", "domain": "language", "system": "AlexNet", "title": {"zh": "机器能不能看懂上千类日常物体的照片？", "en": "Can a machine recognise photos across a thousand everyday object categories?"}, "summary": {"zh": "AlexNet 在 ImageNet 比赛中把 top-5 错误率降到约 15%，比第二名低 10 个百分点以上，从此深度学习成为主流。", "en": "AlexNet cut ImageNet top-5 error to about 15%, more than 10 points ahead of the runner-up, launching the deep-learning era."}, "links": [{"url": "https://en.wikipedia.org/wiki/AlexNet", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "2013-dqn-atari", "date": "2013-12-19", "domain": "games", "system": "DQN", "title": {"zh": "同一个程序只看屏幕像素，能不能学会几十种不同的电子游戏？", "en": "Can one program learn dozens of different video games from screen pixels alone?"}, "summary": {"zh": "DeepMind 的 DQN 只看画面和分数，在 49 款雅达利游戏中的大约一半上达到或超过人类职业测试员的水平。", "en": "DeepMind's DQN, seeing only pixels and score, reached or exceeded professional human tester level on about half of 49 Atari games."}, "links": [{"url": "https://arxiv.org/abs/1312.5602", "label": "arXiv", "kind": "paper"}, {"url": "https://doi.org/10.1038/nature14236", "label": "Nature 2015", "kind": "paper"}]},
+  {"id": "2015-cepheus", "date": "2015-01-09", "domain": "games", "system": "Cepheus", "title": {"zh": "一对一有限注德州扑克，存在“不会输”的打法吗？", "en": "Is there an essentially unbeatable strategy for heads-up limit hold'em?"}, "summary": {"zh": "阿尔伯塔大学的 Cepheus 计算出了一对一有限注德州扑克的近似最优策略，宣布该游戏“基本被破解”。", "en": "Alberta's Cepheus computed a near-optimal strategy for heads-up limit Texas hold'em, declaring the game 'essentially weakly solved'."}, "links": [{"url": "https://doi.org/10.1126/science.1259433", "label": "Science 2015", "kind": "paper"}]},
+  {"id": "2015-quantum-experiment-design", "date": "2015-09-09", "domain": "physics", "system": "MELVIN", "title": {"zh": "怎样设计实验，才能制备出复杂的高维量子纠缠态？", "en": "How do you design an experiment that produces complex high-dimensional entangled quantum states?"}, "summary": {"zh": "Krenn 等人的程序 MELVIN 自动搜索光学实验方案，找到了人类没有想到的设计，其中一些后来在实验室中实现。", "en": "Krenn et al.'s program MELVIN automatically searched optical setups and found designs humans had not thought of; some were later built in the lab."}, "links": [{"url": "https://arxiv.org/abs/1509.02749", "label": "arXiv", "kind": "paper"}, {"url": "https://doi.org/10.1103/PhysRevLett.116.090405", "label": "PRL 2016", "kind": "paper"}]},
+  {"id": "2015-resnet", "date": "2015-12-10", "domain": "language", "system": "ResNet", "title": {"zh": "机器识别图片，能不能比人还准？", "en": "Can machines classify images more accurately than people?"}, "summary": {"zh": "微软亚洲研究院的 ResNet 在 ImageNet 上的错误率约 3.6%，低于常被引用的人类约 5% 的水平，残差结构也成为此后深度网络的基础。", "en": "Microsoft Research Asia's ResNet reached about 3.6% ImageNet error, below the often-cited ~5% human figure; its residual design became a foundation of deep networks."}, "caveat": {"zh": "“人类水平”只是基于少数标注者的估计。", "en": "The 'human level' figure is an estimate from a few annotators."}, "links": [{"url": "https://arxiv.org/abs/1512.03385", "label": "arXiv", "kind": "paper"}]},
+  {"id": "2016-alphago", "date": "2016-03-15", "domain": "games", "system": "AlphaGo", "title": {"zh": "被认为还要十年才能被攻克的围棋，机器能下赢世界顶尖棋手吗？", "en": "Can a machine beat a top professional at Go, long thought a decade away?"}, "summary": {"zh": "DeepMind 的 AlphaGo 以 4:1 击败李世石。第 2 局的“第 37 手”让职业棋手重新思考围棋。", "en": "DeepMind's AlphaGo beat Lee Sedol 4–1; its 'Move 37' in game 2 made professionals rethink the game."}, "links": [{"url": "https://doi.org/10.1038/nature16961", "label": "Nature 2016", "kind": "paper"}, {"url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol", "label": "Wikipedia", "kind": "reference"}]},
+  {"id": "2016-pythagorean-triples", "date": "2016-05", "domain": "math", "system": "SAT solver", "title": {"zh": "能不能把正整数涂成两种颜色，使得没有同色的勾股数组？（布尔勾股数问题）", "en": "Can the positive integers be 2-coloured so that no Pythagorean triple is monochromatic?"}, "summary": {"zh": "Heule 等人用 SAT 求解器证明答案是否定的：一直涂到 7824 还可以，到 7825 就不可能了。证明文件达 200 TB。", "en": "Heule and colleagues used a SAT solver to prove the answer is no: it works up to 7824 but becomes impossible at 7825. The proof is 200 TB."}, "caveat": {"zh": "属于自动推理加大规模计算，不是学习型 AI。", "en": "Automated reasoning plus massive computation, not learning-based AI."}, "links": [{"url": "https://en.wikipedia.org/wiki/Boolean_Pythagorean_triples_problem", "label": "Wikipedia", "kind": "reference"}, {"url": "https://arxiv.org/abs/1605.00723", "label": "arXiv", "kind": "paper"}]},
+  {"id": "2016-neural-quantum-states", "date": "2016-06-07", "domain": "physics", "system": "Neural-network quantum states", "title": {"zh": "量子多体系统的状态维数随粒子数指数增长，能不能更高效地表示和计算它？", "en": "Can quantum many-body states, whose size grows exponentially, be represented and computed more efficiently?"}, "summary": {"zh": "Carleo 与 Troyer 用神经网络表示波函数，在若干一维和二维自旋模型上算出了高精度的基态和动力学。", "en": "Carleo and Troyer represented wavefunctions with neural networks and obtained high-accuracy ground states and dynamics for several 1D and 2D spin models."}, "caveat": {"zh": "只针对特定模型，不是一般量子多体问题的通解。", "en": "Specific models, not a general solution of the many-body problem."}, "links": [{"url": "https://arxiv.org/abs/1606.02318", "label": "arXiv", "kind": "paper"}, {"url": "https://doi.org/10.1126/science.aag2302", "label": "Science 2017", "kind": "paper"}]},
+  {"id": "2016-machine-translation", "date": "2016-09-26", "domain": "language", "system": "Google Neural Machine Translation", "title": {"zh": "机器翻译能不能接近人工翻译的质量？", "en": "Can machine translation approach human quality?"}, "summary": {"zh": "谷歌的神经机器翻译系统在若干语言对上把翻译错误减少约 60%，并很快替换了谷歌翻译的旧系统。", "en": "Google's neural machine translation system cut translation errors by about 60% on several language pairs and soon replaced Google Translate's old system."}, "links": [{"url": "https://arxiv.org/abs/1609.08144", "label": "arXiv", "kind": "paper"}]},
+  {"id": "2016-speech-parity", "date": "2016-10-17", "domain": "language", "system": "Microsoft speech recognition", "title": {"zh": "机器听写日常对话，能不能和专业转录员一样准？", "en": "Can machines transcribe conversational speech as well as professional transcribers?"}, "summary": {"zh": "微软报告其语音识别系统在 Switchboard 电话对话测试中的词错误率与专业人工转录员持平。", "en": "Microsoft reported its speech recognizer matched professional human transcribers' word error rate on the Switchboard conversational benchmark."}, "links": [{"url": "https://arxiv.org/abs/1610.05256", "label": "arXiv", "kind": "paper"}]},
+  {"id": "2016-diabetic-retinopathy", "date": "2016-11-29", "domain": "medicine", "system": "Deep learning (Google)", "title": {"zh": "AI 看眼底照片，能不能像眼科医生一样发现糖尿病视网膜病变？", "en": "Can AI detect diabetic eye disease from retinal photos as well as ophthalmologists?"}, "summary": {"zh": "谷歌团队的深度学习模型在糖尿病视网膜病变筛查中达到了与眼科医生相当的灵敏度和特异度。", "en": "Google's deep learning model detected referable diabetic retinopathy with sensitivity and specificity comparable to ophthalmologists."}, "links": [{"url": "https://doi.org/10.1001/jama.2016.17216", "label": "JAMA 2016", "kind": "paper"}]},
+  {"id": "2017-skin-cancer", "date": "2017-01-25", "domain": "medicine", "system": "Deep CNN (Stanford)", "title": {"zh": "AI 看皮肤照片，能不能像皮肤科医生一样判断是不是皮肤癌？", "en": "Can AI classify skin cancer from photos as well as dermatologists?"}, "summary": {"zh": "斯坦福团队训练的卷积网络在区分恶性黑色素瘤等任务上，表现与 21 位皮肤科医生相当。", "en": "A Stanford-trained convolutional network matched 21 board-certified dermatologists at distinguishing malignant skin lesions such as melanoma."}, "links": [{"url": "https://doi.org/10.1038/nature21056", "label": "Nature 2017", "kind": "paper"}]},
+  {"id": "2017-libratus", "date": "2017-01-30", "domain": "games", "system": "Libratus", "title": {"zh": "看不到对手底牌、充满诈唬的扑克，机器能赢职业选手吗？", "en": "Can a machine beat professionals at poker, with hidden cards and bluffing?"}, "summary": {"zh": "卡内基梅隆大学的 Libratus 在 12 万手一对一无限注德州扑克中大比分战胜四位顶尖职业选手。", "en": "Carnegie Mellon's Libratus decisively beat four top professionals over 120,000 hands of heads-up no-limit Texas hold'em."}, "links": [{"url": "https://doi.org/10.1126/science.aao1733", "label": "Science 2018", "kind": "paper"}]},
+  {"id": "2017-deepstack", "date": "2017-03-02", "domain": "games", "system": "DeepStack", "title": {"zh": "AI 能不能在无限注扑克中击败职业选手？", "en": "Can AI beat professionals at no-limit poker?"}, "summary": {"zh": "阿尔伯塔大学的 DeepStack 用深度学习做“直觉”判断，在一对一无限注德州扑克中战胜了职业选手。", "en": "Alberta's DeepStack used deep learning as 'intuition' and beat professional players at heads-up no-limit hold'em."}, "links": [{"url": "https://doi.org/10.1126/science.aam6960", "label": "Science 2017", "kind": "paper"}]},
+  {"id": "2017-alphago-zero", "date": "2017-10-19", "domain": "games", "system": "AlphaGo Zero", "title": {"zh": "完全不学人类棋谱，从零开始能不能下得比人类最强的 AI 还好？", "en": "Without any human games, can a program from scratch surpass the best Go AI?"}, "summary": {"zh": "AlphaGo Zero 只靠自我对弈训练三天，就以 100:0 击败了战胜李世石的那个版本。", "en": "AlphaGo Zero trained by self-play alone for three days and beat the version that defeated Lee Sedol 100–0."}, "links": [{"url": "https://doi.org/10.1038/nature24270", "label": "Nature 2017", "kind": "paper"}]},
+  {"id": "2017-kepler-90i", "date": "2017-12-14", "domain": "astronomy", "system": "Google neural network + NASA Kepler data", "title": {"zh": "已有的望远镜数据里，还藏着没被发现的行星吗？", "en": "Are there undiscovered planets hiding in existing telescope data?"}, "summary": {"zh": "神经网络在开普勒望远镜的数据中找出了此前漏检的行星 Kepler-90i，使 Kepler-90 成为已知行星数与太阳系并列最多（8 颗）的恒星系统。", "en": "A neural network found the previously missed planet Kepler-90i in Kepler data, making Kepler-90 the first system known to tie our Solar System with eight planets."}, "links": [{"url": "https://www.nasa.gov/news-release/artificial-intelligence-nasa-data-used-to-discover-eighth-planet-circling-distant-star/", "label": "NASA", "kind": "official"}]},
+  {"id": "2018-retrosynthesis", "date": "2018-03-28", "domain": "chemistry", "system": "3N-MCTS", "title": {"zh": "给定一个目标分子，AI 能不能规划出可行的化学合成路线？", "en": "Given a target molecule, can AI plan a viable chemical synthesis route?"}, "summary": {"zh": "Segler 等人用神经网络结合蒙特卡洛树搜索规划逆合成路线；在双盲测试中，化学家认为 AI 的路线和文献中的路线一样好。", "en": "Segler et al. combined neural networks with Monte Carlo tree search for retrosynthesis; in double-blind tests chemists rated the AI routes as good as literature routes."}, "links": [{"url": "https://doi.org/10.1038/nature25978", "label": "Nature 2018", "kind": "paper"}]},
+  {"id": "2018-alphazero", "date": "2018-12-07", "domain": "games", "system": "AlphaZero", "title": {"zh": "只知道规则、完全不看人类棋谱，能不能从零学会国际象棋、将棋和围棋？", "en": "Knowing only the rules and no human games, can a machine master chess, shogi and Go from scratch?"}, "summary": {"zh": "AlphaZero 只靠自我对弈，在三种棋类上都击败了当时最强的专用程序。", "en": "Through self-play alone, AlphaZero defeated the strongest specialised programs in all three games."}, "links": [{"url": "https://doi.org/10.1126/science.aar6404", "label": "Science 2018", "kind": "paper"}]},
+  {"id": "2019-dota2-openai-five", "date": "2019-04-13", "domain": "games", "system": "OpenAI Five", "title": {"zh": "在需要团队配合、长期规划的复杂电子竞技中，AI 能赢世界冠军吗？", "en": "Can AI beat the world champions at a complex team e-sport requiring long-term planning?"}, "summary": {"zh": "OpenAI Five 在 Dota 2 中以 2:0 击败了当时的世界冠军战队 OG。", "en": "OpenAI Five beat reigning Dota 2 world champions OG 2–0."}, "links": [{"url": "https://arxiv.org/abs/1912.06680", "label": "arXiv", "kind": "paper"}]},
+  {"id": "2019-materials-word-embeddings", "date": "2019-07-03", "domain": "materials", "system": "Word embeddings (Berkeley Lab)", "title": {"zh": "只读科学论文的文字，AI 能不能提前预测出好的热电材料？", "en": "By reading only the text of papers, can AI predict good thermoelectric materials in advance?"}, "summary": {"zh": "伯克利实验室用 330 万篇材料学摘要训练词向量；用历史文献回测时，模型提前好几年“推荐”了后来被发现的热电材料。", "en": "Berkeley Lab trained word embeddings on 3.3 million materials abstracts; in historical back-tests the model 'recommended' thermoelectric materials years before they were reported."}, "links": [{"url": "https://doi.org/10.1038/s41586-019-1335-8", "label": "Nature 2019", "kind": "paper"}]},
+  {"id": "2019-pluribus", "date": "2019-07-11", "domain": "games", "system": "Pluribus", "title": {"zh": "六人同桌的多人扑克，机器也能赢吗？", "en": "Can a machine win at six-player poker?"}, "summary": {"zh": "Pluribus 在六人无限注德州扑克中战胜精英职业选手，是 AI 首次在主要的多人博弈中超越顶尖人类。", "en": "Pluribus beat elite professionals at six-player no-limit hold'em, the first superhuman result in a major multiplayer game."}, "links": [{"url": "https://doi.org/10.1126/science.aay2400", "label": "Science 2019", "kind": "paper"}]},
+  {"id": "2019-ddr1-inhibitor", "date": "2019-09-02", "domain": "medicine", "system": "GENTRL (Insilico Medicine)", "title": {"zh": "AI 能不能在几周内设计出有活性的新药分子？", "en": "Can AI design active new drug molecules in weeks?"}, "summary": {"zh": "Insilico Medicine 用生成模型在 21 天内设计出 DDR1 激酶抑制剂，其中先导分子在细胞和小鼠实验中显示了活性。", "en": "Insilico Medicine's generative model designed DDR1 kinase inhibitors in 21 days; the lead compound was active in cell and mouse experiments."}, "caveat": {"zh": "早期临床前结果。", "en": "Early preclinical result."}, "links": [{"url": "https://doi.org/10.1038/s41587-019-0224-x", "label": "Nature Biotech 2019", "kind": "paper"}]},
+  {"id": "2019-rubiks-cube-hand", "date": "2019-10-15", "domain": "robotics", "system": "Dactyl (OpenAI)", "title": {"zh": "机器人的手能不能像人手一样灵巧，单手还原魔方？", "en": "Can a robot hand be dexterous enough to solve a Rubik's Cube one-handed?"}, "summary": {"zh": "OpenAI 在模拟环境中训练的机械手，在真实世界里单手还原了魔方。", "en": "OpenAI's robot hand, trained in simulation, manipulated and solved a Rubik's Cube one-handed in the real world."}, "caveat": {"zh": "还原步骤由传统算法计算，AI 负责的是手部操作；成功率有限。", "en": "The solution sequence came from a classical solver; AI handled manipulation, with limited success rate."}, "links": [{"url": "https://arxiv.org/abs/1910.07113", "label": "arXiv", "kind": "paper"}]},
+  {"id": "2019-alphastar", "date": "2019-10-30", "domain": "games", "system": "AlphaStar", "title": {"zh": "在信息不完全、需要实时操作的《星际争霸 II》中，AI 能达到顶级人类水平吗？", "en": "Can AI reach top human level in StarCraft II, with hidden information and real-time control?"}, "summary": {"zh": "AlphaStar 在官方天梯上以三个种族都达到“宗师”段位，排名超过 99.8% 的活跃玩家。", "en": "AlphaStar reached Grandmaster on the official ladder with all three races, above 99.8% of active players."}, "links": [{"url": "https://doi.org/10.1038/s41586-019-1724-z", "label": "Nature 2019", "kind": "paper"}]},
+  {"id": "2020-breast-cancer-screening", "date": "2020-01-01", "domain": "medicine", "system": "Google Health", "title": {"zh": "AI 看乳腺 X 光片，能不能比放射科医生漏诊更少、误报更少？", "en": "Can AI read mammograms with fewer misses and false alarms than radiologists?"}, "summary": {"zh": "在英美两国的数据上，模型的假阳性和假阴性都低于放射科医生；在英国的双人阅片流程中，可以替代第二位医生而不降低效果。", "en": "On UK and US data the model reduced both false positives and false negatives relative to radiologists, and could stand in for the second reader in UK double reading."}, "links": [{"url": "https://doi.org/10.1038/s41586-019-1799-6", "label": "Nature 2020", "kind": "paper"}]},
+  {"id": "2020-halicin", "date": "2020-02-20", "domain": "medicine", "system": "Deep learning (MIT)", "title": {"zh": "能不能在已有化合物中，找到结构全新的抗生素候选？", "en": "Can we find structurally novel antibiotic candidates among existing compounds?"}, "summary": {"zh": "MIT 团队用深度学习筛选了上亿个分子，找到 halicin，它在实验室和小鼠实验中对多种耐药菌有效。", "en": "An MIT team used deep learning to screen over 100 million molecules and identified halicin, which killed many drug-resistant bacteria in the lab and in mice."}, "caveat": {"zh": "候选药物，尚未获批用于临床。", "en": "A drug candidate, not an approved medicine."}, "links": [{"url": "https://doi.org/10.1016/j.cell.2020.01.021", "label": "Cell 2020", "kind": "paper"}, {"url": "https://www.broadinstitute.org/publications/broad627466", "label": "Broad Institute", "kind": "official"}]},
+  {"id": "2020-mobile-robotic-chemist", "date": "2020-07-08", "domain": "chemistry", "system": "Mobile robotic chemist (Liverpool)", "title": {"zh": "机器人化学家能不能自己在实验室里走动、做实验，找到更好的催化剂？", "en": "Can a robot chemist move around a lab, run experiments, and find a better catalyst on its own?"}, "summary": {"zh": "利物浦大学的移动机器人在 8 天内自主完成了 688 次实验，找到了比初始配方活性高约 6 倍的光催化剂混合物。", "en": "Liverpool's mobile robot autonomously ran 688 experiments over 8 days and found a photocatalyst mixture about six times more active than the starting formulation."}, "links": [{"url": "https://doi.org/10.1038/s41586-020-2442-2", "label": "Nature 2020", "kind": "paper"}]},
+  {"id": "2020-ferminet", "date": "2020-09", "domain": "physics", "system": "FermiNet", "title": {"zh": "能不能直接从基本原理，更准确地算出原子和分子的电子结构？", "en": "Can we compute the electronic structure of atoms and molecules more accurately from first principles?"}, "summary": {"zh": "DeepMind 的 FermiNet 用神经网络表示多电子波函数，在若干小分子上达到了接近化学精度的结果。", "en": "DeepMind's FermiNet represented many-electron wavefunctions with a neural network, reaching near chemical accuracy on several small molecules."}, "links": [{"url": "https://doi.org/10.1103/PhysRevResearch.2.033429", "label": "Phys. Rev. Research 2020", "kind": "paper"}]},
+  {"id": "2020-alphafold2", "date": "2020-11-30", "domain": "biology", "system": "AlphaFold 2", "title": {"zh": "只知道氨基酸序列，能不能准确预测蛋白质的三维结构？（困扰生物学 50 年的“蛋白质折叠问题”）", "en": "From its amino-acid sequence alone, can we predict a protein's 3D structure? (the 50-year protein-folding problem)"}, "summary": {"zh": "AlphaFold 2 在 CASP14 竞赛中的预测精度达到接近实验测定的水平，后来又公开了超过 2 亿个蛋白质的预测结构。", "en": "At CASP14, AlphaFold 2 reached accuracy competitive with experimental methods; predicted structures for over 200 million proteins were later released."}, "caveat": {"zh": "解决的是结构预测，蛋白质如何动态折叠、如何相互作用等问题仍在研究中。", "en": "Solves structure prediction; folding dynamics and interactions remain open research."}, "links": [{"url": "https://doi.org/10.1038/s41586-021-03819-2", "label": "Nature 2021", "kind": "paper"}]},
+  {"id": "2020-loon-balloons", "date": "2020-12-02", "domain": "robotics", "system": "Deep RL (Loon)", "title": {"zh": "能不能让高空气球在平流层里自己借风导航、长时间停留在一个地方？", "en": "Can stratospheric balloons navigate the winds by themselves to stay on station?"}, "summary": {"zh": "Loon 项目用强化学习控制器在赤道上空进行了 39 天实测，比人工设计的控制器更好地保持在目标区域附近。", "en": "Loon's reinforcement-learning controller, tested for 39 days over the equator, kept balloons near their target better than the hand-designed controller."}, "links": [{"url": "https://doi.org/10.1038/s41586-020-2939-8", "label": "Nature 2020", "kind": "paper"}]},
+  {"id": "2020-muzero", "date": "2020-12-23", "domain": "games", "system": "MuZero", "title": {"zh": "连游戏规则都不告诉它，AI 还能学会下棋和打游戏吗？", "en": "Can AI master games without even being told the rules?"}, "summary": {"zh": "MuZero 自己学习环境模型，在围棋、国际象棋、将棋上达到 AlphaZero 的水平，并在雅达利游戏上创下新纪录。", "en": "MuZero learned its own model of the environment, matching AlphaZero at Go, chess and shogi and setting new records on Atari."}, "links": [{"url": "https://doi.org/10.1038/s41586-020-03051-4", "label": "Nature 2020", "kind": "paper"}]},
+  {"id": "2021-ramanujan-machine", "date": "2021-02-03", "domain": "math", "system": "Ramanujan Machine", "title": {"zh": "能不能让计算机自动发现 π、e 等基本常数的新公式？", "en": "Can a computer automatically discover new formulas for fundamental constants like π and e?"}, "summary": {"zh": "以色列理工学院的 Ramanujan Machine 自动生成了数十个关于基本常数的新连分数猜想，其中一些后来被证明。", "en": "Technion's Ramanujan Machine generated dozens of new continued-fraction conjectures for fundamental constants, some later proven."}, "links": [{"url": "https://doi.org/10.1038/s41586-021-03229-4", "label": "Nature 2021", "kind": "paper"}]},
+  {"id": "2021-rl-counterexamples", "date": "2021-04-29", "domain": "math", "system": "Cross-entropy RL", "title": {"zh": "能不能自动构造反例，推翻图论和组合数学中的猜想？", "en": "Can a machine construct counterexamples that refute conjectures in graph theory and combinatorics?"}, "summary": {"zh": "Adam Zsolt Wagner 用强化学习构造图和矩阵，找到了若干已发表猜想的反例。", "en": "Adam Zsolt Wagner used reinforcement learning to construct graphs and matrices, finding counterexamples to several published conjectures."}, "links": [{"url": "https://arxiv.org/abs/2104.14516", "label": "arXiv", "kind": "paper"}]},
+  {"id": "2021-chip-floorplanning", "date": "2021-06-09", "domain": "computing", "system": "Deep RL (Google)", "title": {"zh": "芯片布局能不能交给 AI，在几小时内完成工程师几周的工作？", "en": "Can AI lay out a chip in hours instead of engineers' weeks?"}, "summary": {"zh": "谷歌称其强化学习方法在 6 小时内生成的芯片布局与人类专家相当或更好，并用于 TPU 的设计。", "en": "Google reported its RL method produced chip floorplans comparable or superior to human experts in under 6 hours, and used it in TPU design."}, "caveat": {"zh": "方法的有效性和可复现性受到学术界的质疑和争论。", "en": "Its effectiveness and reproducibility have been disputed by other researchers."}, "links": [{"url": "https://doi.org/10.1038/s41586-021-03544-w", "label": "Nature 2021", "kind": "paper"}]},
+  {"id": "2021-rosettafold", "date": "2021-07-15", "domain": "biology", "system": "RoseTTAFold", "title": {"zh": "蛋白质结构预测能不能做到人人可用，还能预测蛋白质复合物？", "en": "Can accurate protein-structure prediction be open to everyone and extend to complexes?"}, "summary": {"zh": "Baker 实验室的 RoseTTAFold 以开源方式达到接近 AlphaFold 2 的精度，还能预测蛋白质复合物的结构。", "en": "The Baker lab's open RoseTTAFold reached accuracy approaching AlphaFold 2 and could model protein complexes."}, "links": [{"url": "https://doi.org/10.1126/science.abj8754", "label": "Science 2021", "kind": "paper"}]},
+  {"id": "2021-precipitation-nowcasting", "date": "2021-09-29", "domain": "earth", "system": "DGMR", "title": {"zh": "未来一两个小时会在哪里下雨、下多大？", "en": "Where will it rain in the next hour or two, and how hard?"}, "summary": {"zh": "DeepMind 与英国气象局合作的生成模型做短时降水预报；在盲评中，56 位气象专家中 89% 认为它优于现有方法。", "en": "A generative model built by DeepMind with the UK Met Office for short-term rain forecasts was preferred by 89% of 56 Met Office forecasters in blind evaluation."}, "links": [{"url": "https://doi.org/10.1038/s41586-021-03854-z", "label": "Nature 2021", "kind": "paper"}]},
+  {"id": "2021-knot-theory", "date": "2021-12-01", "domain": "math", "system": "DeepMind + mathematicians", "title": {"zh": "纽结的几何性质和代数性质之间，有没有尚未发现的联系？", "en": "Are there undiscovered links between the geometric and algebraic invariants of knots?"}, "summary": {"zh": "机器学习帮助数学家发现了纽结理论中的新关系，也为表示论中的一个猜想提供了线索，数学家随后完成了严格证明。", "en": "Machine learning pointed mathematicians to a new relation in knot theory and progress on a representation-theory conjecture, which they then proved rigorously."}, "links": [{"url": "https://doi.org/10.1038/s41586-021-04086-x", "label": "Nature 2021", "kind": "paper"}]},
+  {"id": "2021-dm21-dft", "date": "2021-12-09", "domain": "chemistry", "system": "DM21", "title": {"zh": "量子化学中被广泛使用的密度泛函，能不能修正它对“分数电子”问题的系统性错误？", "en": "Can density functional theory's systematic errors with fractional electrons be fixed?"}, "summary": {"zh": "DeepMind 训练的神经网络泛函 DM21 正确处理了分数电荷和分数自旋这类长期困扰传统泛函的情况。", "en": "DeepMind's neural-network functional DM21 correctly handled fractional charge and spin, long-standing failure cases of conventional functionals."}, "links": [{"url": "https://doi.org/10.1126/science.abj6511", "label": "Science 2021", "kind": "paper"}]},
+  {"id": "2022-gt-sophy", "date": "2022-02-09", "domain": "games", "system": "GT Sophy", "title": {"zh": "在高速赛车游戏中，AI 能不能既跑得最快又遵守赛道礼仪，击败顶尖车手？", "en": "Can AI out-race champion drivers in a racing simulator while respecting racing etiquette?"}, "summary": {"zh": "索尼的 GT Sophy 在《GT 赛车》中击败了世界顶尖的人类车手，同时遵守比赛规则。", "en": "Sony's GT Sophy beat the world's best Gran Turismo drivers in head-to-head races while following sportsmanship rules."}, "links": [{"url": "https://doi.org/10.1038/s41586-021-04357-7", "label": "Nature 2022", "kind": "paper"}]},
+  {"id": "2022-tokamak-control", "date": "2022-02-16", "domain": "physics", "system": "Deep RL (DeepMind + EPFL)", "title": {"zh": "怎样协调几十个线圈，控制托卡马克里高温等离子体的形状？", "en": "How do you coordinate dozens of coils to shape hot plasma inside a tokamak?"}, "summary": {"zh": "强化学习控制器在瑞士 TCV 托卡马克的真实装置上，成功控制出多种等离子体构型。", "en": "A reinforcement-learning controller shaped a variety of plasma configurations on the real TCV tokamak in Switzerland."}, "links": [{"url": "https://doi.org/10.1038/s41586-021-04301-9", "label": "Nature 2022", "kind": "paper"}]},
+  {"id": "2022-ithaca", "date": "2022-03-09", "domain": "language", "system": "Ithaca", "title": {"zh": "残缺的古希腊铭文，能不能补全文字、判断年代和出处？", "en": "Can damaged ancient Greek inscriptions be restored, dated and located?"}, "summary": {"zh": "DeepMind 的 Ithaca 修复文字的准确率达 62%，与历史学家合作时把历史学家的准确率从 25% 提高到 72%。", "en": "DeepMind's Ithaca restored text with 62% accuracy, and raised historians' accuracy from 25% to 72% when they worked with it."}, "links": [{"url": "https://doi.org/10.1038/s41586-022-04448-z", "label": "Nature 2022", "kind": "paper"}]},
+  {"id": "2022-fast-petase", "date": "2022-04-27", "domain": "biology", "system": "MutCompute", "title": {"zh": "能不能造出一种酶，在常温下几天内分解塑料瓶？", "en": "Can we engineer an enzyme that breaks down plastic bottles in days at mild temperatures?"}, "summary": {"zh": "德克萨斯大学用机器学习指导突变，得到 FAST-PETase，能在一周内基本降解多种 PET 塑料制品。", "en": "UT Austin used machine learning to guide mutations, producing FAST-PETase, which largely depolymerised various PET products within a week."}, "links": [{"url": "https://doi.org/10.1038/s41586-022-04599-z", "label": "Nature 2022", "kind": "paper"}]},
+  {"id": "2022-proteinmpnn", "date": "2022-09-15", "domain": "biology", "system": "ProteinMPNN", "title": {"zh": "给定一个想要的蛋白质形状，能不能设计出会折叠成这个形状的氨基酸序列？", "en": "Given a desired protein shape, can we design a sequence that folds into it?"}, "summary": {"zh": "ProteinMPNN 设计序列的成功率远高于传统方法，许多设计在实验中得到验证。", "en": "ProteinMPNN designed sequences with far higher success than prior methods, with many designs validated experimentally."}, "links": [{"url": "https://doi.org/10.1126/science.add2187", "label": "Science 2022", "kind": "paper"}]},
+  {"id": "2022-alphatensor", "date": "2022-10-05", "domain": "computing", "system": "AlphaTensor", "title": {"zh": "矩阵乘法还能更快吗？", "en": "Can matrix multiplication be done with fewer operations?"}, "summary": {"zh": "AlphaTensor 找到了 4×4 矩阵在模 2 运算下只需 47 次乘法的算法，打破了 Strassen 方法 50 多年来的纪录。", "en": "AlphaTensor found an algorithm for 4×4 matrices over arithmetic mod 2 using 47 multiplications, beating Strassen's 50-year-old record in that setting."}, "caveat": {"zh": "这一改进只在模 2 运算下成立。", "en": "This improvement holds only for arithmetic mod 2."}, "links": [{"url": "https://doi.org/10.1038/s41586-022-05172-4", "label": "Nature 2022", "kind": "paper"}]},
+  {"id": "2022-cicero-diplomacy", "date": "2022-11-22", "domain": "games", "system": "Cicero", "title": {"zh": "在需要谈判、结盟和说服的桌游《外交》中，AI 能不能和人类打成一片并取胜？", "en": "Can AI negotiate, ally and persuade well enough to win at Diplomacy with humans?"}, "summary": {"zh": "Meta 的 Cicero 在线上《外交》比赛中用自然语言与人谈判，得分超过平均人类玩家的两倍，排名进入前 10%。", "en": "Meta's Cicero negotiated in natural language in online Diplomacy, scoring more than double the average human and ranking in the top 10%."}, "links": [{"url": "https://doi.org/10.1126/science.ade9097", "label": "Science 2022", "kind": "paper"}]},
+  {"id": "2022-deepnash-stratego", "date": "2022-12-01", "domain": "games", "system": "DeepNash", "title": {"zh": "信息高度隐藏的军棋类游戏 Stratego，AI 能达到人类专家水平吗？", "en": "Can AI reach expert level at Stratego, a game of heavily hidden information?"}, "summary": {"zh": "DeepNash 在 Gravon 平台上排名历史前三，胜率约 84%。", "en": "DeepNash reached an all-time top-3 ranking on the Gravon platform with about an 84% win rate."}, "links": [{"url": "https://doi.org/10.1126/science.add4679", "label": "Science 2022", "kind": "paper"}]},
+  {"id": "2022-alphacode", "date": "2022-12-08", "domain": "computing", "system": "AlphaCode", "title": {"zh": "AI 能不能解决需要理解题意、设计算法的编程竞赛题？", "en": "Can AI solve competitive programming problems that require understanding and algorithm design?"}, "summary": {"zh": "AlphaCode 在 Codeforces 模拟比赛中排名约在参赛者的前 54%，达到中等人类选手水平。", "en": "AlphaCode ranked around the top 54% of participants in simulated Codeforces contests — median human competitor level."}, "links": [{"url": "https://doi.org/10.1126/science.abq1158", "label": "Science 2022", "kind": "paper"}]},
+  {"id": "2023-esm-metagenomic-atlas", "date": "2023-03-16", "domain": "biology", "system": "ESMFold", "title": {"zh": "地球上数以亿计、从未被研究过的微生物蛋白质，长什么样？", "en": "What do hundreds of millions of never-studied microbial proteins look like?"}, "summary": {"zh": "Meta 用蛋白质语言模型 ESMFold 预测了超过 6 亿个宏基因组蛋白质的结构，其中很多与已知蛋白都不相似。", "en": "Meta's protein language model ESMFold predicted structures for over 600 million metagenomic proteins, many unlike any known protein."}, "links": [{"url": "https://doi.org/10.1126/science.ade2574", "label": "Science 2023", "kind": "paper"}]},
+  {"id": "2023-abaucin", "date": "2023-05-25", "domain": "medicine", "system": "Deep learning (McMaster/MIT)", "title": {"zh": "针对世卫组织列为最危险级别的鲍曼不动杆菌，能找到新的抗生素候选吗？", "en": "Can we find a new antibiotic against Acinetobacter baumannii, a WHO critical-priority pathogen?"}, "summary": {"zh": "研究者用深度学习找到 abaucin，它对鲍曼不动杆菌的作用范围很窄，在小鼠伤口感染模型中有效。", "en": "Researchers used deep learning to identify abaucin, a narrow-spectrum compound active against A. baumannii in a mouse wound model."}, "caveat": {"zh": "候选药物，尚未获批用于临床。", "en": "A drug candidate, not an approved medicine."}, "links": [{"url": "https://doi.org/10.1038/s41589-023-01349-8", "label": "Nature Chem. Bio. 2023", "kind": "paper"}]},
+  {"id": "2023-alphadev", "date": "2023-06-07", "domain": "computing", "system": "AlphaDev", "title": {"zh": "被优化了几十年的基础排序代码，还能更快吗？", "en": "Can decades-optimised basic sorting routines get any faster?"}, "summary": {"zh": "AlphaDev 找到了更快的短序列排序汇编程序，已被合并进 LLVM 的 C++ 标准库。", "en": "AlphaDev discovered faster assembly routines for sorting short sequences; they were merged into LLVM's C++ standard library."}, "links": [{"url": "https://doi.org/10.1038/s41586-023-06004-9", "label": "Nature 2023", "kind": "paper"}]},
+  {"id": "2023-pangu-weather", "date": "2023-07-05", "domain": "earth", "system": "Pangu-Weather (Huawei)", "title": {"zh": "中期天气预报，AI 能不能超过传统数值模式？", "en": "Can AI beat traditional numerical models at medium-range weather forecasting?"}, "summary": {"zh": "华为的盘古气象大模型在多项中期预报指标上优于欧洲中期天气预报中心的业务系统，速度快一万倍以上。", "en": "Huawei's Pangu-Weather outperformed ECMWF's operational system on several medium-range metrics while running over 10,000 times faster."}, "links": [{"url": "https://doi.org/10.1038/s41586-023-06185-3", "label": "Nature 2023", "kind": "paper"}]},
+  {"id": "2023-rfdiffusion", "date": "2023-07-11", "domain": "biology", "system": "RFdiffusion", "title": {"zh": "能不能从零设计出能与特定靶点结合的全新蛋白质？", "en": "Can we design brand-new proteins from scratch that bind a chosen target?"}, "summary": {"zh": "Baker 实验室的 RFdiffusion 用扩散模型设计新蛋白，实验验证了大量结合蛋白、对称结构和酶活性位点支架。", "en": "The Baker lab's RFdiffusion used diffusion models to design new proteins; many binders, symmetric assemblies and enzyme scaffolds were validated experimentally."}, "links": [{"url": "https://doi.org/10.1038/s41586-023-06415-8", "label": "Nature 2023", "kind": "paper"}]},
+  {"id": "2023-alphamissense", "date": "2023-09-19", "domain": "biology", "system": "AlphaMissense", "title": {"zh": "人类基因中的单字母突变，哪些会致病？", "en": "Which single-letter mutations in human genes cause disease?"}, "summary": {"zh": "AlphaMissense 对 7100 万种可能的错义突变做了预测，其中 89% 被划分为“可能致病”或“可能良性”；此前人类专家只确认过约 0.1%。", "en": "AlphaMissense classified 89% of 71 million possible missense variants as likely pathogenic or benign, versus about 0.1% confirmed by experts before."}, "caveat": {"zh": "是预测，用于临床诊断仍需结合其他证据。", "en": "Predictions; clinical use needs other evidence."}, "links": [{"url": "https://doi.org/10.1126/science.adg7492", "label": "Science 2023", "kind": "paper"}]},
+  {"id": "2023-vesuvius-scrolls", "date": "2023-10-12", "domain": "language", "system": "Machine learning (Vesuvius Challenge)", "title": {"zh": "维苏威火山喷发烧焦的古罗马卷轴，不打开能读出来吗？", "en": "Can carbonised scrolls from Vesuvius be read without unrolling them?"}, "summary": {"zh": "参赛者用机器学习从 CT 扫描中识别出墨迹，读出第一个单词“紫色”；2024 年 2 月，团队读出了 2000 多个字符。", "en": "Contestants used machine learning on CT scans to detect ink and read the first word, 'purple'; by February 2024 a team had read over 2,000 characters."}, "links": [{"url": "https://scrollprize.org/grandprize", "label": "Vesuvius Challenge", "kind": "official"}]},
+  {"id": "2023-mars-oxygen-catalyst", "date": "2023-11", "domain": "chemistry", "system": "Robotic AI chemist (USTC)", "title": {"zh": "能不能用火星陨石成分，找到能从水中制氧的催化剂配方？", "en": "Can we find an oxygen-producing catalyst made from Martian meteorite materials?"}, "summary": {"zh": "中国科学技术大学的机器人 AI 化学家在数百万种可能配方中自动合成、测试并优化，找到了有效的析氧催化剂。", "en": "USTC's robotic AI chemist automatically synthesised, tested and optimised candidates from millions of possible recipes, finding an effective oxygen-evolution catalyst."}, "caveat": {"zh": "实验在地面实验室完成，并非已经在火星上制氧。", "en": "Done in an Earth lab, not on Mars."}, "links": [{"url": "https://doi.org/10.1038/s44160-023-00424-1", "label": "Nature Synthesis 2023", "kind": "paper"}]},
+  {"id": "2023-graphcast", "date": "2023-11-14", "domain": "earth", "system": "GraphCast", "title": {"zh": "AI 能不能比传统数值天气预报预测得更准？", "en": "Can AI forecast the weather better than traditional numerical models?"}, "summary": {"zh": "GraphCast 的 10 天全球天气预报在约 90% 的评测指标上优于欧洲中期天气预报中心的高精度业务系统，单台机器不到一分钟就能算完。", "en": "GraphCast's 10-day global forecasts beat ECMWF's high-resolution operational system on about 90% of verification targets, running in under a minute on one machine."}, "links": [{"url": "https://doi.org/10.1126/science.adi2336", "label": "Science 2023", "kind": "paper"}]},
+  {"id": "2023-gnome", "date": "2023-11-29", "domain": "materials", "system": "GNoME", "title": {"zh": "还有多少稳定的无机晶体材料没有被发现？", "en": "How many stable inorganic crystals remain undiscovered?"}, "summary": {"zh": "GNoME 预测了 220 万种新晶体，其中约 38 万种被认为是稳定的；同期的自动化实验室合成出了其中一部分。", "en": "GNoME predicted 2.2 million new crystals, about 380,000 of them deemed stable; an autonomous lab synthesised some of them."}, "caveat": {"zh": "“新材料”的数量和新颖性受到部分材料学家质疑。", "en": "Some materials scientists have questioned the count and novelty of the 'new materials'."}, "links": [{"url": "https://doi.org/10.1038/s41586-023-06735-9", "label": "Nature 2023", "kind": "paper"}]},
+  {"id": "2023-funsearch-cap-set", "date": "2023-12-14", "domain": "math", "system": "FunSearch", "title": {"zh": "有限几何中“没有三点共线”的点集（cap set），最大能构造到多大？", "en": "How large can a cap set — a set with no three points on a line — be made?"}, "summary": {"zh": "FunSearch 让大语言模型写程序、自动评估并迭代，在 8 维中找到了比已知更大的 cap set，并改进了相关的渐近下界。", "en": "FunSearch had an LLM write programs that were automatically scored and evolved, finding larger cap sets in dimension 8 and improving an asymptotic lower bound."}, "caveat": {"zh": "改进的是下界和具体构造，不是确定了最大值。", "en": "Improves constructions and lower bounds; the maximum is not determined."}, "links": [{"url": "https://doi.org/10.1038/s41586-023-06924-6", "label": "Nature 2023", "kind": "paper"}]},
+  {"id": "2023-coscientist", "date": "2023-12-20", "domain": "chemistry", "system": "Coscientist", "title": {"zh": "大语言模型能不能自己查资料、写代码、操控实验设备，完成真实的化学实验？", "en": "Can an LLM agent search, write code and operate lab equipment to run real chemistry?"}, "summary": {"zh": "卡内基梅隆大学的 Coscientist 自主规划并执行了钯催化交叉偶联等反应，并对反应条件进行了优化。", "en": "Carnegie Mellon's Coscientist autonomously planned and executed reactions such as palladium-catalysed cross-couplings and optimised their conditions."}, "links": [{"url": "https://doi.org/10.1038/s41586-023-06792-0", "label": "Nature 2023", "kind": "paper"}]},
+  {"id": "2023-explainable-antibiotics", "date": "2023-12-20", "domain": "medicine", "system": "Explainable deep learning (MIT)", "title": {"zh": "能不能找到一类全新的、能杀死耐药金黄色葡萄球菌的抗生素？", "en": "Can we find a whole new structural class of antibiotics against MRSA?"}, "summary": {"zh": "MIT 团队用可解释深度学习筛选了 1200 万个化合物，发现了一类新的抗生素结构，在小鼠模型中对 MRSA 有效。", "en": "An MIT team screened 12 million compounds with explainable deep learning and found a new structural class of antibiotics effective against MRSA in mice."}, "caveat": {"zh": "临床前结果。", "en": "Preclinical."}, "links": [{"url": "https://doi.org/10.1038/s41586-023-06887-8", "label": "Nature 2023", "kind": "paper"}]},
+  {"id": "2024-alphageometry", "date": "2024-01-17", "domain": "math", "system": "AlphaGeometry", "title": {"zh": "奥数几何题需要的辅助线，机器能自己想到吗？", "en": "Can a machine come up with the auxiliary constructions olympiad geometry needs?"}, "summary": {"zh": "AlphaGeometry 在 30 道国际奥数几何题中解出 25 道，接近金牌选手的平均水平。", "en": "AlphaGeometry solved 25 of 30 olympiad geometry problems, approaching the average IMO gold medallist."}, "links": [{"url": "https://doi.org/10.1038/s41586-023-06747-5", "label": "Nature 2024", "kind": "paper"}]},
+  {"id": "2024-tokamak-tearing", "date": "2024-02-21", "domain": "physics", "system": "Deep RL (Princeton/DIII-D)", "title": {"zh": "核聚变装置里的等离子体撕裂不稳定性，能不能提前预测并避免？", "en": "Can tearing instabilities in fusion plasmas be predicted and avoided in advance?"}, "summary": {"zh": "普林斯顿团队的 AI 控制器在 DIII-D 托卡马克上提前约 300 毫秒预测撕裂不稳定性，并实时调整，使等离子体保持高性能运行。", "en": "A Princeton AI controller predicted tearing instabilities about 300 ms ahead on the DIII-D tokamak and adjusted in real time to keep the plasma at high performance."}, "links": [{"url": "https://doi.org/10.1038/s41586-024-07024-9", "label": "Nature 2024", "kind": "paper"}]},
+  {"id": "2024-alphafold3", "date": "2024-05-08", "domain": "biology", "system": "AlphaFold 3", "title": {"zh": "蛋白质与 DNA、RNA、药物小分子结合在一起时，结构是什么样？", "en": "What do proteins look like when bound to DNA, RNA and drug molecules?"}, "summary": {"zh": "AlphaFold 3 把结构预测扩展到几乎所有生物分子的复合物，在蛋白质与药物分子相互作用的预测上明显优于传统对接方法。", "en": "AlphaFold 3 extended structure prediction to complexes of nearly all biomolecules, clearly beating classical docking on protein–ligand interactions."}, "links": [{"url": "https://doi.org/10.1038/s41586-024-07487-w", "label": "Nature 2024", "kind": "paper"}]},
+  {"id": "2024-alphaproof-imo-silver", "date": "2024-07-25", "domain": "math", "system": "AlphaProof + AlphaGeometry 2", "title": {"zh": "AI 能不能在国际数学奥林匹克竞赛的全部题型上拿到奖牌？", "en": "Can AI earn a medal across a full International Mathematical Olympiad?"}, "summary": {"zh": "DeepMind 的系统解出 2024 年 IMO 六题中的四题，达到银牌水平，证明以 Lean 形式化语言写成。", "en": "DeepMind's systems solved 4 of 6 IMO 2024 problems — silver-medal standard — with proofs written in the Lean formal language."}, "caveat": {"zh": "题目先由人工翻译成形式化语言，部分题目的计算时间远超比赛时限。", "en": "Problems were manually formalised; some took far longer than contest time."}, "links": [{"url": "https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/", "label": "Google DeepMind", "kind": "official"}]},
+  {"id": "2024-nobel-chemistry", "date": "2024-10-09", "domain": "biology", "system": "AlphaFold / protein design", "title": {"zh": "AI 预测蛋白质结构的工作，算不算得上诺贝尔奖级别的科学贡献？", "en": "Does AI protein-structure work count as Nobel-level science?"}, "summary": {"zh": "2024 年诺贝尔化学奖一半授予 Hassabis 与 Jumper（AlphaFold），另一半授予 David Baker（计算蛋白质设计）。", "en": "The 2024 Nobel Prize in Chemistry went half to Hassabis and Jumper (AlphaFold) and half to David Baker (computational protein design)."}, "links": [{"url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/", "label": "Nobel Prize", "kind": "official"}]},
+  {"id": "2024-gencast", "date": "2024-12-04", "domain": "earth", "system": "GenCast", "title": {"zh": "天气预报能不能给出更可靠的概率，比如台风走向的不确定性？", "en": "Can weather forecasts give more reliable probabilities, such as cyclone-track uncertainty?"}, "summary": {"zh": "GenCast 的 15 天集合预报在 97% 的评测目标上优于欧洲中期天气预报中心的集合预报系统。", "en": "GenCast's 15-day ensemble forecasts beat ECMWF's ensemble system on 97% of evaluated targets."}, "links": [{"url": "https://doi.org/10.1038/s41586-024-08252-9", "label": "Nature 2024", "kind": "paper"}]},
+  {"id": "2025-ai-co-scientist", "date": "2025-02-19", "domain": "biology", "system": "AI co-scientist (Google)", "title": {"zh": "AI 能不能提出连科学家还没发表的研究假说？", "en": "Can AI propose a scientific hypothesis that scientists had found but not yet published?"}, "summary": {"zh": "谷歌称其 AI co-scientist 独立提出了关于细菌基因转移机制的假说，与伦敦帝国理工学院团队尚未发表的实验发现一致。", "en": "Google says its AI co-scientist independently proposed a hypothesis on a bacterial gene-transfer mechanism that matched Imperial College's unpublished experimental finding."}, "caveat": {"zh": "发布方主张；系统可能用到了相关的已发表文献。", "en": "Company claim; related published literature may have informed the system."}, "links": [{"url": "https://arxiv.org/abs/2502.18864", "label": "arXiv", "kind": "paper"}]},
+  {"id": "2025-alphaevolve", "date": "2025-05-14", "domain": "math", "system": "AlphaEvolve", "title": {"zh": "两个 4×4 复数矩阵相乘，能不能少做一次乘法？11 维空间里一个球周围最多能贴多少个球？", "en": "Can two 4×4 complex matrices be multiplied with one fewer multiplication? How many spheres can touch one sphere in 11 dimensions?"}, "summary": {"zh": "AlphaEvolve 找到了 48 次标量乘法的 4×4 复矩阵乘法算法（此前为 49 次），还找到了 11 维中 593 个球的接触构型，把已知下界提高了。", "en": "AlphaEvolve found a 48-multiplication algorithm for 4×4 complex matrices (previously 49) and a 593-sphere kissing configuration in 11 dimensions, raising the known lower bound."}, "caveat": {"zh": "593 是“至少能放这么多”，不是证明了最大值。", "en": "593 is a lower bound, not the proven maximum."}, "links": [{"url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/", "label": "Google DeepMind", "kind": "official"}, {"url": "https://arxiv.org/abs/2506.13131", "label": "arXiv", "kind": "paper"}]},
+  {"id": "2025-robin-ripasudil", "date": "2025-05-20", "domain": "medicine", "system": "Robin (FutureHouse)", "title": {"zh": "多智能体系统能不能自己提出并验证一种眼病的候选疗法？", "en": "Can a multi-agent system propose and test a candidate treatment for an eye disease?"}, "summary": {"zh": "FutureHouse 的 Robin 系统提出：已获批的青光眼药物 ripasudil 可能用于治疗干性老年黄斑变性，并设计和分析了支持这一假说的实验。", "en": "FutureHouse's Robin proposed that ripasudil, an approved glaucoma drug, could treat dry age-related macular degeneration, and designed and analysed supporting experiments."}, "caveat": {"zh": "仅有细胞实验，尚未进行临床试验。", "en": "Cell-level evidence only; no clinical trial."}, "links": [{"url": "https://arxiv.org/abs/2505.13400", "label": "arXiv", "kind": "paper"}]},
+  {"id": "2025-imo-gold", "date": "2025-07-21", "domain": "math", "system": "Gemini Deep Think; OpenAI experimental model", "title": {"zh": "只用自然语言、在比赛时限内，AI 能拿到国际数学奥林匹克金牌吗？", "en": "Working in natural language within contest time, can AI reach IMO gold?"}, "summary": {"zh": "Google DeepMind 的 Gemini Deep Think（成绩经 IMO 官方评分）和 OpenAI 的实验模型都宣布解出 2025 年 IMO 六题中的五题，达到金牌分数线。", "en": "Google DeepMind's Gemini Deep Think (officially graded by the IMO) and an OpenAI experimental model both reported solving 5 of 6 IMO 2025 problems, a gold-medal score."}, "caveat": {"zh": "竞赛题是已有答案的题目，不等于解决开放问题。", "en": "Competition problems have known answers; not the same as open research problems."}, "links": [{"url": "https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad", "label": "Google DeepMind", "kind": "official"}, {"url": "https://simonwillison.net/2025/Jul/21/gemini-imo/", "label": "Simon Willison", "kind": "news"}]},
+  {"id": "2025-unstable-singularities", "date": "2025-09-18", "domain": "math", "system": "Physics-informed neural networks (Google DeepMind et al.)", "title": {"zh": "流体方程中那些极难捕捉的“不稳定奇点”，能不能被找出来？", "en": "Can the elusive 'unstable singularities' of fluid equations be found?"}, "summary": {"zh": "Google DeepMind 与布朗大学、纽约大学、斯坦福大学合作，用神经网络加高精度数值方法，在多个流体方程中发现了新的不稳定自相似奇点族。", "en": "Google DeepMind with Brown, NYU and Stanford used neural networks plus high-precision numerics to discover new families of unstable self-similar singularities in several fluid equations."}, "caveat": {"zh": "是高精度数值发现，不是严格证明；也不等于解决了 Navier–Stokes 问题。", "en": "High-precision numerical discoveries, not rigorous proofs, and not a Navier–Stokes solution."}, "links": [{"url": "https://deepmind.google/blog/discovering-new-solutions-to-century-old-problems-in-fluid-dynamics/", "label": "Google DeepMind", "kind": "official"}, {"url": "https://physicsworld.com/a/neural-networks-discover-unstable-singularities-in-fluid-systems/", "label": "Physics World", "kind": "news"}]},
+  {"id": "2025-tao-alphaevolve-67", "date": "2025-11-03", "domain": "math", "system": "AlphaEvolve", "title": {"zh": "把 AI 同时用在几十个数学问题上，能有多少收获？", "en": "What happens when AI is applied to dozens of math problems at once?"}, "summary": {"zh": "Terence Tao 等人与 AlphaEvolve 合作研究了 67 个分析、组合和几何问题，在其中一部分上重新找到已知最优构造，或给出了改进的构造。", "en": "Terence Tao and collaborators applied AlphaEvolve to 67 problems in analysis, combinatorics and geometry, rediscovering best-known constructions in many and improving some."}, "links": [{"url": "https://arxiv.org/abs/2511.02864", "label": "arXiv", "kind": "paper"}]},
+  {"id": "2025-erdos-848", "date": "2025-11-20", "domain": "math", "system": "GPT-5", "title": {"zh": "埃尔德什第 848 号问题（一个乘法数论中的极值问题）的答案是什么？", "en": "What is the answer to Erdős Problem #848, an extremal question in multiplicative number theory?"}, "summary": {"zh": "OpenAI 称 GPT-5 为解决这个问题提供了关键想法，研究者据此完成了证明。", "en": "OpenAI reports GPT-5 supplied the key idea that researchers used to settle the problem."}, "caveat": {"zh": "发布方的报告，人机分工需要看原文。", "en": "Publisher's report; see the paper for division of labour."}, "links": [{"url": "https://cdn.openai.com/pdf/4a25f921-e4e0-479a-9b38-5367b47e8fd0/early-science-acceleration-experiments-with-gpt-5.pdf", "label": "OpenAI", "kind": "official"}]},
+  {"id": "2026-erdos-728", "date": "2026-01-12", "domain": "math", "system": "GPT-5.2 Pro + Aristotle (Harmonic)", "title": {"zh": "埃尔德什第 728 号问题（关于阶乘整除性）能被解决吗？", "en": "Can Erdős Problem #728, on factorial divisibility, be resolved?"}, "summary": {"zh": "GPT-5.2 Pro 与 Harmonic 的 Aristotle 合作给出了解答，并在 Lean 中完成形式化验证，被描述为基本自主完成。", "en": "GPT-5.2 Pro working with Harmonic's Aristotle produced a resolution, formally verified in Lean, described as essentially autonomous."}, "caveat": {"zh": "Terence Tao 评论说，这更多体现的是速度，而不是题目的难度。", "en": "Terence Tao commented that it says more about speed than about difficulty."}, "links": [{"url": "https://arxiv.org/abs/2601.07421", "label": "arXiv", "kind": "paper"}, {"url": "https://the-decoder.com/terence-tao-says-gpt-5-2-pro-cracked-an-erdos-problem-but-warns-the-win-says-more-about-speed-than-difficulty/", "label": "The Decoder", "kind": "news"}]},
+  {"id": "2026-erdos-aletheia", "date": "2026-02", "domain": "math", "system": "Gemini Deep Think (Aletheia)", "title": {"zh": "AI 能不能自主解决埃尔德什问题集中的多个开放问题？", "en": "Can AI autonomously resolve several open Erdős problems?"}, "summary": {"zh": "Google DeepMind 报告其 Aletheia 系统自主解决了埃尔德什第 652 号、第 1051 号等问题。", "en": "Google DeepMind reported its Aletheia system autonomously resolved Erdős Problems #652, #1051 and others."}, "links": [{"url": "https://arxiv.org/abs/2601.22401", "label": "arXiv", "kind": "paper"}]},
+  {"id": "2026-fel-conjecture", "date": "2026-02-03", "domain": "math", "system": "AxiomProver (Axiom Math)", "title": {"zh": "数值半群合冲的 Fel 猜想成立吗？", "en": "Is Fel's conjecture on syzygies of numerical semigroups true?"}, "summary": {"zh": "Axiom Math 的 AxiomProver 从自然语言陈述出发证明了这一猜想，并在 Lean 中完成形式化。", "en": "Axiom Math's AxiomProver proved the conjecture from its natural-language statement and formalised the proof in Lean."}, "links": [{"url": "https://arxiv.org/abs/2602.03716", "label": "arXiv", "kind": "paper"}]},
+  {"id": "2026-frontiermath-ramsey", "date": "2026-03-23", "domain": "math", "system": "GPT-5.4 Pro", "title": {"zh": "一个超图 Ramsey 类问题的下界构造能不能改进？", "en": "Can the lower-bound construction for a Ramsey-type hypergraph problem be improved?"}, "summary": {"zh": "GPT-5.4 Pro 给出了改进的构造，Epoch AI 将 FrontierMath 开放问题列表中的这一题标为已解决。", "en": "GPT-5.4 Pro produced an improved construction, and Epoch AI marked this FrontierMath open problem as solved."}, "links": [{"url": "https://epoch.ai/frontiermath/open-problems/ramsey-hypergraphs", "label": "Epoch AI", "kind": "official"}]},
+  {"id": "2026-erdos-batch-openai", "date": "2026-03-31", "domain": "math", "system": "OpenAI internal model", "title": {"zh": "二项式系数的小素因子、加性基的拆分等几个埃尔德什问题，能被解决吗？", "en": "Can several Erdős questions — small prime factors of binomial coefficients, splitting additive bases — be resolved?"}, "summary": {"zh": "OpenAI 的内部模型给出了这几个问题的简短证明，相关结果以论文形式发布。", "en": "An OpenAI internal model produced short proofs resolving these questions, released as a paper."}, "links": [{"url": "https://arxiv.org/abs/2603.29961", "label": "arXiv", "kind": "paper"}]},
+  {"id": "2026-erdos-1196", "date": "2026-04-15", "domain": "math", "system": "GPT-5.4 Pro", "title": {"zh": "埃尔德什、Sárközy 和 Szemerédi 关于本原集求和的猜想成立吗？（埃尔德什第 1196 号问题）", "en": "Is the Erdős–Sárközy–Szemerédi conjecture on primitive-set sums true? (Erdős #1196)"}, "summary": {"zh": "在 Liam Price 的提示下，GPT-5.4 Pro 证明了猜想中的精确界 1+O(1/log x)。", "en": "Prompted by Liam Price, GPT-5.4 Pro proved the sharp 1+O(1/log x) bound conjectured by Erdős, Sárközy and Szemerédi."}, "links": [{"url": "https://www.erdosproblems.com/history/1196", "label": "erdosproblems.com", "kind": "reference"}]},
+  {"id": "2026-jamming-exponents", "date": "2026-06", "domain": "physics", "system": "Claude", "title": {"zh": "颗粒堵塞理论中，为什么两个临界指数满足 a + b = 1？", "en": "In the theory of jamming, why do two critical exponents satisfy a + b = 1?"}, "summary": {"zh": "这个关系早有高精度数值支持，却一直缺少解析证明。诺贝尔奖得主 Parisi 与 Zamponi 等人在与 Claude 的交互中得到并核查了证明。", "en": "The relation had strong numerical support but no analytic proof. Nobel laureate Giorgio Parisi, Francesco Zamponi and colleagues obtained and checked a proof while working with Claude."}, "caveat": {"zh": "结论在无限维硬球的 fullRSB 理论框架内成立。", "en": "Holds within the infinite-dimensional hard-sphere fullRSB framework."}, "links": [{"url": "https://arxiv.org/abs/2606.03300", "label": "arXiv", "kind": "paper"}, {"url": "https://livescience.com/physics-mathematics/mathematics/nobel-prize-winning-physicist-and-team-use-claude-ai-to-solve-decades-old-math-puzzle", "label": "Live Science", "kind": "news"}]},
+  {"id": "2026-riemann-zeta-zeros", "date": "2026-08-10", "domain": "math", "system": "Claude (research version)", "title": {"zh": "黎曼ζ函数的非平凡零点，能证明至少有多大比例落在临界线上？", "en": "What fraction of the Riemann zeta function's nontrivial zeros can be proven to lie on the critical line?"}, "summary": {"zh": "Anthropic 称，Claude 的研究版本把已知下界从 41.6% 提高到 67.2%，同时公开了论文、专家意见和 Lean 形式化证明。", "en": "Anthropic reports that a research version of Claude raised the known lower bound from 41.6% to 67.2%, releasing the paper, expert notes and a Lean formalization."}, "caveat": {"zh": "黎曼猜想本身没有被证明，这是攻关过程中顺带得到的结果。", "en": "The Riemann hypothesis itself remains unproven; this was a byproduct of the attempt."}, "links": [{"url": "https://www.anthropic.com/research/riemann-zeta", "label": "Anthropic", "kind": "official"}]},
+  {"id": "2026-male-fly-connectome", "date": "2026-09-03", "domain": "biology", "system": "AI-assisted EM reconstruction (Google Research + Janelia)", "title": {"zh": "雄性果蝇完整的中枢神经系统是怎样连接的？", "en": "How is the complete male fruit-fly nervous system wired?"}, "summary": {"zh": "借助 AI 辅助的电子显微镜图像分割与重建，研究者公开了超过 16.6 万个神经元、1.25 亿个突触连接的完整图谱。", "en": "With AI-assisted electron-microscopy segmentation and reconstruction, researchers released a map of over 166,000 neurons and 125 million synapses."}, "links": [{"url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/", "label": "Google Research", "kind": "official"}, {"url": "https://male-cns.janelia.org/", "label": "Janelia", "kind": "official"}]},
+  {"id": "2026-fermat-formalization", "date": "2026-09-04", "domain": "math", "system": "Claude", "title": {"zh": "费马大定理的证明，能不能完整地用计算机逐步验证？", "en": "Can the proof of Fermat's Last Theorem be fully checked by computer?"}, "summary": {"zh": "Anthropic 称数十个 Claude 智能体用 Lean 完成了费马大定理证明的端到端形式化，写了约 1300 万行 Lean 代码。", "en": "Anthropic reports dozens of Claude agents completed an end-to-end Lean formalization of the proof of Fermat's Last Theorem, about 13 million lines of Lean."}, "caveat": {"zh": "是对已知证明的形式化验证，不是新的数学发现；发布方自己的研究。", "en": "Formal verification of a known proof, not new mathematics; company research."}, "links": [{"url": "https://www.anthropic.com/news/formalizing-fermats-last-theorem", "label": "Anthropic", "kind": "official"}]},
+  {"id": "2026-navier-stokes", "date": "2026-09-08", "domain": "math", "system": "OpenAI internal model (GPT-6 Astra for Lean)", "title": {"zh": "一开始光滑的三维流体，会不会在有限时间内出现奇点？（Navier–Stokes 千禧年难题）", "en": "Can a smooth 3D fluid develop a singularity in finite time? (the Navier–Stokes Millennium Problem)"}, "summary": {"zh": "OpenAI 称其内部模型证明了：在施加光滑外力的情况下，Navier–Stokes 方程的解会在有限时间内爆破，并公开了 Lean 形式化证明；同时还给出了无外力 Euler 方程的爆破结果。", "en": "OpenAI says its internal model proved finite-time blowup for Navier–Stokes with a smooth external force, releasing a Lean formalization, plus a blowup result for the unforced Euler equations."}, "caveat": {"zh": "这是发布方的主张，尚未经同行评审，也未获克雷研究所认定。Buckmaster 与 Alpöge 同期发表了相关的爆破结果，双方存在归属争议。", "en": "Publisher's claim; not yet peer reviewed or recognised by the Clay Institute. Buckmaster and Alpöge posted related blowup results concurrently, with a dispute over credit."}, "links": [{"url": "https://openai.com/index/navier-stokes-solution/", "label": "OpenAI", "kind": "official"}, {"url": "https://rits.shanghai.nyu.edu/ai/openai-navier-stokes-proof-credit-dispute/", "label": "NYU Shanghai RITS", "kind": "news"}]},
+  {"id": "2026-strong-secretary", "date": "2026-09-17", "domain": "math", "system": "ChatGPT (GPT-6 Astra)", "title": {"zh": "线性拟阵上的“强秘书问题”猜想成立吗？", "en": "Does the strong secretary conjecture hold for linear matroids?"}, "summary": {"zh": "研究者通过与 ChatGPT 对话得到了该猜想在线性拟阵情形下的证明。", "en": "Researchers obtained a proof of the conjecture for linear matroids through a conversation with ChatGPT."}, "caveat": {"zh": "前一天另一组人类研究者用几乎相同的方法发布了同样的结果。", "en": "Another team posted essentially the same result with a nearly identical approach the day before."}, "links": [{"url": "https://arxiv.org/abs/2609.20797", "label": "arXiv", "kind": "paper"}, {"url": "https://arxiv.org/abs/2609.19118", "label": "arXiv (concurrent)", "kind": "paper"}]},
+  {"id": "2026-antibacterial-polymers", "date": "2026-09-21", "domain": "materials", "system": "Transfer + active learning (Stanford)", "title": {"zh": "在数据很少的情况下，能不能设计出一类新的杀菌聚合物？", "en": "With little data, can we design a new class of antibacterial polymers?"}, "summary": {"zh": "斯坦福团队从抗菌肽数据迁移学习并结合主动学习，合成的 10 种聚合物都能抑制大肠杆菌，其中一种对生物膜特别有效。", "en": "A Stanford team used transfer from antimicrobial-peptide data plus active learning; all 10 synthesised polymers inhibited E. coli, one especially effective against biofilms."}, "caveat": {"zh": "临床前研究。", "en": "Preclinical."}, "links": [{"url": "https://news.stanford.edu/stories/2026/09/bacteria-killing-polymers-new-class-antibiotics", "label": "Stanford", "kind": "official"}, {"url": "https://doi.org/10.1016/j.matt.2026.103026", "label": "Matter 2026", "kind": "paper"}]},
+  {"id": "2026-phage-art-system", "date": "2026-09-23", "domain": "biology", "system": "Claude (≈950 agents)", "title": {"zh": "噬菌体 DNA 中一个奇怪的重复序列，背后是什么新的生物系统？", "en": "What new biological system lies behind an odd repeat pattern in phage DNA?"}, "summary": {"zh": "Anthropic 称约 950 个 Claude 智能体用 21 小时搜索 DNA 数据，发现了一种与逆转录酶相关的新系统，后续实验确认这些重复序列会被转录成短 RNA。", "en": "Anthropic reports about 950 Claude agents searched DNA data for 21 hours and found a new reverse-transcriptase-associated system; lab work confirmed the repeats are transcribed into short RNAs."}, "caveat": {"zh": "生物学功能尚不清楚；发布方自己的研究。", "en": "Biological function unknown; company research."}, "links": [{"url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system", "label": "Anthropic", "kind": "official"}]},
+  {"id": "2026-wolf-rayet-stars", "date": "2026-09-23", "domain": "astronomy", "system": "Machine learning on Gaia spectra", "title": {"zh": "银河系里还有多少稀有的沃尔夫-拉叶星没被发现？", "en": "How many rare Wolf–Rayet stars remain undiscovered in the Milky Way?"}, "summary": {"zh": "机器学习从 Gaia 光谱中挑出 30 个候选，后续观测确认了 13 颗新的银河系沃尔夫-拉叶星。", "en": "Machine learning picked 30 candidates from Gaia spectra; follow-up spectroscopy confirmed 13 new Milky Way Wolf–Rayet stars."}, "caveat": {"zh": "AI 负责挑选候选，确认靠的是光谱观测。", "en": "AI chose targets; spectroscopy did the confirming."}, "links": [{"url": "https://arxiv.org/abs/2609.28640", "label": "arXiv", "kind": "paper"}]},
+  {"id": "2026-openai-math-release", "date": "2026-10-06", "domain": "math", "system": "OpenAI internal model", "title": {"zh": "一个 AI 模型能同时在多少个数学问题上取得新结果？", "en": "How many mathematical problems can one AI model produce new results on at once?"}, "summary": {"zh": "OpenAI 一次性公开了一批由内部模型得到的新数学结果，平均每个结果约用 3 小时推理，其中许多附有 Lean 形式化证明。", "en": "OpenAI released a large batch of new mathematical results from an internal model — about three hours of reasoning each on average — many with Lean formalizations."}, "caveat": {"zh": "各结果的验证程度不同，需要逐题拆分查看。", "en": "Verification varies by result; each needs to be examined individually."}, "links": [{"url": "https://openai.com/index/sharing-ai-progress-in-mathematics/", "label": "OpenAI", "kind": "official"}, {"url": "https://github.com/openai/math", "label": "GitHub openai/math", "kind": "official"}]}
 ]

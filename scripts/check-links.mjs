@@ -1,7 +1,7 @@
 // Checks every link in data/events.json. Never fails the build: it prints a
 // report (and writes it to the GitHub Actions summary). Only 404/410 and
 // unreachable hosts count as broken; 401/403/429 are usually bot blocking.
-import { readFileSync, appendFileSync } from "node:fs";
+import { readFileSync, appendFileSync, writeFileSync } from "node:fs";
 
 const events = JSON.parse(readFileSync(new URL("../data/events.json", import.meta.url), "utf8"));
 const jobs = events.flatMap((e) => (e.links || []).map((l) => ({ id: e.id, url: l.url })));
@@ -31,3 +31,10 @@ let md = `## Link check\n\n${results.length} links, ${broken.length} broken, ${b
 if (broken.length) md += "| event | url | status |\n|---|---|---|\n" + broken.map((r) => `| ${r.id} | ${r.url} | ${r.status} |`).join("\n") + "\n";
 console.log(md);
 if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, md);
+const sortBy = (a, b) => (a.id + a.url).localeCompare(b.id + b.url);
+writeFileSync(new URL("../data/link-report.json", import.meta.url), JSON.stringify({
+  checked_at: new Date().toISOString(),
+  total: results.length,
+  broken: broken.sort(sortBy).map(({ id, url, status }) => ({ id, url, status })),
+  blocked_by_site: blocked.sort(sortBy).map(({ id, url, status }) => ({ id, url, status }))
+}, null, 2) + "\n");

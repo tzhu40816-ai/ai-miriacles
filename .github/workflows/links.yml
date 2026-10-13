@@ -9,7 +9,11 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: links
+  cancel-in-progress: true
 
 jobs:
   links:
@@ -20,3 +24,11 @@ jobs:
         with:
           node-version: 20
       - run: node scripts/check-links.mjs
+      - name: Commit report (data/link-report.json)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/link-report.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update link report [skip ci]"
+          git pull --rebase origin main && git push
