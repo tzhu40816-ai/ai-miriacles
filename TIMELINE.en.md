@@ -4,7 +4,7 @@
 
 A chronological record of concrete problems AI has solved or advanced. The problem is the protagonist, not the model.
 
-217 entries · [← Back to README](README.md) · Other language：[中文](TIMELINE.md)
+218 entries · [← Back to README](README.md) · Other language：[中文](TIMELINE.md)
 
 [1950s-1970s](#1950s-1970s) · [1980s-1990s](#1980s-1990s) · [2000s](#2000s) · [2010s](#2010s) · [2020-2023](#2020-2023) · [2024](#2024) · [2025](#2025) · [2026](#2026)
 
@@ -1092,6 +1092,8 @@ OpenAI says its system solved all 12 problems; Google DeepMind's Gemini 2.5 Deep
 
 DeepMind and LIGO used reinforcement learning to design a controller that sharply cut the noise introduced by mirror control, which should help detect more and more distant gravitational-wave events.
 
+> **Limits：** The LIGO announcement describes an on-detector demonstration lasting about one hour; longer operation and deployment on more systems still required further tests.
+
 *Astronomy · Deep Loop Shaping (Google DeepMind + LIGO)*　Sources：[Google DeepMind](https://deepmind.google/blog/using-ai-to-perceive-the-universe-in-greater-depth/) (Official) · [LIGO](https://www.ligo.caltech.edu/news/ligo20250908) (Official)
 
 #### 2025-09-17｜Can AI design whole viral genomes that are viable and infect bacteria?
@@ -1124,19 +1126,19 @@ DeepMind published AlphaProof's method in Nature: reinforcement learning inside 
 
 *Mathematics · AlphaProof*　Sources：[Google Research](https://research.google/pubs/olympiad-level-formal-mathematical-reasoning-with-reinforcement-learning/) (Paper) · [Nature press release](https://www.natureasia.com/en/info/press-releases/detail/9147) (Official)
 
-#### 2025-11｜Can an AI-scientist agent work for hours — reading papers, writing code, analysing data — and reach discoveries by itself?
-
-Edison Scientific's Kosmos can run for about 12 hours at a time and reported discoveries across several fields; the publisher reports independent scientists judged about 79.4% of statements in its reports accurate.
-
-> **Limits：** The publisher's own evaluation; roughly one in five statements was inaccurate.
-
-*Other · Kosmos (Edison Scientific)*　Sources：[arXiv](https://arxiv.org/abs/2511.02824) (Paper) · [Edison Scientific](https://edisonscientific.com/articles/announcing-kosmos) (Official) · [HPCwire](https://www.hpcwire.com/aiwire/2025/11/07/futurehouse-spins-out-edison-scientific-launches-kosmos-ai-for-research/) (News)
-
 #### 2025-11-03｜What happens when AI is applied to dozens of math problems at once?
 
 Terence Tao and collaborators applied AlphaEvolve to 67 problems in analysis, combinatorics and geometry, rediscovering best-known constructions in many and improving some.
 
 *Mathematics · AlphaEvolve*　Sources：[arXiv](https://arxiv.org/abs/2511.02864) (Paper)
+
+#### 2025-11-05｜Can an AI-scientist agent work for hours — reading papers, writing code, analysing data — and reach discoveries by itself?
+
+Edison Scientific's Kosmos can run for about 12 hours at a time and reported discoveries across several fields; the publisher reports independent scientists judged about 79.4% of statements in its reports accurate.
+
+> **Limits：** The publisher's own evaluation; roughly one in five statements was inaccurate.
+
+*Other · Kosmos (Edison Scientific)*　Sources：[arXiv](https://arxiv.org/abs/2511.02824) (Paper) · [Edison Scientific](https://advances.edisonscientific.com/research/announcing-kosmos/) (Official) · [HPCwire](https://www.hpcwire.com/aiwire/2025/11/07/futurehouse-spins-out-edison-scientific-launches-kosmos-ai-for-research/) (News)
 
 #### 2025-11-05｜Can AI design antibodies from scratch that bind a chosen target?
 
@@ -1218,7 +1220,7 @@ Guevara, Lupsasca, Skinner, Strominger and colleagues showed these amplitudes do
 
 OpenAI submitted answers to First Proof and says at least five (problems 4, 5, 6, 9 and 10) have a high chance of being correct.
 
-> **Limits：** Expert review was not complete; the remaining answers were still under review.
+> **Limits：** This is the publisher’s assessment in its February 20, 2026 announcement, not final verification of all answers. OpenAI also acknowledged that its initially promising attempt for problem 2 was incorrect. Some attempts involved human prompting, selection and feedback.
 
 *Mathematics · OpenAI unreleased research system*　Sources：[arXiv](https://arxiv.org/abs/2602.05192) (Paper) · [OpenAI](https://openai.com/index/first-proof-submissions) (Official)
 
@@ -1544,9 +1546,17 @@ Zhejiang University's multi-agent Qiushi Engine searched, analysed and verified 
 
 #### 2026-10-06｜How many mathematical problems can one AI model produce new results on at once?
 
-OpenAI released a large batch of new mathematical results from an internal model — about three hours of reasoning each on average — many with Lean formalizations.
+OpenAI released new mathematical results from an internal model and Lean formalizations of some proofs. The publisher estimates average compute per result as equivalent to roughly three hours of ChatGPT Pro thinking, and provides reasoning summaries and attempted-problem statistics.
 
 > **Limits：** Verification varies by result; each needs to be examined individually.
 
 *Mathematics · OpenAI internal model*　Sources：[OpenAI](https://openai.com/index/sharing-ai-progress-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official)
+
+#### 2026-10-08｜Can the gaps in ultraviolet surveys be filled to make a full-sky UV map?
+
+Brice Ménard reports working with Claude Science to combine and calibrate UV surveys, estimate unobserved regions from other wavelengths, and produce a full-sky UV map. The map distinguishes measured and predicted regions and provides uncertainty estimates.
+
+> **Limits：** About a third of the sky is filled by predictions rather than new UV observations; the researcher guided, checked and corrected the work.
+
+*Astronomy · Claude Science + Brice Ménard*　Sources：[Anthropic / Brice Ménard](https://www.anthropic.com/research/the-missing-map-of-the-sky) (Official)
 

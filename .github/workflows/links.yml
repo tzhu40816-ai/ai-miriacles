@@ -3,7 +3,7 @@ name: Check links
 on:
   push:
     branches: [main]
-    paths: [data/events.json]
+    paths: [data/events.json, scripts/check-links.mjs]
   schedule:
     - cron: "17 6 * * 1"   # weekly, Monday
   workflow_dispatch:

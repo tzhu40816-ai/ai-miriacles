@@ -15,7 +15,7 @@ const win = {};
 new Function("window", readFileSync(new URL("assets/i18n.js", root), "utf8"))(win);
 const UI = win.UI;
 
-const SITE = "https://tzhu40816-ai.github.io/ai-miriacles/";
+const SITE = "https://jwcommunity.space/ai/miracles";
 const REPO = "https://github.com/tzhu40816-ai/ai-miriacles";
 
 const ERAS = [
@@ -107,6 +107,8 @@ const readme = `${stamp}# AI创造的奇迹 · Miracles Made by AI
 
 **网站 / Website：** ${SITE}
 
+中文：[AI创造的奇迹](${SITE}) · English: [Miracles Made by AI](${SITE}?lang=en)
+
 ${T.zh.lead}从 ${first} 年第一个自动证明定理的程序，到今天参与解决数学和物理前沿难题。
 
 ${T.en.lead} From the first theorem-proving program in ${first} to AI taking part in frontier mathematics and physics today.
@@ -151,6 +153,20 @@ AGENTS.md                自动更新代理的说明 / instructions for the upda
 
 更新流程：编辑 \`data/events.json\` → \`node scripts/validate.mjs\` → \`node scripts/build-docs.mjs\` → 提交。
 Workflow: edit \`data/events.json\` → \`node scripts/validate.mjs\` → \`node scripts/build-docs.mjs\` → commit.
+
+## 网站与同步 / Website and synchronization
+
+正式网站位于健文社区的「AI 学习 → AI创造的奇迹」，首页和产品页也有入口；无需登录即可浏览。支持搜索、领域筛选、中英文、时间排序和入门精选。
+The public website is part of Jianwen Community's AI Learning section, with additional links from the homepage and Products. Browsing does not require an account.
+
+本仓库的 \`data/events.json\` 是案例数据源；README、时间线和领域文档由脚本生成。健文社区使用随站点部署的版本快照，仓库提交不会直接改动已经上线的数据。
+This repository owns the event data and generated documentation. The community website serves a deployed snapshot; a commit here does not directly change the live website.
+
+维护者在[社区网站仓库](https://github.com/SmallHorseBrother/jianwen-community)运行 \`node scripts/sync-ai-miracles.mjs --write\`，先校验上游数据，再更新案例、来源版本和许可说明；检查并提交这些改动后，沿用网站现有部署流程发布。可用 \`--ref <commit-sha>\` 固定来源版本；不带 \`--write\` 时仅检查，不修改文件。
+Maintainers run \`node scripts/sync-ai-miracles.mjs --write\` in the community repository, review and commit the validated snapshot, then publish through the existing website deployment. Use \`--ref <commit-sha>\` to pin a revision, or omit \`--write\` for a read-only check.
+
+本仓库保留可独立运行的静态页面。GitHub Pages 仅在仓库管理员启用后作为可选部署；旧 Pages 地址目前不是正式网站入口。
+The standalone static page is retained. GitHub Pages is optional and only deploys when enabled by a repository administrator; its former address is not the canonical public website.
 
 发现遗漏或错误？欢迎[提交 Issue](${REPO}/issues/new)。Spotted a gap or an error? [Open an issue](${REPO}/issues/new).
 

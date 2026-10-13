@@ -282,7 +282,7 @@ Axiom Math's AxiomProver proved, from a natural-language statement, that a densi
 
 OpenAI submitted answers to First Proof and says at least five (problems 4, 5, 6, 9 and 10) have a high chance of being correct.
 
-> **Limits：** Expert review was not complete; the remaining answers were still under review.
+> **Limits：** This is the publisher’s assessment in its February 20, 2026 announcement, not final verification of all answers. OpenAI also acknowledged that its initially promising attempt for problem 2 was incorrect. Some attempts involved human prompting, selection and feedback.
 
 *OpenAI unreleased research system*　Sources：[arXiv](https://arxiv.org/abs/2602.05192) (Paper) · [OpenAI](https://openai.com/index/first-proof-submissions) (Official)
 
@@ -514,7 +514,7 @@ Zhejiang University's multi-agent Qiushi Engine searched, analysed and verified 
 
 #### 2026-10-06｜How many mathematical problems can one AI model produce new results on at once?
 
-OpenAI released a large batch of new mathematical results from an internal model — about three hours of reasoning each on average — many with Lean formalizations.
+OpenAI released new mathematical results from an internal model and Lean formalizations of some proofs. The publisher estimates average compute per result as equivalent to roughly three hours of ChatGPT Pro thinking, and provides reasoning summaries and attempted-problem statistics.
 
 > **Limits：** Verification varies by result; each needs to be examined individually.
 

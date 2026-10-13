@@ -2,7 +2,7 @@
 
 # Astronomy: problems AI has solved
 
-4 entries · [← Back to README](../../README.md)
+5 entries · [← Back to README](../../README.md)
 
 #### 2017-12-14｜Are there undiscovered planets hiding in existing telescope data?
 
@@ -20,6 +20,8 @@ NASA's deep-learning classifier ExoMiner validated 301 new exoplanets and can ex
 
 DeepMind and LIGO used reinforcement learning to design a controller that sharply cut the noise introduced by mirror control, which should help detect more and more distant gravitational-wave events.
 
+> **Limits：** The LIGO announcement describes an on-detector demonstration lasting about one hour; longer operation and deployment on more systems still required further tests.
+
 *Deep Loop Shaping (Google DeepMind + LIGO)*　Sources：[Google DeepMind](https://deepmind.google/blog/using-ai-to-perceive-the-universe-in-greater-depth/) (Official) · [LIGO](https://www.ligo.caltech.edu/news/ligo20250908) (Official)
 
 #### 2026-09-23｜How many rare Wolf–Rayet stars remain undiscovered in the Milky Way?
@@ -29,4 +31,12 @@ Machine learning picked 30 candidates from Gaia spectra; follow-up spectroscopy 
 > **Limits：** AI chose targets; spectroscopy did the confirming.
 
 *Machine learning on Gaia spectra*　Sources：[arXiv](https://arxiv.org/abs/2609.28640) (Paper)
+
+#### 2026-10-08｜Can the gaps in ultraviolet surveys be filled to make a full-sky UV map?
+
+Brice Ménard reports working with Claude Science to combine and calibrate UV surveys, estimate unobserved regions from other wavelengths, and produce a full-sky UV map. The map distinguishes measured and predicted regions and provides uncertainty estimates.
+
+> **Limits：** About a third of the sky is filled by predictions rather than new UV observations; the researcher guided, checked and corrected the work.
+
+*Claude Science + Brice Ménard*　Sources：[Anthropic / Brice Ménard](https://www.anthropic.com/research/the-missing-map-of-the-sky) (Official)
 

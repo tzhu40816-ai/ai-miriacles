@@ -2,6 +2,8 @@
 
 本仓库是《AI创造的奇迹》：一条按时间排列的“AI 解决了哪些具体问题”的时间线，网站由 `data/events.json` 自动生成。
 
+正式网站：https://jwcommunity.space/ai/miracles 。仓库维护数据与静态页面，社区网站使用校验后部署的快照，不能把推送到本仓库等同于社区网站已经更新。
+
 **主角是问题，不是模型。** 标题写“解决了什么问题”，不写“某公司发布了某模型”。
 
 ## 你的任务（每次运行）
@@ -11,10 +13,11 @@
 3. 对每个新发现：
    - 如果 `data/events.json` 里已有同一件事（看问题、日期、系统），只把新链接追加到那条的 `links` 里。
    - 否则新增一条（格式见下）。
-4. 运行 `node scripts/validate.mjs`（必须通过），再运行 `node scripts/build-docs.mjs`，重新生成 `README.md`、`TIMELINE.md`、`TIMELINE.en.md` 和 `domains/`。这些文件是脚本生成的，**不要手工改**，只改 `data/events.json`。
+4. 运行 `node scripts/validate.mjs`（必须通过），再运行 `node scripts/build-docs.mjs`，重新生成 `README.md`、`TIMELINE.md`、`TIMELINE.en.md` 和 `domains/`。这些文件是脚本生成的，**不要手工改**。案例修改写入 `data/events.json`；网站地址、README 结构或维护说明需要变更时，修改 `scripts/build-docs.mjs` 中的模板后重新生成。
 5. 直接提交并推送到 `main`：`git add -A && git commit -m "data: <简述>" && git push`。（GitHub 也会在 `data/events.json` 变化时自动重新生成这些页面。）
 6. 没有新内容就什么都不提交。
-7. 顺便看一眼 `data/link-report.json`（GitHub 每次自动生成）：`broken` 里列出的链接打不开，请换成有效的来源链接。`blocked_by_site` 只是网站拦截机器人，一般不用管。
+7. 顺便看一眼 `data/link-report.json`（GitHub 自动生成）：核实 `broken` 中的 404、410 或无效 DOI 后，换成实际打开过的来源链接。`blocked_by_site` 表示 401/403/429 等访问限制；`unverified` 表示证书、超时或其他未完成检查的请求，不足以证明链接失效，不要据此删除有效来源。
+8. 在用户已授权同步社区网站的任务中，进入社区网站仓库，运行 `node scripts/sync-ai-miracles.mjs --write --ref <本次提交 SHA>`；检查并只提交该同步脚本更新的文件，推送后核对线上来源版本和案例。仅被要求维护本仓库时，在交付中说明社区快照是否同步，不要声称已自动上线。
 
 如果被要求“补历史”，就按年代（如 1950s、1960s…）逐段搜索早期成果，同样规则加入。
 

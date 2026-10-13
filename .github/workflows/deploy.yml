@@ -1,4 +1,4 @@
-name: Validate & deploy site
+name: Validate site and optionally deploy Pages
 
 on:
   push:
@@ -17,6 +17,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      pages_enabled: ${{ steps.hosting.outputs.pages_enabled }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -24,16 +26,26 @@ jobs:
           node-version: 20
       - name: Validate data (blocks deploy if broken)
         run: node scripts/validate.mjs
+      - name: Check whether optional GitHub Pages hosting is enabled
+        id: hosting
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          pages_enabled=$(gh api "repos/$GITHUB_REPOSITORY" --jq '.has_pages')
+          echo "pages_enabled=$pages_enabled" >> "$GITHUB_OUTPUT"
       - name: Assemble site
+        if: steps.hosting.outputs.pages_enabled == 'true'
         run: |
           mkdir _site
           cp -r index.html assets data _site/
       - uses: actions/upload-pages-artifact@v3
+        if: steps.hosting.outputs.pages_enabled == 'true'
         with:
           path: _site
 
   deploy:
     needs: build
+    if: needs.build.outputs.pages_enabled == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

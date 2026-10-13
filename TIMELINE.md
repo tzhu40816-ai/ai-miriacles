@@ -4,7 +4,7 @@
 
 按时间顺序收录 AI 实际解决或推进了的具体问题。主角是问题，不是模型。
 
-共 217 条 · [← 返回 README](README.md) · 其他语言：[English](TIMELINE.en.md)
+共 218 条 · [← 返回 README](README.md) · 其他语言：[English](TIMELINE.en.md)
 
 [1950s-1970s](#1950s-1970s) · [1980s-1990s](#1980s-1990s) · [2000s](#2000s) · [2010s](#2010s) · [2020-2023](#2020-2023) · [2024](#2024) · [2025](#2025) · [2026](#2026)
 
@@ -1092,6 +1092,8 @@ OpenAI 称其系统做对了全部 12 道题，Google DeepMind 的 Gemini 2.5 De
 
 DeepMind 与 LIGO 合作，用强化学习设计控制器，大幅降低了镜面控制引入的噪声，有助于探测更多、更远的引力波事件。
 
+> **边界：** LIGO 的公告说明，探测器上的演示测试仅持续约一小时，长期运行和更多系统的应用仍需后续测试。
+
 *天文 · Deep Loop Shaping (Google DeepMind + LIGO)*　来源：[Google DeepMind](https://deepmind.google/blog/using-ai-to-perceive-the-universe-in-greater-depth/) (官方) · [LIGO](https://www.ligo.caltech.edu/news/ligo20250908) (官方)
 
 #### 2025-09-17｜AI 能不能设计出完整的、能存活并感染细菌的病毒基因组？
@@ -1124,19 +1126,19 @@ DeepMind 在《自然》上发表了 AlphaProof 的方法：用强化学习在 L
 
 *数学 · AlphaProof*　来源：[Google Research](https://research.google/pubs/olympiad-level-formal-mathematical-reasoning-with-reinforcement-learning/) (论文) · [Nature press release](https://www.natureasia.com/en/info/press-releases/detail/9147) (官方)
 
-#### 2025-11｜AI 科学家智能体能不能连续工作多小时，自己读文献、写代码、分析数据并得出发现？
-
-Edison Scientific 的 Kosmos 一次可连续运行约 12 小时，在多个领域提出了发现；发布方报告，独立科学家评估其报告中约 79.4% 的陈述准确。
-
-> **边界：** 发布方的评估，约五分之一的陈述不准确。
-
-*其他 · Kosmos (Edison Scientific)*　来源：[arXiv](https://arxiv.org/abs/2511.02824) (论文) · [Edison Scientific](https://edisonscientific.com/articles/announcing-kosmos) (官方) · [HPCwire](https://www.hpcwire.com/aiwire/2025/11/07/futurehouse-spins-out-edison-scientific-launches-kosmos-ai-for-research/) (报道)
-
 #### 2025-11-03｜把 AI 同时用在几十个数学问题上，能有多少收获？
 
 Terence Tao 等人与 AlphaEvolve 合作研究了 67 个分析、组合和几何问题，在其中一部分上重新找到已知最优构造，或给出了改进的构造。
 
 *数学 · AlphaEvolve*　来源：[arXiv](https://arxiv.org/abs/2511.02864) (论文)
+
+#### 2025-11-05｜AI 科学家智能体能不能连续工作多小时，自己读文献、写代码、分析数据并得出发现？
+
+Edison Scientific 的 Kosmos 一次可连续运行约 12 小时，在多个领域提出了发现；发布方报告，独立科学家评估其报告中约 79.4% 的陈述准确。
+
+> **边界：** 发布方的评估，约五分之一的陈述不准确。
+
+*其他 · Kosmos (Edison Scientific)*　来源：[arXiv](https://arxiv.org/abs/2511.02824) (论文) · [Edison Scientific](https://advances.edisonscientific.com/research/announcing-kosmos/) (官方) · [HPCwire](https://www.hpcwire.com/aiwire/2025/11/07/futurehouse-spins-out-edison-scientific-launches-kosmos-ai-for-research/) (报道)
 
 #### 2025-11-05｜能不能用 AI 从零设计出能结合指定靶点的抗体？
 
@@ -1218,7 +1220,7 @@ Guevara、Lupsasca、Skinner、Strominger 等人指出，在“半共线”动�
 
 OpenAI 提交了 First Proof 的答案，称其中至少 5 题（第 4、5、6、9、10 题）有很高概率是正确的。
 
-> **边界：** 专家评审尚未结束，其余答案仍在审核。
+> **边界：** 这是 2026 年 2 月 20 日公告中的发布方判断，不能视为全部答案已获正式验证；OpenAI 同时承认，第 2 题原先认为可能正确的证明已被官方点评和社区分析指出有误。部分尝试经过人类提示、选择和反馈。
 
 *数学 · OpenAI unreleased research system*　来源：[arXiv](https://arxiv.org/abs/2602.05192) (论文) · [OpenAI](https://openai.com/index/first-proof-submissions) (官方)
 
@@ -1544,9 +1546,17 @@ Anthropic 称约 950 个 Claude 智能体用 21 小时搜索 DNA 数据，发现
 
 #### 2026-10-06｜一个 AI 模型能同时在多少个数学问题上取得新结果？
 
-OpenAI 一次性公开了一批由内部模型得到的新数学结果，平均每个结果约用 3 小时推理，其中许多附有 Lean 形式化证明。
+OpenAI 公开了一批由内部模型得到的新数学结果及部分 Lean 形式化证明。发布方按 ChatGPT Pro 思考的计算用量折算，平均每个结果约相当于 3 小时，并公开了推理摘要和尝试问题数量等信息。
 
 > **边界：** 各结果的验证程度不同，需要逐题拆分查看。
 
 *数学 · OpenAI internal model*　来源：[OpenAI](https://openai.com/index/sharing-ai-progress-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方)
+
+#### 2026-10-08｜紫外巡天留下的大片空白，能不能补成一幅覆盖全天的紫外地图？
+
+Brice Ménard 报告，他与 Claude Science 整合、校准多组紫外巡天数据，并利用其他波段的信息估计未观测区域，生成了覆盖全天的紫外地图。地图区分观测与预测区域，并提供不确定度估计。
+
+> **边界：** 约三分之一天区由模型预测补全，不是新获得的紫外观测；研究者参与规划、检查和纠错。
+
+*天文 · Claude Science + Brice Ménard*　来源：[Anthropic / Brice Ménard](https://www.anthropic.com/research/the-missing-map-of-the-sky) (官方)
 

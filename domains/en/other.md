@@ -4,11 +4,11 @@
 
 1 entries · [← Back to README](../../README.md)
 
-#### 2025-11｜Can an AI-scientist agent work for hours — reading papers, writing code, analysing data — and reach discoveries by itself?
+#### 2025-11-05｜Can an AI-scientist agent work for hours — reading papers, writing code, analysing data — and reach discoveries by itself?
 
 Edison Scientific's Kosmos can run for about 12 hours at a time and reported discoveries across several fields; the publisher reports independent scientists judged about 79.4% of statements in its reports accurate.
 
 > **Limits：** The publisher's own evaluation; roughly one in five statements was inaccurate.
 
-*Kosmos (Edison Scientific)*　Sources：[arXiv](https://arxiv.org/abs/2511.02824) (Paper) · [Edison Scientific](https://edisonscientific.com/articles/announcing-kosmos) (Official) · [HPCwire](https://www.hpcwire.com/aiwire/2025/11/07/futurehouse-spins-out-edison-scientific-launches-kosmos-ai-for-research/) (News)
+*Kosmos (Edison Scientific)*　Sources：[arXiv](https://arxiv.org/abs/2511.02824) (Paper) · [Edison Scientific](https://advances.edisonscientific.com/research/announcing-kosmos/) (Official) · [HPCwire](https://www.hpcwire.com/aiwire/2025/11/07/futurehouse-spins-out-edison-scientific-launches-kosmos-ai-for-research/) (News)
 
