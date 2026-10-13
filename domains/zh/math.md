@@ -288,7 +288,7 @@ OpenAI 称 Astra 改进了高维球堆积密度的一般上界，这是自 1978 
 
 *OpenAI Astra (unreleased)*　来源：[GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
 
-#### 2026-08-10｜黎曼ζ函数的非平凡零点，能证明至少有多大比例落在临界线上？
+#### 2026-08-10｜黎曼猜想还没解决，但黎曼ζ函数的非平凡零点，能证明至少有多大比例落在临界线上？（黎曼猜想的部分进展）
 
 Anthropic 称，Claude 的研究版本把已知下界从 41.6% 提高到 67.2%，同时公开了论文、专家意见和 Lean 形式化证明。
 

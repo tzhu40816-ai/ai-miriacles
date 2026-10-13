@@ -288,7 +288,7 @@ OpenAI says Astra improved the general upper bound on sphere-packing density in 
 
 *OpenAI Astra (unreleased)*　Sources：[GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
 
-#### 2026-08-10｜What fraction of the Riemann zeta function's nontrivial zeros can be proven to lie on the critical line?
+#### 2026-08-10｜The Riemann Hypothesis is still open, but what proportion of the zeta function's nontrivial zeros can be proved to lie on the critical line? (partial progress toward the Riemann Hypothesis)
 
 Anthropic reports that a research version of Claude raised the known lower bound from 41.6% to 67.2%, releasing the paper, expert notes and a Lean formalization.
 
