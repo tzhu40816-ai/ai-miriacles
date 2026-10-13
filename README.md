@@ -16,37 +16,38 @@ A chronological record of concrete problems AI has solved or advanced. The probl
 | | 中文 | English |
 |---|---|---|
 | 完整时间线（最早 → 最新）/ Full timeline | [TIMELINE.md](TIMELINE.md) | [TIMELINE.en.md](TIMELINE.en.md) |
-| 按领域 / By field | [数学](domains/zh/math.md) · [博弈](domains/zh/games.md) · [生物](domains/zh/biology.md) · [感知与语言](domains/zh/language.md) · [医学](domains/zh/medicine.md) · [机器人与自主系统](domains/zh/robotics.md) · [物理](domains/zh/physics.md) · [化学](domains/zh/chemistry.md) · [算法与软件](domains/zh/computing.md) · [地球与气候](domains/zh/earth.md) · [材料](domains/zh/materials.md) · [天文](domains/zh/astronomy.md) | [Mathematics](domains/en/math.md) · [Games](domains/en/games.md) · [Biology](domains/en/biology.md) · [Perception & language](domains/en/language.md) · [Medicine](domains/en/medicine.md) · [Robotics & autonomy](domains/en/robotics.md) · [Physics](domains/en/physics.md) · [Chemistry](domains/en/chemistry.md) · [Algorithms & software](domains/en/computing.md) · [Earth & climate](domains/en/earth.md) · [Materials](domains/en/materials.md) · [Astronomy](domains/en/astronomy.md) |
+| 按领域 / By field | [数学](domains/zh/math.md) · [博弈](domains/zh/games.md) · [生物](domains/zh/biology.md) · [感知与语言](domains/zh/language.md) · [医学](domains/zh/medicine.md) · [算法与软件](domains/zh/computing.md) · [物理](domains/zh/physics.md) · [机器人与自主系统](domains/zh/robotics.md) · [地球与气候](domains/zh/earth.md) · [化学](domains/zh/chemistry.md) · [材料](domains/zh/materials.md) · [天文](domains/zh/astronomy.md) · [其他](domains/zh/other.md) | [Mathematics](domains/en/math.md) · [Games](domains/en/games.md) · [Biology](domains/en/biology.md) · [Perception & language](domains/en/language.md) · [Medicine](domains/en/medicine.md) · [Algorithms & software](domains/en/computing.md) · [Physics](domains/en/physics.md) · [Robotics & autonomy](domains/en/robotics.md) · [Earth & climate](domains/en/earth.md) · [Chemistry](domains/en/chemistry.md) · [Materials](domains/en/materials.md) · [Astronomy](domains/en/astronomy.md) · [Other](domains/en/other.md) |
 
-当前 123 条，覆盖 1956–2026。Currently 123 entries, 1956–2026.
+当前 189 条，覆盖 1956–2026。Currently 189 entries, 1956–2026.
 
 ## 分布 / Coverage
 
 | 时期 / Period | 条数 / Entries |
 |---|---|
-| [1950s-1970s](TIMELINE.md#1950s-1970s) | 14 |
-| [1980s-1990s](TIMELINE.md#1980s-1990s) | 13 |
-| [2000s](TIMELINE.md#2000s) | 6 |
-| [2010s](TIMELINE.md#2010s) | 25 |
-| [2020-2023](TIMELINE.md#2020-2023) | 36 |
-| [2024](TIMELINE.md#2024) | 6 |
-| [2025](TIMELINE.md#2025) | 7 |
-| [2026](TIMELINE.md#2026) | 16 |
+| [1950s-1970s](TIMELINE.md#1950s-1970s) | 21 |
+| [1980s-1990s](TIMELINE.md#1980s-1990s) | 15 |
+| [2000s](TIMELINE.md#2000s) | 7 |
+| [2010s](TIMELINE.md#2010s) | 35 |
+| [2020-2023](TIMELINE.md#2020-2023) | 47 |
+| [2024](TIMELINE.md#2024) | 10 |
+| [2025](TIMELINE.md#2025) | 25 |
+| [2026](TIMELINE.md#2026) | 29 |
 
 | 领域 / Field | 条数 / Entries |
 |---|---|
-| 数学 / Mathematics | 29 |
-| 博弈 / Games | 23 |
-| 生物 / Biology | 13 |
-| 感知与语言 / Perception & language | 12 |
-| 医学 / Medicine | 9 |
-| 机器人与自主系统 / Robotics & autonomy | 8 |
-| 物理 / Physics | 7 |
+| 数学 / Mathematics | 45 |
+| 博弈 / Games | 26 |
+| 生物 / Biology | 20 |
+| 感知与语言 / Perception & language | 19 |
+| 医学 / Medicine | 18 |
+| 算法与软件 / Algorithms & software | 14 |
+| 物理 / Physics | 13 |
+| 机器人与自主系统 / Robotics & autonomy | 11 |
+| 地球与气候 / Earth & climate | 7 |
 | 化学 / Chemistry | 6 |
-| 算法与软件 / Algorithms & software | 6 |
-| 地球与气候 / Earth & climate | 5 |
-| 材料 / Materials | 3 |
-| 天文 / Astronomy | 2 |
+| 材料 / Materials | 5 |
+| 天文 / Astronomy | 4 |
+| 其他 / Other | 1 |
 
 ## 最近新增 / Most recent
 
@@ -59,9 +60,9 @@ A chronological record of concrete problems AI has solved or advanced. The probl
 - 2026-09-04｜费马大定理的证明，能不能完整地用计算机逐步验证？
 - 2026-09-03｜雄性果蝇完整的中枢神经系统是怎样连接的？
 - 2026-08-10｜黎曼ζ函数的非平凡零点，能证明至少有多大比例落在临界线上？
-- 2026-06｜颗粒堵塞理论中，为什么两个临界指数满足 a + b = 1？
-- 2026-04-15｜埃尔德什、Sárközy 和 Szemerédi 关于本原集求和的猜想成立吗？（埃尔德什第 1196 号问题）
-- 2026-03-31｜二项式系数的小素因子、加性基的拆分等几个埃尔德什问题，能被解决吗？
+- 2026-08-01｜算子代数中的 Connes 刚性猜想成立吗？
+- 2026-08-01｜是不是每个可数群都能用有限置换来近似？（Gromov 1999 年提出的 sofic 群问题）
+- 2026-08-01｜高维空间里，等大小的球最多能占据多大比例的空间？（球堆积密度的上界）
 
 ## 仓库结构 / Structure
 

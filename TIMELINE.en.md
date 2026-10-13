@@ -4,7 +4,7 @@
 
 A chronological record of concrete problems AI has solved or advanced. The problem is the protagonist, not the model.
 
-123 entries · [← Back to README](README.md) · Other language：[中文](TIMELINE.md)
+189 entries · [← Back to README](README.md) · Other language：[中文](TIMELINE.md)
 
 [1950s-1970s](#1950s-1970s) · [1980s-1990s](#1980s-1990s) · [2000s](#2000s) · [2010s](#2010s) · [2020-2023](#2020-2023) · [2024](#2024) · [2025](#2025) · [2026](#2026)
 
@@ -36,6 +36,14 @@ Gelernter's geometry prover at IBM used the diagram as a heuristic to prune sear
 
 *Mathematics · Geometry Theorem Machine*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Herbert_Gelernter) (Reference)
 
+#### 1959｜Can one domain-independent program solve many kinds of problems?
+
+Newell, Shaw and Simon's General Problem Solver formalised means–ends analysis and used the same method on logic proofs, Towers of Hanoi and other puzzles.
+
+> **Limits：** Worked only on well-structured, well-defined problems.
+
+*Algorithms & software · General Problem Solver*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/General_Problem_Solver) (Reference)
+
 #### 1959｜Can a program learn, by playing itself, to play better than the person who wrote it?
 
 Arthur Samuel's checkers program tuned its evaluation function through self-play and came to outplay Samuel himself; it popularised the term "machine learning".
@@ -48,6 +56,14 @@ James Slagle's SAINT used heuristic search for symbolic integration and solved 5
 
 *Mathematics · SAINT*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/James_Robert_Slagle) (Reference)
 
+#### 1962｜Can a self-taught program beat a genuine checkers master?
+
+Arthur Samuel's checkers program beat the checkers master Robert Nealey in a publicised match, one of the era's best-known machine-over-human results.
+
+> **Limits：** Nealey was not a top player, and humans later beat the program several times.
+
+*Games · Samuel's checkers program*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Arthur_Samuel_(computer_scientist)) (Reference)
+
 #### 1964｜Can a machine read algebra word problems in English and solve them?
 
 Daniel Bobrow's STUDENT translated high-school algebra word problems written in English into equations and solved them.
@@ -59,6 +75,26 @@ Daniel Bobrow's STUDENT translated high-school algebra word problems written in 
 Stanford's DENDRAL encoded chemists' knowledge as rules to generate and prune candidate structures — one of the first expert systems to tackle a real scientific task.
 
 *Chemistry · DENDRAL*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Dendral) (Reference)
+
+#### 1965｜Is there a simple, general inference rule that suits machine execution?
+
+J. A. Robinson's resolution principle let computers carry out complete mechanical reasoning in first-order logic with a single rule, and became the basis of automated theorem proving and logic programming.
+
+*Mathematics · Resolution principle (J. A. Robinson)*　Sources：[JACM 1965](https://doi.org/10.1145/321250.321253) (Paper) · [Wikipedia](https://en.wikipedia.org/wiki/Resolution_(logic)) (Reference)
+
+#### 1966｜Can a machine hold a conversation in natural language?
+
+Weizenbaum's ELIZA imitated a psychotherapist with simple pattern matching, and many users felt it genuinely 'understood' them.
+
+> **Limits：** The program had no understanding at all — as Weizenbaum himself stressed.
+
+*Perception & language · ELIZA*　Sources：[CACM 1966](https://doi.org/10.1145/365153.365168) (Paper)
+
+#### 1967｜Can a chess program enter real human tournaments?
+
+Greenblatt's Mac Hack VI was among the first chess programs to play in human tournaments and receive a rating.
+
+*Games · Mac Hack VI*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Mac_Hack) (Reference)
 
 #### c. 1970｜Can a robot perceive its surroundings, plan, and carry out multi-step tasks?
 
@@ -89,6 +125,22 @@ Douglas Lenat's AM started from set theory and, guided by heuristics, 'discovere
 > **Limits：** Rediscoveries, not new mathematics.
 
 *Mathematics · AM (Automated Mathematician)*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Automated_Mathematician) (Reference)
+
+#### 1976｜Can every map be coloured with four colours so that neighbouring regions differ? (the Four Colour Theorem)
+
+Appel and Haken reduced the proof to about 1,900 configurations checked by computer — the first time a computer was indispensable in proving a famous theorem.
+
+> **Limits：** Computer-assisted exhaustive checking, not a learning or reasoning system; included because it began the long debate over whether machine proofs count as proofs.
+
+*Mathematics · Appel–Haken computer-assisted proof*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Four_color_theorem) (Reference)
+
+#### 1977｜Can proving geometry theorems be turned into algebra a computer can carry out?
+
+Wu Wen-Tsun's method converts elementary-geometry theorems into computations on polynomial systems, letting computers mechanically prove large classes of geometry theorems.
+
+> **Limits：** Symbolic computation and automated reasoning, not learning-based AI.
+
+*Mathematics · Wu's method (吴文俊)*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Wu%27s_method_of_characteristic_set) (Reference)
 
 #### 1979｜Can a cart cross a chair-filled room using only its camera?
 
@@ -123,6 +175,12 @@ Lenat's EURISKO designed fleets for the Traveller war game and won the national 
 PROSPECTOR used geological data to predict an undiscovered molybdenum deposit near Mount Tolman, Washington, later confirmed by drilling.
 
 *Earth & climate · PROSPECTOR*　Sources：[Science 1982](https://doi.org/10.1126/science.217.4563.927) (Paper)
+
+#### 1983｜Can a chess program reach master level?
+
+Bell Labs' special-purpose Belle became the first computer to earn a US Chess Federation master rating.
+
+*Games · Belle*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Belle_(chess_machine)) (Reference)
 
 #### 1986｜Can a neural network learn to read English text aloud?
 
@@ -182,6 +240,12 @@ Michael Buro's Logistello beat Othello world champion Takeshi Murakami 6–0.
 
 *Games · Logistello*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Logistello) (Reference)
 
+#### 1998｜Can one end-to-end trained neural network recognise documents and handwriting?
+
+LeCun et al.'s LeNet-5 excelled at handwritten digits and was used to read bank cheques, setting the template for convolutional networks.
+
+*Perception & language · LeNet-5*　Sources：[Proc. IEEE 1998](https://doi.org/10.1109/5.726791) (Paper)
+
 #### 1999-05｜Can a spacecraft plan its own operations and handle faults without ground control?
 
 NASA's Remote Agent autonomously controlled the Deep Space 1 probe for several days, diagnosing and handling simulated faults on its own.
@@ -201,6 +265,12 @@ Stanford's Stanley drove about 212 km autonomously to win the DARPA Grand Challe
 An X-band antenna designed by NASA's evolutionary algorithm — oddly shaped but meeting mission specs — flew on the ST5 spacecraft, the first computer-evolved hardware in space.
 
 *Algorithms & software · Evolutionary algorithm (NASA Ames)*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Evolved_antenna) (Reference)
+
+#### 2006-07-28｜Can very deep neural networks be trained effectively?
+
+Hinton and Salakhutdinov trained deep autoencoders with layer-wise pre-training, beating PCA at dimensionality reduction — a starting point of the deep-learning revival.
+
+*Perception & language · Deep belief nets / deep autoencoders*　Sources：[Science 2006](https://doi.org/10.1126/science.1127647) (Paper)
 
 #### 2007-07-19｜What is the outcome of checkers under perfect play?
 
@@ -247,6 +317,20 @@ AlexNet cut ImageNet top-5 error to about 15%, more than 10 points ahead of the 
 DeepMind's DQN, seeing only pixels and score, reached or exceeded professional human tester level on about half of 49 Atari games.
 
 *Games · DQN*　Sources：[arXiv](https://arxiv.org/abs/1312.5602) (Paper) · [Nature 2015](https://doi.org/10.1038/nature14236) (Paper)
+
+#### 2014｜Can machines tell whether two photos show the same person as well as humans can?
+
+Facebook's DeepFace reached about 97.35% on the LFW face-verification benchmark, close to the human 97.53%.
+
+*Perception & language · DeepFace*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/DeepFace) (Reference)
+
+#### 2014-08｜Can the proof of the Kepler conjecture on sphere packing be checked completely by computer?
+
+Thomas Hales's Flyspeck project completed a formal verification of the proof of the Kepler conjecture in HOL Light and Isabelle.
+
+> **Limits：** Verifies an existing human proof; not a new result.
+
+*Mathematics · HOL Light and Isabelle (Flyspeck)*　Sources：[Forum Math. Pi 2017](https://doi.org/10.1017/fmp.2017.1) (Paper)
 
 #### 2015-01-09｜Is there an essentially unbeatable strategy for heads-up limit hold'em?
 
@@ -308,6 +392,14 @@ Google's deep learning model detected referable diabetic retinopathy with sensit
 
 *Medicine · Deep learning (Google)*　Sources：[JAMA 2016](https://doi.org/10.1001/jama.2016.17216) (Paper)
 
+#### 2017｜How far can the integers be 5-coloured with no monochromatic a + b = c? (the fifth Schur number)
+
+Marijn Heule used a SAT solver to prove the fifth Schur number is 160: 5-colouring works up to 160 and is impossible at 161. The proof file is about 2 petabytes.
+
+> **Limits：** Automated reasoning plus massive computation, not learning-based AI.
+
+*Mathematics · SAT solver (Heule)*　Sources：[arXiv](https://arxiv.org/abs/1711.08076) (Paper)
+
 #### 2017-01-25｜Can AI classify skin cancer from photos as well as dermatologists?
 
 A Stanford-trained convolutional network matched 21 board-certified dermatologists at distinguishing malignant skin lesions such as melanoma.
@@ -319,6 +411,12 @@ A Stanford-trained convolutional network matched 21 board-certified dermatologis
 Carnegie Mellon's Libratus decisively beat four top professionals over 120,000 hands of heads-up no-limit Texas hold'em.
 
 *Games · Libratus*　Sources：[Science 2018](https://doi.org/10.1126/science.aao1733) (Paper)
+
+#### 2017-02｜Can a neural network identify phases of matter without hand-picked order parameters?
+
+Carrasquilla and Melko trained neural networks to tell ordered from disordered phases directly from spin configurations and to locate the phase transition.
+
+*Physics · Neural networks (Carrasquilla & Melko)*　Sources：[Nature Physics 2017](https://doi.org/10.1038/nphys4035) (Paper)
 
 #### 2017-03-02｜Can AI beat professionals at no-limit poker?
 
@@ -332,6 +430,20 @@ AlphaGo Zero trained by self-play alone for three days and beat the version that
 
 *Games · AlphaGo Zero*　Sources：[Nature 2017](https://doi.org/10.1038/nature24270) (Paper)
 
+#### 2017-11｜Can AI detect pneumonia on chest X-rays as well as radiologists?
+
+Stanford's CheXNet outperformed the average of the radiologists it was compared with at detecting pneumonia in one test.
+
+> **Limits：** A retrospective dataset comparison, not a clinical trial.
+
+*Medicine · CheXNet (Stanford)*　Sources：[arXiv](https://arxiv.org/abs/1711.05225) (Paper)
+
+#### 2017-12-12｜Can AI find breast-cancer metastases in lymph-node pathology slides?
+
+In the Camelyon16 challenge, several deep-learning algorithms detected lymph-node metastases better than a panel of pathologists reading under time constraints.
+
+*Medicine · Deep learning (Camelyon16)*　Sources：[JAMA 2017](https://doi.org/10.1001/jama.2017.14585) (Paper)
+
 #### 2017-12-14｜Are there undiscovered planets hiding in existing telescope data?
 
 A neural network found the previously missed planet Kepler-90i in Kepler data, making Kepler-90 the first system known to tie our Solar System with eight planets.
@@ -344,6 +456,18 @@ Segler et al. combined neural networks with Monte Carlo tree search for retrosyn
 
 *Chemistry · 3N-MCTS*　Sources：[Nature 2018](https://doi.org/10.1038/nature25978) (Paper)
 
+#### 2018-04-11｜Can AI diagnose a disease without a physician interpreting the result?
+
+The US FDA authorised IDx-DR, the first device cleared to give a screening result using AI without a clinician interpreting the image, for diabetic retinopathy.
+
+*Medicine · IDx-DR*　Sources：[US FDA](https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-artificial-intelligence-based-device-detect-certain-diabetes-related-eye) (Official)
+
+#### 2018-12｜Can AI clearly lead traditional methods at the CASP13 protein-structure prediction contest?
+
+DeepMind's first AlphaFold won CASP13 with clearly higher accuracy than other entries, paving the way for AlphaFold 2 two years later.
+
+*Biology · AlphaFold (first version)*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/AlphaFold) (Reference)
+
 #### 2018-12-07｜Knowing only the rules and no human games, can a machine master chess, shogi and Go from scratch?
 
 Through self-play alone, AlphaZero defeated the strongest specialised programs in all three games.
@@ -355,6 +479,14 @@ Through self-play alone, AlphaZero defeated the strongest specialised programs i
 OpenAI Five beat reigning Dota 2 world champions OG 2–0.
 
 *Games · OpenAI Five*　Sources：[arXiv](https://arxiv.org/abs/1912.06680) (Paper)
+
+#### 2019-05-20｜Can AI read low-dose CT scans better than radiologists to detect lung cancer?
+
+Google's model outperformed six radiologists on lung-cancer screening CT, particularly when prior scans were available.
+
+> **Limits：** Retrospective; clinical impact needs prospective validation.
+
+*Medicine · Deep learning (Google)*　Sources：[Nature Medicine 2019](https://doi.org/10.1038/s41591-019-0447-x) (Paper)
 
 #### 2019-07-03｜By reading only the text of papers, can AI predict good thermoelectric materials in advance?
 
@@ -376,6 +508,14 @@ Insilico Medicine's generative model designed DDR1 kinase inhibitors in 21 days;
 
 *Medicine · GENTRL (Insilico Medicine)*　Sources：[Nature Biotech 2019](https://doi.org/10.1038/s41587-019-0224-x) (Paper)
 
+#### 2019-10｜Tiling 7-dimensional space with unit cubes, must two cubes always share a full face? (Keller's conjecture in dimension 7)
+
+Brakensiek, Heule and colleagues used a SAT solver to prove Keller's conjecture holds in dimension 7, closing the last open low dimension.
+
+> **Limits：** Automated reasoning plus heavy computation, not learning-based AI.
+
+*Mathematics · SAT solver*　Sources：[arXiv](https://arxiv.org/abs/1910.03740) (Paper)
+
 #### 2019-10-15｜Can a robot hand be dexterous enough to solve a Rubik's Cube one-handed?
 
 OpenAI's robot hand, trained in simulation, manipulated and solved a Rubik's Cube one-handed in the real world.
@@ -392,6 +532,14 @@ AlphaStar reached Grandmaster on the official ladder with all three races, above
 
 ## 2020-2023
 
+#### 2020-01｜Can a neural network discover a physical concept such as heliocentrism from observations alone?
+
+Iten et al.'s SciNet learned a sun-centred representation from planetary sky positions and found the minimal number of variables needed to describe the system.
+
+> **Limits：** Rediscovery of known concepts in simple systems.
+
+*Physics · SciNet*　Sources：[PRL 2020](https://doi.org/10.1103/PhysRevLett.124.010508) (Paper)
+
 #### 2020-01-01｜Can AI read mammograms with fewer misses and false alarms than radiologists?
 
 On UK and US data the model reduced both false positives and false negatives relative to radiologists, and could stand in for the second reader in UK double reading.
@@ -406,6 +554,14 @@ An MIT team used deep learning to screen over 100 million molecules and identifi
 
 *Medicine · Deep learning (MIT)*　Sources：[Cell 2020](https://doi.org/10.1016/j.cell.2020.01.021) (Paper) · [Broad Institute](https://www.broadinstitute.org/publications/broad627466) (Official)
 
+#### 2020-04-15｜Can symbolic regression rediscover 100 equations from the Feynman Lectures on Physics from data?
+
+Udrescu and Tegmark's AI Feynman combined neural networks with physics-inspired simplification and rediscovered all 100 test equations, versus 71 for the previous best method.
+
+> **Limits：** Rediscovery of known equations.
+
+*Physics · AI Feynman*　Sources：[Science Advances 2020](https://doi.org/10.1126/sciadv.aay2631) (Paper)
+
 #### 2020-07-08｜Can a robot chemist move around a lab, run experiments, and find a better catalyst on its own?
 
 Liverpool's mobile robot autonomously ran 688 experiments over 8 days and found a photocatalyst mixture about six times more active than the starting formulation.
@@ -417,6 +573,14 @@ Liverpool's mobile robot autonomously ran 688 experiments over 8 days and found 
 DeepMind's FermiNet represented many-electron wavefunctions with a neural network, reaching near chemical accuracy on several small molecules.
 
 *Physics · FermiNet*　Sources：[Phys. Rev. Research 2020](https://doi.org/10.1103/PhysRevResearch.2.033429) (Paper)
+
+#### 2020-10-08｜Can driverless taxis with no safety driver serve the public?
+
+Waymo opened fully driverless ride-hailing to the public in the Phoenix area, Arizona.
+
+> **Limits：** Limited service area and conditions at first; expanded to other cities later.
+
+*Robotics & autonomy · Waymo Driver*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Waymo) (Reference)
 
 #### 2020-11-30｜From its amino-acid sequence alone, can we predict a protein's 3D structure? (the 50-year protein-folding problem)
 
@@ -470,6 +634,12 @@ A generative model built by DeepMind with the UK Met Office for short-term rain 
 
 *Earth & climate · DGMR*　Sources：[Nature 2021](https://doi.org/10.1038/s41586-021-03854-z) (Paper)
 
+#### 2021-11｜How many of the Kepler telescope's planet candidates are real planets?
+
+NASA's deep-learning classifier ExoMiner validated 301 new exoplanets and can explain the basis of its decisions.
+
+*Astronomy · ExoMiner*　Sources：[arXiv](https://arxiv.org/abs/2111.10009) (Paper)
+
 #### 2021-12-01｜Are there undiscovered links between the geometric and algebraic invariants of knots?
 
 Machine learning pointed mathematicians to a new relation in knot theory and progress on a representation-theory conjecture, which they then proved rigorously.
@@ -506,6 +676,18 @@ UT Austin used machine learning to guide mutations, producing FAST-PETase, which
 
 *Biology · MutCompute*　Sources：[Nature 2022](https://doi.org/10.1038/s41586-022-04599-z) (Paper)
 
+#### 2022-07｜Can machine translation cover 200 languages, including low-resource ones?
+
+Meta's NLLB-200 translates among 200 languages and clearly beat previous systems on many low-resource languages.
+
+*Perception & language · NLLB-200 (Meta)*　Sources：[Nature 2024](https://doi.org/10.1038/s41586-024-07335-x) (Paper)
+
+#### 2022-07-28｜Can the 3D structures of nearly all known proteins be had at once?
+
+DeepMind and EMBL-EBI expanded the AlphaFold database to over 200 million protein structures, free to everyone.
+
+*Biology · AlphaFold DB*　Sources：[Google DeepMind](https://deepmind.google/discover/blog/alphafold-reveals-the-structure-of-the-protein-universe/) (Official)
+
 #### 2022-09-15｜Given a desired protein shape, can we design a sequence that folds into it?
 
 ProteinMPNN designed sequences with far higher success than prior methods, with many designs validated experimentally.
@@ -526,6 +708,14 @@ Meta's Cicero negotiated in natural language in online Diplomacy, scoring more t
 
 *Games · Cicero*　Sources：[Science 2022](https://doi.org/10.1126/science.ade9097) (Paper)
 
+#### 2022-12｜Can AI pass medical licensing exam questions?
+
+Google's Med-PaLM scored 67.6% on USMLE-style questions, the first model to clear the ~60% pass mark.
+
+> **Limits：** Exam questions, not clinical practice.
+
+*Medicine · Med-PaLM*　Sources：[arXiv](https://arxiv.org/abs/2212.13138) (Paper) · [Nature 2023](https://doi.org/10.1038/s41586-023-06291-2) (Paper)
+
 #### 2022-12-01｜Can AI reach expert level at Stratego, a game of heavily hidden information?
 
 DeepNash reached an all-time top-3 ranking on the Gravon platform with about an 84% win rate.
@@ -537,6 +727,14 @@ DeepNash reached an all-time top-3 ranking on the Gravon platform with about an 
 AlphaCode ranked around the top 54% of participants in simulated Codeforces contests — median human competitor level.
 
 *Algorithms & software · AlphaCode*　Sources：[Science 2022](https://doi.org/10.1126/science.abq1158) (Paper)
+
+#### 2023-03-14｜Can AI pass the bar exam?
+
+OpenAI reported GPT-4 scored in roughly the top 10% of test-takers on a simulated Uniform Bar Exam, whereas the previous model was near the bottom 10%.
+
+> **Limits：** Later analysis argued the percentile was overstated.
+
+*Perception & language · GPT-4*　Sources：[arXiv](https://arxiv.org/abs/2303.08774) (Paper)
 
 #### 2023-03-16｜What do hundreds of millions of never-studied microbial proteins look like?
 
@@ -570,6 +768,22 @@ The Baker lab's RFdiffusion used diffusion models to design new proteins; many b
 
 *Biology · RFdiffusion*　Sources：[Nature 2023](https://doi.org/10.1038/s41586-023-06415-8) (Paper)
 
+#### 2023-08-01｜Can AI-supported breast screening cut radiologists' reading load without missing cancers?
+
+Interim results of Sweden's randomised MASAI trial showed AI-supported screening detected cancers at least as well as standard double reading while cutting screen-reading workload by about 44%.
+
+> **Limits：** Interim results; longer-term outcomes such as interval cancers need follow-up.
+
+*Medicine · AI-supported mammography screening (MASAI)*　Sources：[Lancet Oncology 2023](https://doi.org/10.1016/S1470-2045(23)00298-X) (Paper)
+
+#### 2023-08-30｜Can an autonomous drone beat human world-champion pilots in a race?
+
+The University of Zurich's Swift, trained with deep reinforcement learning, beat several world-champion human drone pilots on a real race track.
+
+> **Limits：** On a specific, controlled indoor track.
+
+*Robotics & autonomy · Swift*　Sources：[Nature 2023](https://doi.org/10.1038/s41586-023-06419-4) (Paper)
+
 #### 2023-09-19｜Which single-letter mutations in human genes cause disease?
 
 AlphaMissense classified 89% of 71 million possible missense variants as likely pathogenic or benign, versus about 0.1% confirmed by experts before.
@@ -597,6 +811,14 @@ USTC's robotic AI chemist automatically synthesised, tested and optimised candid
 GraphCast's 10-day global forecasts beat ECMWF's high-resolution operational system on about 90% of verification targets, running in under a minute on one machine.
 
 *Earth & climate · GraphCast*　Sources：[Science 2023](https://doi.org/10.1126/science.adi2336) (Paper)
+
+#### 2023-11-29｜Can an autonomous lab actually make materials that computation predicts?
+
+Berkeley Lab's A-Lab autonomously synthesised 41 of 58 target materials in 17 days.
+
+> **Limits：** Some materials scientists argued several phase identifications were wrong and the success rate overstated.
+
+*Materials · A-Lab (Berkeley Lab)*　Sources：[Nature 2023](https://doi.org/10.1038/s41586-023-06734-w) (Paper)
 
 #### 2023-11-29｜How many stable inorganic crystals remain undiscovered?
 
@@ -656,11 +878,37 @@ DeepMind's systems solved 4 of 6 IMO 2024 problems — silver-medal standard —
 
 *Mathematics · AlphaProof + AlphaGeometry 2*　Sources：[Google DeepMind](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/) (Official)
 
+#### 2024-08-07｜Can a robot play table tennis at amateur human level?
+
+DeepMind's robot beat all beginners and about half of intermediate players in matches, but no advanced players.
+
+*Robotics & autonomy · Google DeepMind table-tennis robot*　Sources：[arXiv](https://arxiv.org/abs/2408.03906) (Paper)
+
+#### 2024-10-08｜Do the foundations of machine learning count as Nobel-level physics?
+
+The 2024 Nobel Prize in Physics went to John Hopfield and Geoffrey Hinton 'for foundational discoveries and inventions that enable machine learning with artificial neural networks'.
+
+*Algorithms & software · Hopfield networks / Boltzmann machines*　Sources：[Nobel Prize](https://www.nobelprize.org/prizes/physics/2024/press-release/) (Official)
+
 #### 2024-10-09｜Does AI protein-structure work count as Nobel-level science?
 
 The 2024 Nobel Prize in Chemistry went half to Hassabis and Jumper (AlphaFold) and half to David Baker (computational protein design).
 
 *Biology · AlphaFold / protein design*　Sources：[Nobel Prize](https://www.nobelprize.org/prizes/chemistry/2024/press-release/) (Official)
+
+#### 2024-11-01｜Can AI find previously unknown security vulnerabilities in real software on its own?
+
+Google's Big Sleep agent found a previously unknown exploitable stack buffer underflow in the widely used SQLite database before release; it was fixed the same day.
+
+*Algorithms & software · Big Sleep (Google)*　Sources：[Google Project Zero](https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html) (Official)
+
+#### 2024-11-20｜Can the errors that constantly arise in quantum computers be identified and corrected more accurately?
+
+DeepMind's AlphaQubit decoded surface-code errors with a neural network and had lower error rates than the best earlier decoders on real data from Google's Sycamore processor.
+
+> **Limits：** Not yet fast enough for real-time correction.
+
+*Physics · AlphaQubit*　Sources：[Nature 2024](https://doi.org/10.1038/s41586-024-08148-8) (Paper)
 
 #### 2024-12-04｜Can weather forecasts give more reliable probabilities, such as cyclone-track uncertainty?
 
@@ -670,6 +918,20 @@ GenCast's 15-day ensemble forecasts beat ECMWF's ensemble system on 97% of evalu
 
 ## 2025
 
+#### 2025-01-16｜Can AI 'simulate' hundreds of millions of years of evolution to design a functional protein nature lacks?
+
+EvolutionaryScale's ESM3 designed a new green fluorescent protein, esmGFP, whose sequence is far from known fluorescent proteins; experiments confirmed it fluoresces.
+
+*Biology · ESM3*　Sources：[Science 2025](https://doi.org/10.1126/science.ads0018) (Paper)
+
+#### 2025-01-16｜Can AI directly design stable new materials with specified properties?
+
+Microsoft's generative model MatterGen produced inorganic materials to target properties; one was synthesised and its measured bulk modulus came within 20% of the design target.
+
+> **Limits：** Only a handful of materials were synthesised.
+
+*Materials · MatterGen (Microsoft)*　Sources：[Microsoft Research](https://www.microsoft.com/en-us/research/publication/a-generative-model-for-inorganic-materials-design/) (Official) · [Microsoft blog](https://microsoft.com/en-us/research/blog/mattergen-a-new-paradigm-of-materials-design-with-generative-ai) (Official)
+
 #### 2025-02-19｜Can AI propose a scientific hypothesis that scientists had found but not yet published?
 
 Google says its AI co-scientist independently proposed a hypothesis on a bacterial gene-transfer mechanism that matched Imperial College's unpublished experimental finding.
@@ -677,6 +939,22 @@ Google says its AI co-scientist independently proposed a hypothesis on a bacteri
 > **Limits：** Company claim; related published literature may have informed the system.
 
 *Biology · AI co-scientist (Google)*　Sources：[arXiv](https://arxiv.org/abs/2502.18864) (Paper)
+
+#### 2025-03｜In a three-party Turing test, can AI be mistaken for a human?
+
+In Jones and Bergen's experiment, GPT-4.5 prompted with a persona was judged to be the human about 73% of the time — more often than the real human.
+
+> **Limits：** Whether the Turing test measures intelligence is disputed.
+
+*Perception & language · GPT-4.5*　Sources：[arXiv](https://arxiv.org/abs/2503.23674) (Paper)
+
+#### 2025-03-12｜Can a research paper written entirely by AI pass academic peer review?
+
+Sakana AI reports that one of three papers generated by its AI Scientist received above-threshold reviews (average 6.33) at an ICLR 2025 workshop.
+
+> **Limits：** A workshop, with a lower bar than the main conference; humans chose which papers to submit, the paper was withdrawn after review by design, and the authors' own review judged none main-track quality.
+
+*Algorithms & software · The AI Scientist-v2 (Sakana AI)*　Sources：[Sakana AI](https://sakana.ai/ai-scientist-first-publication/) (Official)
 
 #### 2025-05-14｜Can two 4×4 complex matrices be multiplied with one fewer multiplication? How many spheres can touch one sphere in 11 dimensions?
 
@@ -694,6 +972,26 @@ FutureHouse's Robin proposed that ripasudil, an approved glaucoma drug, could tr
 
 *Medicine · Robin (FutureHouse)*　Sources：[arXiv](https://arxiv.org/abs/2505.13400) (Paper)
 
+#### 2025-05-21｜Can one model forecast weather, air quality, ocean waves and cyclone tracks together?
+
+Microsoft's Aurora is an Earth-system foundation model that beat existing operational systems on air quality, ocean waves, tropical-cyclone tracks and more, at much lower compute cost.
+
+*Earth & climate · Aurora (Microsoft)*　Sources：[Nature 2025](https://doi.org/10.1038/s41586-025-09005-y) (Paper) · [Microsoft](https://news.microsoft.com/source/features/ai/from-forecasting-storms-to-designing-molecules-how-new-ai-foundation-models-can-speed-up-scientific-discovery/) (Official)
+
+#### 2025-06｜Does a drug whose target and molecule were both found by AI work in patients?
+
+Insilico Medicine's rentosertib, a TNIK inhibitor whose target and molecule were found by AI, showed a trend toward better lung function than placebo at the top dose in a phase 2a trial in idiopathic pulmonary fibrosis.
+
+> **Limits：** A small, short phase 2a trial; efficacy needs confirmation in larger trials.
+
+*Medicine · Rentosertib (Insilico Medicine)*　Sources：[Drug Discovery Trends](https://www.drugdiscoverytrends.com/insilicos-ai-designed-rentosertib-shows-promise-in-first-phase-2a-trial-results/) (News) · [AJMC](https://www.ajmc.com/view/ai-derived-therapy-for-ipf-shows-potential-in-phase-2a-trial) (News)
+
+#### 2025-07｜Can AI design a gene-editing tool that nature does not have?
+
+Profluent used protein language models to design the CRISPR editor OpenCRISPR-1, whose sequence is far from natural proteins yet is active in human cells.
+
+*Biology · OpenCRISPR-1 (Profluent)*　Sources：[Nature 2025](https://doi.org/10.1038/s41586-025-09298-z) (Paper)
+
 #### 2025-07-21｜Working in natural language within contest time, can AI reach IMO gold?
 
 Google DeepMind's Gemini Deep Think (officially graded by the IMO) and an OpenAI experimental model both reported solving 5 of 6 IMO 2025 problems, a gold-medal score.
@@ -701,6 +999,44 @@ Google DeepMind's Gemini Deep Think (officially graded by the IMO) and an OpenAI
 > **Limits：** Competition problems have known answers; not the same as open research problems.
 
 *Mathematics · Gemini Deep Think; OpenAI experimental model*　Sources：[Google DeepMind](https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad) (Official) · [Simon Willison](https://simonwillison.net/2025/Jul/21/gemini-imo/) (News)
+
+#### 2025-08-08｜Can AI systems automatically find and fix vulnerabilities in open-source software?
+
+In DARPA's AI Cyber Challenge final, systems found 54 of 63 planted vulnerabilities and patched 43; they also found 18 real vulnerabilities, with patches for 11.
+
+> **Limits：** Competition scoring, not direct real-world performance; the real vulnerabilities are still in responsible disclosure.
+
+*Algorithms & software · AIxCC finalists (Team Atlanta et al.)*　Sources：[DARPA](https://darpa.mil/news/2025/aixcc-results) (Official)
+
+#### 2025-08-14｜Can AI design brand-new antibiotics from scratch rather than just screen existing molecules?
+
+MIT's Collins lab used generative AI to design tens of millions of virtual compounds; two picked from them (NG1 against gonorrhoea, DN1 against MRSA) worked in mouse infection models.
+
+> **Limits：** Preclinical.
+
+*Medicine · Generative AI (Collins lab, MIT)*　Sources：[Broad Institute](https://www.broadinstitute.org/news/using-ai-researchers-design-new-compounds-kill-antibiotic-resistant-bacteria) (Official) · [BioPharmaTrend](https://www.biopharmatrend.com/news/generative-ai-designs-novel-antibiotics-against-mrsa-and-drug-resistant-gonorrhea-1349/) (News)
+
+#### 2025-09｜On the ICPC World Finals problems, can AI beat the human teams?
+
+OpenAI says its system solved all 12 problems; Google DeepMind's Gemini 2.5 Deep Think solved 10, including one no human team solved; the best human team solved 11.
+
+> **Limits：** Company-reported results, stated to be under the same conditions as the students.
+
+*Algorithms & software · OpenAI models; Gemini 2.5 Deep Think*　Sources：[The Decoder](https://the-decoder.com/openai-outperforms-humans-and-google-at-the-worlds-top-collegiate-programming-contest/) (News) · [TechRepublic](https://www.techrepublic.com/article/openai-deepmind-icpc-2025-results/) (News)
+
+#### 2025-09-04｜Can the tiny jitters of mirrors in a gravitational-wave detector be controlled better?
+
+DeepMind and LIGO used reinforcement learning to design a controller that sharply cut the noise introduced by mirror control, which should help detect more and more distant gravitational-wave events.
+
+*Astronomy · Deep Loop Shaping (Google DeepMind + LIGO)*　Sources：[Google DeepMind](https://deepmind.google/blog/using-ai-to-perceive-the-universe-in-greater-depth/) (Official) · [LIGO](https://www.ligo.caltech.edu/news/ligo20250908) (Official)
+
+#### 2025-09-17｜Can AI design whole viral genomes that are viable and infect bacteria?
+
+Teams at the Arc Institute and Stanford used genomic language models to propose about 300 variant genomes of the phage phiX174; 16 replicated in E. coli and lysed their hosts.
+
+> **Limits：** Preprint stage; training data excluded human-infecting viruses.
+
+*Biology · Evo / Evo 2 (Arc Institute, Stanford)*　Sources：[BioPharmaTrend](https://www.biopharmatrend.com/news/stanfordarc-team-reports-ai-made-viruses-that-kill-bacteria-1383/) (News) · [Arc Institute](https://arcinstitute.org/news/hie-king-first-synthetic-phage) (Official)
 
 #### 2025-09-18｜Can the elusive 'unstable singularities' of fluid equations be found?
 
@@ -710,11 +1046,41 @@ Google DeepMind with Brown, NYU and Stanford used neural networks plus high-prec
 
 *Mathematics · Physics-informed neural networks (Google DeepMind et al.)*　Sources：[Google DeepMind](https://deepmind.google/blog/discovering-new-solutions-to-century-old-problems-in-fluid-dynamics/) (Official) · [Physics World](https://physicsworld.com/a/neural-networks-discover-unstable-singularities-in-fluid-systems/) (News)
 
+#### 2025-10-15｜Can AI propose a new cancer-immunity idea no one had thought of, and have it confirmed in the lab?
+
+Google and Yale used a single-cell language model to screen over 4,000 drugs and predicted the CK2 inhibitor silmitasertib would boost antigen presentation in a specific immune context; in human cell models, combined with low-dose interferon it raised antigen presentation by about 50%.
+
+> **Limits：** Cell models only, mechanism unexplained, far from the clinic.
+
+*Medicine · C2S-Scale 27B (Google DeepMind + Yale)*　Sources：[Google DeepMind](https://deepmind.google/discover/blog/how-a-gemma-model-helped-discover-a-new-potential-cancer-therapy-pathway/) (Official)
+
+#### 2025-11｜Can reinforcement learning let AI find olympiad-level proofs inside a formal mathematical language?
+
+DeepMind published AlphaProof's method in Nature: reinforcement learning inside Lean, the system behind its silver-medal-level proofs at IMO 2024.
+
+*Mathematics · AlphaProof*　Sources：[Google Research](https://research.google/pubs/olympiad-level-formal-mathematical-reasoning-with-reinforcement-learning/) (Paper) · [Nature press release](https://www.natureasia.com/en/info/press-releases/detail/9147) (Official)
+
+#### 2025-11｜Can an AI-scientist agent work for hours — reading papers, writing code, analysing data — and reach discoveries by itself?
+
+Edison Scientific's Kosmos can run for about 12 hours at a time and reported discoveries across several fields; the publisher reports independent scientists judged about 79.4% of statements in its reports accurate.
+
+> **Limits：** The publisher's own evaluation; roughly one in five statements was inaccurate.
+
+*Other · Kosmos (Edison Scientific)*　Sources：[arXiv](https://arxiv.org/abs/2511.02824) (Paper) · [Edison Scientific](https://edisonscientific.com/articles/announcing-kosmos) (Official)
+
 #### 2025-11-03｜What happens when AI is applied to dozens of math problems at once?
 
 Terence Tao and collaborators applied AlphaEvolve to 67 problems in analysis, combinatorics and geometry, rediscovering best-known constructions in many and improving some.
 
 *Mathematics · AlphaEvolve*　Sources：[arXiv](https://arxiv.org/abs/2511.02864) (Paper)
+
+#### 2025-11-05｜Can AI design antibodies from scratch that bind a chosen target?
+
+The Baker lab extended RFdiffusion to design new antibody fragments against chosen targets, with structural experiments confirming binding modes closely matching the designs.
+
+> **Limits：** Initial designs had modest affinity and need further optimisation.
+
+*Biology · RFdiffusion / RFantibody (Baker lab)*　Sources：[UW Institute for Protein Design](https://www.ipd.uw.edu/2025/11/rfantibody-in-nature) (Official) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/41193805/) (Paper)
 
 #### 2025-11-20｜What is the answer to Erdős Problem #848, an extremal question in multiplicative number theory?
 
@@ -723,6 +1089,22 @@ OpenAI reports GPT-5 supplied the key idea that researchers used to settle the p
 > **Limits：** Publisher's report; see the paper for division of labour.
 
 *Mathematics · GPT-5*　Sources：[OpenAI](https://cdn.openai.com/pdf/4a25f921-e4e0-479a-9b38-5367b47e8fd0/early-science-acceleration-experiments-with-gpt-5.pdf) (Official)
+
+#### 2025-12-08｜Can Erdős Problem #1026 be settled?
+
+Boris Alexeev, Stijn Cambie, Terence Tao and others worked with Harmonic's Aristotle to prove the main conjecture formally in Lean; Tao described it as a genuine human–AI collaboration.
+
+> **Limits：** The core result was later found to exist in prior literature, unknown at the time.
+
+*Mathematics · Aristotle (Harmonic) with human mathematicians*　Sources：[Terence Tao's blog](https://terrytao.wordpress.com/2025/12/08/the-story-of-erdos-problem-126/) (Official) · [erdosproblems.com](https://www.erdosproblems.com/1026) (Reference)
+
+#### 2025-12-17｜Can a national weather service put AI global forecasts into its operational suite?
+
+NOAA announced operational AI global models: AIGFS (built on GraphCast), the AI ensemble AIGEFS, and the hybrid HGEFS; NOAA says AIGFS needs about 0.3% of the compute of the traditional GFS, finishing a 16-day forecast in roughly 40 minutes.
+
+> **Limits：** Version 1 degrades tropical-cyclone intensity forecasts; ensemble and hybrid results are from initial testing.
+
+*Earth & climate · AIGFS / AIGEFS / HGEFS (NOAA)*　Sources：[HPCwire](https://www.hpcwire.com/aiwire/2025/12/17/noaa-deploys-new-generation-of-ai-driven-global-weather-models/) (News)
 
 ## 2026
 
@@ -733,6 +1115,14 @@ GPT-5.2 Pro working with Harmonic's Aristotle produced a resolution, formally ve
 > **Limits：** Terence Tao commented that it says more about speed than about difficulty.
 
 *Mathematics · GPT-5.2 Pro + Aristotle (Harmonic)*　Sources：[arXiv](https://arxiv.org/abs/2601.07421) (Paper) · [The Decoder](https://the-decoder.com/terence-tao-says-gpt-5-2-pro-cracked-an-erdos-problem-but-warns-the-win-says-more-about-speed-than-difficulty/) (News)
+
+#### 2026-01-28｜What happens when variants occur in the non-coding DNA that makes up most of the genome?
+
+AlphaGenome reads up to a million DNA bases and predicts thousands of signals including gene expression and splicing; it matched or beat the best existing models in 25 of 26 variant-effect evaluations.
+
+> **Limits：** Computational predictions, not experimental measurements.
+
+*Biology · AlphaGenome*　Sources：[Nature press release](https://www.natureasia.com/en/info/press-releases/detail/9222) (Official) · [Google DeepMind](https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/) (Official)
 
 #### 2026-02｜Can AI autonomously resolve several open Erdős problems?
 
@@ -746,6 +1136,44 @@ Axiom Math's AxiomProver proved the conjecture from its natural-language stateme
 
 *Mathematics · AxiomProver (Axiom Math)*　Sources：[arXiv](https://arxiv.org/abs/2602.03716) (Paper)
 
+#### 2026-02-04｜Are almost all primes 'partially regular'?
+
+Axiom Math's AxiomProver proved, from a natural-language statement, that a density-one set of primes satisfies a partial regularity condition, and formalised it in Lean.
+
+*Mathematics · AxiomProver (Axiom Math)*　Sources：[arXiv](https://arxiv.org/abs/2602.05090) (Paper)
+
+#### 2026-02-13｜Are tree-level gluon scattering amplitudes with one negative- and all other positive-helicity gluons really zero?
+
+Guevara, Lupsasca, Skinner, Strominger and colleagues showed these amplitudes do not vanish in the 'half-collinear' regime. Humans computed cases up to n=6, GPT-5.2 Pro simplified them and conjectured a formula for all n, and an internal OpenAI model spent about 12 hours producing a formal proof.
+
+> **Limits：** The authors checked the formula analytically; the result holds in a specific kinematic regime.
+
+*Physics · GPT-5.2 Pro and an internal OpenAI model*　Sources：[OpenAI](https://openai.com/index/new-result-theoretical-physics/) (Official) · [arXiv](https://arxiv.org/abs/2602.12176) (Paper)
+
+#### 2026-02-20｜On a set of research-level problems from mathematicians with no public answers (First Proof), how many can AI solve?
+
+OpenAI submitted answers to First Proof and says at least five (problems 4, 5, 6, 9 and 10) have a high chance of being correct.
+
+> **Limits：** Expert review was not complete; the remaining answers were still under review.
+
+*Mathematics · OpenAI unreleased research system*　Sources：[arXiv](https://arxiv.org/abs/2602.05192) (Paper) · [OpenAI](https://openai.com/index/first-proof-submissions) (Official)
+
+#### 2026-02-28｜Can the arcs of a particular 3D directed graph be split into three Hamiltonian cycles? (an open problem Knuth was working on)
+
+Donald Knuth wrote that Claude Opus 4.6 found, in about an hour of exploration, a construction that works for all odd m; Filip Stappers tested m = 3 to 101 and Knuth then proved the construction correct himself.
+
+> **Limits：** Only odd m was solved at the time; even m was open, and Knuth's postscripts report it was later settled with other AI systems. The proof itself was supplied by a human.
+
+*Mathematics · Claude Opus 4.6*　Sources：[Donald Knuth (note)](https://cs.stanford.edu/~knuth/papers/claude-cycles.pdf) (Official)
+
+#### 2026-03｜Can an equilibrium result for the Vlasov–Maxwell–Landau plasma equations be formalised semi-autonomously by AI?
+
+A preprint reports a 'semi-autonomous formalization' in Lean of an equilibrium result for the Vlasov–Maxwell–Landau equations.
+
+> **Limits：** Only title-level information has been read; a formalisation of an existing result.
+
+*Physics · AI-assisted Lean formalization*　Sources：[arXiv](https://arxiv.org/abs/2603.15929) (Paper)
+
 #### 2026-03-23｜Can the lower-bound construction for a Ramsey-type hypergraph problem be improved?
 
 GPT-5.4 Pro produced an improved construction, and Epoch AI marked this FrontierMath open problem as solved.
@@ -758,11 +1186,35 @@ An OpenAI internal model produced short proofs resolving these questions, releas
 
 *Mathematics · OpenAI internal model*　Sources：[arXiv](https://arxiv.org/abs/2603.29961) (Paper)
 
+#### 2026-04｜Can AI find thousands of previously unknown high-severity vulnerabilities across all major operating systems and browsers?
+
+Anthropic says Claude Mythos Preview found thousands of high-severity vulnerabilities, including a 27-year-old OpenBSD remote-crash bug, an FFmpeg flaw missed by millions of automated tests, and a way to chain Linux kernel bugs to take control; the model is not public and is available to 40+ vetted organisations to fix software.
+
+> **Limits：** All figures are the publisher's claims, not independently verified; Anthropic promised to report on patched vulnerabilities within 90 days.
+
+*Algorithms & software · Claude Mythos Preview (Project Glasswing)*　Sources：[Anthropic](https://www.anthropic.com/glasswing) (Official) · [Anthropic red team](https://red.anthropic.com/2026/mythos-preview/) (Official) · [CyberInsider](https://cyberinsider.com/anthropic-launches-project-glasswing-after-its-new-ai-model-finds-thousands-of-zero-day-flaws/) (News)
+
 #### 2026-04-15｜Is the Erdős–Sárközy–Szemerédi conjecture on primitive-set sums true? (Erdős #1196)
 
 Prompted by Liam Price, GPT-5.4 Pro proved the sharp 1+O(1/log x) bound conjectured by Erdős, Sárközy and Szemerédi.
 
 *Mathematics · GPT-5.4 Pro*　Sources：[erdosproblems.com](https://www.erdosproblems.com/history/1196) (Reference)
+
+#### 2026-05-07｜A year on, what has AlphaEvolve actually delivered in mathematics, chips, software and science?
+
+DeepMind says AlphaEvolve helped improve lower bounds for the travelling salesman problem and Ramsey numbers, took part in next-generation TPU design, cut Spanner's write amplification by 20%, and reduced DeepConsensus variant-detection errors by 30%.
+
+> **Limits：** Figures compiled by the publisher, not checked item by item.
+
+*Algorithms & software · AlphaEvolve*　Sources：[Google DeepMind](https://deepmind.google/blog/alphaevolve-impact/) (Official)
+
+#### 2026-06｜By mid-2026, how many open Erdős problems has AI solved?
+
+A wiki maintained by Terence Tao records AI contributions to Erdős problems problem by problem and lists those solved essentially by AI alone — for example #125, #741, #38 and #694 in 2026, and #90 solved in May by an OpenAI internal model and Claude Mythos.
+
+> **Limits：** The page notes some results were later found in prior literature; its data runs to 30 June 2026 and it is no longer updated.
+
+*Mathematics · GPT-5.x, Claude, Gemini, Aristotle, Aletheia and others*　Sources：[Tao's wiki](https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems) (Reference) · [Erdős #90](https://www.erdosproblems.com/90) (Reference) · [Erdős #619](https://www.erdosproblems.com/619) (Reference)
 
 #### 2026-06｜In the theory of jamming, why do two critical exponents satisfy a + b = 1?
 
@@ -771,6 +1223,38 @@ The relation had strong numerical support but no analytic proof. Nobel laureate 
 > **Limits：** Holds within the infinite-dimensional hard-sphere fullRSB framework.
 
 *Physics · Claude*　Sources：[arXiv](https://arxiv.org/abs/2606.03300) (Paper) · [Live Science](https://livescience.com/physics-mathematics/mathematics/nobel-prize-winning-physicist-and-team-use-claude-ai-to-solve-decades-old-math-puzzle) (News)
+
+#### 2026-07-23｜Can AI score full marks on all six International Mathematical Olympiad problems?
+
+Reports say Huawei's Celia and Xiaohongshu's dots-note-3.0 scored a perfect 42/42 at IMO 2026 in Shanghai, whereas in 2025 Google's and OpenAI's models reached only the gold line.
+
+> **Limits：** Company-announced; the report mentions no official IMO grading and gives no grading details.
+
+*Mathematics · Huawei Celia; Xiaohongshu dots-note-3.0*　Sources：[NewsBytes](https://www.newsbytesapp.com/news/science/for-first-time-ai-scores-100-at-international-mathematical-olympiad/story) (News)
+
+#### 2026-08-01｜Does Connes's rigidity conjecture in operator algebras hold?
+
+OpenAI says Astra disproved the conjecture.
+
+> **Limits：** Publisher's claim; Lean formalisation is public, peer review pending.
+
+*Mathematics · OpenAI Astra (unreleased)*　Sources：[GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
+
+#### 2026-08-01｜Can every countable group be approximated by finite permutations? (Gromov's 1999 question on sofic groups)
+
+OpenAI says Astra gave the first explicit construction of a non-sofic group, answering the question.
+
+> **Limits：** Publisher's claim; Lean formalisation is public, peer review pending.
+
+*Mathematics · OpenAI Astra (unreleased)*　Sources：[GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
+
+#### 2026-08-01｜In high dimensions, what fraction of space can equal spheres fill at most? (upper bounds on sphere-packing density)
+
+OpenAI says Astra improved the general upper bound on sphere-packing density in high dimensions — the first improvement since 1978.
+
+> **Limits：** Publisher's claim; an improved upper bound does not determine the maximum density. Peer review pending.
+
+*Mathematics · OpenAI Astra (unreleased)*　Sources：[GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
 
 #### 2026-08-10｜What fraction of the Riemann zeta function's nontrivial zeros can be proven to lie on the critical line?
 

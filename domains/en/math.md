@@ -2,7 +2,7 @@
 
 # Mathematics: problems AI has solved
 
-29 entries · [← Back to README](../../README.md)
+45 entries · [← Back to README](../../README.md)
 
 #### 1956｜Given the axioms of logic, can a machine find proofs of theorems by itself?
 
@@ -28,6 +28,12 @@ James Slagle's SAINT used heuristic search for symbolic integration and solved 5
 
 *SAINT*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/James_Robert_Slagle) (Reference)
 
+#### 1965｜Is there a simple, general inference rule that suits machine execution?
+
+J. A. Robinson's resolution principle let computers carry out complete mechanical reasoning in first-order logic with a single rule, and became the basis of automated theorem proving and logic programming.
+
+*Resolution principle (J. A. Robinson)*　Sources：[JACM 1965](https://doi.org/10.1145/321250.321253) (Paper) · [Wikipedia](https://en.wikipedia.org/wiki/Resolution_(logic)) (Reference)
+
 #### 1976｜Can a machine invent mathematical concepts and conjectures on its own?
 
 Douglas Lenat's AM started from set theory and, guided by heuristics, 'discovered' natural numbers and primes and re-proposed known conjectures such as Goldbach's.
@@ -36,11 +42,35 @@ Douglas Lenat's AM started from set theory and, guided by heuristics, 'discovere
 
 *AM (Automated Mathematician)*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Automated_Mathematician) (Reference)
 
+#### 1976｜Can every map be coloured with four colours so that neighbouring regions differ? (the Four Colour Theorem)
+
+Appel and Haken reduced the proof to about 1,900 configurations checked by computer — the first time a computer was indispensable in proving a famous theorem.
+
+> **Limits：** Computer-assisted exhaustive checking, not a learning or reasoning system; included because it began the long debate over whether machine proofs count as proofs.
+
+*Appel–Haken computer-assisted proof*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Four_color_theorem) (Reference)
+
+#### 1977｜Can proving geometry theorems be turned into algebra a computer can carry out?
+
+Wu Wen-Tsun's method converts elementary-geometry theorems into computations on polynomial systems, letting computers mechanically prove large classes of geometry theorems.
+
+> **Limits：** Symbolic computation and automated reasoning, not learning-based AI.
+
+*Wu's method (吴文俊)*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Wu%27s_method_of_characteristic_set) (Reference)
+
 #### 1996-10｜Is every Robbins algebra Boolean? (the 60-year-old Robbins conjecture)
 
 William McCune's automated reasoning program EQP at Argonne found the key proof, settling — together with earlier results — a problem that had resisted mathematicians for decades.
 
 *EQP*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Robbins_algebra) (Reference) · [New York Times](https://www.nytimes.com/1996/12/10/science/computer-math-proof-shows-reasoning-power.html) (News)
+
+#### 2014-08｜Can the proof of the Kepler conjecture on sphere packing be checked completely by computer?
+
+Thomas Hales's Flyspeck project completed a formal verification of the proof of the Kepler conjecture in HOL Light and Isabelle.
+
+> **Limits：** Verifies an existing human proof; not a new result.
+
+*HOL Light and Isabelle (Flyspeck)*　Sources：[Forum Math. Pi 2017](https://doi.org/10.1017/fmp.2017.1) (Paper)
 
 #### 2016-05｜Can the positive integers be 2-coloured so that no Pythagorean triple is monochromatic?
 
@@ -49,6 +79,22 @@ Heule and colleagues used a SAT solver to prove the answer is no: it works up to
 > **Limits：** Automated reasoning plus massive computation, not learning-based AI.
 
 *SAT solver*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Boolean_Pythagorean_triples_problem) (Reference) · [arXiv](https://arxiv.org/abs/1605.00723) (Paper)
+
+#### 2017｜How far can the integers be 5-coloured with no monochromatic a + b = c? (the fifth Schur number)
+
+Marijn Heule used a SAT solver to prove the fifth Schur number is 160: 5-colouring works up to 160 and is impossible at 161. The proof file is about 2 petabytes.
+
+> **Limits：** Automated reasoning plus massive computation, not learning-based AI.
+
+*SAT solver (Heule)*　Sources：[arXiv](https://arxiv.org/abs/1711.08076) (Paper)
+
+#### 2019-10｜Tiling 7-dimensional space with unit cubes, must two cubes always share a full face? (Keller's conjecture in dimension 7)
+
+Brakensiek, Heule and colleagues used a SAT solver to prove Keller's conjecture holds in dimension 7, closing the last open low dimension.
+
+> **Limits：** Automated reasoning plus heavy computation, not learning-based AI.
+
+*SAT solver*　Sources：[arXiv](https://arxiv.org/abs/1910.03740) (Paper)
 
 #### 2021-02-03｜Can a computer automatically discover new formulas for fundamental constants like π and e?
 
@@ -114,6 +160,12 @@ Google DeepMind with Brown, NYU and Stanford used neural networks plus high-prec
 
 *Physics-informed neural networks (Google DeepMind et al.)*　Sources：[Google DeepMind](https://deepmind.google/blog/discovering-new-solutions-to-century-old-problems-in-fluid-dynamics/) (Official) · [Physics World](https://physicsworld.com/a/neural-networks-discover-unstable-singularities-in-fluid-systems/) (News)
 
+#### 2025-11｜Can reinforcement learning let AI find olympiad-level proofs inside a formal mathematical language?
+
+DeepMind published AlphaProof's method in Nature: reinforcement learning inside Lean, the system behind its silver-medal-level proofs at IMO 2024.
+
+*AlphaProof*　Sources：[Google Research](https://research.google/pubs/olympiad-level-formal-mathematical-reasoning-with-reinforcement-learning/) (Paper) · [Nature press release](https://www.natureasia.com/en/info/press-releases/detail/9147) (Official)
+
 #### 2025-11-03｜What happens when AI is applied to dozens of math problems at once?
 
 Terence Tao and collaborators applied AlphaEvolve to 67 problems in analysis, combinatorics and geometry, rediscovering best-known constructions in many and improving some.
@@ -127,6 +179,14 @@ OpenAI reports GPT-5 supplied the key idea that researchers used to settle the p
 > **Limits：** Publisher's report; see the paper for division of labour.
 
 *GPT-5*　Sources：[OpenAI](https://cdn.openai.com/pdf/4a25f921-e4e0-479a-9b38-5367b47e8fd0/early-science-acceleration-experiments-with-gpt-5.pdf) (Official)
+
+#### 2025-12-08｜Can Erdős Problem #1026 be settled?
+
+Boris Alexeev, Stijn Cambie, Terence Tao and others worked with Harmonic's Aristotle to prove the main conjecture formally in Lean; Tao described it as a genuine human–AI collaboration.
+
+> **Limits：** The core result was later found to exist in prior literature, unknown at the time.
+
+*Aristotle (Harmonic) with human mathematicians*　Sources：[Terence Tao's blog](https://terrytao.wordpress.com/2025/12/08/the-story-of-erdos-problem-126/) (Official) · [erdosproblems.com](https://www.erdosproblems.com/1026) (Reference)
 
 #### 2026-01-12｜Can Erdős Problem #728, on factorial divisibility, be resolved?
 
@@ -148,6 +208,28 @@ Axiom Math's AxiomProver proved the conjecture from its natural-language stateme
 
 *AxiomProver (Axiom Math)*　Sources：[arXiv](https://arxiv.org/abs/2602.03716) (Paper)
 
+#### 2026-02-04｜Are almost all primes 'partially regular'?
+
+Axiom Math's AxiomProver proved, from a natural-language statement, that a density-one set of primes satisfies a partial regularity condition, and formalised it in Lean.
+
+*AxiomProver (Axiom Math)*　Sources：[arXiv](https://arxiv.org/abs/2602.05090) (Paper)
+
+#### 2026-02-20｜On a set of research-level problems from mathematicians with no public answers (First Proof), how many can AI solve?
+
+OpenAI submitted answers to First Proof and says at least five (problems 4, 5, 6, 9 and 10) have a high chance of being correct.
+
+> **Limits：** Expert review was not complete; the remaining answers were still under review.
+
+*OpenAI unreleased research system*　Sources：[arXiv](https://arxiv.org/abs/2602.05192) (Paper) · [OpenAI](https://openai.com/index/first-proof-submissions) (Official)
+
+#### 2026-02-28｜Can the arcs of a particular 3D directed graph be split into three Hamiltonian cycles? (an open problem Knuth was working on)
+
+Donald Knuth wrote that Claude Opus 4.6 found, in about an hour of exploration, a construction that works for all odd m; Filip Stappers tested m = 3 to 101 and Knuth then proved the construction correct himself.
+
+> **Limits：** Only odd m was solved at the time; even m was open, and Knuth's postscripts report it was later settled with other AI systems. The proof itself was supplied by a human.
+
+*Claude Opus 4.6*　Sources：[Donald Knuth (note)](https://cs.stanford.edu/~knuth/papers/claude-cycles.pdf) (Official)
+
 #### 2026-03-23｜Can the lower-bound construction for a Ramsey-type hypergraph problem be improved?
 
 GPT-5.4 Pro produced an improved construction, and Epoch AI marked this FrontierMath open problem as solved.
@@ -165,6 +247,46 @@ An OpenAI internal model produced short proofs resolving these questions, releas
 Prompted by Liam Price, GPT-5.4 Pro proved the sharp 1+O(1/log x) bound conjectured by Erdős, Sárközy and Szemerédi.
 
 *GPT-5.4 Pro*　Sources：[erdosproblems.com](https://www.erdosproblems.com/history/1196) (Reference)
+
+#### 2026-06｜By mid-2026, how many open Erdős problems has AI solved?
+
+A wiki maintained by Terence Tao records AI contributions to Erdős problems problem by problem and lists those solved essentially by AI alone — for example #125, #741, #38 and #694 in 2026, and #90 solved in May by an OpenAI internal model and Claude Mythos.
+
+> **Limits：** The page notes some results were later found in prior literature; its data runs to 30 June 2026 and it is no longer updated.
+
+*GPT-5.x, Claude, Gemini, Aristotle, Aletheia and others*　Sources：[Tao's wiki](https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems) (Reference) · [Erdős #90](https://www.erdosproblems.com/90) (Reference) · [Erdős #619](https://www.erdosproblems.com/619) (Reference)
+
+#### 2026-07-23｜Can AI score full marks on all six International Mathematical Olympiad problems?
+
+Reports say Huawei's Celia and Xiaohongshu's dots-note-3.0 scored a perfect 42/42 at IMO 2026 in Shanghai, whereas in 2025 Google's and OpenAI's models reached only the gold line.
+
+> **Limits：** Company-announced; the report mentions no official IMO grading and gives no grading details.
+
+*Huawei Celia; Xiaohongshu dots-note-3.0*　Sources：[NewsBytes](https://www.newsbytesapp.com/news/science/for-first-time-ai-scores-100-at-international-mathematical-olympiad/story) (News)
+
+#### 2026-08-01｜Does Connes's rigidity conjecture in operator algebras hold?
+
+OpenAI says Astra disproved the conjecture.
+
+> **Limits：** Publisher's claim; Lean formalisation is public, peer review pending.
+
+*OpenAI Astra (unreleased)*　Sources：[GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
+
+#### 2026-08-01｜Can every countable group be approximated by finite permutations? (Gromov's 1999 question on sofic groups)
+
+OpenAI says Astra gave the first explicit construction of a non-sofic group, answering the question.
+
+> **Limits：** Publisher's claim; Lean formalisation is public, peer review pending.
+
+*OpenAI Astra (unreleased)*　Sources：[GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
+
+#### 2026-08-01｜In high dimensions, what fraction of space can equal spheres fill at most? (upper bounds on sphere-packing density)
+
+OpenAI says Astra improved the general upper bound on sphere-packing density in high dimensions — the first improvement since 1978.
+
+> **Limits：** Publisher's claim; an improved upper bound does not determine the maximum density. Peer review pending.
+
+*OpenAI Astra (unreleased)*　Sources：[GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
 
 #### 2026-08-10｜What fraction of the Riemann zeta function's nontrivial zeros can be proven to lie on the critical line?
 

@@ -2,13 +2,19 @@
 
 # 生物：AI 解决的问题
 
-共 13 条 · [← 返回 README](../../README.md)
+共 20 条 · [← 返回 README](../../README.md)
 
 #### 2009-04-03｜机器能不能自己提出假设、设计实验、得出新的科学发现？
 
 “机器人科学家”Adam 自主提出并实验验证了酵母中若干“孤儿酶”对应的基因。
 
 *Adam*　来源：[Science 2009](https://doi.org/10.1126/science.1165620) (论文)
+
+#### 2018-12｜蛋白质结构预测竞赛（CASP13）中，AI 能不能明显领先传统方法？
+
+DeepMind 的第一版 AlphaFold 在 CASP13 中拿下第一，预测精度明显高于其他参赛方法，为两年后的 AlphaFold 2 铺路。
+
+*AlphaFold (first version)*　来源：[Wikipedia](https://en.wikipedia.org/wiki/AlphaFold) (资料)
 
 #### 2020-11-30｜只知道氨基酸序列，能不能准确预测蛋白质的三维结构？（困扰生物学 50 年的“蛋白质折叠问题”）
 
@@ -29,6 +35,12 @@ Baker 实验室的 RoseTTAFold 以开源方式达到接近 AlphaFold 2 的精度
 德克萨斯大学用机器学习指导突变，得到 FAST-PETase，能在一周内基本降解多种 PET 塑料制品。
 
 *MutCompute*　来源：[Nature 2022](https://doi.org/10.1038/s41586-022-04599-z) (论文)
+
+#### 2022-07-28｜几乎所有已知蛋白质的三维结构，能不能一次性拿到？
+
+DeepMind 与欧洲生物信息研究所把 AlphaFold 预测的结构数据库扩展到超过 2 亿个蛋白质，免费向全世界开放。
+
+*AlphaFold DB*　来源：[Google DeepMind](https://deepmind.google/discover/blog/alphafold-reveals-the-structure-of-the-protein-universe/) (官方)
 
 #### 2022-09-15｜给定一个想要的蛋白质形状，能不能设计出会折叠成这个形状的氨基酸序列？
 
@@ -68,6 +80,12 @@ AlphaFold 3 把结构预测扩展到几乎所有生物分子的复合物，在�
 
 *AlphaFold / protein design*　来源：[Nobel Prize](https://www.nobelprize.org/prizes/chemistry/2024/press-release/) (官方)
 
+#### 2025-01-16｜AI 能不能“模拟”数亿年的进化，设计出自然界没有的功能蛋白质？
+
+EvolutionaryScale 的 ESM3 设计了一种新的绿色荧光蛋白 esmGFP，序列与已知荧光蛋白相差很远，实验证实它会发光。
+
+*ESM3*　来源：[Science 2025](https://doi.org/10.1126/science.ads0018) (论文)
+
 #### 2025-02-19｜AI 能不能提出连科学家还没发表的研究假说？
 
 谷歌称其 AI co-scientist 独立提出了关于细菌基因转移机制的假说，与伦敦帝国理工学院团队尚未发表的实验发现一致。
@@ -75,6 +93,36 @@ AlphaFold 3 把结构预测扩展到几乎所有生物分子的复合物，在�
 > **边界：** 发布方主张；系统可能用到了相关的已发表文献。
 
 *AI co-scientist (Google)*　来源：[arXiv](https://arxiv.org/abs/2502.18864) (论文)
+
+#### 2025-07｜AI 能不能设计出自然界没有的基因编辑工具？
+
+Profluent 用蛋白质语言模型设计了 CRISPR 基因编辑蛋白 OpenCRISPR-1，序列与天然蛋白相差很远，在人类细胞中仍然有编辑活性。
+
+*OpenCRISPR-1 (Profluent)*　来源：[Nature 2025](https://doi.org/10.1038/s41586-025-09298-z) (论文)
+
+#### 2025-09-17｜AI 能不能设计出完整的、能存活并感染细菌的病毒基因组？
+
+Arc 研究所和斯坦福的团队用基因组语言模型提出了约 300 个噬菌体 phiX174 的变体基因组，其中 16 个能在大肠杆菌中复制并裂解宿主。
+
+> **边界：** 预印本阶段，尚待同行评审；训练数据排除了感染人类的病毒。
+
+*Evo / Evo 2 (Arc Institute, Stanford)*　来源：[BioPharmaTrend](https://www.biopharmatrend.com/news/stanfordarc-team-reports-ai-made-viruses-that-kill-bacteria-1383/) (报道) · [Arc Institute](https://arcinstitute.org/news/hie-king-first-synthetic-phage) (官方)
+
+#### 2025-11-05｜能不能用 AI 从零设计出能结合指定靶点的抗体？
+
+Baker 实验室扩展 RFdiffusion，设计出能结合指定靶点的全新抗体片段，并用结构实验证实设计的结合方式与预测高度一致。
+
+> **边界：** 最初的设计亲和力一般，需要进一步优化。
+
+*RFdiffusion / RFantibody (Baker lab)*　来源：[UW Institute for Protein Design](https://www.ipd.uw.edu/2025/11/rfantibody-in-nature) (官方) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/41193805/) (论文)
+
+#### 2026-01-28｜DNA 里占绝大多数的非编码区发生变异，会产生什么影响？
+
+AlphaGenome 能读入长达一百万个碱基的 DNA，同时预测基因表达、剪接等数千种信号；在 26 项变异效应预测评测中的 25 项上持平或优于现有最佳模型。
+
+> **边界：** 是计算预测，不是实验测量。
+
+*AlphaGenome*　来源：[Nature press release](https://www.natureasia.com/en/info/press-releases/detail/9222) (官方) · [Google DeepMind](https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/) (官方)
 
 #### 2026-09-03｜雄性果蝇完整的中枢神经系统是怎样连接的？
 

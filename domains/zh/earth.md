@@ -2,7 +2,7 @@
 
 # 地球与气候：AI 解决的问题
 
-共 5 条 · [← 返回 README](../../README.md)
+共 7 条 · [← 返回 README](../../README.md)
 
 #### 1982-09-03｜专家系统能不能预测出地下隐藏的矿藏？
 
@@ -33,4 +33,18 @@ GraphCast 的 10 天全球天气预报在约 90% 的评测指标上优于欧洲�
 GenCast 的 15 天集合预报在 97% 的评测目标上优于欧洲中期天气预报中心的集合预报系统。
 
 *GenCast*　来源：[Nature 2024](https://doi.org/10.1038/s41586-024-08252-9) (论文)
+
+#### 2025-05-21｜一个模型能不能同时预报天气、空气质量、海浪和台风路径？
+
+微软的 Aurora 是一个地球系统基础模型，在空气质量、海浪、热带气旋路径等多项任务上优于现有的业务预报系统，计算成本却低得多。
+
+*Aurora (Microsoft)*　来源：[Nature 2025](https://doi.org/10.1038/s41586-025-09005-y) (论文) · [Microsoft](https://news.microsoft.com/source/features/ai/from-forecasting-storms-to-designing-molecules-how-new-ai-foundation-models-can-speed-up-scientific-discovery/) (官方)
+
+#### 2025-12-17｜国家气象部门能不能把 AI 全球天气预报放进正式业务系统？
+
+美国 NOAA 宣布部署基于 GraphCast 的 AI 全球预报模型 AIGFS，以及 AI 集合预报 AIGEFS 和混合集合 HGEFS；NOAA 称 AIGFS 只需传统 GFS 约 0.3% 的算力，16 天预报约 40 分钟算完。
+
+> **边界：** 第一版对热带气旋强度的预报有所退化，集合与混合系统的结果来自初步测试。
+
+*AIGFS / AIGEFS / HGEFS (NOAA)*　来源：[HPCwire](https://www.hpcwire.com/aiwire/2025/12/17/noaa-deploys-new-generation-of-ai-driven-global-weather-models/) (报道)
 

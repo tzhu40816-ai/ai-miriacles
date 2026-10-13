@@ -2,7 +2,7 @@
 
 # Robotics & autonomy: problems AI has solved
 
-8 entries · [← Back to README](../../README.md)
+11 entries · [← Back to README](../../README.md)
 
 #### c. 1970｜Can a robot perceive its surroundings, plan, and carry out multi-step tasks?
 
@@ -50,9 +50,31 @@ OpenAI's robot hand, trained in simulation, manipulated and solved a Rubik's Cub
 
 *Dactyl (OpenAI)*　Sources：[arXiv](https://arxiv.org/abs/1910.07113) (Paper)
 
+#### 2020-10-08｜Can driverless taxis with no safety driver serve the public?
+
+Waymo opened fully driverless ride-hailing to the public in the Phoenix area, Arizona.
+
+> **Limits：** Limited service area and conditions at first; expanded to other cities later.
+
+*Waymo Driver*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Waymo) (Reference)
+
 #### 2020-12-02｜Can stratospheric balloons navigate the winds by themselves to stay on station?
 
 Loon's reinforcement-learning controller, tested for 39 days over the equator, kept balloons near their target better than the hand-designed controller.
 
 *Deep RL (Loon)*　Sources：[Nature 2020](https://doi.org/10.1038/s41586-020-2939-8) (Paper)
+
+#### 2023-08-30｜Can an autonomous drone beat human world-champion pilots in a race?
+
+The University of Zurich's Swift, trained with deep reinforcement learning, beat several world-champion human drone pilots on a real race track.
+
+> **Limits：** On a specific, controlled indoor track.
+
+*Swift*　Sources：[Nature 2023](https://doi.org/10.1038/s41586-023-06419-4) (Paper)
+
+#### 2024-08-07｜Can a robot play table tennis at amateur human level?
+
+DeepMind's robot beat all beginners and about half of intermediate players in matches, but no advanced players.
+
+*Google DeepMind table-tennis robot*　Sources：[arXiv](https://arxiv.org/abs/2408.03906) (Paper)
 

@@ -2,13 +2,27 @@
 
 # 博弈：AI 解决的问题
 
-共 23 条 · [← 返回 README](../../README.md)
+共 26 条 · [← 返回 README](../../README.md)
 
 #### 1959｜程序能不能通过自我对弈，学得比编写它的人下得更好？
 
 Arthur Samuel 的西洋跳棋程序通过自我对弈调整评估函数，最终下得比 Samuel 本人更好。“机器学习”一词也由此流行。
 
 *Samuel's checkers program*　来源：[IBM J. Res. Dev. 1959](https://doi.org/10.1147/rd.33.0210) (论文)
+
+#### 1962｜自己学会下棋的程序，能不能战胜一位真正的跳棋名手？
+
+Arthur Samuel 的西洋跳棋程序在一场公开比赛中战胜了跳棋名手 Robert Nealey，成为当时最受关注的“机器战胜人类”事件之一。
+
+> **边界：** Nealey 并非顶尖选手，后来人类选手又多次战胜这个程序。
+
+*Samuel's checkers program*　来源：[Wikipedia](https://en.wikipedia.org/wiki/Arthur_Samuel_(computer_scientist)) (资料)
+
+#### 1967｜国际象棋程序能不能参加人类的正式比赛？
+
+Greenblatt 的 Mac Hack VI 是最早参加人类象棋锦标赛并获得棋力评级的程序之一。
+
+*Mac Hack VI*　来源：[Wikipedia](https://en.wikipedia.org/wiki/Mac_Hack) (资料)
 
 #### 1979-07｜程序能不能击败一项棋类游戏的世界冠军？
 
@@ -23,6 +37,12 @@ Hans Berliner 的双陆棋程序 BKG 9.8 以 7:1 击败世界冠军 Luigi Villa�
 Lenat 的 EURISKO 为太空战棋游戏 Traveller 设计舰队，连续两年赢得全国锦标赛，用的是人类没有想到的非常规战术。
 
 *EURISKO*　来源：[Wikipedia](https://en.wikipedia.org/wiki/Eurisko) (资料)
+
+#### 1983｜国际象棋程序能不能达到“大师”级别？
+
+贝尔实验室的专用硬件 Belle 成为第一台获得美国国际象棋联合会大师等级分的计算机。
+
+*Belle*　来源：[Wikipedia](https://en.wikipedia.org/wiki/Belle_(chess_machine)) (资料)
 
 #### 1988-11｜国际象棋程序能不能在正式比赛中击败特级大师？
 

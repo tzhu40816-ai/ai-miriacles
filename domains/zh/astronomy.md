@@ -2,13 +2,25 @@
 
 # 天文：AI 解决的问题
 
-共 2 条 · [← 返回 README](../../README.md)
+共 4 条 · [← 返回 README](../../README.md)
 
 #### 2017-12-14｜已有的望远镜数据里，还藏着没被发现的行星吗？
 
 神经网络在开普勒望远镜的数据中找出了此前漏检的行星 Kepler-90i，使 Kepler-90 成为已知行星数与太阳系并列最多（8 颗）的恒星系统。
 
 *Google neural network + NASA Kepler data*　来源：[NASA](https://www.nasa.gov/news-release/artificial-intelligence-nasa-data-used-to-discover-eighth-planet-circling-distant-star/) (官方)
+
+#### 2021-11｜开普勒望远镜的数据里，还有多少候选行星是真正的行星？
+
+NASA 的深度学习分类器 ExoMiner 验证了 301 颗新的系外行星，并能解释自己的判断依据。
+
+*ExoMiner*　来源：[arXiv](https://arxiv.org/abs/2111.10009) (论文)
+
+#### 2025-09-04｜引力波探测器里镜面的微小抖动，能不能被控制得更好？
+
+DeepMind 与 LIGO 合作，用强化学习设计控制器，大幅降低了镜面控制引入的噪声，有助于探测更多、更远的引力波事件。
+
+*Deep Loop Shaping (Google DeepMind + LIGO)*　来源：[Google DeepMind](https://deepmind.google/blog/using-ai-to-perceive-the-universe-in-greater-depth/) (官方) · [LIGO](https://www.ligo.caltech.edu/news/ligo20250908) (官方)
 
 #### 2026-09-23｜银河系里还有多少稀有的沃尔夫-拉叶星没被发现？
 

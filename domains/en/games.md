@@ -2,13 +2,27 @@
 
 # Games: problems AI has solved
 
-23 entries · [← Back to README](../../README.md)
+26 entries · [← Back to README](../../README.md)
 
 #### 1959｜Can a program learn, by playing itself, to play better than the person who wrote it?
 
 Arthur Samuel's checkers program tuned its evaluation function through self-play and came to outplay Samuel himself; it popularised the term "machine learning".
 
 *Samuel's checkers program*　Sources：[IBM J. Res. Dev. 1959](https://doi.org/10.1147/rd.33.0210) (Paper)
+
+#### 1962｜Can a self-taught program beat a genuine checkers master?
+
+Arthur Samuel's checkers program beat the checkers master Robert Nealey in a publicised match, one of the era's best-known machine-over-human results.
+
+> **Limits：** Nealey was not a top player, and humans later beat the program several times.
+
+*Samuel's checkers program*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Arthur_Samuel_(computer_scientist)) (Reference)
+
+#### 1967｜Can a chess program enter real human tournaments?
+
+Greenblatt's Mac Hack VI was among the first chess programs to play in human tournaments and receive a rating.
+
+*Mac Hack VI*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Mac_Hack) (Reference)
 
 #### 1979-07｜Can a program beat a reigning world champion at a board game?
 
@@ -23,6 +37,12 @@ Hans Berliner's backgammon program BKG 9.8 beat world champion Luigi Villa 7–1
 Lenat's EURISKO designed fleets for the Traveller war game and won the national tournament two years running with unconventional tactics.
 
 *EURISKO*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Eurisko) (Reference)
+
+#### 1983｜Can a chess program reach master level?
+
+Bell Labs' special-purpose Belle became the first computer to earn a US Chess Federation master rating.
+
+*Belle*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/Belle_(chess_machine)) (Reference)
 
 #### 1988-11｜Can a chess program beat a grandmaster in tournament play?
 

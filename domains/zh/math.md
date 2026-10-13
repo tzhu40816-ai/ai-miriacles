@@ -2,7 +2,7 @@
 
 # 数学：AI 解决的问题
 
-共 29 条 · [← 返回 README](../../README.md)
+共 45 条 · [← 返回 README](../../README.md)
 
 #### 1956｜给定逻辑公理，机器能不能自己找到定理的证明？
 
@@ -28,6 +28,12 @@ Slagle 的 SAINT 程序用启发式搜索求解符号积分，在 MIT 一年级�
 
 *SAINT*　来源：[Wikipedia](https://en.wikipedia.org/wiki/James_Robert_Slagle) (资料)
 
+#### 1965｜能不能找到一种简单、通用、适合机器执行的逻辑推理规则？
+
+Robinson 提出的归结原理，让计算机可以用单一规则对一阶逻辑进行完备的机械推理，成为自动定理证明和逻辑编程的基础。
+
+*Resolution principle (J. A. Robinson)*　来源：[JACM 1965](https://doi.org/10.1145/321250.321253) (论文) · [Wikipedia](https://en.wikipedia.org/wiki/Resolution_(logic)) (资料)
+
 #### 1976｜机器能不能自己提出数学概念和猜想？
 
 Lenat 的 AM 程序从集合论出发，用启发式规则自己“发现”了自然数、质数，并提出了哥德巴赫猜想等已知猜想。
@@ -36,11 +42,35 @@ Lenat 的 AM 程序从集合论出发，用启发式规则自己“发现”了�
 
 *AM (Automated Mathematician)*　来源：[Wikipedia](https://en.wikipedia.org/wiki/Automated_Mathematician) (资料)
 
+#### 1976｜任何地图只用四种颜色，就能让相邻的区域颜色不同吗？（四色定理）
+
+Appel 和 Haken 把证明化为 1900 多种情形，用计算机逐一检查，第一次让计算机成为证明一个著名数学定理不可缺少的一部分。
+
+> **边界：** 属于计算机辅助的穷举验证，不是学习或推理系统；收录它是因为它引发了“机器证明算不算证明”的长期讨论。
+
+*Appel–Haken computer-assisted proof*　来源：[Wikipedia](https://en.wikipedia.org/wiki/Four_color_theorem) (资料)
+
+#### 1977｜几何定理的证明，能不能变成计算机可以执行的代数计算？
+
+吴文俊提出的“吴方法”把初等几何的定理转化为多项式方程组的计算，使计算机可以机械地证明大量几何定理，开创了几何定理机器证明的新路线。
+
+> **边界：** 属于符号计算与自动推理，不是学习型 AI。
+
+*Wu's method (吴文俊)*　来源：[Wikipedia](https://en.wikipedia.org/wiki/Wu%27s_method_of_characteristic_set) (资料)
+
 #### 1996-10｜所有 Robbins 代数都是布尔代数吗？（悬而未决 60 年的 Robbins 猜想）
 
 Argonne 实验室 McCune 的自动推理程序 EQP 找到了关键证明，结合已有成果解决了这个困扰数学家几十年的问题。
 
 *EQP*　来源：[Wikipedia](https://en.wikipedia.org/wiki/Robbins_algebra) (资料) · [New York Times](https://www.nytimes.com/1996/12/10/science/computer-math-proof-shows-reasoning-power.html) (报道)
+
+#### 2014-08｜开普勒猜想（球的最密堆积）的证明，能不能被计算机逐步完整验证？
+
+Hales 领导的 Flyspeck 项目用 HOL Light 和 Isabelle 完成了开普勒猜想证明的形式化验证。
+
+> **边界：** 验证的是已有的人类证明，不是新结果。
+
+*HOL Light and Isabelle (Flyspeck)*　来源：[Forum Math. Pi 2017](https://doi.org/10.1017/fmp.2017.1) (论文)
 
 #### 2016-05｜能不能把正整数涂成两种颜色，使得没有同色的勾股数组？（布尔勾股数问题）
 
@@ -49,6 +79,22 @@ Heule 等人用 SAT 求解器证明答案是否定的：一直涂到 7824 还可
 > **边界：** 属于自动推理加大规模计算，不是学习型 AI。
 
 *SAT solver*　来源：[Wikipedia](https://en.wikipedia.org/wiki/Boolean_Pythagorean_triples_problem) (资料) · [arXiv](https://arxiv.org/abs/1605.00723) (论文)
+
+#### 2017｜能不能把前 N 个正整数涂成五种颜色，使得没有同色的 a + b = c？（第五个 Schur 数）
+
+Heule 用 SAT 求解器证明第五个 Schur 数是 160：涂到 160 可以，到 161 就不可能。证明文件约 2 PB。
+
+> **边界：** 属于自动推理加大规模计算，不是学习型 AI。
+
+*SAT solver (Heule)*　来源：[arXiv](https://arxiv.org/abs/1711.08076) (论文)
+
+#### 2019-10｜七维空间里，用单位立方体铺满空间时，一定会有两个立方体整面相接吗？（Keller 猜想第 7 维）
+
+Brakensiek、Heule 等人用 SAT 求解器证明 Keller 猜想在 7 维成立，补上了这一长期悬而未决的维度。
+
+> **边界：** 自动推理加大规模计算，不是学习型 AI。
+
+*SAT solver*　来源：[arXiv](https://arxiv.org/abs/1910.03740) (论文)
 
 #### 2021-02-03｜能不能让计算机自动发现 π、e 等基本常数的新公式？
 
@@ -114,6 +160,12 @@ Google DeepMind 与布朗大学、纽约大学、斯坦福大学合作，用神�
 
 *Physics-informed neural networks (Google DeepMind et al.)*　来源：[Google DeepMind](https://deepmind.google/blog/discovering-new-solutions-to-century-old-problems-in-fluid-dynamics/) (官方) · [Physics World](https://physicsworld.com/a/neural-networks-discover-unstable-singularities-in-fluid-systems/) (报道)
 
+#### 2025-11｜能不能通过强化学习，让 AI 在形式化数学语言里自己找到奥赛级别的证明？
+
+DeepMind 在《自然》上发表了 AlphaProof 的方法：用强化学习在 Lean 里训练，使它能在 2024 年国际数学奥林匹克中做出银牌水平的证明。
+
+*AlphaProof*　来源：[Google Research](https://research.google/pubs/olympiad-level-formal-mathematical-reasoning-with-reinforcement-learning/) (论文) · [Nature press release](https://www.natureasia.com/en/info/press-releases/detail/9147) (官方)
+
 #### 2025-11-03｜把 AI 同时用在几十个数学问题上，能有多少收获？
 
 Terence Tao 等人与 AlphaEvolve 合作研究了 67 个分析、组合和几何问题，在其中一部分上重新找到已知最优构造，或给出了改进的构造。
@@ -127,6 +179,14 @@ OpenAI 称 GPT-5 为解决这个问题提供了关键想法，研究者据此完
 > **边界：** 发布方的报告，人机分工需要看原文。
 
 *GPT-5*　来源：[OpenAI](https://cdn.openai.com/pdf/4a25f921-e4e0-479a-9b38-5367b47e8fd0/early-science-acceleration-experiments-with-gpt-5.pdf) (官方)
+
+#### 2025-12-08｜埃尔德什第 1026 号问题能被解决吗？
+
+Boris Alexeev、Stijn Cambie、Terence Tao 等人与 Harmonic 的 Aristotle 合作，在 Lean 中形式化证明了主要猜想；陶哲轩把它描述为真正的人机合作。
+
+> **边界：** 事后发现核心结果在已有文献中出现过，当时并不知道。
+
+*Aristotle (Harmonic) with human mathematicians*　来源：[Terence Tao's blog](https://terrytao.wordpress.com/2025/12/08/the-story-of-erdos-problem-126/) (官方) · [erdosproblems.com](https://www.erdosproblems.com/1026) (资料)
 
 #### 2026-01-12｜埃尔德什第 728 号问题（关于阶乘整除性）能被解决吗？
 
@@ -148,6 +208,28 @@ Axiom Math 的 AxiomProver 从自然语言陈述出发证明了这一猜想，�
 
 *AxiomProver (Axiom Math)*　来源：[arXiv](https://arxiv.org/abs/2602.03716) (论文)
 
+#### 2026-02-04｜“几乎所有素数”都是“部分正则”的吗？
+
+Axiom Math 的 AxiomProver 从自然语言陈述出发，证明了一个密度为 1 的素数集合满足部分正则条件，并在 Lean 中形式化。
+
+*AxiomProver (Axiom Math)*　来源：[arXiv](https://arxiv.org/abs/2602.05090) (论文)
+
+#### 2026-02-20｜在数学家出的一组尚无公开答案的研究级问题（First Proof）上，AI 能答对多少？
+
+OpenAI 提交了 First Proof 的答案，称其中至少 5 题（第 4、5、6、9、10 题）有很高概率是正确的。
+
+> **边界：** 专家评审尚未结束，其余答案仍在审核。
+
+*OpenAI unreleased research system*　来源：[arXiv](https://arxiv.org/abs/2602.05192) (论文) · [OpenAI](https://openai.com/index/first-proof-submissions) (官方)
+
+#### 2026-02-28｜能不能把一个三维有向图的所有弧，拆成三个首尾相接的完整环？（Knuth 在研究的开放问题）
+
+Donald Knuth 在笔记里写道，Claude Opus 4.6 在约一个小时的探索中找到了一个对所有奇数 m 都适用的构造；Filip Stappers 测试了 m=3 到 101，Knuth 随后自己证明了构造的正确性。
+
+> **边界：** 当时只解决了奇数 m，偶数 m 仍是开放的；Knuth 的补记说，偶数情形后来借助其他 AI 系统解决。证明由人类给出。
+
+*Claude Opus 4.6*　来源：[Donald Knuth (note)](https://cs.stanford.edu/~knuth/papers/claude-cycles.pdf) (官方)
+
 #### 2026-03-23｜一个超图 Ramsey 类问题的下界构造能不能改进？
 
 GPT-5.4 Pro 给出了改进的构造，Epoch AI 将 FrontierMath 开放问题列表中的这一题标为已解决。
@@ -165,6 +247,46 @@ OpenAI 的内部模型给出了这几个问题的简短证明，相关结果以�
 在 Liam Price 的提示下，GPT-5.4 Pro 证明了猜想中的精确界 1+O(1/log x)。
 
 *GPT-5.4 Pro*　来源：[erdosproblems.com](https://www.erdosproblems.com/history/1196) (资料)
+
+#### 2026-06｜到 2026 年年中，埃尔德什问题集里有多少开放问题被 AI 解决？
+
+陶哲轩维护的维基页面逐题记录 AI 在埃尔德什问题上的贡献，把由 AI 基本独自解决的问题单独列出，例如 2026 年的第 125、741、38、694 号等，以及 5 月由 OpenAI 内部模型和 Claude Mythos 先后解决的第 90 号。
+
+> **边界：** 该页面标注，有些结果后来发现已有文献；页面数据截至 2026 年 6 月 30 日，之后不再更新。
+
+*GPT-5.x, Claude, Gemini, Aristotle, Aletheia and others*　来源：[Tao's wiki](https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems) (资料) · [Erdős #90](https://www.erdosproblems.com/90) (资料) · [Erdős #619](https://www.erdosproblems.com/619) (资料)
+
+#### 2026-07-23｜在国际数学奥林匹克的全部六道题上，AI 能不能拿到满分？
+
+报道称，华为的 Celia 和小红书的 dots-note-3.0 在 2026 年上海 IMO 上拿到 42/42 的满分，而 2025 年谷歌和 OpenAI 的模型只达到金牌线。
+
+> **边界：** 成绩由公司发布；报道没有提到 IMO 官方评分，也没有评分方法的细节。
+
+*Huawei Celia; Xiaohongshu dots-note-3.0*　来源：[NewsBytes](https://www.newsbytesapp.com/news/science/for-first-time-ai-scores-100-at-international-mathematical-olympiad/story) (报道)
+
+#### 2026-08-01｜算子代数中的 Connes 刚性猜想成立吗？
+
+OpenAI 称 Astra 给出了这个猜想的反例，即猜想不成立。
+
+> **边界：** 发布方主张；Lean 形式化已公开，同行评审尚未完成。
+
+*OpenAI Astra (unreleased)*　来源：[GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
+
+#### 2026-08-01｜是不是每个可数群都能用有限置换来近似？（Gromov 1999 年提出的 sofic 群问题）
+
+OpenAI 称 Astra 给出了第一个非 sofic 群的显式构造，从而回答了这个问题。
+
+> **边界：** 发布方主张；Lean 形式化已公开，同行评审尚未完成。
+
+*OpenAI Astra (unreleased)*　来源：[GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
+
+#### 2026-08-01｜高维空间里，等大小的球最多能占据多大比例的空间？（球堆积密度的上界）
+
+OpenAI 称 Astra 改进了高维球堆积密度的一般上界，这是自 1978 年以来的首次改进。
+
+> **边界：** 发布方主张；上界的改进不等于确定了最大密度。同行评审尚未完成。
+
+*OpenAI Astra (unreleased)*　来源：[GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
 
 #### 2026-08-10｜黎曼ζ函数的非平凡零点，能证明至少有多大比例落在临界线上？
 
