@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI创造的奇迹 · Miracles Made by AI</title>
+  <meta name="description" content="AI 解决具体问题的时间线，从 1956 年到现在。A timeline of concrete problems AI has solved, from 1956 to today.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <div class="topbar">
+        <span class="mark">AI · 1956 → <span id="yearNow"></span></span>
+        <div class="langs" id="langs" role="group" aria-label="Language"></div>
+      </div>
+      <h1 id="title"></h1>
+      <p class="subtitle" id="subtitle"></p>
+      <p class="intro" id="intro"></p>
+    </div>
+  </header>
+
+  <section class="controls">
+    <div class="wrap">
+      <input id="q" type="search" autocomplete="off">
+      <div class="chips" id="domains"></div>
+      <div class="row">
+        <span id="count" class="count"></span>
+        <button id="sort" class="sort" type="button"></button>
+      </div>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <ol class="timeline" id="list"></ol>
+    <p class="empty" id="empty" hidden></p>
+  </main>
+
+  <footer class="wrap foot">
+    <span id="footer"></span>
+    <a id="report" href="https://github.com/tzhu40816-ai/ai-miriacles/issues/new"></a>
+    ·
+    <a id="source" href="https://github.com/tzhu40816-ai/ai-miriacles"></a>
+  </footer>
+
+  <script src="assets/i18n.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+name: 提交线索 / Submit a lead
+description: AI 解决了某个问题，但这里还没有收录 / An AI achievement that's missing
+labels: [lead]
+body:
+  - type: input
+    id: problem
+    attributes:
+      label: 什么问题？/ What problem?
+      placeholder: 例如：黎曼ζ函数零点比例下界被提高
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: 来源链接 / Source link
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: 大概时间 / Approximate date
+  - type: textarea
+    id: notes
+    attributes:
+      label: 补充说明 / Notes
