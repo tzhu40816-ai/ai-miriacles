@@ -42,7 +42,7 @@
 
 美国 FDA 批准 IDx-DR 上市，这是第一个获批可以由 AI 独立给出筛查结果的医疗设备，用于发现糖尿病视网膜病变。
 
-*IDx-DR*　来源：[US FDA](https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-artificial-intelligence-based-device-detect-certain-diabetes-related-eye) (官方)
+*IDx-DR*　来源：[Eyewire News (reproduces the FDA release)](https://eyewire.news/news/fda-permits-marketing-of-ai-based-device-to-detect-certain-diabetes-related-eye-problems) (报道)
 
 #### 2019-05-20｜AI 看低剂量 CT，能不能比放射科医生更准地发现肺癌？
 
@@ -136,5 +136,5 @@ MIT 的 Collins 团队用生成式 AI 设计了数千万个虚拟化合物，挑
 
 > **边界：** 只在细胞模型中验证，机制未明，距离临床还很远。
 
-*C2S-Scale 27B (Google DeepMind + Yale)*　来源：[Google DeepMind](https://deepmind.google/discover/blog/how-a-gemma-model-helped-discover-a-new-potential-cancer-therapy-pathway/) (官方)
+*C2S-Scale 27B (Google DeepMind + Yale)*　来源：[The Decoder](https://the-decoder.com/google-deepminds-new-gemma-model-helped-discover-a-new-cancer-treatment-pathway/) (报道)
 

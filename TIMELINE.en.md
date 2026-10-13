@@ -468,7 +468,7 @@ Segler et al. combined neural networks with Monte Carlo tree search for retrosyn
 
 The US FDA authorised IDx-DR, the first device cleared to give a screening result using AI without a clinician interpreting the image, for diabetic retinopathy.
 
-*Medicine · IDx-DR*　Sources：[US FDA](https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-artificial-intelligence-based-device-detect-certain-diabetes-related-eye) (Official)
+*Medicine · IDx-DR*　Sources：[Eyewire News (reproduces the FDA release)](https://eyewire.news/news/fda-permits-marketing-of-ai-based-device-to-detect-certain-diabetes-related-eye-problems) (News)
 
 #### 2018-12｜Can AI clearly lead traditional methods at the CASP13 protein-structure prediction contest?
 
@@ -1116,7 +1116,7 @@ Google and Yale used a single-cell language model to screen over 4,000 drugs and
 
 > **Limits：** Cell models only, mechanism unexplained, far from the clinic.
 
-*Medicine · C2S-Scale 27B (Google DeepMind + Yale)*　Sources：[Google DeepMind](https://deepmind.google/discover/blog/how-a-gemma-model-helped-discover-a-new-potential-cancer-therapy-pathway/) (Official)
+*Medicine · C2S-Scale 27B (Google DeepMind + Yale)*　Sources：[The Decoder](https://the-decoder.com/google-deepminds-new-gemma-model-helped-discover-a-new-cancer-treatment-pathway/) (News)
 
 #### 2025-11｜Can reinforcement learning let AI find olympiad-level proofs inside a formal mathematical language?
 
@@ -1130,7 +1130,7 @@ Edison Scientific's Kosmos can run for about 12 hours at a time and reported dis
 
 > **Limits：** The publisher's own evaluation; roughly one in five statements was inaccurate.
 
-*Other · Kosmos (Edison Scientific)*　Sources：[arXiv](https://arxiv.org/abs/2511.02824) (Paper) · [Edison Scientific](https://edisonscientific.com/articles/announcing-kosmos) (Official)
+*Other · Kosmos (Edison Scientific)*　Sources：[arXiv](https://arxiv.org/abs/2511.02824) (Paper) · [Edison Scientific](https://edisonscientific.com/articles/announcing-kosmos) (Official) · [HPCwire](https://www.hpcwire.com/aiwire/2025/11/07/futurehouse-spins-out-edison-scientific-launches-kosmos-ai-for-research/) (News)
 
 #### 2025-11-03｜What happens when AI is applied to dozens of math problems at once?
 
@@ -1406,7 +1406,7 @@ OpenAI says Astra disproved the conjecture.
 
 > **Limits：** Publisher's claim; Lean formalisation is public, peer review pending.
 
-*Mathematics · OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
+*Mathematics · OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official)
 
 #### 2026-08-01｜How large can the volume of a convex body be if its centroid is its only interior lattice point? (Ehrhart's volume conjecture)
 
@@ -1430,7 +1430,7 @@ OpenAI says Astra gave the first explicit construction of a non-sofic group, ans
 
 > **Limits：** Publisher's claim; Lean formalisation is public, peer review pending.
 
-*Mathematics · OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
+*Mathematics · OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official)
 
 #### 2026-08-01｜How large must arithmetic circuits computing the permanent be?
 
@@ -1454,7 +1454,7 @@ OpenAI says Astra gave new upper bounds on high-dimensional sphere-packing densi
 
 > **Limits：** Publisher's claim; an improved upper bound does not determine the maximum density. OpenAI's page mentions no external expert review.
 
-*Mathematics · OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
+*Mathematics · OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official)
 
 #### 2026-08-10｜The Riemann Hypothesis is still open, but what proportion of the zeta function's nontrivial zeros can be proved to lie on the critical line? (partial progress toward the Riemann Hypothesis)
 

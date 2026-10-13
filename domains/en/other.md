@@ -10,5 +10,5 @@ Edison Scientific's Kosmos can run for about 12 hours at a time and reported dis
 
 > **Limits：** The publisher's own evaluation; roughly one in five statements was inaccurate.
 
-*Kosmos (Edison Scientific)*　Sources：[arXiv](https://arxiv.org/abs/2511.02824) (Paper) · [Edison Scientific](https://edisonscientific.com/articles/announcing-kosmos) (Official)
+*Kosmos (Edison Scientific)*　Sources：[arXiv](https://arxiv.org/abs/2511.02824) (Paper) · [Edison Scientific](https://edisonscientific.com/articles/announcing-kosmos) (Official) · [HPCwire](https://www.hpcwire.com/aiwire/2025/11/07/futurehouse-spins-out-edison-scientific-launches-kosmos-ai-for-research/) (News)
 

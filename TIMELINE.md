@@ -468,7 +468,7 @@ Segler 等人用神经网络结合蒙特卡洛树搜索规划逆合成路线；�
 
 美国 FDA 批准 IDx-DR 上市，这是第一个获批可以由 AI 独立给出筛查结果的医疗设备，用于发现糖尿病视网膜病变。
 
-*医学 · IDx-DR*　来源：[US FDA](https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-artificial-intelligence-based-device-detect-certain-diabetes-related-eye) (官方)
+*医学 · IDx-DR*　来源：[Eyewire News (reproduces the FDA release)](https://eyewire.news/news/fda-permits-marketing-of-ai-based-device-to-detect-certain-diabetes-related-eye-problems) (报道)
 
 #### 2018-12｜蛋白质结构预测竞赛（CASP13）中，AI 能不能明显领先传统方法？
 
@@ -1116,7 +1116,7 @@ Google DeepMind 与布朗大学、纽约大学、斯坦福大学合作，用神�
 
 > **边界：** 只在细胞模型中验证，机制未明，距离临床还很远。
 
-*医学 · C2S-Scale 27B (Google DeepMind + Yale)*　来源：[Google DeepMind](https://deepmind.google/discover/blog/how-a-gemma-model-helped-discover-a-new-potential-cancer-therapy-pathway/) (官方)
+*医学 · C2S-Scale 27B (Google DeepMind + Yale)*　来源：[The Decoder](https://the-decoder.com/google-deepminds-new-gemma-model-helped-discover-a-new-cancer-treatment-pathway/) (报道)
 
 #### 2025-11｜能不能通过强化学习，让 AI 在形式化数学语言里自己找到奥赛级别的证明？
 
@@ -1130,7 +1130,7 @@ Edison Scientific 的 Kosmos 一次可连续运行约 12 小时，在多个领�
 
 > **边界：** 发布方的评估，约五分之一的陈述不准确。
 
-*其他 · Kosmos (Edison Scientific)*　来源：[arXiv](https://arxiv.org/abs/2511.02824) (论文) · [Edison Scientific](https://edisonscientific.com/articles/announcing-kosmos) (官方)
+*其他 · Kosmos (Edison Scientific)*　来源：[arXiv](https://arxiv.org/abs/2511.02824) (论文) · [Edison Scientific](https://edisonscientific.com/articles/announcing-kosmos) (官方) · [HPCwire](https://www.hpcwire.com/aiwire/2025/11/07/futurehouse-spins-out-edison-scientific-launches-kosmos-ai-for-research/) (报道)
 
 #### 2025-11-03｜把 AI 同时用在几十个数学问题上，能有多少收获？
 
@@ -1406,7 +1406,7 @@ OpenAI 称 Astra 给出了这个猜想的反例，即猜想不成立。
 
 > **边界：** 发布方主张；Lean 形式化已公开，同行评审尚未完成。
 
-*数学 · OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
+*数学 · OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方)
 
 #### 2026-08-01｜重心是唯一内部格点的凸体，体积最大能是多少？（Ehrhart 体积猜想）
 
@@ -1430,7 +1430,7 @@ OpenAI 称 Astra 给出了第一个非 sofic 群的显式构造，从而回答�
 
 > **边界：** 发布方主张；Lean 形式化已公开，同行评审尚未完成。
 
-*数学 · OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
+*数学 · OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方)
 
 #### 2026-08-01｜计算矩阵的积和式（permanent），算术电路至少需要多大？
 
@@ -1454,7 +1454,7 @@ OpenAI 称 Astra 给出了高维球堆积密度的新上界，一直推进到 Co
 
 > **边界：** 发布方主张；上界的改进不等于确定了最大密度。OpenAI 的页面未提外部专家评审。
 
-*数学 · OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
+*数学 · OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方)
 
 #### 2026-08-10｜黎曼猜想还没解决，但黎曼ζ函数的非平凡零点，能证明至少有多大比例落在临界线上？（黎曼猜想的部分进展）
 

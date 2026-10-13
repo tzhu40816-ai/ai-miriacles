@@ -10,5 +10,5 @@ Edison Scientific 的 Kosmos 一次可连续运行约 12 小时，在多个领�
 
 > **边界：** 发布方的评估，约五分之一的陈述不准确。
 
-*Kosmos (Edison Scientific)*　来源：[arXiv](https://arxiv.org/abs/2511.02824) (论文) · [Edison Scientific](https://edisonscientific.com/articles/announcing-kosmos) (官方)
+*Kosmos (Edison Scientific)*　来源：[arXiv](https://arxiv.org/abs/2511.02824) (论文) · [Edison Scientific](https://edisonscientific.com/articles/announcing-kosmos) (官方) · [HPCwire](https://www.hpcwire.com/aiwire/2025/11/07/futurehouse-spins-out-edison-scientific-launches-kosmos-ai-for-research/) (报道)
 

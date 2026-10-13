@@ -422,7 +422,7 @@ OpenAI says Astra disproved the conjecture.
 
 > **Limits：** Publisher's claim; Lean formalisation is public, peer review pending.
 
-*OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
+*OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official)
 
 #### 2026-08-01｜How large can the volume of a convex body be if its centroid is its only interior lattice point? (Ehrhart's volume conjecture)
 
@@ -446,7 +446,7 @@ OpenAI says Astra gave the first explicit construction of a non-sofic group, ans
 
 > **Limits：** Publisher's claim; Lean formalisation is public, peer review pending.
 
-*OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
+*OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official)
 
 #### 2026-08-01｜In high dimensions, what fraction of space can equal spheres fill at most? (upper bounds on sphere-packing density)
 
@@ -454,7 +454,7 @@ OpenAI says Astra gave new upper bounds on high-dimensional sphere-packing densi
 
 > **Limits：** Publisher's claim; an improved upper bound does not determine the maximum density. OpenAI's page mentions no external expert review.
 
-*OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
+*OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official)
 
 #### 2026-08-10｜The Riemann Hypothesis is still open, but what proportion of the zeta function's nontrivial zeros can be proved to lie on the critical line? (partial progress toward the Riemann Hypothesis)
 

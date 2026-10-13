@@ -422,7 +422,7 @@ OpenAI 称 Astra 给出了这个猜想的反例，即猜想不成立。
 
 > **边界：** 发布方主张；Lean 形式化已公开，同行评审尚未完成。
 
-*OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
+*OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方)
 
 #### 2026-08-01｜重心是唯一内部格点的凸体，体积最大能是多少？（Ehrhart 体积猜想）
 
@@ -446,7 +446,7 @@ OpenAI 称 Astra 给出了第一个非 sofic 群的显式构造，从而回答�
 
 > **边界：** 发布方主张；Lean 形式化已公开，同行评审尚未完成。
 
-*OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
+*OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方)
 
 #### 2026-08-01｜高维空间里，等大小的球最多能占据多大比例的空间？（球堆积密度的上界）
 
@@ -454,7 +454,7 @@ OpenAI 称 Astra 给出了高维球堆积密度的新上界，一直推进到 Co
 
 > **边界：** 发布方主张；上界的改进不等于确定了最大密度。OpenAI 的页面未提外部专家评审。
 
-*OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
+*OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方)
 
 #### 2026-08-10｜黎曼猜想还没解决，但黎曼ζ函数的非平凡零点，能证明至少有多大比例落在临界线上？（黎曼猜想的部分进展）
 

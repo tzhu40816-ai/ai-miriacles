@@ -42,7 +42,7 @@ In the Camelyon16 challenge, several deep-learning algorithms detected lymph-nod
 
 The US FDA authorised IDx-DR, the first device cleared to give a screening result using AI without a clinician interpreting the image, for diabetic retinopathy.
 
-*IDx-DR*　Sources：[US FDA](https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-artificial-intelligence-based-device-detect-certain-diabetes-related-eye) (Official)
+*IDx-DR*　Sources：[Eyewire News (reproduces the FDA release)](https://eyewire.news/news/fda-permits-marketing-of-ai-based-device-to-detect-certain-diabetes-related-eye-problems) (News)
 
 #### 2019-05-20｜Can AI read low-dose CT scans better than radiologists to detect lung cancer?
 
@@ -136,5 +136,5 @@ Google and Yale used a single-cell language model to screen over 4,000 drugs and
 
 > **Limits：** Cell models only, mechanism unexplained, far from the clinic.
 
-*C2S-Scale 27B (Google DeepMind + Yale)*　Sources：[Google DeepMind](https://deepmind.google/discover/blog/how-a-gemma-model-helped-discover-a-new-potential-cancer-therapy-pathway/) (Official)
+*C2S-Scale 27B (Google DeepMind + Yale)*　Sources：[The Decoder](https://the-decoder.com/google-deepminds-new-gemma-model-helped-discover-a-new-cancer-treatment-pathway/) (News)
 
