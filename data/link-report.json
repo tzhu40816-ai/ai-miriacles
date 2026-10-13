@@ -1,18 +1,8 @@
 {
-  "checked_at": "2026-10-13T06:37:47.787Z",
-  "total": 277,
-  "broken": [
-    {
-      "id": "2025-deep-loop-shaping-ligo",
-      "url": "https://www.ligo.caltech.edu/news/ligo20250908",
-      "status": "ERR UNABLE_TO_GET_ISSUER_CERT_LOCALLY"
-    },
-    {
-      "id": "2025-kosmos",
-      "url": "https://edisonscientific.com/articles/announcing-kosmos",
-      "status": 404
-    }
-  ],
+  "checked_at": "2026-10-13T07:52:08.191Z",
+  "total": 278,
+  "unique_urls": 257,
+  "broken": [],
   "blocked_by_site": [
     {
       "id": "1996-robbins",
@@ -113,6 +103,13 @@
       "id": "2026-openai-math-release",
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
       "status": 403
+    }
+  ],
+  "unverified": [
+    {
+      "id": "2025-deep-loop-shaping-ligo",
+      "url": "https://www.ligo.caltech.edu/news/ligo20250908",
+      "status": "ERR UNABLE_TO_GET_ISSUER_CERT_LOCALLY"
     }
   ]
 }
