@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-10-13T04:30:29.497Z",
-  "total": 141,
+  "checked_at": "2026-10-13T04:32:10.814Z",
+  "total": 142,
   "broken": [
     {
       "id": "1979-stanford-cart",
-      "url": "https://en.wikipedia.org/wiki/Stanford_cart",
+      "url": "https://web.stanford.edu/~learnest/sail/oldcart.html",
       "status": 404
     }
   ],
