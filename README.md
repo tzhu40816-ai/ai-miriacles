@@ -1,29 +1,84 @@
+<!-- 本文件由 scripts/build-docs.mjs 从 data/events.json 自动生成，请勿手工修改。 / Auto-generated from data/events.json; do not edit by hand. -->
+
 # AI创造的奇迹 · Miracles Made by AI
 
-**网站 / Website:** https://tzhu40816-ai.github.io/ai-miriacles/
+**网站 / Website：** https://tzhu40816-ai.github.io/ai-miriacles/
 
-从 1956 年第一个自动证明定理的程序，到今天参与解决数学和物理前沿难题——按时间顺序记录 **AI 实际解决或推进了的具体问题**。主角是问题，不是模型。
+按时间顺序收录 AI 实际解决或推进了的具体问题。主角是问题，不是模型。从 1956 年第一个自动证明定理的程序，到今天参与解决数学和物理前沿难题。
 
-A chronological record of concrete problems AI has solved or advanced — from the first theorem-proving program in 1956 to today's frontier mathematics and physics. The problem is the protagonist, not the model.
+A chronological record of concrete problems AI has solved or advanced. The problem is the protagonist, not the model. From the first theorem-proving program in 1956 to AI taking part in frontier mathematics and physics today.
 
-## 说明 / Notes
+> 每条都附原始来源链接，内容按来源的说法整理，本仓库不作独立核验；有争议或尚未同行评审的条目会标出“边界”。
+> Every entry links to its sources and is summarised as they report it; this repository does not independently verify claims, and disputed or non-peer-reviewed items are marked.
 
-- 每条都附原始来源链接，按来源的说法整理，本站不作独立核验；有争议或未经同行评审的条目会标出“边界”。
-  Every entry links to its sources and is summarised as they report it; unverified or disputed claims are marked.
-- 支持中文 / English，可在 `assets/i18n.js` 中添加更多语言。
-- 发现遗漏或错误？欢迎[提交 Issue](https://github.com/tzhu40816-ai/ai-miriacles/issues/new)。
+## 怎么读 / How to read
 
-## 结构 / Structure
+| | 中文 | English |
+|---|---|---|
+| 完整时间线（最早 → 最新）/ Full timeline | [TIMELINE.md](TIMELINE.md) | [TIMELINE.en.md](TIMELINE.en.md) |
+| 按领域 / By field | [数学](domains/zh/math.md) · [博弈](domains/zh/games.md) · [生物](domains/zh/biology.md) · [感知与语言](domains/zh/language.md) · [医学](domains/zh/medicine.md) · [机器人与自主系统](domains/zh/robotics.md) · [物理](domains/zh/physics.md) · [化学](domains/zh/chemistry.md) · [算法与软件](domains/zh/computing.md) · [地球与气候](domains/zh/earth.md) · [材料](domains/zh/materials.md) · [天文](domains/zh/astronomy.md) | [Mathematics](domains/en/math.md) · [Games](domains/en/games.md) · [Biology](domains/en/biology.md) · [Perception & language](domains/en/language.md) · [Medicine](domains/en/medicine.md) · [Robotics & autonomy](domains/en/robotics.md) · [Physics](domains/en/physics.md) · [Chemistry](domains/en/chemistry.md) · [Algorithms & software](domains/en/computing.md) · [Earth & climate](domains/en/earth.md) · [Materials](domains/en/materials.md) · [Astronomy](domains/en/astronomy.md) |
+
+当前 123 条，覆盖 1956–2026。Currently 123 entries, 1956–2026.
+
+## 分布 / Coverage
+
+| 时期 / Period | 条数 / Entries |
+|---|---|
+| [1950s-1970s](TIMELINE.md#1950s-1970s) | 14 |
+| [1980s-1990s](TIMELINE.md#1980s-1990s) | 13 |
+| [2000s](TIMELINE.md#2000s) | 6 |
+| [2010s](TIMELINE.md#2010s) | 25 |
+| [2020-2023](TIMELINE.md#2020-2023) | 36 |
+| [2024](TIMELINE.md#2024) | 6 |
+| [2025](TIMELINE.md#2025) | 7 |
+| [2026](TIMELINE.md#2026) | 16 |
+
+| 领域 / Field | 条数 / Entries |
+|---|---|
+| 数学 / Mathematics | 29 |
+| 博弈 / Games | 23 |
+| 生物 / Biology | 13 |
+| 感知与语言 / Perception & language | 12 |
+| 医学 / Medicine | 9 |
+| 机器人与自主系统 / Robotics & autonomy | 8 |
+| 物理 / Physics | 7 |
+| 化学 / Chemistry | 6 |
+| 算法与软件 / Algorithms & software | 6 |
+| 地球与气候 / Earth & climate | 5 |
+| 材料 / Materials | 3 |
+| 天文 / Astronomy | 2 |
+
+## 最近新增 / Most recent
+
+- 2026-10-06｜一个 AI 模型能同时在多少个数学问题上取得新结果？
+- 2026-09-23｜噬菌体 DNA 中一个奇怪的重复序列，背后是什么新的生物系统？
+- 2026-09-23｜银河系里还有多少稀有的沃尔夫-拉叶星没被发现？
+- 2026-09-21｜在数据很少的情况下，能不能设计出一类新的杀菌聚合物？
+- 2026-09-17｜线性拟阵上的“强秘书问题”猜想成立吗？
+- 2026-09-08｜一开始光滑的三维流体，会不会在有限时间内出现奇点？（Navier–Stokes 千禧年难题）
+- 2026-09-04｜费马大定理的证明，能不能完整地用计算机逐步验证？
+- 2026-09-03｜雄性果蝇完整的中枢神经系统是怎样连接的？
+- 2026-08-10｜黎曼ζ函数的非平凡零点，能证明至少有多大比例落在临界线上？
+- 2026-06｜颗粒堵塞理论中，为什么两个临界指数满足 a + b = 1？
+- 2026-04-15｜埃尔德什、Sárközy 和 Szemerédi 关于本原集求和的猜想成立吗？（埃尔德什第 1196 号问题）
+- 2026-03-31｜二项式系数的小素因子、加性基的拆分等几个埃尔德什问题，能被解决吗？
+
+## 仓库结构 / Structure
 
 ```
-data/events.json        全部条目（唯一数据源）/ all entries (single source of truth)
-index.html, assets/     静态网站 / static site, no build step
-scripts/validate.mjs    格式检查，失败则不发布 / format check, blocks deploy on failure
-scripts/check-links.mjs 检查链接，结果写入 data/link-report.json / link check, writes data/link-report.json
-AGENTS.md               自动更新代理的说明 / instructions for the update agent
+data/events.json         全部条目（唯一数据源）/ all entries — single source of truth
+TIMELINE.md, TIMELINE.en.md, domains/   由脚本生成的可读页面 / generated readable pages
+index.html, assets/      静态网站 / static site (reads data/events.json)
+scripts/build-docs.mjs   生成上述 Markdown / generates the Markdown
+scripts/validate.mjs     格式检查 / format check
+scripts/check-links.mjs  链接检查 → data/link-report.json / link check
+AGENTS.md                自动更新代理的说明 / instructions for the update agent
 ```
 
-本地预览 / Local preview: `python3 -m http.server` then open http://localhost:8000
+更新流程：编辑 `data/events.json` → `node scripts/validate.mjs` → `node scripts/build-docs.mjs` → 提交。
+Workflow: edit `data/events.json` → `node scripts/validate.mjs` → `node scripts/build-docs.mjs` → commit.
+
+发现遗漏或错误？欢迎[提交 Issue](https://github.com/tzhu40816-ai/ai-miriacles/issues/new)。Spotted a gap or an error? [Open an issue](https://github.com/tzhu40816-ai/ai-miriacles/issues/new).
 
 ## 许可 / License
 
