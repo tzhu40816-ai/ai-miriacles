@@ -19,7 +19,7 @@ A chronological record of concrete problems AI has solved or advanced — from t
 data/events.json        全部条目（唯一数据源）/ all entries (single source of truth)
 index.html, assets/     静态网站 / static site, no build step
 scripts/validate.mjs    格式检查，失败则不发布 / format check, blocks deploy on failure
-scripts/check-links.mjs 每周检查链接 / weekly link check (report only)
+scripts/check-links.mjs 检查链接，结果写入 data/link-report.json / link check, writes data/link-report.json
 AGENTS.md               自动更新代理的说明 / instructions for the update agent
 ```
 

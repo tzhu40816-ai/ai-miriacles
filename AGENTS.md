@@ -14,6 +14,7 @@
 4. 运行 `node scripts/validate.mjs`，必须通过。
 5. 直接提交并推送到 `main`：`git commit -am "data: <简述>" && git push`。推送后网站会自动更新。
 6. 没有新内容就什么都不提交。
+7. 顺便看一眼 `data/link-report.json`（GitHub 每次自动生成）：`broken` 里列出的链接打不开，请换成有效的来源链接。`blocked_by_site` 只是网站拦截机器人，一般不用管。
 
 如果被要求“补历史”，就按年代（如 1950s、1960s…）逐段搜索早期成果，同样规则加入。
 
