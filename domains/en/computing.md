@@ -2,7 +2,7 @@
 
 # Algorithms & software: problems AI has solved
 
-14 entries · [← Back to README](../../README.md)
+18 entries · [← Back to README](../../README.md)
 
 #### 1959｜Can one domain-independent program solve many kinds of problems?
 
@@ -103,4 +103,36 @@ DeepMind says AlphaEvolve helped improve lower bounds for the travelling salesma
 > **Limits：** Figures compiled by the publisher, not checked item by item.
 
 *AlphaEvolve*　Sources：[Google DeepMind](https://deepmind.google/blog/alphaevolve-impact/) (Official)
+
+#### 2026-07-22｜Can a splittable flow always be turned into an unsplittable one with both congestion and cost bounded? (the Dinitz–Garg–Goemans conjecture)
+
+Dmitry Rybin posted on X that GPT-5.6 Pro, after four short prompts, produced a counterexample: a small graph where the fractional flow costs 58 while every congestion-legal unsplittable routing costs at least 60.
+
+> **Limits：** No paper yet; the page describing it found no independent rebuild of the exact graph, only that several researchers reportedly checked the arithmetic. It says the result would not directly change real network routing; it marks a theoretical limit.
+
+*GPT-5.6 Pro (with Dmitry Rybin)*　Sources：[DataCamp](https://www.datacamp.com/blog/gpt-5-6-dinitz-garg-goemans-conjecture) (News)
+
+#### 2026-08-01｜How well can the closest vector problem in lattices be approximated? (relevant to post-quantum cryptography)
+
+OpenAI says Astra proved that approximating the Euclidean closest vector problem within a polynomial factor is NP-hard.
+
+> **Limits：** Publisher's claim; OpenAI's page mentions no external expert review.
+
+*OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official)
+
+#### 2026-08-01｜How large must arithmetic circuits computing the permanent be?
+
+OpenAI says Astra proved new lower bounds for computing the permanent with arithmetic circuits and formulas, including a formula lower bound of order n⁴/log n.
+
+> **Limits：** Publisher's claim; OpenAI's page mentions no external expert review.
+
+*OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official)
+
+#### 2026-08-01｜When a two-player quantum game is repeated in parallel, does the winning probability decay exponentially? (quantum parallel repetition)
+
+OpenAI says Astra proved an exponential parallel repetition theorem for general two-player quantum games.
+
+> **Limits：** Publisher's claim; OpenAI's page mentions no external expert review.
+
+*OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official)
 

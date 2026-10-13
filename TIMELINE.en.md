@@ -4,7 +4,7 @@
 
 A chronological record of concrete problems AI has solved or advanced. The problem is the protagonist, not the model.
 
-189 entries · [← Back to README](README.md) · Other language：[中文](TIMELINE.md)
+217 entries · [← Back to README](README.md) · Other language：[中文](TIMELINE.md)
 
 [1950s-1970s](#1950s-1970s) · [1980s-1990s](#1980s-1990s) · [2000s](#2000s) · [2010s](#2010s) · [2020-2023](#2020-2023) · [2024](#2024) · [2025](#2025) · [2026](#2026)
 
@@ -323,6 +323,14 @@ DeepMind's DQN, seeing only pixels and score, reached or exceeded professional h
 Facebook's DeepFace reached about 97.35% on the LFW face-verification benchmark, close to the human 97.53%.
 
 *Perception & language · DeepFace*　Sources：[Wikipedia](https://en.wikipedia.org/wiki/DeepFace) (Reference)
+
+#### 2014-02｜Erdős discrepancy conjecture: must every infinite ±1 sequence have unbounded discrepancy? Start with the case C = 2
+
+Konev and Lisitsa used a SAT solver to prove that no ±1 sequence of length 1161 has discrepancy 2 (one of length 1160 exists), settling the case C = 2; the machine-generated proof certificate is about 13 GB.
+
+> **Limits：** Only the case C = 2; automated reasoning, not learning-based AI.
+
+*Mathematics · SAT solver (Glucose)*　Sources：[arXiv](https://arxiv.org/abs/1402.2184) (Paper)
 
 #### 2014-08｜Can the proof of the Kepler conjecture on sphere packing be checked completely by computer?
 
@@ -670,6 +678,14 @@ DeepMind's Ithaca restored text with 62% accuracy, and raised historians' accura
 
 *Perception & language · Ithaca*　Sources：[Nature 2022](https://doi.org/10.1038/s41586-022-04448-z) (Paper)
 
+#### 2022-04-21｜Can patterns in data reveal the rank of an elliptic curve (the quantity behind the Birch–Swinnerton-Dyer conjecture)?
+
+Researchers used machine learning to predict the rank of elliptic curves and, averaging the a_p data, saw a rank-dependent oscillation they called murmurations of elliptic curves. Mathematicians have since proved the effect in several settings.
+
+> **Limits：** A new phenomenon, not a proof of the Birch–Swinnerton-Dyer conjecture, which remains open. The discovery was partly lucky: the data happened to be sorted by conductor and the a_p were not normalised.
+
+*Mathematics · Machine-learning classifiers (He, Lee, Oliver, Pozdnyakov)*　Sources：[arXiv](https://arxiv.org/abs/2204.10140) (Paper) · [Quanta Magazine](https://www.quantamagazine.org/elliptic-curve-murmurations-found-with-ai-take-flight-20240305/) (News)
+
 #### 2022-04-27｜Can we engineer an enzyme that breaks down plastic bottles in days at mild temperatures?
 
 UT Austin used machine learning to guide mutations, producing FAST-PETase, which largely depolymerised various PET products within a week.
@@ -727,6 +743,14 @@ DeepNash reached an all-time top-3 ranking on the Gravon platform with about an 
 AlphaCode ranked around the top 54% of participants in simulated Codeforces contests — median human competitor level.
 
 *Algorithms & software · AlphaCode*　Sources：[Science 2022](https://doi.org/10.1126/science.abq1158) (Paper)
+
+#### 2023-01-23｜What is the packing chromatic number of the infinite square grid? (open since 2002)
+
+Subercaseaux and Heule used a new SAT encoding and symmetry breaking to prove the answer is 15, with a verified proof of unsatisfiability.
+
+> **Limits：** Automated reasoning plus heavy computation, not learning-based AI.
+
+*Mathematics · SAT solver (Subercaseaux & Heule)*　Sources：[arXiv](https://arxiv.org/abs/2301.09757) (Paper)
 
 #### 2023-03-14｜Can AI pass the bar exam?
 
@@ -864,6 +888,14 @@ A Princeton AI controller predicted tearing instabilities about 300 ms ahead on 
 
 *Physics · Deep RL (Princeton/DIII-D)*　Sources：[Nature 2024](https://doi.org/10.1038/s41586-024-07024-9) (Paper)
 
+#### 2024-03｜The Happy Ending problem: how many points in the plane guarantee an empty convex hexagon?
+
+Heule and Scheucher used a SAT solver to prove that every 30 points in general position in the plane contain an empty hexagon; the search was split into about 312,000 subproblems and the proof was checked by a formally verified checker.
+
+> **Limits：** Automated reasoning plus heavy computation, not learning-based AI.
+
+*Mathematics · SAT solver (CaDiCaL, cube-and-conquer)*　Sources：[arXiv](https://arxiv.org/abs/2403.00737) (Paper)
+
 #### 2024-05-08｜What do proteins look like when bound to DNA, RNA and drug molecules?
 
 AlphaFold 3 extended structure prediction to complexes of nearly all biomolecules, clearly beating classical docking on protein–ligand interactions.
@@ -878,11 +910,27 @@ DeepMind's systems solved 4 of 6 IMO 2024 problems — silver-medal standard —
 
 *Mathematics · AlphaProof + AlphaGeometry 2*　Sources：[Google DeepMind](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/) (Official)
 
+#### 2024-08｜Andrews–Curtis conjecture in topology: can reinforcement learning untangle hard group presentations?
+
+Shehper et al. used reinforcement learning to solve two Miller–Schupp presentations that greedy search could not, one AC-equivalent to the famous potential counterexample AK(3), and shortened AK(n) to an equivalent presentation of length n+11.
+
+> **Limits：** The Andrews–Curtis conjecture itself remains open; based on the paper's summary, not checked in detail.
+
+*Mathematics · Reinforcement learning and greedy search*　Sources：[arXiv](https://arxiv.org/abs/2408.15332) (Paper)
+
 #### 2024-08-07｜Can a robot play table tennis at amateur human level?
 
 DeepMind's robot beat all beginners and about half of intermediate players in matches, but no advanced players.
 
 *Robotics & autonomy · Google DeepMind table-tennis robot*　Sources：[arXiv](https://arxiv.org/abs/2408.03906) (Paper)
+
+#### 2024-10｜Lyapunov functions, which certify the stability of dynamical systems, have no general method; can AI find them?
+
+Alfarano, Charton and Hayat trained transformers to output Lyapunov functions directly: they found new functions for 10.1% of random polynomial systems versus 2.1% for state-of-the-art methods, and 12.7% of non-polynomial systems, where no general algorithm exists.
+
+> **Limits：** Evaluated on randomly generated systems rather than famous specific ones.
+
+*Mathematics · Sequence-to-sequence transformers (Meta FAIR, École des Ponts)*　Sources：[arXiv](https://arxiv.org/abs/2410.08304) (Paper)
 
 #### 2024-10-08｜Do the foundations of machine learning count as Nobel-level physics?
 
@@ -901,6 +949,14 @@ The 2024 Nobel Prize in Chemistry went half to Hassabis and Jumper (AlphaFold) a
 Google's Big Sleep agent found a previously unknown exploitable stack buffer underflow in the widely used SQLite database before release; it was fixed the same day.
 
 *Algorithms & software · Big Sleep (Google)*　Sources：[Google Project Zero](https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html) (Official)
+
+#### 2024-11-01｜Is a 30-year-old conjecture about the fewest edges in a diameter-preserving subgraph of the cube true?
+
+Charton, Ellenberg, Wagner and Williamson's PatternBoost, combining local search with a transformer, found a d = 6 subgraph with 81 edges, one fewer than the conjectured construction's 82, disproving the conjecture.
+
+> **Limits：** The paper attributes the conjecture to Graham; based on the abstract only.
+
+*Mathematics · PatternBoost (transformer + local search)*　Sources：[arXiv](https://arxiv.org/abs/2411.00566) (Paper)
 
 #### 2024-11-20｜Can the errors that constantly arise in quantum computers be identified and corrected more accurately?
 
@@ -1015,6 +1071,14 @@ MIT's Collins lab used generative AI to design tens of millions of virtual compo
 > **Limits：** Preclinical.
 
 *Medicine · Generative AI (Collins lab, MIT)*　Sources：[Broad Institute](https://www.broadinstitute.org/news/using-ai-researchers-design-new-compounds-kill-antibiotic-resistant-bacteria) (Official) · [BioPharmaTrend](https://www.biopharmatrend.com/news/generative-ai-designs-novel-antibiotics-against-mrsa-and-drug-resistant-gonorrhea-1349/) (News)
+
+#### 2025-09｜Can AI write a full formal proof of the strong prime number theorem in Lean?
+
+Math, Inc.'s Gauss agent completed a Lean formalisation of the strong prime number theorem in about three weeks, a task Terence Tao and Alex Kontorovich had been working on; a later, stronger Gauss reproduced it in two to three days.
+
+> **Limits：** Timing and capability claims come from Math, Inc. or the project team and were not independently verified in the IEEE Spectrum report; a formalisation of a known theorem, not a new result.
+
+*Mathematics · Gauss (Math, Inc.)*　Sources：[IEEE Spectrum](https://spectrum.ieee.org/ai-proof-verification) (News) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (Reference)
 
 #### 2025-09｜On the ICPC World Finals problems, can AI beat the human teams?
 
@@ -1166,6 +1230,14 @@ Donald Knuth wrote that Claude Opus 4.6 found, in about an hour of exploration, 
 
 *Mathematics · Claude Opus 4.6*　Sources：[Donald Knuth (note)](https://cs.stanford.edu/~knuth/papers/claude-cycles.pdf) (Official)
 
+#### 2026-03｜Can small Ramsey-number lower bounds be pushed up by search algorithms an AI designs?
+
+Nagda, Raghavan and Thakurta used AlphaEvolve to evolve a separate search algorithm for each Ramsey number, raising the lower bounds of R(3,13), R(3,18), R(4,13), R(4,14) and R(4,15) by one each and matching or improving 28 bounds in total for r, s ≤ 22.
+
+> **Limits：** These are lower bounds; the exact values remain unknown.
+
+*Mathematics · AlphaEvolve*　Sources：[arXiv](https://arxiv.org/html/2603.09172v2) (Paper)
+
 #### 2026-03｜Can an equilibrium result for the Vlasov–Maxwell–Landau plasma equations be formalised semi-autonomously by AI?
 
 A preprint reports a 'semi-autonomous formalization' in Lean of an equilibrium result for the Vlasov–Maxwell–Landau equations.
@@ -1173,6 +1245,14 @@ A preprint reports a 'semi-autonomous formalization' in Lean of an equilibrium r
 > **Limits：** Only title-level information has been read; a formalisation of an existing result.
 
 *Physics · AI-assisted Lean formalization*　Sources：[arXiv](https://arxiv.org/abs/2603.15929) (Paper)
+
+#### 2026-03-02｜Can AI fully verify in Lean Viazovska's proofs of optimal sphere packing in dimensions 8 and 24?
+
+Math, Inc. says Gauss formalised the dimension-8 proof in about five days (announced 23 February) and the dimension-24 proof in about two weeks, producing over 200,000 lines of Lean (announced 2 March); for dimension 24 there was no existing blueprint, and Gauss had to build missing background theory.
+
+> **Limits：** Most timing and capability claims come from Math, Inc. or the project team; extensive human groundwork preceded the dimension-24 work and the report calls it a human–AI collaboration; a formalisation of known theorems.
+
+*Mathematics · Gauss (Math, Inc.)*　Sources：[IEEE Spectrum](https://spectrum.ieee.org/ai-proof-verification) (News)
 
 #### 2026-03-23｜Can the lower-bound construction for a Ramsey-type hypergraph problem be improved?
 
@@ -1200,6 +1280,14 @@ Prompted by Liam Price, GPT-5.4 Pro proved the sharp 1+O(1/log x) bound conjectu
 
 *Mathematics · GPT-5.4 Pro*　Sources：[erdosproblems.com](https://www.erdosproblems.com/history/1196) (Reference)
 
+#### 2026-05｜In what lowest dimension does Borsuk's conjecture (every bounded set splits into d+1 parts of smaller diameter) fail?
+
+A GitHub repository says that with GPT-5.5 Pro's help a 63-dimensional counterexample was obtained, improving the earlier 64 dimensions (Jenrich and Brouwer) by one, and provides an exact verification script and graph certificates.
+
+> **Limits：** From an individual's repository with no peer review; the script checks finite computations used in the proof, not the whole argument; I have not read the proof PDF.
+
+*Mathematics · GPT-5.5 Pro (with Max Grinzstajn)*　Sources：[GitHub](https://github.com/maaxgrin/borsuk-63-counterexample) (Official) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (Reference)
+
 #### 2026-05-07｜A year on, what has AlphaEvolve actually delivered in mathematics, chips, software and science?
 
 DeepMind says AlphaEvolve helped improve lower bounds for the travelling salesman problem and Ramsey numbers, took part in next-generation TPU design, cut Spanner's write amplification by 20%, and reduced DeepConsensus variant-detection errors by 30%.
@@ -1207,6 +1295,14 @@ DeepMind says AlphaEvolve helped improve lower bounds for the travelling salesma
 > **Limits：** Figures compiled by the publisher, not checked item by item.
 
 *Algorithms & software · AlphaEvolve*　Sources：[Google DeepMind](https://deepmind.google/blog/alphaevolve-impact/) (Official)
+
+#### 2026-05-20｜How many pairs among n points in the plane can be exactly distance 1 apart? Is Erdős's 1946 conjecture true? (the unit distance problem)
+
+OpenAI says its internal general-purpose reasoning model disproved Erdős's conjectured n^(1+o(1)) upper bound: linking the problem to infinite class field towers (Golod–Shafarevich) in algebraic number theory, it constructed at least n^(1+δ) unit-distance pairs for infinitely many n. Will Sawin then gave an explicit exponent 1.014.
+
+> **Limits：** The original proof gives no explicit δ, and the best known upper bound is still O(n^(4/3)), so the problem itself is not settled. OpenAI's page does not mention Lean and says external mathematicians checked it; reports say the human checking and write-up were substantial; a formalisation was later done by others.
+
+*Mathematics · OpenAI internal reasoning model*　Sources：[OpenAI](https://openai.com/index/model-disproves-discrete-geometry-conjecture/) (Official) · [Sawin, arXiv](https://arxiv.org/abs/2605.20579) (Paper) · [Xena Project](https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/) (News)
 
 #### 2026-06｜By mid-2026, how many open Erdős problems has AI solved?
 
@@ -1224,6 +1320,46 @@ The relation had strong numerical support but no analytic proof. Nobel laureate 
 
 *Physics · Claude*　Sources：[arXiv](https://arxiv.org/abs/2606.03300) (Paper) · [Live Science](https://livescience.com/physics-mathematics/mathematics/nobel-prize-winning-physicist-and-team-use-claude-ai-to-solve-decades-old-math-puzzle) (News)
 
+#### 2026-07｜Crouzeix's conjecture: is the norm of a function of a matrix at most twice the function's maximum over the numerical range? (open for 20+ years)
+
+Reports say Shanmu Jin, a postdoctoral researcher at Peking Union Medical College, proved the conjecture with GPT-5.6 Sol; the decisive step emerged in an autonomous run of about 16 hours. Townsend reviewed it and passed it to Greenbaum and Crouzeix, who reportedly confirmed it is correct; eight days later Lorist and Schwenninger posted a much shorter proof, also exploring strategies with GPT-5.6.
+
+> **Limits：** Not peer reviewed; the split between AI and human contribution is unclear; Brett Wick cautions that a prompt telling the system to assume a complete proof exists risks accepting a subtle gap.
+
+*Mathematics · GPT-5.6 Sol (with Shanmu Jin)*　Sources：[Brett Wick](https://www.math.wustl.edu/wp/wick/?p=210) (Reference) · [Interesting Engineering](https://interestingengineering.com/ai-robotics/china-doctor-cracks-math-problem-with-chatgpt) (News)
+
+#### 2026-07｜Does every bridgeless graph have a collection of cycles covering each edge exactly twice? (the cycle double cover conjecture)
+
+In July 2026 OpenAI announced a proof of the cycle double cover conjecture; Jim Geelen and Sang-il Oum each posted expositions of it on arXiv to make it easier to follow.
+
+> **Limits：** The two arXiv pages I read do not say whether the proof has been independently verified or peer reviewed, or how the work was split between AI and humans; Wikipedia's list names the model as GPT-5.6 Sol Ultra.
+
+*Mathematics · OpenAI model*　Sources：[Oum, arXiv](https://arxiv.org/abs/2607.16356) (Paper) · [Geelen, arXiv](https://arxiv.org/abs/2607.15399) (Paper) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (Reference)
+
+#### 2026-07｜Is a finite locally free group scheme of order n always killed by n? (a question of Grothendieck; Deligne proved the commutative case)
+
+Akhil Mathew, with AI assistance, gave a non-commutative counterexample, a finite free group scheme of order 4 that is not killed by 4, and formalised it in Lean's Mathlib; the PR discloses that Codex and Claude assisted with the construction and formalisation.
+
+> **Limits：** The PR gives only the year; the date comes from the Xena Project roundup (11 July), whose description of the AI's role differs somewhat from the PR.
+
+*Mathematics · Codex and Claude, with Akhil Mathew*　Sources：[Mathlib PR](https://github.com/leanprover-community/mathlib4/pull/41748) (Reference) · [Xena Project](https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/) (News)
+
+#### 2026-07-20｜Must a polynomial map with a nonzero constant Jacobian determinant be invertible? (the Jacobian conjecture, one of Smale's 18 problems)
+
+Anthropic mathematician Levent Alpöge says Claude Fable 5 found a 3D polynomial map with constant Jacobian determinant −2 that sends different points to the same point, so the Jacobian conjecture fails in dimension 3 and above. The counterexample is short enough to fit in a single X post.
+
+> **Limits：** The two-dimensional case remains open. How the model was prompted had not been made public at the time. A Lean formalisation is under way in DeepMind's formal-conjectures repository and I could not confirm it was merged; a rescaled determinant-1 version was later proposed so that it works in all characteristics. The announcement came from an Anthropic researcher.
+
+*Mathematics · Claude Fable 5*　Sources：[ScienceDaily](https://www.sciencedaily.com/releases/2026/08/260804034634.htm) (News) · [The Week](https://theweek.com/tech/mathematicians-are-buzzing-about-an-ai-solution-to-a-math-mystery) (News) · [formal-conjectures PR](https://github.com/google-deepmind/formal-conjectures/pull/4474) (Reference) · [Xena Project](https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/) (News)
+
+#### 2026-07-22｜Can a splittable flow always be turned into an unsplittable one with both congestion and cost bounded? (the Dinitz–Garg–Goemans conjecture)
+
+Dmitry Rybin posted on X that GPT-5.6 Pro, after four short prompts, produced a counterexample: a small graph where the fractional flow costs 58 while every congestion-legal unsplittable routing costs at least 60.
+
+> **Limits：** No paper yet; the page describing it found no independent rebuild of the exact graph, only that several researchers reportedly checked the arithmetic. It says the result would not directly change real network routing; it marks a theoretical limit.
+
+*Algorithms & software · GPT-5.6 Pro (with Dmitry Rybin)*　Sources：[DataCamp](https://www.datacamp.com/blog/gpt-5-6-dinitz-garg-goemans-conjecture) (News)
+
 #### 2026-07-23｜Can AI score full marks on all six International Mathematical Olympiad problems?
 
 Reports say Huawei's Celia and Xiaohongshu's dots-note-3.0 scored a perfect 42/42 at IMO 2026 in Shanghai, whereas in 2025 Google's and OpenAI's models reached only the gold line.
@@ -1232,13 +1368,61 @@ Reports say Huawei's Celia and Xiaohongshu's dots-note-3.0 scored a perfect 42/4
 
 *Mathematics · Huawei Celia; Xiaohongshu dots-note-3.0*　Sources：[NewsBytes](https://www.newsbytesapp.com/news/science/for-first-time-ai-scores-100-at-international-mathematical-olympiad/story) (News)
 
+#### 2026-08｜The Hadamard conjecture is open, but can orders such as 668, for which no matrix was known, be constructed?
+
+Epoch AI's open-problems page says an Anthropic researcher reported that a team of three humans and Claude produced Hadamard matrices for all admissible orders up to 2000 with no previously known construction (the page names order 668); Wikipedia's list gives twelve orders.
+
+> **Limits：** Epoch has provisionally marked the problem solved by AI and will revise it if the team reports significant human contribution to the core ideas; the page does not describe how it was verified; the Hadamard conjecture itself is still open.
+
+*Mathematics · Claude (internal Anthropic model)*　Sources：[Epoch AI](https://epoch.ai/frontiermath/open-problems/hadamard) (Reference) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (Reference)
+
+#### 2026-08｜If all zeros of a polynomial lie in the closed unit disk, must each zero have a zero of the derivative within distance 1? (Sendov's conjecture)
+
+According to Wikipedia's roundup, Lech Mazur used GPT-5.6 Pro to give a proof for all degrees n ≥ 2; Terence Tao digested and simplified the argument and formalised it in Lean, with nearly all of the Lean code written by Claude Opus 5 under his direction. The proof also covers the Phelps–Rodriguez conjecture.
+
+> **Limits：** The Lean project page states that no external or independent review has been performed and claims no novelty (an earlier Lean formalisation exists); it relies on numerical certificates.
+
+*Mathematics · GPT-5.6 Pro (Lech Mazur); Claude Opus 5 for the Lean formalisation*　Sources：[Lean package (teorth/sendov)](https://reservoir.lean-lang.org/@teorth/sendov) (Reference) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (Reference)
+
+#### 2026-08-01｜How large can a binary error-correcting code with a given minimum distance be?
+
+OpenAI says Astra gave exponentially improved bounds on the maximum size of binary codes at any prescribed minimum distance, with analogous results for high-dimensional spherical codes.
+
+> **Limits：** Publisher's claim; OpenAI's page mentions no external expert review and says the arguments were formalised in Lean.
+
+*Mathematics · OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official)
+
+#### 2026-08-01｜How well can the closest vector problem in lattices be approximated? (relevant to post-quantum cryptography)
+
+OpenAI says Astra proved that approximating the Euclidean closest vector problem within a polynomial factor is NP-hard.
+
+> **Limits：** Publisher's claim; OpenAI's page mentions no external expert review.
+
+*Algorithms & software · OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official)
+
 #### 2026-08-01｜Does Connes's rigidity conjecture in operator algebras hold?
 
 OpenAI says Astra disproved the conjecture.
 
 > **Limits：** Publisher's claim; Lean formalisation is public, peer review pending.
 
-*Mathematics · OpenAI Astra (unreleased)*　Sources：[GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
+*Mathematics · OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
+
+#### 2026-08-01｜How large can the volume of a convex body be if its centroid is its only interior lattice point? (Ehrhart's volume conjecture)
+
+OpenAI says Astra determined this maximum volume in every dimension.
+
+> **Limits：** Publisher's claim; OpenAI's page mentions no external expert review. Wikipedia's roundup describes it as a partial proof (the upper bound (n+1)^n/n!, equality case still open), which differs from OpenAI's wording.
+
+*Mathematics · OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (Reference)
+
+#### 2026-08-01｜How fast do multicolour triangle Ramsey numbers grow, and do the compactness and degeneracy conjectures of extremal graph theory hold? (Erdős problems #183, #146, #180)
+
+OpenAI says Astra gave a superexponential lower bound for multicolour triangle Ramsey numbers (resolving Erdős problem #183) and results on the compactness and degeneracy conjectures in extremal graph theory (resolving #146 and #180).
+
+> **Limits：** Publisher's claim; OpenAI's page mentions no external expert review.
+
+*Mathematics · OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official)
 
 #### 2026-08-01｜Can every countable group be approximated by finite permutations? (Gromov's 1999 question on sofic groups)
 
@@ -1246,15 +1430,31 @@ OpenAI says Astra gave the first explicit construction of a non-sofic group, ans
 
 > **Limits：** Publisher's claim; Lean formalisation is public, peer review pending.
 
-*Mathematics · OpenAI Astra (unreleased)*　Sources：[GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
+*Mathematics · OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
+
+#### 2026-08-01｜How large must arithmetic circuits computing the permanent be?
+
+OpenAI says Astra proved new lower bounds for computing the permanent with arithmetic circuits and formulas, including a formula lower bound of order n⁴/log n.
+
+> **Limits：** Publisher's claim; OpenAI's page mentions no external expert review.
+
+*Algorithms & software · OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official)
+
+#### 2026-08-01｜When a two-player quantum game is repeated in parallel, does the winning probability decay exponentially? (quantum parallel repetition)
+
+OpenAI says Astra proved an exponential parallel repetition theorem for general two-player quantum games.
+
+> **Limits：** Publisher's claim; OpenAI's page mentions no external expert review.
+
+*Algorithms & software · OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official)
 
 #### 2026-08-01｜In high dimensions, what fraction of space can equal spheres fill at most? (upper bounds on sphere-packing density)
 
-OpenAI says Astra improved the general upper bound on sphere-packing density in high dimensions — the first improvement since 1978.
+OpenAI says Astra gave new upper bounds on high-dimensional sphere-packing density, down to the Cohn–Elkies threshold.
 
-> **Limits：** Publisher's claim; an improved upper bound does not determine the maximum density. Peer review pending.
+> **Limits：** Publisher's claim; an improved upper bound does not determine the maximum density. OpenAI's page mentions no external expert review.
 
-*Mathematics · OpenAI Astra (unreleased)*　Sources：[GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
+*Mathematics · OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (News)
 
 #### 2026-08-10｜The Riemann Hypothesis is still open, but what proportion of the zeta function's nontrivial zeros can be proved to lie on the critical line? (partial progress toward the Riemann Hypothesis)
 
@@ -1263,6 +1463,14 @@ Anthropic reports that a research version of Claude raised the known lower bound
 > **Limits：** The Riemann hypothesis itself remains unproven; this was a byproduct of the attempt.
 
 *Mathematics · Claude (research version)*　Sources：[Anthropic](https://www.anthropic.com/research/riemann-zeta) (Official)
+
+#### 2026-08-30｜The gap between consecutive primes is at most some constant infinitely often; how small can that constant be proved to be? (toward the twin prime conjecture)
+
+OpenAI's paper Improved Short Gaps Between Primes says GPT-6 Astra proved that consecutive primes differ by at most 186 infinitely often, improving on the earlier 246. The method builds on the sieve methods of Zhang, Polymath 8 and Maynard.
+
+> **Limits：** The paper includes a Lean formalisation, but it takes numerical integral bounds and exponential-sum estimates as explicit assumptions, so it does not verify the result from first principles; not independently verified; the twin prime conjecture (gap 2) remains open.
+
+*Mathematics · GPT-6 Astra (OpenAI)*　Sources：[OpenAI paper (PDF)](https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf) (Official) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (Reference)
 
 #### 2026-09-03｜How is the complete male fruit-fly nervous system wired?
 
@@ -1277,6 +1485,14 @@ Anthropic reports dozens of Claude agents completed an end-to-end Lean formaliza
 > **Limits：** Formal verification of a known proof, not new mathematics; company research.
 
 *Mathematics · Claude*　Sources：[Anthropic](https://www.anthropic.com/news/formalizing-fermats-last-theorem) (Official)
+
+#### 2026-09-07｜Does Köthe's conjecture in ring theory hold?
+
+A preprint by Adamczewski, Böhmler and Marczinzik constructs a counterexample to Köthe's conjecture and answers a question of Rowen. Wikipedia's roundup says the work used GPT-6 Astra and includes a Lean formalisation.
+
+> **Limits：** The arXiv page itself mentions neither AI nor Lean; those come from Wikipedia's roundup; a preprint with no peer-review information.
+
+*Mathematics · GPT-6 Astra (with Epoch AI)*　Sources：[arXiv](https://arxiv.org/abs/2609.07996) (Paper) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (Reference)
 
 #### 2026-09-08｜Can a smooth 3D fluid develop a singularity in finite time? (the Navier–Stokes Millennium Problem)
 
@@ -1317,6 +1533,14 @@ Machine learning picked 30 candidates from Gaia spectra; follow-up spectroscopy 
 > **Limits：** AI chose targets; spectroscopy did the confirming.
 
 *Astronomy · Machine learning on Gaia spectra*　Sources：[arXiv](https://arxiv.org/abs/2609.28640) (Paper)
+
+#### 2026-09-28｜In high dimensions, how many equal spheres can touch a central one at once? (kissing-number lower bounds)
+
+Zhejiang University's multi-agent Qiushi Engine searched, analysed and verified autonomously, improving kissing-number lower bounds in 19 dimensions (25, 27, 32–39, 43, 45, 49–55), e.g. K(25) ≥ 197,580 and K(55) ≥ 53,301,140.
+
+> **Limits：** A preprint; the authors say each result comes with finite, independently checkable certificates, which I have not checked one by one.
+
+*Mathematics · Qiushi Engine (Zhejiang University)*　Sources：[arXiv](https://arxiv.org/html/2609.35051) (Paper)
 
 #### 2026-10-06｜How many mathematical problems can one AI model produce new results on at once?
 

@@ -2,7 +2,7 @@
 
 # 算法与软件：AI 解决的问题
 
-共 14 条 · [← 返回 README](../../README.md)
+共 18 条 · [← 返回 README](../../README.md)
 
 #### 1959｜能不能写出一个与具体领域无关、通用的解题程序？
 
@@ -103,4 +103,36 @@ DeepMind 称 AlphaEvolve 帮助改进了旅行商问题和 Ramsey 数的下界�
 > **边界：** 发布方汇总的数字，未逐项核验。
 
 *AlphaEvolve*　来源：[Google DeepMind](https://deepmind.google/blog/alphaevolve-impact/) (官方)
+
+#### 2026-07-22｜可拆分流总能转成不可拆分流，同时让拥塞和成本都有界吗？（Dinitz–Garg–Goemans 猜想）
+
+Dmitry Rybin 在 X 上称，GPT-5.6 Pro 用四条简短的提示给出了反例：一个小图里分数流的成本是 58，而所有满足拥塞要求的不可拆分路由成本至少为 60。
+
+> **边界：** 目前没有论文；介绍这一结果的页面没有找到对该具体图的独立重建，只提到有研究者核对了算术。该页面称，这不会直接改变实际网络路由，主要是理论上的界限。
+
+*GPT-5.6 Pro (with Dmitry Rybin)*　来源：[DataCamp](https://www.datacamp.com/blog/gpt-5-6-dinitz-garg-goemans-conjecture) (报道)
+
+#### 2026-08-01｜格上的最近向量问题，能近似到多好？（与后量子密码有关）
+
+OpenAI 称 Astra 证明了欧氏最近向量问题在多项式因子内近似是 NP 难的。
+
+> **边界：** 发布方主张；OpenAI 的页面未提外部专家评审。
+
+*OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方)
+
+#### 2026-08-01｜计算矩阵的积和式（permanent），算术电路至少需要多大？
+
+OpenAI 称 Astra 为用算术电路和算术公式计算积和式给出了新的下界，其中算术公式的下界为 n⁴/log n 量级。
+
+> **边界：** 发布方主张；OpenAI 的页面未提外部专家评审。
+
+*OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方)
+
+#### 2026-08-01｜两人量子博弈重复多次后，获胜概率能不能指数衰减？（量子并行重复）
+
+OpenAI 称 Astra 证明了一般两人量子博弈的指数并行重复定理。
+
+> **边界：** 发布方主张；OpenAI 的页面未提外部专家评审。
+
+*OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方)
 

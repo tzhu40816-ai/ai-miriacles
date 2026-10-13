@@ -4,7 +4,7 @@
 
 按时间顺序收录 AI 实际解决或推进了的具体问题。主角是问题，不是模型。
 
-共 189 条 · [← 返回 README](README.md) · 其他语言：[English](TIMELINE.en.md)
+共 217 条 · [← 返回 README](README.md) · 其他语言：[English](TIMELINE.en.md)
 
 [1950s-1970s](#1950s-1970s) · [1980s-1990s](#1980s-1990s) · [2000s](#2000s) · [2010s](#2010s) · [2020-2023](#2020-2023) · [2024](#2024) · [2025](#2025) · [2026](#2026)
 
@@ -323,6 +323,14 @@ DeepMind 的 DQN 只看画面和分数，在 49 款雅达利游戏中的大约�
 Facebook 的 DeepFace 在标准人脸验证测试 LFW 上达到约 97.35% 的准确率，接近人类的 97.53%。
 
 *感知与语言 · DeepFace*　来源：[Wikipedia](https://en.wikipedia.org/wiki/DeepFace) (资料)
+
+#### 2014-02｜埃尔德什差异猜想：任何 ±1 无穷序列，差异是否都能无限大？先从常数 C=2 的情形问起
+
+Konev 和 Lisitsa 用 SAT 求解器证明：长度 1161 的 ±1 序列不可能保持差异 2 以内（长度 1160 的存在），从而证明了 C=2 的情形；机器生成的证明文件约 13 GB。
+
+> **边界：** 只证明了 C=2；属于自动推理，不是学习型 AI。
+
+*数学 · SAT solver (Glucose)*　来源：[arXiv](https://arxiv.org/abs/1402.2184) (论文)
 
 #### 2014-08｜开普勒猜想（球的最密堆积）的证明，能不能被计算机逐步完整验证？
 
@@ -670,6 +678,14 @@ DeepMind 的 Ithaca 修复文字的准确率达 62%，与历史学家合作时�
 
 *感知与语言 · Ithaca*　来源：[Nature 2022](https://doi.org/10.1038/s41586-022-04448-z) (论文)
 
+#### 2022-04-21｜椭圆曲线的秩（与伯奇–斯温纳顿–戴尔猜想有关）能不能从数据里看出规律？
+
+研究者用机器学习预测椭圆曲线的秩，在平均化的 a_p 数据里看到了一种随秩而变的波动，被称为“椭圆曲线的燕群飞舞（murmurations）”。后来数学家已在若干情形下证明了这种现象。
+
+> **边界：** 这是一个新现象，而不是对伯奇–斯温纳顿–戴尔猜想的证明，该猜想仍未解决。发现带有运气成分：数据恰好按导子排序、a_p 没有归一化。
+
+*数学 · Machine-learning classifiers (He, Lee, Oliver, Pozdnyakov)*　来源：[arXiv](https://arxiv.org/abs/2204.10140) (论文) · [Quanta Magazine](https://www.quantamagazine.org/elliptic-curve-murmurations-found-with-ai-take-flight-20240305/) (报道)
+
 #### 2022-04-27｜能不能造出一种酶，在常温下几天内分解塑料瓶？
 
 德克萨斯大学用机器学习指导突变，得到 FAST-PETase，能在一周内基本降解多种 PET 塑料制品。
@@ -727,6 +743,14 @@ DeepNash 在 Gravon 平台上排名历史前三，胜率约 84%。
 AlphaCode 在 Codeforces 模拟比赛中排名约在参赛者的前 54%，达到中等人类选手水平。
 
 *算法与软件 · AlphaCode*　来源：[Science 2022](https://doi.org/10.1126/science.abq1158) (论文)
+
+#### 2023-01-23｜无限方格网的“堆积色数”是多少？（2002 年起悬而未决）
+
+Subercaseaux 和 Heule 用新的 SAT 编码和对称性破除方法证明答案是 15，并给出了经过验证的不可满足性证明。
+
+> **边界：** 属于自动推理加大规模计算，不是学习型 AI。
+
+*数学 · SAT solver (Subercaseaux & Heule)*　来源：[arXiv](https://arxiv.org/abs/2301.09757) (论文)
 
 #### 2023-03-14｜AI 能不能通过律师资格考试？
 
@@ -864,6 +888,14 @@ AlphaGeometry 在 30 道国际奥数几何题中解出 25 道，接近金牌选�
 
 *物理 · Deep RL (Princeton/DIII-D)*　来源：[Nature 2024](https://doi.org/10.1038/s41586-024-07024-9) (论文)
 
+#### 2024-03｜“幸福结局”问题：平面上最少多少个点，就一定含有一个空的凸六边形？
+
+Heule 和 Scheucher 用 SAT 求解器证明，平面上任意 30 个一般位置的点必含一个空六边形；证明约拆成 31 万个子问题并行求解，并经形式化验证的检查器核对。
+
+> **边界：** 自动推理加大规模计算，不是学习型 AI。
+
+*数学 · SAT solver (CaDiCaL, cube-and-conquer)*　来源：[arXiv](https://arxiv.org/abs/2403.00737) (论文)
+
 #### 2024-05-08｜蛋白质与 DNA、RNA、药物小分子结合在一起时，结构是什么样？
 
 AlphaFold 3 把结构预测扩展到几乎所有生物分子的复合物，在蛋白质与药物分子相互作用的预测上明显优于传统对接方法。
@@ -878,11 +910,27 @@ DeepMind 的系统解出 2024 年 IMO 六题中的四题，达到银牌水平，
 
 *数学 · AlphaProof + AlphaGeometry 2*　来源：[Google DeepMind](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/) (官方)
 
+#### 2024-08｜拓扑中的 Andrews–Curtis 猜想：强化学习能不能找到“难以化简”的群表示？
+
+Shehper 等人用强化学习解出了两个贪心搜索解不出的 Miller–Schupp 表示，其中一个与著名的潜在反例 AK(3) 等价；同时把 AK(n) 缩短为长度 n+11 的等价表示。
+
+> **边界：** Andrews–Curtis 猜想本身仍未解决；这里只依据论文摘要，未逐项核对。
+
+*数学 · Reinforcement learning and greedy search*　来源：[arXiv](https://arxiv.org/abs/2408.15332) (论文)
+
 #### 2024-08-07｜机器人能不能打乒乓球，达到业余人类选手的水平？
 
 DeepMind 的机器人在与人类的比赛中，战胜了所有初学者，对中级选手胜率约一半，但没有战胜高级选手。
 
 *机器人与自主系统 · Google DeepMind table-tennis robot*　来源：[arXiv](https://arxiv.org/abs/2408.03906) (论文)
+
+#### 2024-10｜动力系统的全局稳定性证书（李雅普诺夫函数）长期没有通用方法，AI 能不能找到？
+
+Alfarano、Charton 和 Hayat 训练 Transformer 直接输出李雅普诺夫函数：在随机生成的多项式系统上找到新函数的比例为 10.1%，先进的算法方法只有 2.1%；在没有通用算法的非多项式系统上为 12.7%。
+
+> **边界：** 评测基于随机生成的系统，而不是某些著名的具体系统。
+
+*数学 · Sequence-to-sequence transformers (Meta FAIR, École des Ponts)*　来源：[arXiv](https://arxiv.org/abs/2410.08304) (论文)
 
 #### 2024-10-08｜机器学习的基础性发现，算不算诺贝尔奖级别的物理学贡献？
 
@@ -901,6 +949,14 @@ DeepMind 的机器人在与人类的比赛中，战胜了所有初学者，对�
 谷歌的 Big Sleep 智能体在广泛使用的数据库 SQLite 发布前，发现了一个此前未知的可利用漏洞（栈缓冲区下溢），开发者当天修复。
 
 *算法与软件 · Big Sleep (Google)*　来源：[Google Project Zero](https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html) (官方)
+
+#### 2024-11-01｜立方体里“保持直径的最少边子图”，30 年前的猜想成立吗？
+
+Charton、Ellenberg、Wagner 和 Williamson 的 PatternBoost 把局部搜索与 Transformer 结合，在 d=6 时找到只有 81 条边的子图，比猜想的构造少一条（82 条），推翻了猜想。
+
+> **边界：** 摘要把该猜想归于 Graham；这里只依据论文摘要。
+
+*数学 · PatternBoost (transformer + local search)*　来源：[arXiv](https://arxiv.org/abs/2411.00566) (论文)
 
 #### 2024-11-20｜量子计算机里不断出现的错误，能不能更准确地识别并纠正？
 
@@ -1015,6 +1071,14 @@ MIT 的 Collins 团队用生成式 AI 设计了数千万个虚拟化合物，挑
 > **边界：** 临床前结果。
 
 *医学 · Generative AI (Collins lab, MIT)*　来源：[Broad Institute](https://www.broadinstitute.org/news/using-ai-researchers-design-new-compounds-kill-antibiotic-resistant-bacteria) (官方) · [BioPharmaTrend](https://www.biopharmatrend.com/news/generative-ai-designs-novel-antibiotics-against-mrsa-and-drug-resistant-gonorrhea-1349/) (报道)
+
+#### 2025-09｜素数定理的强形式，能不能让 AI 在形式化证明语言 Lean 里完整地写出来？
+
+Math, Inc. 的 Gauss 智能体在约三周内完成了强素数定理的 Lean 形式化，这项工作原本由陶哲轩和 Kontorovich 在推进；后来更强的 Gauss 用两三天就复现了它。
+
+> **边界：** 时间和能力的说法来自 Math, Inc. 或项目组，IEEE Spectrum 的报道没有独立核实；是对已知定理的形式化，不是新结果。
+
+*数学 · Gauss (Math, Inc.)*　来源：[IEEE Spectrum](https://spectrum.ieee.org/ai-proof-verification) (报道) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (资料)
 
 #### 2025-09｜在世界大学生程序设计竞赛总决赛的题目上，AI 能不能超过人类队伍？
 
@@ -1166,6 +1230,14 @@ Donald Knuth 在笔记里写道，Claude Opus 4.6 在约一个小时的探索中
 
 *数学 · Claude Opus 4.6*　来源：[Donald Knuth (note)](https://cs.stanford.edu/~knuth/papers/claude-cycles.pdf) (官方)
 
+#### 2026-03｜小 Ramsey 数的下界，能不能被 AI 设计出来的搜索算法推高？
+
+Nagda、Raghavan 和 Thakurta 用 AlphaEvolve 为每个 Ramsey 数单独演化搜索算法，把 R(3,13)、R(3,18)、R(4,13)、R(4,14)、R(4,15) 的下界各提高 1，并在 r,s≤22 的范围内持平或改进了共 28 个下界。
+
+> **边界：** 改进的是下界，Ramsey 数的确切值仍未知。
+
+*数学 · AlphaEvolve*　来源：[arXiv](https://arxiv.org/html/2603.09172v2) (论文)
+
 #### 2026-03｜等离子体动理学中 Vlasov–Maxwell–Landau 方程的平衡态结果，能不能由 AI 半自主地形式化验证？
 
 一篇预印本报告了在 Lean 中对 Vlasov–Maxwell–Landau 平衡态结果所做的“半自主形式化”。
@@ -1173,6 +1245,14 @@ Donald Knuth 在笔记里写道，Claude Opus 4.6 在约一个小时的探索中
 > **边界：** 我只读过标题和摘要级别的信息；是形式化已有结果。
 
 *物理 · AI-assisted Lean formalization*　来源：[arXiv](https://arxiv.org/abs/2603.15929) (论文)
+
+#### 2026-03-02｜菲尔兹奖得主 Viazovska 证明 8 维和 24 维的最密球堆积，能不能由 AI 在 Lean 里完整验证？
+
+Math, Inc. 称 Gauss 在约五天内完成了 8 维证明的形式化（2 月 23 日公布），并在约两周内完成 24 维证明，产生 20 多万行 Lean 代码（3 月 2 日公布）；24 维没有现成的蓝图，Gauss 还补出了所需的背景理论。
+
+> **边界：** 多数时间与能力的说法来自 Math, Inc. 或项目组；24 维之前已有大量人类工作作为基础，报道称是人机合作；是对已知定理的形式化。
+
+*数学 · Gauss (Math, Inc.)*　来源：[IEEE Spectrum](https://spectrum.ieee.org/ai-proof-verification) (报道)
 
 #### 2026-03-23｜一个超图 Ramsey 类问题的下界构造能不能改进？
 
@@ -1200,6 +1280,14 @@ Anthropic 称 Claude Mythos Preview 发现了数千个高危漏洞，包括一�
 
 *数学 · GPT-5.4 Pro*　来源：[erdosproblems.com](https://www.erdosproblems.com/history/1196) (资料)
 
+#### 2026-05｜博苏克猜想（任何有界图形都能分成 d+1 个直径更小的部分）最低在几维开始失效？
+
+一个 GitHub 仓库称，借助 GPT-5.5 Pro 得到了 63 维的反例，把此前的 64 维（Jenrich 和 Brouwer）降低了一维，并附有精确的验证脚本和图证书。
+
+> **边界：** 来自作者个人的仓库，未见同行评审；验证脚本检查的是证明中用到的有限计算，不等于完整验证论证本身；证明的 PDF 我没有读过。
+
+*数学 · GPT-5.5 Pro (with Max Grinzstajn)*　来源：[GitHub](https://github.com/maaxgrin/borsuk-63-counterexample) (官方) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (资料)
+
 #### 2026-05-07｜一年之后，AlphaEvolve 在数学、芯片、软件和科学里实际帮上了什么忙？
 
 DeepMind 称 AlphaEvolve 帮助改进了旅行商问题和 Ramsey 数的下界、参与设计新一代 TPU、把 Spanner 的写放大降低 20%，并把 DeepConsensus 的变异检测错误减少 30%。
@@ -1207,6 +1295,14 @@ DeepMind 称 AlphaEvolve 帮助改进了旅行商问题和 Ramsey 数的下界�
 > **边界：** 发布方汇总的数字，未逐项核验。
 
 *算法与软件 · AlphaEvolve*　来源：[Google DeepMind](https://deepmind.google/blog/alphaevolve-impact/) (官方)
+
+#### 2026-05-20｜平面上 n 个点最多能有多少对点距离恰好为 1？埃尔德什 1946 年的猜想成立吗？（单位距离问题）
+
+OpenAI 称其内部通用推理模型推翻了埃尔德什关于上界为 n^(1+o(1)) 的猜想：它把问题与代数数论中的无限类域塔（Golod–Shafarevich）联系起来，对无穷多个 n 构造出至少 n^(1+δ) 对单位距离。Will Sawin 随后给出了显式指数 1.014。
+
+> **边界：** 原始证明没有给出具体的 δ；已知上界仍是 O(n^(4/3))，所以问题本身没有解决。OpenAI 的页面没有提 Lean，由外部数学家检查；报道称人类的核查和整理工作量不小；形式化后来由其他人完成。
+
+*数学 · OpenAI internal reasoning model*　来源：[OpenAI](https://openai.com/index/model-disproves-discrete-geometry-conjecture/) (官方) · [Sawin, arXiv](https://arxiv.org/abs/2605.20579) (论文) · [Xena Project](https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/) (报道)
 
 #### 2026-06｜到 2026 年年中，埃尔德什问题集里有多少开放问题被 AI 解决？
 
@@ -1224,6 +1320,46 @@ DeepMind 称 AlphaEvolve 帮助改进了旅行商问题和 Ramsey 数的下界�
 
 *物理 · Claude*　来源：[arXiv](https://arxiv.org/abs/2606.03300) (论文) · [Live Science](https://livescience.com/physics-mathematics/mathematics/nobel-prize-winning-physicist-and-team-use-claude-ai-to-solve-decades-old-math-puzzle) (报道)
 
+#### 2026-07｜Crouzeix 猜想：矩阵的函数，范数是否不超过函数在数值域上最大值的 2 倍？（悬而未决 20 多年）
+
+报道称，北京协和医学院的博士后金善木（Shanmu Jin）借助 GPT-5.6 Sol 证明了该猜想；决定性的一步出现在约 16 小时的一次自主运行中。Townsend 审阅后交给 Greenbaum 和 Crouzeix，据称他们确认证明正确；八天后 Lorist 和 Schwenninger 发表了一个更短的、同样使用 GPT-5.6 探索思路的证明。
+
+> **边界：** 尚未同行评审；AI 与人的贡献比例不明；Brett Wick 提醒，提示词里要求“假设存在完整证明”有让系统接受细微漏洞的风险。
+
+*数学 · GPT-5.6 Sol (with Shanmu Jin)*　来源：[Brett Wick](https://www.math.wustl.edu/wp/wick/?p=210) (资料) · [Interesting Engineering](https://interestingengineering.com/ai-robotics/china-doctor-cracks-math-problem-with-chatgpt) (报道)
+
+#### 2026-07｜每个无桥图是否都有一族圈，使每条边恰好被覆盖两次？（圈双覆盖猜想）
+
+OpenAI 在 2026 年 7 月宣布了圈双覆盖猜想的一个证明；Jim Geelen 和 Sang-il Oum 随即各自在 arXiv 上发布了对该证明的解读文章，以便更易读懂。
+
+> **边界：** 我看到的两篇 arXiv 页面没有说明证明是否已被独立验证或同行评审，也没有说明 AI 与人各自的贡献；Wikipedia 的列表称模型为 GPT-5.6 Sol Ultra。
+
+*数学 · OpenAI model*　来源：[Oum, arXiv](https://arxiv.org/abs/2607.16356) (论文) · [Geelen, arXiv](https://arxiv.org/abs/2607.15399) (论文) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (资料)
+
+#### 2026-07｜阶为 n 的有限局部自由群概形，是否一定被 n 消灭？（Grothendieck 的一个问题，交换情形由 Deligne 证明）
+
+Akhil Mathew 在 AI 的协助下构造了一个非交换的反例：阶为 4 的有限自由群概形，却不被 4 消灭，并在 Lean 的 Mathlib 里形式化；PR 中披露 Codex 和 Claude 协助了构造与形式化。
+
+> **边界：** PR 页面只写了年份；确切日期取自 Xena Project 的汇总（7 月 11 日），其中对 AI 角色的描述与 PR 不完全一致。
+
+*数学 · Codex and Claude, with Akhil Mathew*　来源：[Mathlib PR](https://github.com/leanprover-community/mathlib4/pull/41748) (资料) · [Xena Project](https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/) (报道)
+
+#### 2026-07-20｜多项式映射只要雅可比行列式是非零常数，就一定可逆吗？（雅可比猜想，Smale 的 18 个问题之一）
+
+Anthropic 的数学家 Levent Alpöge 称，Claude Fable 5 找到了一个三维多项式映射：雅可比行列式为常数 −2，却把不同的点映到同一个点，于是三维以上的雅可比猜想不成立。反例短得能放进一条 X 帖子。
+
+> **边界：** 二维的情形仍未解决。发现过程（如何提示模型）当时没有公开。Lean 形式化在 DeepMind 的 formal-conjectures 仓库里推进，我看到时尚未确认合并；后续有人把行列式缩放为 1，使其在所有特征下成立。消息出自 Anthropic 自己的研究者。
+
+*数学 · Claude Fable 5*　来源：[ScienceDaily](https://www.sciencedaily.com/releases/2026/08/260804034634.htm) (报道) · [The Week](https://theweek.com/tech/mathematicians-are-buzzing-about-an-ai-solution-to-a-math-mystery) (报道) · [formal-conjectures PR](https://github.com/google-deepmind/formal-conjectures/pull/4474) (资料) · [Xena Project](https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/) (报道)
+
+#### 2026-07-22｜可拆分流总能转成不可拆分流，同时让拥塞和成本都有界吗？（Dinitz–Garg–Goemans 猜想）
+
+Dmitry Rybin 在 X 上称，GPT-5.6 Pro 用四条简短的提示给出了反例：一个小图里分数流的成本是 58，而所有满足拥塞要求的不可拆分路由成本至少为 60。
+
+> **边界：** 目前没有论文；介绍这一结果的页面没有找到对该具体图的独立重建，只提到有研究者核对了算术。该页面称，这不会直接改变实际网络路由，主要是理论上的界限。
+
+*算法与软件 · GPT-5.6 Pro (with Dmitry Rybin)*　来源：[DataCamp](https://www.datacamp.com/blog/gpt-5-6-dinitz-garg-goemans-conjecture) (报道)
+
 #### 2026-07-23｜在国际数学奥林匹克的全部六道题上，AI 能不能拿到满分？
 
 报道称，华为的 Celia 和小红书的 dots-note-3.0 在 2026 年上海 IMO 上拿到 42/42 的满分，而 2025 年谷歌和 OpenAI 的模型只达到金牌线。
@@ -1232,13 +1368,61 @@ DeepMind 称 AlphaEvolve 帮助改进了旅行商问题和 Ramsey 数的下界�
 
 *数学 · Huawei Celia; Xiaohongshu dots-note-3.0*　来源：[NewsBytes](https://www.newsbytesapp.com/news/science/for-first-time-ai-scores-100-at-international-mathematical-olympiad/story) (报道)
 
+#### 2026-08｜Hadamard 矩阵猜想仍未解决，但此前没人构造出的 668 阶等，能构造出来吗？
+
+Epoch AI 的开放问题页面称，Anthropic 的一位研究者报告，由三位人类与 Claude 组成的团队得到了 2000 阶以内所有此前没有已知构造的容许阶数的 Hadamard 矩阵（页面点名 668 阶）；Wikipedia 的列表给出了十二个阶数。
+
+> **边界：** Epoch 暂时把该题标为 AI 已解决，若团队报告人类对核心数学想法有重大贡献会修改；页面没有说明验证方式；Hadamard 猜想本身仍未解决。
+
+*数学 · Claude (internal Anthropic model)*　来源：[Epoch AI](https://epoch.ai/frontiermath/open-problems/hadamard) (资料) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (资料)
+
+#### 2026-08｜多项式的零点都在单位圆盘内时，每个零点附近一单位圆盘内是否一定有导数的零点？（Sendov 猜想）
+
+据 Wikipedia 的汇总，Lech Mazur 借助 GPT-5.6 Pro 给出了对所有次数 n≥2 的证明；陶哲轩把论证梳理简化，并在 Lean 中形式化，该形式化的代码几乎全部由 Claude Opus 5 在他的指导下写出。证明同时涵盖 Phelps–Rodriguez 猜想。
+
+> **边界：** Lean 项目页面写明“没有进行任何外部或独立评审”，也不主张新颖性（另有先前的 Lean 形式化）；用到数值证书。
+
+*数学 · GPT-5.6 Pro (Lech Mazur); Claude Opus 5 for the Lean formalisation*　来源：[Lean package (teorth/sendov)](https://reservoir.lean-lang.org/@teorth/sendov) (资料) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (资料)
+
+#### 2026-08-01｜给定最小距离，二进制纠错码最多能有多大？
+
+OpenAI 称 Astra 对任意给定最小距离的二进制码的最大规模给出了指数级改进的界，对高维球码也有类似结果。
+
+> **边界：** 发布方主张；OpenAI 的页面未提外部专家评审，称论证在 Lean 中形式化。
+
+*数学 · OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方)
+
+#### 2026-08-01｜格上的最近向量问题，能近似到多好？（与后量子密码有关）
+
+OpenAI 称 Astra 证明了欧氏最近向量问题在多项式因子内近似是 NP 难的。
+
+> **边界：** 发布方主张；OpenAI 的页面未提外部专家评审。
+
+*算法与软件 · OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方)
+
 #### 2026-08-01｜算子代数中的 Connes 刚性猜想成立吗？
 
 OpenAI 称 Astra 给出了这个猜想的反例，即猜想不成立。
 
 > **边界：** 发布方主张；Lean 形式化已公开，同行评审尚未完成。
 
-*数学 · OpenAI Astra (unreleased)*　来源：[GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
+*数学 · OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
+
+#### 2026-08-01｜重心是唯一内部格点的凸体，体积最大能是多少？（Ehrhart 体积猜想）
+
+OpenAI 称 Astra 在每个维度都确定了这个最大体积。
+
+> **边界：** 发布方主张；OpenAI 的页面未提外部专家评审。Wikipedia 的汇总把它描述为部分证明（给出上界 (n+1)^n/n!，等号情形仍未解决），与 OpenAI 的说法不一致。
+
+*数学 · OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (资料)
+
+#### 2026-08-01｜多色三角形 Ramsey 数增长多快？极值图论的紧致性与退化猜想成立吗？（埃尔德什第 183、146、180 号问题）
+
+OpenAI 称 Astra 给出了多色三角形 Ramsey 数的超指数下界（解决埃尔德什第 183 号问题），并就极值图论的紧致性与退化猜想给出结果（解决第 146 和 180 号问题）。
+
+> **边界：** 发布方主张；OpenAI 的页面未提外部专家评审。
+
+*数学 · OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方)
 
 #### 2026-08-01｜是不是每个可数群都能用有限置换来近似？（Gromov 1999 年提出的 sofic 群问题）
 
@@ -1246,15 +1430,31 @@ OpenAI 称 Astra 给出了第一个非 sofic 群的显式构造，从而回答�
 
 > **边界：** 发布方主张；Lean 形式化已公开，同行评审尚未完成。
 
-*数学 · OpenAI Astra (unreleased)*　来源：[GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
+*数学 · OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
+
+#### 2026-08-01｜计算矩阵的积和式（permanent），算术电路至少需要多大？
+
+OpenAI 称 Astra 为用算术电路和算术公式计算积和式给出了新的下界，其中算术公式的下界为 n⁴/log n 量级。
+
+> **边界：** 发布方主张；OpenAI 的页面未提外部专家评审。
+
+*算法与软件 · OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方)
+
+#### 2026-08-01｜两人量子博弈重复多次后，获胜概率能不能指数衰减？（量子并行重复）
+
+OpenAI 称 Astra 证明了一般两人量子博弈的指数并行重复定理。
+
+> **边界：** 发布方主张；OpenAI 的页面未提外部专家评审。
+
+*算法与软件 · OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方)
 
 #### 2026-08-01｜高维空间里，等大小的球最多能占据多大比例的空间？（球堆积密度的上界）
 
-OpenAI 称 Astra 改进了高维球堆积密度的一般上界，这是自 1978 年以来的首次改进。
+OpenAI 称 Astra 给出了高维球堆积密度的新上界，一直推进到 Cohn–Elkies 阈值。
 
-> **边界：** 发布方主张；上界的改进不等于确定了最大密度。同行评审尚未完成。
+> **边界：** 发布方主张；上界的改进不等于确定了最大密度。OpenAI 的页面未提外部专家评审。
 
-*数学 · OpenAI Astra (unreleased)*　来源：[GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
+*数学 · OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方) · [Noqta](https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026) (报道)
 
 #### 2026-08-10｜黎曼猜想还没解决，但黎曼ζ函数的非平凡零点，能证明至少有多大比例落在临界线上？（黎曼猜想的部分进展）
 
@@ -1263,6 +1463,14 @@ Anthropic 称，Claude 的研究版本把已知下界从 41.6% 提高到 67.2%�
 > **边界：** 黎曼猜想本身没有被证明，这是攻关过程中顺带得到的结果。
 
 *数学 · Claude (research version)*　来源：[Anthropic](https://www.anthropic.com/research/riemann-zeta) (官方)
+
+#### 2026-08-30｜相邻素数之差有无穷多次不超过某个常数，这个常数最小能证到多少？（孪生素数猜想的方向）
+
+OpenAI 的论文《Improved Short Gaps Between Primes》称，由 GPT-6 Astra 给出证明：相邻素数之差无穷多次不超过 186，改进了此前的 246。方法基于 Zhang、Polymath 8 和 Maynard 的筛法。
+
+> **边界：** 论文附有 Lean 形式化，但它以数值积分界和指数和估计为显式假设，所以并未从头完整验证；尚未得到独立核实；孪生素数猜想（间隔为 2）仍然开放。
+
+*数学 · GPT-6 Astra (OpenAI)*　来源：[OpenAI paper (PDF)](https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf) (官方) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (资料)
 
 #### 2026-09-03｜雄性果蝇完整的中枢神经系统是怎样连接的？
 
@@ -1277,6 +1485,14 @@ Anthropic 称数十个 Claude 智能体用 Lean 完成了费马大定理证明�
 > **边界：** 是对已知证明的形式化验证，不是新的数学发现；发布方自己的研究。
 
 *数学 · Claude*　来源：[Anthropic](https://www.anthropic.com/news/formalizing-fermats-last-theorem) (官方)
+
+#### 2026-09-07｜环论中的 Köthe 猜想成立吗？
+
+Adamczewski、Böhmler 和 Marczinzik 的预印本构造了 Köthe 猜想的反例，并回答了 Rowen 的一个问题。Wikipedia 的汇总称，这项工作使用了 GPT-6 Astra，并附有 Lean 形式化。
+
+> **边界：** arXiv 页面本身没有提到 AI 或 Lean，这两点来自 Wikipedia 的汇总；预印本，尚无同行评审信息。
+
+*数学 · GPT-6 Astra (with Epoch AI)*　来源：[arXiv](https://arxiv.org/abs/2609.07996) (论文) · [Wikipedia list](https://en.wikipedia.org/wiki/List_of_mathematical_discoveries_by_artificial_intelligence) (资料)
 
 #### 2026-09-08｜一开始光滑的三维流体，会不会在有限时间内出现奇点？（Navier–Stokes 千禧年难题）
 
@@ -1317,6 +1533,14 @@ Anthropic 称约 950 个 Claude 智能体用 21 小时搜索 DNA 数据，发现
 > **边界：** AI 负责挑选候选，确认靠的是光谱观测。
 
 *天文 · Machine learning on Gaia spectra*　来源：[arXiv](https://arxiv.org/abs/2609.28640) (论文)
+
+#### 2026-09-28｜高维空间里，一个球最多能同时与多少个等大的球相切？（亲吻数下界）
+
+浙江大学的 Qiushi Engine 多智能体系统自主搜索、分析和验证，把 19 个维度（25、27、32–39、43、45、49–55）的亲吻数下界刷新，例如 K(25) ≥ 197,580，K(55) ≥ 53,301,140。
+
+> **边界：** 预印本；作者称每个结果都有可独立检查的有限证书，我没有逐个核对。
+
+*数学 · Qiushi Engine (Zhejiang University)*　来源：[arXiv](https://arxiv.org/html/2609.35051) (论文)
 
 #### 2026-10-06｜一个 AI 模型能同时在多少个数学问题上取得新结果？
 
