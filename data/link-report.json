@@ -1,17 +1,7 @@
 {
-  "checked_at": "2026-10-13T06:37:12.319Z",
-  "total": 279,
+  "checked_at": "2026-10-13T06:37:47.787Z",
+  "total": 277,
   "broken": [
-    {
-      "id": "2018-idx-dr",
-      "url": "https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-artificial-intelligence-based-device-detect-certain-diabetes-related-eye",
-      "status": 404
-    },
-    {
-      "id": "2025-c2s-scale",
-      "url": "https://deepmind.google/discover/blog/how-a-gemma-model-helped-discover-a-new-potential-cancer-therapy-pathway/",
-      "status": 404
-    },
     {
       "id": "2025-deep-loop-shaping-ligo",
       "url": "https://www.ligo.caltech.edu/news/ligo20250908",
@@ -21,21 +11,6 @@
       "id": "2025-kosmos",
       "url": "https://edisonscientific.com/articles/announcing-kosmos",
       "status": 404
-    },
-    {
-      "id": "2026-astra-connes-rigidity",
-      "url": "https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026",
-      "status": 410
-    },
-    {
-      "id": "2026-astra-non-sofic",
-      "url": "https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026",
-      "status": 410
-    },
-    {
-      "id": "2026-astra-sphere-packing",
-      "url": "https://noqta.tn/en/news/openai-astra-ten-math-proofs-lean-certificates-2026",
-      "status": 410
     }
   ],
   "blocked_by_site": [
