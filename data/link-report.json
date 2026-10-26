@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-19T07:11:49.608Z",
+  "checked_at": "2026-10-26T07:13:31.047Z",
   "total": 278,
   "unique_urls": 257,
   "broken": [],
@@ -12,6 +12,16 @@
     {
       "id": "2025-icpc-world-finals",
       "url": "https://www.techrepublic.com/article/openai-deepmind-icpc-2025-results/",
+      "status": 403
+    },
+    {
+      "id": "2025-kosmos",
+      "url": "https://www.hpcwire.com/aiwire/2025/11/07/futurehouse-spins-out-edison-scientific-launches-kosmos-ai-for-research/",
+      "status": 403
+    },
+    {
+      "id": "2025-noaa-ai-weather",
+      "url": "https://www.hpcwire.com/aiwire/2025/12/17/noaa-deploys-new-generation-of-ai-driven-global-weather-models/",
       "status": 403
     },
     {
@@ -110,6 +120,16 @@
       "id": "2025-deep-loop-shaping-ligo",
       "url": "https://www.ligo.caltech.edu/news/ligo20250908",
       "status": "ERR UNABLE_TO_GET_ISSUER_CERT_LOCALLY"
+    },
+    {
+      "id": "2025-rentosertib",
+      "url": "https://www.drugdiscoverytrends.com/insilicos-ai-designed-rentosertib-shows-promise-in-first-phase-2a-trial-results/",
+      "status": 504
+    },
+    {
+      "id": "2026-knuth-claude-cycles",
+      "url": "https://cs.stanford.edu/~knuth/papers/claude-cycles.pdf",
+      "status": "ERR UND_ERR_CONNECT_TIMEOUT"
     }
   ]
 }
