@@ -2,7 +2,7 @@
 
 # 医学：AI 解决的问题
 
-共 18 条 · [← 返回 README](../../README.md)
+共 23 条 · [← 返回 README](../../README.md)
 
 #### 约 1972｜能不能根据症状和化验结果，判断血液感染的病菌并推荐抗生素？
 
@@ -137,4 +137,44 @@ MIT 的 Collins 团队用生成式 AI 设计了数千万个虚拟化合物，挑
 > **边界：** 只在细胞模型中验证，机制未明，距离临床还很远。
 
 *C2S-Scale 27B (Google DeepMind + Yale)*　来源：[The Decoder](https://the-decoder.com/google-deepminds-new-gemma-model-helped-discover-a-new-cancer-treatment-pathway/) (报道)
+
+#### 2026-10-21｜缺少专业超声医师的基层诊所，能不能可靠估计孕周？
+
+Google 报告，一项覆盖芝加哥和内罗毕 385 名参与者的前瞻性研究中，AI 解读非专业操作者采集的扫查图像，孕周估计平均绝对误差为 4.18 天，对照专家方法为 4.48 天，达到研究设定的非劣效标准。
+
+> **边界：** 研究针对孕周估计，不能据此推断完整产检、胎儿异常诊断或所有临床环境中的有效性。
+
+*Google Research blind-sweep ultrasound AI*　来源：[Google Research](https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/) (官方)
+
+#### 2026-10-23｜放射科医生不足时，AI 能不能把结核筛查带到基层和矿井？
+
+Google 报告，Nexus AI 的胸片辅助筛查已在约 40 家医疗机构部署，累计辅助分析逾 25,000 张胸片，并在南非矿井使用离线便携设备开展筛查。
+
+> **边界：** 这是筛查和分诊，不替代确诊检测及医生判断；部署统计来自发布方报告。
+
+*Nexus AI + Google chest-X-ray models*　来源：[Google Research / Nexus AI](https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/) (官方)
+
+#### 2026-10-27｜抗体片段的结合能力、稳定性与聚集问题，能不能一起改进？
+
+BigHat 与 Anthropic 报告，Claude 辅助迭代抗体片段，在结合、热稳定性与聚集指标上取得改善。
+
+> **边界：** 发布方实验报告，实验性质改善不等于临床疗效。
+
+*Claude + BigHat Biosciences*　来源：[Anthropic / BigHat Biosciences](https://www.anthropic.com/research/early-progress-drug-development) (官方)
+
+#### 2026-10-27｜CAR-T 的调控元件能不能缩短，同时保持或改善实验表现？
+
+Generate Biomedicines 报告，Claude 辅助设计出更短的 CAR-T 调控元件，在实验中提高表达与杀伤表现。
+
+> **边界：** 早期实验结果，不代表临床疗效或已获批治疗。
+
+*Claude Code + Generate Biomedicines*　来源：[Anthropic / Generate Biomedicines](https://www.anthropic.com/research/early-progress-drug-development) (官方)
+
+#### 2026-10-27｜针对过敏反应的 IgE，能否找到结合或促使其脱离细胞的候选分子？
+
+Divergence Labs 报告，Claude 辅助设计得到结合 IgE 与促其脱离免疫细胞的实验命中分子。
+
+> **边界：** 不同部件仍需组合与验证，不代表过敏治疗已成功。
+
+*Claude + Divergence Labs*　来源：[Anthropic / Divergence Labs](https://www.anthropic.com/research/early-progress-drug-development) (官方)
 

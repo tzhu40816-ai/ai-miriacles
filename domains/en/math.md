@@ -2,7 +2,7 @@
 
 # Mathematics: problems AI has solved
 
-69 entries · [← Back to README](../../README.md)
+70 entries · [← Back to README](../../README.md)
 
 #### 1956｜Given the axioms of logic, can a machine find proofs of theorems by itself?
 
@@ -519,4 +519,12 @@ OpenAI released new mathematical results from an internal model and Lean formali
 > **Limits：** Verification varies by result; each needs to be examined individually.
 
 *OpenAI internal model*　Sources：[OpenAI](https://openai.com/index/sharing-ai-progress-in-mathematics/) (Official) · [GitHub openai/math](https://github.com/openai/math) (Official)
+
+#### 2026-10-26｜Does local smoothing hold in every dimension, with consequences for Kakeya?
+
+OpenAI claims an all-dimensional local-smoothing proof and released a manuscript and Lean files.
+
+> **Limits：** A publisher claim awaiting further independent scrutiny; this project has not rerun the formalization.
+
+*OpenAI internal model*　Sources：[OpenAI](https://openai.com/index/building-scientific-understanding-with-academic-communities/) (Official) · [AI-produced manuscript](https://github.com/openai/math/blob/main/preprints/Local-smoothing-for-the-Euclidean-wave-equation-October-25-2026/paper.pdf) (Paper)
 

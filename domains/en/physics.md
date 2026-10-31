@@ -2,7 +2,7 @@
 
 # Physics: problems AI has solved
 
-13 entries · [← Back to README](../../README.md)
+15 entries · [← Back to README](../../README.md)
 
 #### 2009-04-03｜Given only motion data, can a machine find the physical law that describes it?
 
@@ -97,4 +97,20 @@ The relation had strong numerical support but no analytic proof. Nobel laureate 
 > **Limits：** Holds within the infinite-dimensional hard-sphere fullRSB framework.
 
 *Claude*　Sources：[arXiv](https://arxiv.org/abs/2606.03300) (Paper) · [Live Science](https://livescience.com/physics-mathematics/mathematics/nobel-prize-winning-physicist-and-team-use-claude-ai-to-solve-decades-old-math-puzzle) (News)
+
+#### 2026-10-16｜Can quantum circuits use fewer qubits and gates?
+
+Anthropic and collaborators report improved designs across eight quantum-circuit tasks, including reversible modular inversion and a quantum-optimization decoder, with programmatic checks and Lean formalization of selected derivations.
+
+> **Limits：** These are algorithmic and resource-estimation improvements for specified circuits, not demonstrated equivalent speedups on practical quantum hardware.
+
+*Claude + automated circuit evaluator*　Sources：[Anthropic](https://www.anthropic.com/research/designing-efficient-quantum-circuits) (Official) · [arXiv: quantum-circuit designs](https://arxiv.org/abs/2610.22367) (Paper)
+
+#### 2026-10-26｜Can four-dimensional quantum field theories including QCD be constructed rigorously?
+
+OpenAI announced field-theory existence arguments and transferred materials to external physicists for study.
+
+> **Limits：** Original artifacts remain unreleased; this is not an established resolution of the full Yang–Mills mass-gap problem.
+
+*OpenAI internal model*　Sources：[OpenAI](https://openai.com/index/building-scientific-understanding-with-academic-communities/) (Official)
 

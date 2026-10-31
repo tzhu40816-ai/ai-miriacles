@@ -2,7 +2,7 @@
 
 # Medicine: problems AI has solved
 
-18 entries · [← Back to README](../../README.md)
+23 entries · [← Back to README](../../README.md)
 
 #### c. 1972｜Can a machine identify the bacteria behind a blood infection and recommend antibiotics?
 
@@ -137,4 +137,44 @@ Google and Yale used a single-cell language model to screen over 4,000 drugs and
 > **Limits：** Cell models only, mechanism unexplained, far from the clinic.
 
 *C2S-Scale 27B (Google DeepMind + Yale)*　Sources：[The Decoder](https://the-decoder.com/google-deepminds-new-gemma-model-helped-discover-a-new-cancer-treatment-pathway/) (News)
+
+#### 2026-10-21｜Can clinics without specialist sonographers estimate gestational age reliably?
+
+Google reports a prospective study of 385 participants in Chicago and Nairobi: AI interpreting novice-acquired ultrasound sweeps achieved gestational-age mean absolute error of 4.18 days versus 4.48 for the expert method, meeting the study's non-inferiority criterion.
+
+> **Limits：** The study concerns gestational-age estimation, not complete prenatal assessment, fetal-abnormality diagnosis or validation in every clinical setting.
+
+*Google Research blind-sweep ultrasound AI*　Sources：[Google Research](https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/) (Official)
+
+#### 2026-10-23｜Can AI bring tuberculosis screening to underserved clinics and mines?
+
+Google reports Nexus AI screening deployments across roughly 40 healthcare facilities, assisting with over 25,000 chest radiographs, including offline portable screening in a South African mine.
+
+> **Limits：** Screening and triage do not replace confirmatory testing or clinical judgment; deployment statistics are publisher-reported.
+
+*Nexus AI + Google chest-X-ray models*　Sources：[Google Research / Nexus AI](https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/) (Official)
+
+#### 2026-10-27｜Can antibody-fragment binding, stability and aggregation be improved together?
+
+BigHat and Anthropic report Claude-guided antibody-fragment optimization with improved binding, stability and aggregation measures.
+
+> **Limits：** Publisher-reported laboratory improvements do not establish clinical efficacy.
+
+*Claude + BigHat Biosciences*　Sources：[Anthropic / BigHat Biosciences](https://www.anthropic.com/research/early-progress-drug-development) (Official)
+
+#### 2026-10-27｜Can a CAR-T regulatory element be shortened while improving laboratory performance?
+
+Generate Biomedicines reports a Claude-assisted, shorter CAR-T regulatory element with improved expression and tumor-cell killing in laboratory tests.
+
+> **Limits：** Early laboratory results, not evidence of clinical efficacy or regulatory approval.
+
+*Claude Code + Generate Biomedicines*　Sources：[Anthropic / Generate Biomedicines](https://www.anthropic.com/research/early-progress-drug-development) (Official)
+
+#### 2026-10-27｜Can candidate molecules bind IgE or displace it from immune cells?
+
+Divergence Labs reports Claude-assisted experimental hits for IgE binding and displacement from immune cells.
+
+> **Limits：** The components still need integration and testing; no clinical benefit is established.
+
+*Claude + Divergence Labs*　Sources：[Anthropic / Divergence Labs](https://www.anthropic.com/research/early-progress-drug-development) (Official)
 

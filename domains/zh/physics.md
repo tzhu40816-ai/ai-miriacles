@@ -2,7 +2,7 @@
 
 # 物理：AI 解决的问题
 
-共 13 条 · [← 返回 README](../../README.md)
+共 15 条 · [← 返回 README](../../README.md)
 
 #### 2009-04-03｜只给运动数据，机器能不能找出描述它的物理公式？
 
@@ -97,4 +97,20 @@ Guevara、Lupsasca、Skinner、Strominger 等人指出，在“半共线”动�
 > **边界：** 结论在无限维硬球的 fullRSB 理论框架内成立。
 
 *Claude*　来源：[arXiv](https://arxiv.org/abs/2606.03300) (论文) · [Live Science](https://livescience.com/physics-mathematics/mathematics/nobel-prize-winning-physicist-and-team-use-claude-ai-to-solve-decades-old-math-puzzle) (报道)
+
+#### 2026-10-16｜量子算法的电路，能不能同时减少量子比特和量子门的开销？
+
+Anthropic 与合作者报告，Claude 为八类量子电路任务找到更优设计，包括可逆模逆算法与量子优化解码器；结果经程序化检查，部分关键推导还提供了 Lean 形式化。
+
+> **边界：** 改进的是特定电路的资源估算与算法，不代表已在实用量子硬件上实现相同加速。
+
+*Claude + automated circuit evaluator*　来源：[Anthropic](https://www.anthropic.com/research/designing-efficient-quantum-circuits) (官方) · [arXiv: quantum-circuit designs](https://arxiv.org/abs/2610.22367) (论文)
+
+#### 2026-10-26｜包含量子色动力学的四维量子场论，能建立严格存在性证明吗？
+
+OpenAI 宣布量子场论存在性论证，并将材料交由外部物理学者研究和撰写。
+
+> **边界：** 原始材料尚未公开，不能公开复核，也不能当作完整杨–米尔斯质量间隙问题已获认定。
+
+*OpenAI internal model*　来源：[OpenAI](https://openai.com/index/building-scientific-understanding-with-academic-communities/) (官方)
 

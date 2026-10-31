@@ -4,7 +4,7 @@
 
 A chronological record of concrete problems AI has solved or advanced. The problem is the protagonist, not the model.
 
-218 entries · [← Back to README](README.md) · Other language：[中文](TIMELINE.md)
+233 entries · [← Back to README](README.md) · Other language：[中文](TIMELINE.md)
 
 [1950s-1970s](#1950s-1970s) · [1980s-1990s](#1980s-1990s) · [2000s](#2000s) · [2010s](#2010s) · [2020-2023](#2020-2023) · [2024](#2024) · [2025](#2025) · [2026](#2026)
 
@@ -1559,4 +1559,124 @@ Brice Ménard reports working with Claude Science to combine and calibrate UV su
 > **Limits：** About a third of the sky is filled by predictions rather than new UV observations; the researcher guided, checked and corrected the work.
 
 *Astronomy · Claude Science + Brice Ménard*　Sources：[Anthropic / Brice Ménard](https://www.anthropic.com/research/the-missing-map-of-the-sky) (Official)
+
+#### 2026-10-15｜Can unannotated protein databases yield new antimicrobial-peptide candidates?
+
+Google reports that researchers used Antigravity and ProtNLM to identify a new antimicrobial-peptide candidate in protein data and advance it to wet-lab validation.
+
+> **Limits：** Experimental validation was still underway at announcement; predicted activity does not establish an effective antibiotic.
+
+*Biology · Google Antigravity + ProtNLM*　Sources：[Google DeepMind](https://deepmind.google/blog/accelerating-antimicrobial-discovery/) (Official)
+
+#### 2026-10-16｜How were the original random seeds for NIST elliptic-curve parameters generated?
+
+Anthropic reports that Claude recovered generation patterns for multiple NIST and ANSI elliptic-curve seeds and released code reproducing the published parameters, clarifying their long-questioned provenance.
+
+> **Limits：** This explains parameter provenance rather than breaking ECDSA; some seeds, base points and selection criteria remain unexplained.
+
+*Algorithms & software · Claude internal research model*　Sources：[Anthropic](https://www.anthropic.com/research/ecdsa-curve-origins) (Official)
+
+#### 2026-10-16｜Can quantum circuits use fewer qubits and gates?
+
+Anthropic and collaborators report improved designs across eight quantum-circuit tasks, including reversible modular inversion and a quantum-optimization decoder, with programmatic checks and Lean formalization of selected derivations.
+
+> **Limits：** These are algorithmic and resource-estimation improvements for specified circuits, not demonstrated equivalent speedups on practical quantum hardware.
+
+*Physics · Claude + automated circuit evaluator*　Sources：[Anthropic](https://www.anthropic.com/research/designing-efficient-quantum-circuits) (Official) · [arXiv: quantum-circuit designs](https://arxiv.org/abs/2610.22367) (Paper)
+
+#### 2026-10-20｜Can AI design proteins experimentally shown to bind scorpion neurotoxins?
+
+Anthropic reports that Claude helped generate and select protein designs; partner laboratories tested 211 candidates, with 17 meeting the team's binding criteria across four neurotoxins.
+
+> **Limits：** Binding does not establish toxin neutralization; cellular protection and an effective antivenom have not been demonstrated.
+
+*Biology · Claude Science + Anthropic + Citrini Research*　Sources：[Anthropic](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design) (Official)
+
+#### 2026-10-21｜Can millions of brain-cell perturbation measurements yield testable disease-research leads faster?
+
+OpenAI and collaborators report that thousands of GPT-Rosalind agents analyzed existing mouse-brain perturbation data in 32 minutes, integrated literature into a reasoning atlas and proposed new neurodegeneration-related leads.
+
+> **Limits：** These are research leads and mechanistic hypotheses requiring further experiments, not validated treatments for human disease.
+
+*Biology · GPT-Rosalind + OpenAI + PerturbAI + Scripps Research*　Sources：[OpenAI / PerturbAI / Scripps](https://openai.com/index/scaling-ai-research-for-complex-biological-data/) (Official)
+
+#### 2026-10-21｜Can clinics without specialist sonographers estimate gestational age reliably?
+
+Google reports a prospective study of 385 participants in Chicago and Nairobi: AI interpreting novice-acquired ultrasound sweeps achieved gestational-age mean absolute error of 4.18 days versus 4.48 for the expert method, meeting the study's non-inferiority criterion.
+
+> **Limits：** The study concerns gestational-age estimation, not complete prenatal assessment, fetal-abnormality diagnosis or validation in every clinical setting.
+
+*Medicine · Google Research blind-sweep ultrasound AI*　Sources：[Google Research](https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/) (Official)
+
+#### 2026-10-22｜Can mature open-source test entry points receive machine-checked no-crash proofs?
+
+Anthropic and Theorem report that Claude produced Rocq proofs for 239 entry points across 123 OSS-Fuzz libraries, finding and patching defects during proof construction.
+
+> **Limits：** Proofs depend on trusted models and checkers and specified RISC-V/Linux, single-threading and input-size assumptions; they do not prove every library bug-free.
+
+*Algorithms & software · Claude + Theorem + Rocq*　Sources：[Anthropic / Theorem](https://www.anthropic.com/research/formal-verification) (Official)
+
+#### 2026-10-22｜Can satellite imagery distinguish natural forests, planted forests and tree-crop farms?
+
+Google, WRI and IIASA released ForTy's global 10-meter forest-typology map and an early annual series for 2017–2025. The team reports about 90% forest-type accuracy across more than 9,000 validation sites.
+
+> **Limits：** Classification has errors and regional variation; the annual series is an early release, not definitive compliance evidence for every parcel.
+
+*Earth & climate · ForTy + AlphaEarth Foundations*　Sources：[Google DeepMind / WRI / IIASA](https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/) (Official)
+
+#### 2026-10-23｜Can AI bring tuberculosis screening to underserved clinics and mines?
+
+Google reports Nexus AI screening deployments across roughly 40 healthcare facilities, assisting with over 25,000 chest radiographs, including offline portable screening in a South African mine.
+
+> **Limits：** Screening and triage do not replace confirmatory testing or clinical judgment; deployment statistics are publisher-reported.
+
+*Medicine · Nexus AI + Google chest-X-ray models*　Sources：[Google Research / Nexus AI](https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/) (Official)
+
+#### 2026-10-26｜Can the Exponential Time Hypothesis for 3-SAT be refuted?
+
+OpenAI claims an ETH refutation, released proof materials and arranged external expert examination.
+
+> **Limits：** A publisher claim requiring independent scrutiny; it does not settle P versus NP.
+
+*Algorithms & software · OpenAI internal model*　Sources：[OpenAI](https://openai.com/index/building-scientific-understanding-with-academic-communities/) (Official) · [AI-produced manuscript](https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf) (Paper)
+
+#### 2026-10-26｜Does local smoothing hold in every dimension, with consequences for Kakeya?
+
+OpenAI claims an all-dimensional local-smoothing proof and released a manuscript and Lean files.
+
+> **Limits：** A publisher claim awaiting further independent scrutiny; this project has not rerun the formalization.
+
+*Mathematics · OpenAI internal model*　Sources：[OpenAI](https://openai.com/index/building-scientific-understanding-with-academic-communities/) (Official) · [AI-produced manuscript](https://github.com/openai/math/blob/main/preprints/Local-smoothing-for-the-Euclidean-wave-equation-October-25-2026/paper.pdf) (Paper)
+
+#### 2026-10-26｜Can four-dimensional quantum field theories including QCD be constructed rigorously?
+
+OpenAI announced field-theory existence arguments and transferred materials to external physicists for study.
+
+> **Limits：** Original artifacts remain unreleased; this is not an established resolution of the full Yang–Mills mass-gap problem.
+
+*Physics · OpenAI internal model*　Sources：[OpenAI](https://openai.com/index/building-scientific-understanding-with-academic-communities/) (Official)
+
+#### 2026-10-27｜Can antibody-fragment binding, stability and aggregation be improved together?
+
+BigHat and Anthropic report Claude-guided antibody-fragment optimization with improved binding, stability and aggregation measures.
+
+> **Limits：** Publisher-reported laboratory improvements do not establish clinical efficacy.
+
+*Medicine · Claude + BigHat Biosciences*　Sources：[Anthropic / BigHat Biosciences](https://www.anthropic.com/research/early-progress-drug-development) (Official)
+
+#### 2026-10-27｜Can a CAR-T regulatory element be shortened while improving laboratory performance?
+
+Generate Biomedicines reports a Claude-assisted, shorter CAR-T regulatory element with improved expression and tumor-cell killing in laboratory tests.
+
+> **Limits：** Early laboratory results, not evidence of clinical efficacy or regulatory approval.
+
+*Medicine · Claude Code + Generate Biomedicines*　Sources：[Anthropic / Generate Biomedicines](https://www.anthropic.com/research/early-progress-drug-development) (Official)
+
+#### 2026-10-27｜Can candidate molecules bind IgE or displace it from immune cells?
+
+Divergence Labs reports Claude-assisted experimental hits for IgE binding and displacement from immune cells.
+
+> **Limits：** The components still need integration and testing; no clinical benefit is established.
+
+*Medicine · Claude + Divergence Labs*　Sources：[Anthropic / Divergence Labs](https://www.anthropic.com/research/early-progress-drug-development) (Official)
 

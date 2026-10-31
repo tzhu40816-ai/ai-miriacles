@@ -18,9 +18,9 @@ A chronological record of concrete problems AI has solved or advanced. The probl
 | | 中文 | English |
 |---|---|---|
 | 完整时间线（最早 → 最新）/ Full timeline | [TIMELINE.md](TIMELINE.md) | [TIMELINE.en.md](TIMELINE.en.md) |
-| 按领域 / By field | [数学](domains/zh/math.md) · [博弈](domains/zh/games.md) · [生物](domains/zh/biology.md) · [感知与语言](domains/zh/language.md) · [算法与软件](domains/zh/computing.md) · [医学](domains/zh/medicine.md) · [物理](domains/zh/physics.md) · [机器人与自主系统](domains/zh/robotics.md) · [地球与气候](domains/zh/earth.md) · [化学](domains/zh/chemistry.md) · [天文](domains/zh/astronomy.md) · [材料](domains/zh/materials.md) · [其他](domains/zh/other.md) | [Mathematics](domains/en/math.md) · [Games](domains/en/games.md) · [Biology](domains/en/biology.md) · [Perception & language](domains/en/language.md) · [Algorithms & software](domains/en/computing.md) · [Medicine](domains/en/medicine.md) · [Physics](domains/en/physics.md) · [Robotics & autonomy](domains/en/robotics.md) · [Earth & climate](domains/en/earth.md) · [Chemistry](domains/en/chemistry.md) · [Astronomy](domains/en/astronomy.md) · [Materials](domains/en/materials.md) · [Other](domains/en/other.md) |
+| 按领域 / By field | [数学](domains/zh/math.md) · [博弈](domains/zh/games.md) · [医学](domains/zh/medicine.md) · [生物](domains/zh/biology.md) · [算法与软件](domains/zh/computing.md) · [感知与语言](domains/zh/language.md) · [物理](domains/zh/physics.md) · [机器人与自主系统](domains/zh/robotics.md) · [地球与气候](domains/zh/earth.md) · [化学](domains/zh/chemistry.md) · [天文](domains/zh/astronomy.md) · [材料](domains/zh/materials.md) · [其他](domains/zh/other.md) | [Mathematics](domains/en/math.md) · [Games](domains/en/games.md) · [Medicine](domains/en/medicine.md) · [Biology](domains/en/biology.md) · [Algorithms & software](domains/en/computing.md) · [Perception & language](domains/en/language.md) · [Physics](domains/en/physics.md) · [Robotics & autonomy](domains/en/robotics.md) · [Earth & climate](domains/en/earth.md) · [Chemistry](domains/en/chemistry.md) · [Astronomy](domains/en/astronomy.md) · [Materials](domains/en/materials.md) · [Other](domains/en/other.md) |
 
-当前 218 条，覆盖 1956–2026。Currently 218 entries, 1956–2026.
+当前 233 条，覆盖 1956–2026。Currently 233 entries, 1956–2026.
 
 ## 分布 / Coverage
 
@@ -33,19 +33,19 @@ A chronological record of concrete problems AI has solved or advanced. The probl
 | [2020-2023](TIMELINE.md#2020-2023) | 49 |
 | [2024](TIMELINE.md#2024) | 14 |
 | [2025](TIMELINE.md#2025) | 26 |
-| [2026](TIMELINE.md#2026) | 50 |
+| [2026](TIMELINE.md#2026) | 65 |
 
 | 领域 / Field | 条数 / Entries |
 |---|---|
-| 数学 / Mathematics | 69 |
+| 数学 / Mathematics | 70 |
 | 博弈 / Games | 26 |
-| 生物 / Biology | 20 |
+| 医学 / Medicine | 23 |
+| 生物 / Biology | 23 |
+| 算法与软件 / Algorithms & software | 21 |
 | 感知与语言 / Perception & language | 19 |
-| 算法与软件 / Algorithms & software | 18 |
-| 医学 / Medicine | 18 |
-| 物理 / Physics | 13 |
+| 物理 / Physics | 15 |
 | 机器人与自主系统 / Robotics & autonomy | 11 |
-| 地球与气候 / Earth & climate | 7 |
+| 地球与气候 / Earth & climate | 8 |
 | 化学 / Chemistry | 6 |
 | 天文 / Astronomy | 5 |
 | 材料 / Materials | 5 |
@@ -53,18 +53,18 @@ A chronological record of concrete problems AI has solved or advanced. The probl
 
 ## 最近新增 / Most recent
 
-- 2026-10-08｜紫外巡天留下的大片空白，能不能补成一幅覆盖全天的紫外地图？
-- 2026-10-06｜一个 AI 模型能同时在多少个数学问题上取得新结果？
-- 2026-09-28｜高维空间里，一个球最多能同时与多少个等大的球相切？（亲吻数下界）
-- 2026-09-23｜噬菌体 DNA 中一个奇怪的重复序列，背后是什么新的生物系统？
-- 2026-09-23｜银河系里还有多少稀有的沃尔夫-拉叶星没被发现？
-- 2026-09-21｜在数据很少的情况下，能不能设计出一类新的杀菌聚合物？
-- 2026-09-17｜线性拟阵上的“强秘书问题”猜想成立吗？
-- 2026-09-08｜一开始光滑的三维流体，会不会在有限时间内出现奇点？（Navier–Stokes 千禧年难题）
-- 2026-09-07｜环论中的 Köthe 猜想成立吗？
-- 2026-09-04｜费马大定理的证明，能不能完整地用计算机逐步验证？
-- 2026-09-03｜雄性果蝇完整的中枢神经系统是怎样连接的？
-- 2026-08-30｜相邻素数之差有无穷多次不超过某个常数，这个常数最小能证到多少？（孪生素数猜想的方向）
+- 2026-10-27｜抗体片段的结合能力、稳定性与聚集问题，能不能一起改进？
+- 2026-10-27｜CAR-T 的调控元件能不能缩短，同时保持或改善实验表现？
+- 2026-10-27｜针对过敏反应的 IgE，能否找到结合或促使其脱离细胞的候选分子？
+- 2026-10-26｜关于 3-SAT 难度的指数时间假设，能被推翻吗？
+- 2026-10-26｜局部光滑猜想能不能在所有维度成立，并推进 Kakeya 问题？
+- 2026-10-26｜包含量子色动力学的四维量子场论，能建立严格存在性证明吗？
+- 2026-10-23｜放射科医生不足时，AI 能不能把结核筛查带到基层和矿井？
+- 2026-10-22｜成熟开源软件的测试入口，能不能进一步得到机器检查的不崩溃证明？
+- 2026-10-22｜卫星图里同样是绿色，能不能分清天然林、人工林和树木农场？
+- 2026-10-21｜百万级脑细胞扰动数据，能不能更快转化为可检验的疾病研究线索？
+- 2026-10-21｜缺少专业超声医师的基层诊所，能不能可靠估计孕周？
+- 2026-10-20｜AI 能不能设计出经实验确认可结合蝎毒神经毒素的蛋白质？
 
 ## 仓库结构 / Structure
 

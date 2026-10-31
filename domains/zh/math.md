@@ -2,7 +2,7 @@
 
 # 数学：AI 解决的问题
 
-共 69 条 · [← 返回 README](../../README.md)
+共 70 条 · [← 返回 README](../../README.md)
 
 #### 1956｜给定逻辑公理，机器能不能自己找到定理的证明？
 
@@ -519,4 +519,12 @@ OpenAI 公开了一批由内部模型得到的新数学结果及部分 Lean 形�
 > **边界：** 各结果的验证程度不同，需要逐题拆分查看。
 
 *OpenAI internal model*　来源：[OpenAI](https://openai.com/index/sharing-ai-progress-in-mathematics/) (官方) · [GitHub openai/math](https://github.com/openai/math) (官方)
+
+#### 2026-10-26｜局部光滑猜想能不能在所有维度成立，并推进 Kakeya 问题？
+
+OpenAI 称其模型给出了全维局部光滑证明，并公开自然语言稿与 Lean 文件。
+
+> **边界：** 发布方主张，学术解读与独立核验仍需跟进；本项目未重跑形式化证明。
+
+*OpenAI internal model*　来源：[OpenAI](https://openai.com/index/building-scientific-understanding-with-academic-communities/) (官方) · [AI-produced manuscript](https://github.com/openai/math/blob/main/preprints/Local-smoothing-for-the-Euclidean-wave-equation-October-25-2026/paper.pdf) (论文)
 

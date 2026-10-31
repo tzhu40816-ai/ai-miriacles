@@ -2,7 +2,7 @@
 
 # 算法与软件：AI 解决的问题
 
-共 18 条 · [← 返回 README](../../README.md)
+共 21 条 · [← 返回 README](../../README.md)
 
 #### 1959｜能不能写出一个与具体领域无关、通用的解题程序？
 
@@ -135,4 +135,28 @@ OpenAI 称 Astra 证明了一般两人量子博弈的指数并行重复定理。
 > **边界：** 发布方主张；OpenAI 的页面未提外部专家评审。
 
 *OpenAI Astra (unreleased)*　来源：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (官方)
+
+#### 2026-10-16｜NIST 椭圆曲线参数的随机种子，当年究竟是怎样生成的？
+
+Anthropic 报告，Claude 识别出多条 NIST 与 ANSI 曲线种子的生成规律，并公开了可复现这些参数的代码，为长期的参数来源疑问提供了解释。
+
+> **边界：** 这是参数来源的解释，不是破解 ECDSA；部分种子、基点来源及筛选标准仍未解释。
+
+*Claude internal research model*　来源：[Anthropic](https://www.anthropic.com/research/ecdsa-curve-origins) (官方)
+
+#### 2026-10-22｜成熟开源软件的测试入口，能不能进一步得到机器检查的不崩溃证明？
+
+Anthropic 与 Theorem 报告，Claude 为 123 个 OSS-Fuzz 开源库的 239 个入口生成了 Rocq 证明，并在求证过程中发现和修复缺陷。
+
+> **边界：** 证明依赖形式模型与检查器，限指定 RISC-V/Linux、单线程和输入大小等条件，不表示整个软件没有任何漏洞。
+
+*Claude + Theorem + Rocq*　来源：[Anthropic / Theorem](https://www.anthropic.com/research/formal-verification) (官方)
+
+#### 2026-10-26｜关于 3-SAT 难度的指数时间假设，能被推翻吗？
+
+OpenAI 称模型否定了 ETH，公开证明材料，并由外部专家组织审查与解读。
+
+> **边界：** 发布方主张，仍需独立核验；不能由此宣布已解决 P 与 NP 问题。
+
+*OpenAI internal model*　来源：[OpenAI](https://openai.com/index/building-scientific-understanding-with-academic-communities/) (官方) · [AI-produced manuscript](https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf) (论文)
 

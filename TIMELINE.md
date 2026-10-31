@@ -4,7 +4,7 @@
 
 按时间顺序收录 AI 实际解决或推进了的具体问题。主角是问题，不是模型。
 
-共 218 条 · [← 返回 README](README.md) · 其他语言：[English](TIMELINE.en.md)
+共 233 条 · [← 返回 README](README.md) · 其他语言：[English](TIMELINE.en.md)
 
 [1950s-1970s](#1950s-1970s) · [1980s-1990s](#1980s-1990s) · [2000s](#2000s) · [2010s](#2010s) · [2020-2023](#2020-2023) · [2024](#2024) · [2025](#2025) · [2026](#2026)
 
@@ -1559,4 +1559,124 @@ Brice Ménard 报告，他与 Claude Science 整合、校准多组紫外巡天�
 > **边界：** 约三分之一天区由模型预测补全，不是新获得的紫外观测；研究者参与规划、检查和纠错。
 
 *天文 · Claude Science + Brice Ménard*　来源：[Anthropic / Brice Ménard](https://www.anthropic.com/research/the-missing-map-of-the-sky) (官方)
+
+#### 2026-10-15｜未注释的蛋白质数据库里，能不能找到新的抗菌肽候选？
+
+Google 报告，研究者借助 Antigravity 与 ProtNLM 从蛋白质数据中筛出一个新的抗菌肽候选，并将其推进到湿实验验证。
+
+> **边界：** 公告时仍在实验验证；预测的抗菌活性不等于已证明有效的抗生素。
+
+*生物 · Google Antigravity + ProtNLM*　来源：[Google DeepMind](https://deepmind.google/blog/accelerating-antimicrobial-discovery/) (官方)
+
+#### 2026-10-16｜NIST 椭圆曲线参数的随机种子，当年究竟是怎样生成的？
+
+Anthropic 报告，Claude 识别出多条 NIST 与 ANSI 曲线种子的生成规律，并公开了可复现这些参数的代码，为长期的参数来源疑问提供了解释。
+
+> **边界：** 这是参数来源的解释，不是破解 ECDSA；部分种子、基点来源及筛选标准仍未解释。
+
+*算法与软件 · Claude internal research model*　来源：[Anthropic](https://www.anthropic.com/research/ecdsa-curve-origins) (官方)
+
+#### 2026-10-16｜量子算法的电路，能不能同时减少量子比特和量子门的开销？
+
+Anthropic 与合作者报告，Claude 为八类量子电路任务找到更优设计，包括可逆模逆算法与量子优化解码器；结果经程序化检查，部分关键推导还提供了 Lean 形式化。
+
+> **边界：** 改进的是特定电路的资源估算与算法，不代表已在实用量子硬件上实现相同加速。
+
+*物理 · Claude + automated circuit evaluator*　来源：[Anthropic](https://www.anthropic.com/research/designing-efficient-quantum-circuits) (官方) · [arXiv: quantum-circuit designs](https://arxiv.org/abs/2610.22367) (论文)
+
+#### 2026-10-20｜AI 能不能设计出经实验确认可结合蝎毒神经毒素的蛋白质？
+
+Anthropic 报告，Claude 辅助生成并筛选蛋白质设计，合作实验室测试了 211 个候选，其中 17 个达到团队的结合判据，覆盖四种神经毒素。
+
+> **边界：** 结合不等于中和毒性，尚未证明细胞中的解毒作用，更不能称为已开发出抗毒药物。
+
+*生物 · Claude Science + Anthropic + Citrini Research*　来源：[Anthropic](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design) (官方)
+
+#### 2026-10-21｜百万级脑细胞扰动数据，能不能更快转化为可检验的疾病研究线索？
+
+OpenAI 与合作者报告，数千个 GPT-Rosalind 智能体在 32 分钟内分析并解读已有的小鼠脑细胞扰动数据，结合文献建立推理图谱，提出神经退行性疾病相关的新线索。
+
+> **边界：** 发现的是研究线索与机制假说，仍需后续实验检验；不是已经验证的人类疾病治疗方法。
+
+*生物 · GPT-Rosalind + OpenAI + PerturbAI + Scripps Research*　来源：[OpenAI / PerturbAI / Scripps](https://openai.com/index/scaling-ai-research-for-complex-biological-data/) (官方)
+
+#### 2026-10-21｜缺少专业超声医师的基层诊所，能不能可靠估计孕周？
+
+Google 报告，一项覆盖芝加哥和内罗毕 385 名参与者的前瞻性研究中，AI 解读非专业操作者采集的扫查图像，孕周估计平均绝对误差为 4.18 天，对照专家方法为 4.48 天，达到研究设定的非劣效标准。
+
+> **边界：** 研究针对孕周估计，不能据此推断完整产检、胎儿异常诊断或所有临床环境中的有效性。
+
+*医学 · Google Research blind-sweep ultrasound AI*　来源：[Google Research](https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/) (官方)
+
+#### 2026-10-22｜成熟开源软件的测试入口，能不能进一步得到机器检查的不崩溃证明？
+
+Anthropic 与 Theorem 报告，Claude 为 123 个 OSS-Fuzz 开源库的 239 个入口生成了 Rocq 证明，并在求证过程中发现和修复缺陷。
+
+> **边界：** 证明依赖形式模型与检查器，限指定 RISC-V/Linux、单线程和输入大小等条件，不表示整个软件没有任何漏洞。
+
+*算法与软件 · Claude + Theorem + Rocq*　来源：[Anthropic / Theorem](https://www.anthropic.com/research/formal-verification) (官方)
+
+#### 2026-10-22｜卫星图里同样是绿色，能不能分清天然林、人工林和树木农场？
+
+Google、WRI 与 IIASA 发布 ForTy 全球 10 米森林类型地图，并提供 2017—2025 年的早期年度序列。团队报告，在逾 9,000 个验证地点，森林类型分类准确率约为 90%。
+
+> **边界：** 分类具有误差和地区差异；年度序列为早期发布，地图不能单独充当每块土地合规性的确定证明。
+
+*地球与气候 · ForTy + AlphaEarth Foundations*　来源：[Google DeepMind / WRI / IIASA](https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/) (官方)
+
+#### 2026-10-23｜放射科医生不足时，AI 能不能把结核筛查带到基层和矿井？
+
+Google 报告，Nexus AI 的胸片辅助筛查已在约 40 家医疗机构部署，累计辅助分析逾 25,000 张胸片，并在南非矿井使用离线便携设备开展筛查。
+
+> **边界：** 这是筛查和分诊，不替代确诊检测及医生判断；部署统计来自发布方报告。
+
+*医学 · Nexus AI + Google chest-X-ray models*　来源：[Google Research / Nexus AI](https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/) (官方)
+
+#### 2026-10-26｜关于 3-SAT 难度的指数时间假设，能被推翻吗？
+
+OpenAI 称模型否定了 ETH，公开证明材料，并由外部专家组织审查与解读。
+
+> **边界：** 发布方主张，仍需独立核验；不能由此宣布已解决 P 与 NP 问题。
+
+*算法与软件 · OpenAI internal model*　来源：[OpenAI](https://openai.com/index/building-scientific-understanding-with-academic-communities/) (官方) · [AI-produced manuscript](https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf) (论文)
+
+#### 2026-10-26｜局部光滑猜想能不能在所有维度成立，并推进 Kakeya 问题？
+
+OpenAI 称其模型给出了全维局部光滑证明，并公开自然语言稿与 Lean 文件。
+
+> **边界：** 发布方主张，学术解读与独立核验仍需跟进；本项目未重跑形式化证明。
+
+*数学 · OpenAI internal model*　来源：[OpenAI](https://openai.com/index/building-scientific-understanding-with-academic-communities/) (官方) · [AI-produced manuscript](https://github.com/openai/math/blob/main/preprints/Local-smoothing-for-the-Euclidean-wave-equation-October-25-2026/paper.pdf) (论文)
+
+#### 2026-10-26｜包含量子色动力学的四维量子场论，能建立严格存在性证明吗？
+
+OpenAI 宣布量子场论存在性论证，并将材料交由外部物理学者研究和撰写。
+
+> **边界：** 原始材料尚未公开，不能公开复核，也不能当作完整杨–米尔斯质量间隙问题已获认定。
+
+*物理 · OpenAI internal model*　来源：[OpenAI](https://openai.com/index/building-scientific-understanding-with-academic-communities/) (官方)
+
+#### 2026-10-27｜抗体片段的结合能力、稳定性与聚集问题，能不能一起改进？
+
+BigHat 与 Anthropic 报告，Claude 辅助迭代抗体片段，在结合、热稳定性与聚集指标上取得改善。
+
+> **边界：** 发布方实验报告，实验性质改善不等于临床疗效。
+
+*医学 · Claude + BigHat Biosciences*　来源：[Anthropic / BigHat Biosciences](https://www.anthropic.com/research/early-progress-drug-development) (官方)
+
+#### 2026-10-27｜CAR-T 的调控元件能不能缩短，同时保持或改善实验表现？
+
+Generate Biomedicines 报告，Claude 辅助设计出更短的 CAR-T 调控元件，在实验中提高表达与杀伤表现。
+
+> **边界：** 早期实验结果，不代表临床疗效或已获批治疗。
+
+*医学 · Claude Code + Generate Biomedicines*　来源：[Anthropic / Generate Biomedicines](https://www.anthropic.com/research/early-progress-drug-development) (官方)
+
+#### 2026-10-27｜针对过敏反应的 IgE，能否找到结合或促使其脱离细胞的候选分子？
+
+Divergence Labs 报告，Claude 辅助设计得到结合 IgE 与促其脱离免疫细胞的实验命中分子。
+
+> **边界：** 不同部件仍需组合与验证，不代表过敏治疗已成功。
+
+*医学 · Claude + Divergence Labs*　来源：[Anthropic / Divergence Labs](https://www.anthropic.com/research/early-progress-drug-development) (官方)
 

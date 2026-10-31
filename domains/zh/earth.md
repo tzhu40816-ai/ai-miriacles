@@ -2,7 +2,7 @@
 
 # 地球与气候：AI 解决的问题
 
-共 7 条 · [← 返回 README](../../README.md)
+共 8 条 · [← 返回 README](../../README.md)
 
 #### 1982-09-03｜专家系统能不能预测出地下隐藏的矿藏？
 
@@ -47,4 +47,12 @@ GenCast 的 15 天集合预报在 97% 的评测目标上优于欧洲中期天气
 > **边界：** 第一版对热带气旋强度的预报有所退化，集合与混合系统的结果来自初步测试。
 
 *AIGFS / AIGEFS / HGEFS (NOAA)*　来源：[HPCwire](https://www.hpcwire.com/aiwire/2025/12/17/noaa-deploys-new-generation-of-ai-driven-global-weather-models/) (报道)
+
+#### 2026-10-22｜卫星图里同样是绿色，能不能分清天然林、人工林和树木农场？
+
+Google、WRI 与 IIASA 发布 ForTy 全球 10 米森林类型地图，并提供 2017—2025 年的早期年度序列。团队报告，在逾 9,000 个验证地点，森林类型分类准确率约为 90%。
+
+> **边界：** 分类具有误差和地区差异；年度序列为早期发布，地图不能单独充当每块土地合规性的确定证明。
+
+*ForTy + AlphaEarth Foundations*　来源：[Google DeepMind / WRI / IIASA](https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/) (官方)
 

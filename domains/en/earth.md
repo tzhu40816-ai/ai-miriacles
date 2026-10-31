@@ -2,7 +2,7 @@
 
 # Earth & climate: problems AI has solved
 
-7 entries · [← Back to README](../../README.md)
+8 entries · [← Back to README](../../README.md)
 
 #### 1982-09-03｜Can an expert system predict a hidden ore deposit?
 
@@ -47,4 +47,12 @@ NOAA announced operational AI global models: AIGFS (built on GraphCast), the AI 
 > **Limits：** Version 1 degrades tropical-cyclone intensity forecasts; ensemble and hybrid results are from initial testing.
 
 *AIGFS / AIGEFS / HGEFS (NOAA)*　Sources：[HPCwire](https://www.hpcwire.com/aiwire/2025/12/17/noaa-deploys-new-generation-of-ai-driven-global-weather-models/) (News)
+
+#### 2026-10-22｜Can satellite imagery distinguish natural forests, planted forests and tree-crop farms?
+
+Google, WRI and IIASA released ForTy's global 10-meter forest-typology map and an early annual series for 2017–2025. The team reports about 90% forest-type accuracy across more than 9,000 validation sites.
+
+> **Limits：** Classification has errors and regional variation; the annual series is an early release, not definitive compliance evidence for every parcel.
+
+*ForTy + AlphaEarth Foundations*　Sources：[Google DeepMind / WRI / IIASA](https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/) (Official)
 

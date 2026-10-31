@@ -2,7 +2,7 @@
 
 # 生物：AI 解决的问题
 
-共 20 条 · [← 返回 README](../../README.md)
+共 23 条 · [← 返回 README](../../README.md)
 
 #### 2009-04-03｜机器能不能自己提出假设、设计实验、得出新的科学发现？
 
@@ -137,4 +137,28 @@ Anthropic 称约 950 个 Claude 智能体用 21 小时搜索 DNA 数据，发现
 > **边界：** 生物学功能尚不清楚；发布方自己的研究。
 
 *Claude (≈950 agents)*　来源：[Anthropic](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system) (官方)
+
+#### 2026-10-15｜未注释的蛋白质数据库里，能不能找到新的抗菌肽候选？
+
+Google 报告，研究者借助 Antigravity 与 ProtNLM 从蛋白质数据中筛出一个新的抗菌肽候选，并将其推进到湿实验验证。
+
+> **边界：** 公告时仍在实验验证；预测的抗菌活性不等于已证明有效的抗生素。
+
+*Google Antigravity + ProtNLM*　来源：[Google DeepMind](https://deepmind.google/blog/accelerating-antimicrobial-discovery/) (官方)
+
+#### 2026-10-20｜AI 能不能设计出经实验确认可结合蝎毒神经毒素的蛋白质？
+
+Anthropic 报告，Claude 辅助生成并筛选蛋白质设计，合作实验室测试了 211 个候选，其中 17 个达到团队的结合判据，覆盖四种神经毒素。
+
+> **边界：** 结合不等于中和毒性，尚未证明细胞中的解毒作用，更不能称为已开发出抗毒药物。
+
+*Claude Science + Anthropic + Citrini Research*　来源：[Anthropic](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design) (官方)
+
+#### 2026-10-21｜百万级脑细胞扰动数据，能不能更快转化为可检验的疾病研究线索？
+
+OpenAI 与合作者报告，数千个 GPT-Rosalind 智能体在 32 分钟内分析并解读已有的小鼠脑细胞扰动数据，结合文献建立推理图谱，提出神经退行性疾病相关的新线索。
+
+> **边界：** 发现的是研究线索与机制假说，仍需后续实验检验；不是已经验证的人类疾病治疗方法。
+
+*GPT-Rosalind + OpenAI + PerturbAI + Scripps Research*　来源：[OpenAI / PerturbAI / Scripps](https://openai.com/index/scaling-ai-research-for-complex-biological-data/) (官方)
 

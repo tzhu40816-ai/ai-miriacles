@@ -2,7 +2,7 @@
 
 # Algorithms & software: problems AI has solved
 
-18 entries · [← Back to README](../../README.md)
+21 entries · [← Back to README](../../README.md)
 
 #### 1959｜Can one domain-independent program solve many kinds of problems?
 
@@ -135,4 +135,28 @@ OpenAI says Astra proved an exponential parallel repetition theorem for general 
 > **Limits：** Publisher's claim; OpenAI's page mentions no external expert review.
 
 *OpenAI Astra (unreleased)*　Sources：[OpenAI](https://openai.com/index/ten-advances-in-mathematics/) (Official)
+
+#### 2026-10-16｜How were the original random seeds for NIST elliptic-curve parameters generated?
+
+Anthropic reports that Claude recovered generation patterns for multiple NIST and ANSI elliptic-curve seeds and released code reproducing the published parameters, clarifying their long-questioned provenance.
+
+> **Limits：** This explains parameter provenance rather than breaking ECDSA; some seeds, base points and selection criteria remain unexplained.
+
+*Claude internal research model*　Sources：[Anthropic](https://www.anthropic.com/research/ecdsa-curve-origins) (Official)
+
+#### 2026-10-22｜Can mature open-source test entry points receive machine-checked no-crash proofs?
+
+Anthropic and Theorem report that Claude produced Rocq proofs for 239 entry points across 123 OSS-Fuzz libraries, finding and patching defects during proof construction.
+
+> **Limits：** Proofs depend on trusted models and checkers and specified RISC-V/Linux, single-threading and input-size assumptions; they do not prove every library bug-free.
+
+*Claude + Theorem + Rocq*　Sources：[Anthropic / Theorem](https://www.anthropic.com/research/formal-verification) (Official)
+
+#### 2026-10-26｜Can the Exponential Time Hypothesis for 3-SAT be refuted?
+
+OpenAI claims an ETH refutation, released proof materials and arranged external expert examination.
+
+> **Limits：** A publisher claim requiring independent scrutiny; it does not settle P versus NP.
+
+*OpenAI internal model*　Sources：[OpenAI](https://openai.com/index/building-scientific-understanding-with-academic-communities/) (Official) · [AI-produced manuscript](https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf) (Paper)
 

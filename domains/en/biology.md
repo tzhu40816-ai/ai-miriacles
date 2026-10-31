@@ -2,7 +2,7 @@
 
 # Biology: problems AI has solved
 
-20 entries · [← Back to README](../../README.md)
+23 entries · [← Back to README](../../README.md)
 
 #### 2009-04-03｜Can a machine form hypotheses, run experiments and make a new scientific discovery by itself?
 
@@ -137,4 +137,28 @@ Anthropic reports about 950 Claude agents searched DNA data for 21 hours and fou
 > **Limits：** Biological function unknown; company research.
 
 *Claude (≈950 agents)*　Sources：[Anthropic](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system) (Official)
+
+#### 2026-10-15｜Can unannotated protein databases yield new antimicrobial-peptide candidates?
+
+Google reports that researchers used Antigravity and ProtNLM to identify a new antimicrobial-peptide candidate in protein data and advance it to wet-lab validation.
+
+> **Limits：** Experimental validation was still underway at announcement; predicted activity does not establish an effective antibiotic.
+
+*Google Antigravity + ProtNLM*　Sources：[Google DeepMind](https://deepmind.google/blog/accelerating-antimicrobial-discovery/) (Official)
+
+#### 2026-10-20｜Can AI design proteins experimentally shown to bind scorpion neurotoxins?
+
+Anthropic reports that Claude helped generate and select protein designs; partner laboratories tested 211 candidates, with 17 meeting the team's binding criteria across four neurotoxins.
+
+> **Limits：** Binding does not establish toxin neutralization; cellular protection and an effective antivenom have not been demonstrated.
+
+*Claude Science + Anthropic + Citrini Research*　Sources：[Anthropic](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design) (Official)
+
+#### 2026-10-21｜Can millions of brain-cell perturbation measurements yield testable disease-research leads faster?
+
+OpenAI and collaborators report that thousands of GPT-Rosalind agents analyzed existing mouse-brain perturbation data in 32 minutes, integrated literature into a reasoning atlas and proposed new neurodegeneration-related leads.
+
+> **Limits：** These are research leads and mechanistic hypotheses requiring further experiments, not validated treatments for human disease.
+
+*GPT-Rosalind + OpenAI + PerturbAI + Scripps Research*　Sources：[OpenAI / PerturbAI / Scripps](https://openai.com/index/scaling-ai-research-for-complex-biological-data/) (Official)
 
