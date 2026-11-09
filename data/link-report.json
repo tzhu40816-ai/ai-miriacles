@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-02T07:45:30.470Z",
+  "checked_at": "2026-11-09T07:48:04.267Z",
   "total": 296,
   "unique_urls": 271,
   "broken": [],
@@ -127,9 +127,44 @@
   ],
   "unverified": [
     {
-      "id": "2025-deep-loop-shaping-ligo",
-      "url": "https://www.ligo.caltech.edu/news/ligo20250908",
-      "status": "ERR UNABLE_TO_GET_ISSUER_CERT_LOCALLY"
+      "id": "2026-astra-connes-rigidity",
+      "url": "https://github.com/openai/math",
+      "status": 504
+    },
+    {
+      "id": "2026-astra-non-sofic",
+      "url": "https://github.com/openai/math",
+      "status": 504
+    },
+    {
+      "id": "2026-astra-sphere-packing",
+      "url": "https://github.com/openai/math",
+      "status": 504
+    },
+    {
+      "id": "2026-borsuk-63",
+      "url": "https://github.com/maaxgrin/borsuk-63-counterexample",
+      "status": 504
+    },
+    {
+      "id": "2026-navier-stokes",
+      "url": "https://github.com/openai/NavierStokesAndEuler",
+      "status": 504
+    },
+    {
+      "id": "2026-openai-eth-refutation-claim",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "status": 504
+    },
+    {
+      "id": "2026-openai-local-smoothing-claim",
+      "url": "https://github.com/openai/math/blob/main/preprints/Local-smoothing-for-the-Euclidean-wave-equation-October-25-2026/paper.pdf",
+      "status": 504
+    },
+    {
+      "id": "2026-openai-math-release",
+      "url": "https://github.com/openai/math",
+      "status": 504
     }
   ]
 }
